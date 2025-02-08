@@ -54,7 +54,7 @@ header p {
     cursor: pointer;
 }  
 #site-title a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
 }  
 /* Banner */

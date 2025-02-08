@@ -37,6 +37,35 @@ header p {
     font-size: 1.2em;
     font-weight: 400;
 }
+/* BANNER */
+.banner {
+    display: flex;
+    justify-content: center;
+    background-color: #444444;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.banner section {
+    margin: 0 10px;
+}
+
+.banner h2 {
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0;
+}
+
+.banner a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner a:hover {
+    text-decoration: underline;
+}
 /* MAIN */
 main {
     max-width: 800px;

@@ -17,14 +17,12 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 body {
     font-family: 'Aeronaut', sans-serif;
     text-align: center;
     margin: 50px;
     background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
 }
-
 section {
     background: linear-gradient(135deg, #ffffff, #f9f9f9);
     padding: 20px;
@@ -33,39 +31,49 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 h2 {
     color: #333333;
     font-weight: 700;
 }
-
 p {
     color: #666666;
     font-weight: 400;
 }
-
-/* filepath: /Users/anvi/backyard_thoughts/style.css */
-header, footer {
+header {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+footer {
     background-color: #333333;
     color: #ffffff;
     padding: 20px;
     text-align: center;
 }
-
-header h1, footer p {
+footer p {
     margin: 0;
 }
-
 /* filepath: /Users/anvi/backyard_thoughts/style.css */
 a {
     color: #007BFF;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
 button {
     background-color: #007BFF;
     color: #ffffff;
@@ -75,12 +83,9 @@ button {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
 button:hover {
     background-color: #0056b3;
 }
-
-/* filepath: /Users/anvi/backyard_thoughts/style.css */
 aside {
     background-color: #f9f9f9;
     padding: 20px;
@@ -88,26 +93,21 @@ aside {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 aside h2 {
     color: #333333;
     font-weight: 700;
 }
-
 aside ul {
     list-style-type: none;
     padding: 0;
 }
-
 aside ul li {
     margin: 10px 0;
 }
-
 aside ul li a {
     color: #007BFF;
     text-decoration: none;
 }
-
 aside ul li a:hover {
     text-decoration: underline;
 }

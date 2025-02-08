@@ -1,15 +1,6 @@
 /* filepath: /Users/anvi/backyard_thoughts/style.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @font-face {
-    font-family: "Aeronaut";
-    src: url("https://db.onlinewebfonts.com/t/6a4dddb37e7e4e2fb9d4f58d22eb1836.eot");
-    src: url("https://db.onlinewebfonts.com/t/6a4dddb37e7e4e2fb9d4f58d22eb1836.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/6a4dddb37e7e4e2fb9d4f58d22eb1836.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/6a4dddb37e7e4e2fb9d4f58d22eb1836.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/6a4dddb37e7e4e2fb9d4f58d22eb1836.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/6a4dddb37e7e4e2fb9d4f58d22eb1836.svg#Aeronaut")format("svg");
-}
-@font-face {
     font-family: "Canicule Display v0.1 Trial Light";
     src: url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.eot");
     src: url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.eot?#iefix")format("embedded-opentype"),
@@ -20,7 +11,7 @@
 }
 /* BODY */
 body {
-    font-family: "Aeronaut", sans-serif;
+    font-family: "Canicule Display v0.1 Trial Light", sans-serif;
     text-align: center;
     margin: 50px;
     background: linear-gradient(135deg, #f0f0f0, #e0e0e0);

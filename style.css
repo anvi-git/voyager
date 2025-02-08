@@ -1,6 +1,16 @@
 /* filepath: /Users/anvi/backyard_thoughts/style.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* filepath: /Users/anvi/backyard_thoughts/style.css */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -12,6 +22,7 @@ section {
     background: linear-gradient(135deg, #ffffff, #f9f9f9);
     padding: 20px;
     margin: 20px 0;
+    margin-bottom: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -24,4 +35,72 @@ h2 {
 p {
     color: #666666;
     font-weight: 400;
+}
+
+/* filepath: /Users/anvi/backyard_thoughts/style.css */
+header, footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+/* filepath: /Users/anvi/backyard_thoughts/style.css */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* filepath: /Users/anvi/backyard_thoughts/style.css */
+aside {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+    color: #333333;
+    font-weight: 700;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
 }

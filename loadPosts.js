@@ -11,13 +11,13 @@ async function loadPosts() {
 
   todayPosts.forEach(post => {
       const postElement = document.createElement('div');
-      postElement.innerHTML = `<p>${post.content}</p>`;
+      postElement.innerHTML = post.content;
       todayContainer.appendChild(postElement);
   });
 
   previousPosts.forEach(post => {
       const postElement = document.createElement('div');
-      postElement.innerHTML = `<p>${post.content} <span class="post-date">${post.date}</span></p>`;
+      postElement.innerHTML = `${post.content} <span class="post-date">${post.date}</span>`;
       previousContainer.appendChild(postElement);
   });
 }

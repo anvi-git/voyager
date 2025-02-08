@@ -1,5 +1,6 @@
 /* filepath: /Users/anvi/backyard_thoughts/style.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 @font-face {
     font-family: "Canicule Display v0.1 Trial Light";
     src: url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.eot");
@@ -11,7 +12,7 @@
 }
 /* BODY */
 body {
-    font-family: "Canicule Display v0.1 Trial Light", sans-serif;
+    font-family: 'DM Sans', sans-serif;
     text-align: center;
     margin: 50px;
     background: linear-gradient(135deg, #f0f0f0, #e0e0e0);

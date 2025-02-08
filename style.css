@@ -1,51 +1,31 @@
 /* filepath: /Users/anvi/backyard_thoughts/style.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @font-face {
-    font-family: 'Aeronaut';
-    src: url('fonts/aeronaut.woff2') format('woff2'),
-         url('fonts/aeronaut.woff') format('woff'),
-         url('fonts/aeronaut.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Aeronaut";
+    src: url("https://db.onlinewebfonts.com/t/6a4dddb37e7e4e2fb9d4f58d22eb1836.eot");
+    src: url("https://db.onlinewebfonts.com/t/6a4dddb37e7e4e2fb9d4f58d22eb1836.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6a4dddb37e7e4e2fb9d4f58d22eb1836.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6a4dddb37e7e4e2fb9d4f58d22eb1836.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/6a4dddb37e7e4e2fb9d4f58d22eb1836.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6a4dddb37e7e4e2fb9d4f58d22eb1836.svg#Aeronaut")format("svg");
 }
 @font-face {
-    font-family: 'Aesthetic';
-    src: url('fonts/aesthetic.woff2') format('woff2'),
-         url('fonts/aesthetic.woff') format('woff'),
-         url('fonts/aesthetic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Canicule Display v0.1 Trial Light";
+    src: url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.eot");
+    src: url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.svg#Canicule Display v0.1 Trial Light")format("svg");
 }
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+/* BODY */
 body {
     font-family: 'Aeronaut', sans-serif;
     text-align: center;
     margin: 50px;
     background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
 }
-section {
-    background: linear-gradient(135deg, #ffffff, #f9f9f9);
-    padding: 20px;
-    margin: 20px 0;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-h2 {
-    color: #333333;
-    font-weight: 700;
-}
-p {
-    color: #666666;
-    font-weight: 400;
-}
+/* HEADER */
 header {
     font-family: 'Aesthetic', sans-serif;
     background-color: #333333;
@@ -65,6 +45,33 @@ header p {
     font-size: 1.2em;
     font-weight: 400;
 }
+/* MAIN */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* SECTION */
+section {
+    background: linear-gradient(135deg, #ffffff, #f9f9f9);
+    padding: 20px;
+    margin: 20px 0;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #333333;
+    font-weight: 700;
+}
+p {
+    color: #666666;
+    font-weight: 400;
+}
+/* FOOTER */
 footer {
     background-color: #333333;
     color: #ffffff;
@@ -74,7 +81,6 @@ footer {
 footer p {
     margin: 0;
 }
-/* filepath: /Users/anvi/backyard_thoughts/style.css */
 a {
     color: #007BFF;
     text-decoration: none;

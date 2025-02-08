@@ -1,11 +1,6 @@
 [
   {
       "date": "2025-02-08",
-      "content": "<p>This is what I'm listening to lately:</p>
-                  <iframe allow='autoplay *; encrypted-media *;' 
-                  frameborder='0' height='450' style='width:100%;max-width:660px;overflow:hidden;background:transparent;' 
-                  sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation' 
-                  src='https://embed.music.apple.com/it/album/hallucinating-love/1716587925?l=en-GB'></iframe>
-                  <p>You can find this on Bandcamp, Apple Music, Spotify.</p>"
+      "content": "<p>This is what I'm listening to lately:</p> <iframe allow='autoplay *; encrypted-media *;' frameborder='0' height='450' style='width:100%;max-width:660px;overflow:hidden;background:transparent;' sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation' src='https://embed.music.apple.com/it/album/hallucinating-love/1716587925?l=en-GB'></iframe> <p>You can find this on Bandcamp, Apple Music, Spotify.</p>"
   }
 ]

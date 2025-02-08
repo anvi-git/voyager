@@ -10,7 +10,6 @@
          url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.ttf") format("truetype"),
          url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.svg#Canicule Display v0.1 Trial Light") format("svg");
 }
-
 /* BODY */
 body {
     font-family: 'DM Sans', sans-serif;
@@ -22,7 +21,6 @@ body {
     min-height: 100vh;
     background: linear-gradient(135deg, #ffffff, #ffffff);
 }
-
 /* HEADER */
 header {
     font-family: 'Canicule Display v0.1 Trial Light', sans-serif;
@@ -33,14 +31,12 @@ header {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 header h1 {
     margin: 0;
     font-size: 2.5em;
     font-weight: 700;
-    text-align: inherit;
+    text-align: left;
 }
-
 header p {
     margin: 10px 0 0;
     font-size: 1.2em;

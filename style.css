@@ -20,14 +20,14 @@
 }
 /* BODY */
 body {
-    font-family: 'Aeronaut', sans-serif;
+    font-family: "Aeronaut", sans-serif;
     text-align: center;
     margin: 50px;
     background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
 }
 /* HEADER */
 header {
-    font-family: 'Aesthetic', sans-serif;
+    font-family: 'Canicule Display v0.1 Trial Light', sans-serif;
     background-color: #333333;
     color: #ffffff;
     padding: 20px;

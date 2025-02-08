@@ -80,7 +80,7 @@ header p {
     text-decoration: none;
 }
 .banner a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
 }
 /* MAIN */

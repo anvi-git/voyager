@@ -45,49 +45,47 @@ header p {
     font-size: 1.2em;
     font-weight: 400;
 }
+/* Title Container */
+#title-container {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}  
 #site-title a {
     text-decoration: none;
-    color: inherit;
+    color: #000000;
     cursor: pointer;
-  }
-  
+}  
 #site-title a:hover {
     text-decoration: underline;
     font-weight: bold;
-  }
-/* BANNER */
+}  
+/* Banner */
 .banner {
     display: flex;
     justify-content: center;
     background-color: #000000;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
-    margin: 20px auto;
-    max-width: 800px;
-    width: 100%;
-}
-
+    padding: 10px 0;
+} 
 .banner section {
     margin: 0 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
 }
-
 .banner h2 {
     color: #000000;
     font-weight: 700;
     margin: 0;
 }
-
 .banner a {
     color: #000000;
     text-decoration: none;
 }
-
 .banner a:hover {
-                text-decoration: underline;
-                font-weight: bold;
-                }
-
+    text-decoration: underline;
+    font-weight: bold;
+}
 /* MAIN */
 main {
     max-width: 800px;

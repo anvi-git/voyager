@@ -101,7 +101,7 @@ section {
 }
 
 h2 {
-    color: #333333;
+    color: #000000;
     font-weight: 700;
 }
 
@@ -112,27 +112,24 @@ p {
 
 /* FOOTER */
 footer {
-    background-color: #333333;
+    background-color: #000000;
     color: #ffffff;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
     width: 100%;
     margin-top: auto;
 }
-
 /* LINKS */
 a {
     color: rgb(3, 53, 106);
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
-
 /* BUTTONS */
 button {
     background-color: hsl(132, 78%, 47%);
@@ -147,18 +144,17 @@ button {
 button:hover {
     background-color: #cb122e;
 }
-
 /* ASIDE */
 aside {
     background-color: #f9f9f9;
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
 aside h2 {
-    color: #333333;
+    color: #000000;
     font-weight: 700;
 }
 

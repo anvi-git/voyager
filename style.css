@@ -1,6 +1,13 @@
 /* filepath: /Users/anvi/backyard_thoughts/style.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+@font-face {
+    font-family: 'Aeronaut';
+    src: url('fonts/aeronaut.woff2') format('woff2'),
+         url('fonts/aeronaut.woff') format('woff'),
+         url('fonts/aeronaut.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /* filepath: /Users/anvi/backyard_thoughts/style.css */
 main {
     max-width: 800px;
@@ -12,7 +19,7 @@ main {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Aeronaut', sans-serif;
     text-align: center;
     margin: 50px;
     background: linear-gradient(135deg, #f0f0f0, #e0e0e0);

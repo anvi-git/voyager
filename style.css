@@ -1,5 +1,27 @@
+/* filepath: /Users/anvi/backyard_thoughts/style.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 50px;
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+}
+
+section {
+    background: linear-gradient(135deg, #ffffff, #f9f9f9);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333333;
+    font-weight: 700;
+}
+
+p {
+    color: #666666;
+    font-weight: 400;
 }

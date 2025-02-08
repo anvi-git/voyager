@@ -155,26 +155,28 @@ aside {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
-
 aside h2 {
     color: #000000;
     font-weight: 700;
 }
-
 aside ul {
     list-style-type: none;
     padding: 0;
 }
-
 aside ul li {
     margin: 10px 0;
 }
-
 aside ul li a {
     color: #25b169;
     text-decoration: none;
 }
-
 aside ul li a:hover {
     text-decoration: underline;
+}
+/* POST */
+.post-date {
+    display: block;
+    font-size: 0.8em;
+    color: gray;
+    margin-top: 10px;
 }

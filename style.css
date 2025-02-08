@@ -1,3 +1,4 @@
+/* filepath: /Users/anvi/backyard_thoughts/style.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 @font-face {
@@ -116,9 +117,8 @@ footer {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative;
-    bottom: 0;
     width: 100%;
+    margin-top: auto;
 }
 
 /* LINKS */

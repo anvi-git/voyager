@@ -1,19 +1,20 @@
-<!-- filepath: /Users/anvi/backyard_thoughts/previously.html -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Today</title>
+    <title>Previous Posts</title>
     <link rel="stylesheet" href="style.css">
     <script src="includeHTML.js"></script>
+    <script src="updateDate.js"></script>
+    <script src="loadPosts.js"></script>
 </head>
-<body onload="includeHTML()">
-  <div include-html="header.html"></div>
-  <main>
-    <h1>Previously</h1>
-    <p>This is (slightly) older stuff (but still new).</p>
-  </main>
+<body onload="includeHTML(); updateDate();">
+    <div include-html="header.html"></div>
+    <main>
+        <h1>Previous Posts</h1>
+        <div id="previous-posts"></div>
+    </main>
     <div include-html="footer.html"></div>
 </body>
 </html>

@@ -9,17 +9,21 @@ async function loadPosts() {
   const todayContainer = document.getElementById('today-posts');
   const previousContainer = document.getElementById('previous-posts');
 
-  todayPosts.forEach(post => {
-      const postElement = document.createElement('div');
-      postElement.innerHTML = post.content;
-      todayContainer.appendChild(postElement);
-  });
+  if (todayContainer) {
+      todayPosts.forEach(post => {
+          const postElement = document.createElement('div');
+          postElement.innerHTML = post.content;
+          todayContainer.appendChild(postElement);
+      });
+  }
 
-  previousPosts.forEach(post => {
-      const postElement = document.createElement('div');
-      postElement.innerHTML = `${post.content} <span class="post-date">${post.date}</span>`;
-      previousContainer.appendChild(postElement);
-  });
+  if (previousContainer) {
+      previousPosts.forEach(post => {
+          const postElement = document.createElement('div');
+          postElement.innerHTML = `${post.content} <span class="post-date">${post.date}</span>`;
+          previousContainer.appendChild(postElement);
+      });
+  }
 }
 
 document.addEventListener('DOMContentLoaded', loadPosts);

@@ -26,7 +26,7 @@ body {
 /* HEADER */
 header {
     font-family: 'Canicule Display v0.1 Trial Light', sans-serif;
-    background-color: #333333;
+    background-color: #000000;
     color: #ffffff;
     padding: 20px;
     text-align: left;
@@ -50,10 +50,10 @@ header p {
 .banner {
     display: flex;
     justify-content: center;
-    background-color: #444444;
+    background-color: #000000;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
     margin: 20px auto;
     max-width: 800px;
     width: 100%;
@@ -64,13 +64,13 @@ header p {
 }
 
 .banner h2 {
-    color: #211570;
+    color: #000000;
     font-weight: 700;
     margin: 0;
 }
 
 .banner a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -105,7 +105,7 @@ h2 {
 }
 
 p {
-    color: #666666;
+    color: #0423d0;
     font-weight: 400;
 }
 
@@ -133,7 +133,7 @@ a:hover {
 
 /* BUTTONS */
 button {
-    background-color: #007BFF;
+    background-color: hsl(132, 78%, 47%);
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -143,7 +143,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #cb122e;
 }
 
 /* ASIDE */
@@ -170,7 +170,7 @@ aside ul li {
 }
 
 aside ul li a {
-    color: #007BFF;
+    color: #25b169;
     text-decoration: none;
 }
 

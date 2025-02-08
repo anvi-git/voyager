@@ -1,3 +1,4 @@
+// filepath: /Users/anvi/backyard_thoughts/includeHTML.js
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   z = document.getElementsByTagName("*");
@@ -26,16 +27,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Wait for the header to be included before setting the link
   setTimeout(function() {
-    var siteTitle = document.getElementById("site-title");
-    if (siteTitle) {
-      var siteTitleLink = siteTitle.querySelector("a");
-      if (window.location.pathname !== "/index.html") {
-        siteTitleLink.href = "index.html";
-      } else {
-        siteTitleLink.href = "#";
-      }
+    var siteTitleLink = document.getElementById("site-title-link");
+    if (siteTitleLink) {
+      siteTitleLink.addEventListener("click", function(event) {
+        event.preventDefault();
+        if (window.location.pathname !== "/index.html") {
+          window.location.href = "index.html";
+        }
+      });
     } else {
-      console.error("Element with id 'site-title' not found.");
+      console.error("Element with id 'site-title-link' not found.");
     }
   }, 100); // Adjust the timeout as needed
 });

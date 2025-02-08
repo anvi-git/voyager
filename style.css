@@ -45,7 +45,16 @@ header p {
     font-size: 1.2em;
     font-weight: 400;
 }
-
+#site-title a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+#site-title a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
 /* BANNER */
 .banner {
     display: flex;

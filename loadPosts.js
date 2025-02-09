@@ -6,17 +6,13 @@ async function loadPosts() {
     const posts = doc.querySelectorAll('.post');
     const today = new Date().toISOString().split('T')[0];
   
-    const todayContainer = document.getElementById('today-posts');
     const previousContainer = document.getElementById('previous-posts');
   
     posts.forEach(post => {
       const postDate = post.getAttribute('data-date');
-      const postElement = document.createElement('div');
-      postElement.innerHTML = post.innerHTML;
-  
-      if (postDate === today && todayContainer) {
-        todayContainer.appendChild(postElement);
-      } else if (previousContainer) {
+      if (postDate !== today && previousContainer) {
+        const postElement = document.createElement('div');
+        postElement.innerHTML = post.innerHTML;
         postElement.innerHTML += `<span class="post-date">${postDate}</span>`;
         previousContainer.appendChild(postElement);
       }

@@ -1,7 +1,6 @@
-<!-- filepath: /Users/anvi/backyard_thoughts/today.html -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Today's Posts</title>
@@ -10,13 +9,12 @@
     <script src="updateDate.js"></script>
     <script src="loadPosts.js"></script>
 </head>
-<body onload="includeHTML()">
-  <div include-html="header.html"></div>
-  <main>
-    <h1>Today's Posts</h1>
-    <h2>This is new stuff.</h2>
-    <div id="today-posts"></div>
-  </main>
-    <div include-html="footer.html"></div>   
+<body onload="includeHTML(); updateDate();">
+    <div include-html="header.html"></div>
+    <main>
+        <h1>Today's Posts</h1>
+        <div id="today-posts"></div>
+    </main>
+    <div include-html="footer.html"></div>
 </body>
 </html>

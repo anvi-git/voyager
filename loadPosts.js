@@ -1,29 +1,26 @@
 async function loadPosts() {
-  const response = await fetch('posts.json');
-  const posts = await response.json();
-  const today = new Date().toISOString().split('T')[0];
-
-  const todayPosts = posts.filter(post => post.date === today);
-  const previousPosts = posts.filter(post => post.date !== today);
-
-  const todayContainer = document.getElementById('today-posts');
-  const previousContainer = document.getElementById('previous-posts');
-
-  if (todayContainer) {
-      todayPosts.forEach(post => {
-          const postElement = document.createElement('div');
-          postElement.innerHTML = post.content;
-          todayContainer.appendChild(postElement);
-      });
+    const response = await fetch('posts.html');
+    const postsHtml = await response.text();
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(postsHtml, 'text/html');
+    const posts = doc.querySelectorAll('.post');
+    const today = new Date().toISOString().split('T')[0];
+  
+    const todayContainer = document.getElementById('today-posts');
+    const previousContainer = document.getElementById('previous-posts');
+  
+    posts.forEach(post => {
+      const postDate = post.getAttribute('data-date');
+      const postElement = document.createElement('div');
+      postElement.innerHTML = post.innerHTML;
+  
+      if (postDate === today && todayContainer) {
+        todayContainer.appendChild(postElement);
+      } else if (previousContainer) {
+        postElement.innerHTML += `<span class="post-date">${postDate}</span>`;
+        previousContainer.appendChild(postElement);
+      }
+    });
   }
-
-  if (previousContainer) {
-      previousPosts.forEach(post => {
-          const postElement = document.createElement('div');
-          postElement.innerHTML = `${post.content} <span class="post-date">${post.date}</span>`;
-          previousContainer.appendChild(postElement);
-      });
-  }
-}
-
-document.addEventListener('DOMContentLoaded', loadPosts);
+  
+  document.addEventListener('DOMContentLoaded', loadPosts);

@@ -1,10 +1,17 @@
 [
   {
-      "date": "2025-02-08",
-      "content": "<p>This is what I'm listening to lately:</p>\n <iframe allow='autoplay *; encrypted-media *;' frameborder='0' height='450' style='width:100%;max-width:660px;overflow:hidden;background:transparent;' sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation' src='https://embed.music.apple.com/it/album/hallucinating-love/1716587925?l=en-GB'></iframe>\n <p>Maribous State is a duo from Hertfordshire, England. <br> They compose electronic music. <br> You can find Maribou State on <a href='https://mariboustate.bandcamp.com/album/hallucinating-love' target='_blank'>Bandcamp</a>, <a href='https://music.apple.com/us/album/hallucinating-love/1716587925' target='_blank'>Apple Music</a>, <a href='https://open.spotify.com/album/6NyoU5F25y1I7V9fqbKqy9' target='_blank'>Spotify</a>, <a href='https://youtu.be/UuaQUpu8Sh0?list=OLAK5uy_nGGVqg_13qm0yacu_qP0T7jAiR9waAY80' target='_blank'>YouTube</a>.<br>Hallucinating Love was published on Jan 31, 2025 </p>"
+    "date": "2025-02-08",
+    "content": "<p>This is what I'm listening to lately:</p>\n" +
+               "<iframe allow='autoplay *; encrypted-media *;' frameborder='0' height='450' style='width:100%;max-width:660px;overflow:hidden;background:transparent;' sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation' src='https://embed.music.apple.com/it/album/hallucinating-love/1716587925?l=en-GB'></iframe>\n" +
+               "<p>Maribous State is a duo from Hertfordshire, England. <br> They compose electronic music. <br>" +
+               "You can find Maribou State on <a href='https://mariboustate.bandcamp.com/album/hallucinating-love' target='_blank'>Bandcamp</a>, " +
+               "<a href='https://music.apple.com/us/album/hallucinating-love/1716587925' target='_blank'>Apple Music</a>, " +
+               "<a href='https://open.spotify.com/album/6NyoU5F25y1I7V9fqbKqy9' target='_blank'>Spotify</a>, " +
+               "<a href='https://youtu.be/UuaQUpu8Sh0?list=OLAK5uy_nGGVqg_13qm0yacu_qP0T7jAiR9waAY80' target='_blank'>YouTube</a>.<br>" +
+               "Hallucinating Love was published on Jan 31, 2025</p>\n<hr>"
   },
   {
-      "date": "2025-02-09",
-    "content": "<p>This is what I red today: <a href='https://www.nybooks.com/articles/2024/12/05/soundscapes-of-the-silenced-a-veil-of-silence-rombough/' target='_blank'>Soundscapes of the Silenced</a> by <a href='https://www.nybooks.com/contributors/erin-maglaque/' target='_blank'>Erin Maglaque</a> on <a href='https://www.nybooks.com/' target='_blank'>The New York Review of Books</a>.<br> I'm still a bit behind on the NYRB, as well as on the New Yorker and the London Review. <br> But I'll manage to read through all of them, eventually. </p>"
+    "date": "2025-02-09",
+    "content": "<p>This is what I read today: <a href='https://www.nybooks.com/articles/2024/12/05/soundscapes-of-the-silenced-a-veil-of-silence-rombough/' target='_blank'>Soundscapes of the Silenced</a> by <a href='https://www.nybooks.com/contributors/erin-maglaque/' target='_blank'>Erin Maglaque</a> on <a href='https://www.nybooks.com/' target='_blank'>The New York Review of Books</a>.<br> I'm still a bit behind on the NYRB, as well as on the New Yorker and the London Review. <br> But I'll manage to read through all of them, eventually.</p>\n<hr>"
   }
 ]

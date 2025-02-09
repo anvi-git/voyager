@@ -180,3 +180,67 @@ aside ul li a:hover {
     color: gray;
     margin-top: 10px;
 }
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    header {
+        text-align: center;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 5px 0;
+    }
+
+    .banner section {
+        margin: 5px 0;
+        padding: 5px;
+    }
+
+    main {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .banner h2 {
+        font-size: 1em;
+    }
+
+    main {
+        padding: 5px;
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 5px;
+        margin: 5px 0;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}

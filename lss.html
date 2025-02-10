@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Last Scattering Surface</title>
+    <title>LSS Posts</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <script src="includeHTML.js"></script>
+    <script src="updateDate.js"></script>
+    <script src="loadPosts.js"></script>
 </head>
-<body onload="includeHTML()">
-  <div include-html="header.html"></div>
-  <main>
-      <h1>Cosmological Newsletter</h1>
-  </main>
-  <div include-html="footer.html"></div>
+<body onload="includeHTML(); updateDate();">
+    <div include-html="header.html"></div>
+    <main>
+        <h1>LSS Posts</h1>
+        <div id="today-lss-posts"></div>
+        <div id="previous-lss-posts"></div>
+        <div id="all-lss-posts"></div>
+    </main>
+    <div include-html="footer.html"></div>
 </body>
 </html>

@@ -32,6 +32,46 @@
     This is one of many: <br>
     <a href='https://cdn8.openculture.com/2019/02/16110925/cantox.jpg' target='_blank'>Inferno, Canto X</a>.
   </p>
-  <img src="images/cantox_dore.jpg" alt="Inferno, Canto X. Gustave Doré" style="width:100%;max-width:660px;">
+  <div class="image-container">
+    <img src="images/cantox_dore.jpg" alt="Inferno, Canto X. Gustave Doré" style="width:100%;max-width:660px;">
+    <div class="caption">
+      Inferno, Canto X. Gustave Doré
+      <div class="arrow"></div>
+    </div>
+  </div>
   <hr>
 </div>
+
+<style>
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.caption {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgba(255, 255, 255, 0.8);
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.image-container img {
+  display: block;
+}
+</style>

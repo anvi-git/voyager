@@ -67,6 +67,10 @@ async function loadLssPosts() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  loadPosts();
-  loadLssPosts();
+  const currentPage = window.location.pathname.split('/').pop();
+  if (currentPage === 'lss.html') {
+    loadLssPosts();
+  } else {
+    loadPosts();
+  }
 });

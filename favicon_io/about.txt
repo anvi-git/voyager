@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Kelly Slab
+- Font Title: Glass Antiqua
 - Font Author: undefined
-- Font Source: https://fonts.gstatic.com/s/kellyslab/v17/-W_7XJX0Rz3cxUnJC5t6TkMBf50kbiM.ttf
+- Font Source: https://fonts.gstatic.com/s/glassantiqua/v24/xfu30Wr0Wn3NOQM2piC0uXOjnL_wN6fRUkY.ttf
 - Font License: undefined)

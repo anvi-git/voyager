@@ -248,7 +248,7 @@ aside ul li a:hover {
 .image-container {
     position: relative;
     display: inline-block;
-    text-align: center; /* Center the caption below the image */
+    text-align: center;
   }
   
   .caption {
@@ -257,6 +257,6 @@ aside ul li a:hover {
     border-radius: 5px;
     font-size: 14px;
     font-family: Arial, sans-serif;
-    margin-top: 10px; /* Add some space between the image and the caption */
-    display: inline-block; /* Ensure the caption width is only as wide as its content */
+    margin-top: 10px;
+    display: inline-block; 
   }

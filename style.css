@@ -58,7 +58,7 @@ header p {
 .header-button {
     background-color: #000000; /* Green */
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -75,7 +75,7 @@ header p {
 }
 #site-title a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
 }  
 #site-title a:hover {

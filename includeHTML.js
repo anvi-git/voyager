@@ -40,3 +40,33 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }, 100); // Adjust the timeout as needed
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const musicEmbedders = document.querySelectorAll('.music-embedder');
+
+  musicEmbedders.forEach(embedder => {
+    const appleMusicUrl = embedder.getAttribute('data-apple-music-url');
+    const spotifyUrl = embedder.getAttribute('data-spotify-url');
+
+    const appleMusicIframe = document.createElement('iframe');
+    appleMusicIframe.setAttribute('allow', 'autoplay *; encrypted-media *;');
+    appleMusicIframe.setAttribute('frameborder', '0');
+    appleMusicIframe.setAttribute('height', '360');
+    appleMusicIframe.setAttribute('style', 'width:60%;max-width:660px;overflow:hidden;background:transparent;border-radius:12px;margin-bottom:20px;');
+    appleMusicIframe.setAttribute('sandbox', 'allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation');
+    appleMusicIframe.setAttribute('src', appleMusicUrl);
+
+    const spotifyIframe = document.createElement('iframe');
+    spotifyIframe.setAttribute('style', 'border-radius:12px;width:60%;height:360px;');
+    spotifyIframe.setAttribute('src', spotifyUrl);
+    spotifyIframe.setAttribute('frameborder', '0');
+    spotifyIframe.setAttribute('allowfullscreen', '');
+    spotifyIframe.setAttribute('allow', 'autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture');
+    spotifyIframe.setAttribute('loading', 'lazy');
+
+    embedder.appendChild(appleMusicIframe);
+    embedder.appendChild(document.createElement('br'));
+    embedder.appendChild(spotifyIframe);
+  });
+});

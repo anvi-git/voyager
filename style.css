@@ -258,19 +258,3 @@ aside ul li a:hover {
   font-size: 14px;
   font-family: Arial, sans-serif;
 }
-/*
-.arrow {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid rgba(255, 255, 255, 0.8);
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-*/
-.image-container img {
-  display: block;
-}

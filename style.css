@@ -42,6 +42,7 @@ header p {
     margin: 10px 0 0;
     font-size: 1.2em;
     font-weight: 400;
+    border-radius: 10px;
 }
 /* Title Container */
 #title-container {
@@ -50,6 +51,7 @@ header p {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    border-radius: 10px;
 }  
 #button-container {
     display: flex;

@@ -246,15 +246,17 @@ aside ul li a:hover {
 }
 
 .image-container {
-  position: relative;
-  display: inline-block;}
-.caption {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 14px;
-  font-family: Arial, sans-serif;
-}
+    position: relative;
+    display: inline-block;
+    text-align: center; /* Center the caption below the image */
+  }
+  
+  .caption {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px; /* Add some space between the image and the caption */
+    display: inline-block; /* Ensure the caption width is only as wide as its content */
+  }

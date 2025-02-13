@@ -59,9 +59,9 @@ header p {
 }
   
 .header-button {
-    background-color: #333; /* GitHub color */
+    background-color: #fffefe; /* GitHub color */
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
     text-decoration: none;

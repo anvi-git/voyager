@@ -59,10 +59,10 @@ header p {
 }
   
 .header-button {
-    background-color: #000000; /* Green */
+    background-color: #333; /* GitHub color */
     border: none;
-    color: rgb(255, 255, 255);
-    padding: 20px;
+    color: white;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -71,11 +71,15 @@ header p {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s;
-}
+  }
   
-.header-button:hover {
-    background-color: #181818;
-}
+  .header-button:hover {
+    background-color: #555;
+  }
+  
+  .header-button i {
+    font-size: 20px;
+  }
 #site-title a {
     text-decoration: none;
     color: #000000;

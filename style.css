@@ -215,6 +215,15 @@ aside ul li a:hover {
     color: gray;
     margin-top: 10px;
 }
+/* General styles for iframes */
+iframe {
+    border-radius: 12px;
+    width: 60%;
+    max-width: 660px;
+    overflow: hidden;
+    background: transparent;
+    margin-bottom: 20px;
+  }
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
     body {
@@ -254,6 +263,10 @@ aside ul li a:hover {
     footer {
         padding: 10px;
     }
+    iframe {
+        width: 100%;
+        height: auto;
+      }
 }
 
 @media (max-width: 480px) {
@@ -278,6 +291,10 @@ aside ul li a:hover {
     footer {
         padding: 5px;
     }
+    iframe {
+        width: 100%;
+        height: auto;
+      }
 }
 
 .image-container {

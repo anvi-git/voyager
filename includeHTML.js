@@ -40,3 +40,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }, 100); // Adjust the timeout as needed
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const iframeTemplates = document.querySelectorAll('.iframe-template');
+
+  iframeTemplates.forEach(template => {
+    const url = template.getAttribute('data-url');
+    const iframe = document.createElement('iframe');
+    iframe.setAttribute('allow', 'autoplay *; encrypted-media *;');
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('height', '460');
+    iframe.setAttribute('style', 'width:60%;max-width:660px;overflow:hidden;background:transparent;border-radius:12px;margin-bottom:20px;');
+    iframe.setAttribute('sandbox', 'allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation');
+    iframe.setAttribute('src', url);
+
+    template.replaceWith(iframe);
+  });
+});

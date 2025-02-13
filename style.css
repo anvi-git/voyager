@@ -45,7 +45,7 @@ header p {
     border-radius: 10px;
 }
 /* Title Container */
-#title-container {
+/* #title-container {
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -62,7 +62,7 @@ header p {
   
 .header-button {
     background-color: #fffefe; /* GitHub color */
-    border: none;
+    /* border: none;
     color: rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
@@ -81,7 +81,42 @@ header p {
   
   .header-button i {
     font-size: 20px;
+  } */
+  #title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
   }
+  
+  #button-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .header-button {
+    background-color: #fffefe; /* Button background color */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .header-button:hover {
+    background-color: #555;
+  }
+  
+  .header-button i {
+    font-size: 20px;
+  }
+  
 #site-title a {
     text-decoration: none;
     color: #000000;

@@ -49,12 +49,14 @@ header p {
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
+    align-items: center;
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
 }  
 #button-container {
     display: flex;
+    align-items: right;
     gap: 10px;
 }
   

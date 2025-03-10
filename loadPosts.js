@@ -66,29 +66,27 @@ async function loadLssPosts() {
   });
 }
 
-// document.addEventListener('DOMContentLoaded', () => {
-//   const currentPage = window.location.pathname.split('/').pop();
-//   if (currentPage === 'lss.html') {
-//     loadLssPosts();
-//   } else {
-//     loadPosts();
-//   }
-// });
+document.addEventListener('DOMContentLoaded', () => {
+  const currentPage = window.location.pathname.split('/').pop();
+  if (currentPage === 'lss.html') {
+    loadLssPosts();
+  } else {
+    loadPosts();
+  }
+});
+
 document.addEventListener('DOMContentLoaded', function() {
-  function loadPosts(containerId, postsUrl) {
-      fetch(postsUrl)
+  function loadPost(postId) {
+      fetch('spacesound_posts.html')
           .then(response => response.text())
           .then(data => {
-              document.getElementById(containerId).innerHTML = data;
+              const parser = new DOMParser();
+              const doc = parser.parseFromString(data, 'text/html');
+              const post = doc.getElementById(postId);
+              document.getElementById('post-container').innerHTML = post.outerHTML;
           })
-          .catch(error => console.error('Error loading posts:', error));
+          .catch(error => console.error('Error loading post:', error));
   }
 
-  if (document.getElementById('all-lss-posts')) {
-      loadPosts('all-lss-posts', 'lss_posts.html');
-  }
-
-  if (document.getElementById('all-sos-posts')) {
-      loadPosts('all-sos-posts', 'spacesound_posts.html');
-  }
+  window.loadPost = loadPost;
 });

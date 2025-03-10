@@ -66,11 +66,29 @@ async function loadLssPosts() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  const currentPage = window.location.pathname.split('/').pop();
-  if (currentPage === 'lss.html') {
-    loadLssPosts();
-  } else {
-    loadPosts();
+// document.addEventListener('DOMContentLoaded', () => {
+//   const currentPage = window.location.pathname.split('/').pop();
+//   if (currentPage === 'lss.html') {
+//     loadLssPosts();
+//   } else {
+//     loadPosts();
+//   }
+// });
+document.addEventListener('DOMContentLoaded', function() {
+  function loadPosts(containerId, postsUrl) {
+      fetch(postsUrl)
+          .then(response => response.text())
+          .then(data => {
+              document.getElementById(containerId).innerHTML = data;
+          })
+          .catch(error => console.error('Error loading posts:', error));
+  }
+
+  if (document.getElementById('all-lss-posts')) {
+      loadPosts('all-lss-posts', 'lss_posts.html');
+  }
+
+  if (document.getElementById('all-sos-posts')) {
+      loadPosts('all-sos-posts', 'spacesound_posts.html');
   }
 });

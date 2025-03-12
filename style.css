@@ -327,7 +327,6 @@ nav ul li {
 .post-link {
     width: 350px; /* Adjust the size as needed */
     height: 350px; /* Adjust the size as needed */
-    background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -336,11 +335,12 @@ nav ul li {
     border-radius: 10px; /* Optional: add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
     transition: transform 0.3s;
-    text-decoration: none;
+    text-decoration: none; /* Remove underline from link */
+    color: white; /* Ensure text color is white */
 }
 
 .post-link div {
-    color: white; /* Adjust text color as needed */
+    color: inherit; /* Inherit color from parent */
     font-weight: bold;
     font-size: 1.2em;
 }

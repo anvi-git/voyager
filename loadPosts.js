@@ -76,17 +76,27 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  function loadPost(postId) {
-      fetch('spacesound_posts.html')
-          .then(response => response.text())
-          .then(data => {
-              const parser = new DOMParser();
-              const doc = parser.parseFromString(data, 'text/html');
-              const post = doc.getElementById(postId);
-              document.getElementById('post-container').innerHTML = post.outerHTML;
-          })
-          .catch(error => console.error('Error loading post:', error));
+  function loadPostContent() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const postId = urlParams.get('post');
+      if (postId) {
+          fetch('spacesound_posts.html')
+              .then(response => response.text())
+              .then(data => {
+                  const parser = new DOMParser();
+                  const doc = parser.parseFromString(data, 'text/html');
+                  const post = doc.getElementById(postId);
+                  if (post) {
+                      document.getElementById('post-container').innerHTML = post.outerHTML;
+                  } else {
+                      document.getElementById('post-container').innerHTML = '<p>Post not found.</p>';
+                  }
+              })
+              .catch(error => console.error('Error loading post:', error));
+      } else {
+          document.getElementById('post-container').innerHTML = '<p>No post specified.</p>';
+      }
   }
 
-  window.loadPost = loadPost;
+  window.loadPostContent = loadPostContent;
 });

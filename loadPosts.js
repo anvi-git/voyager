@@ -98,5 +98,27 @@ document.addEventListener('DOMContentLoaded', function() {
       }
   }
 
+  function loadPostBackgrounds() {
+      fetch('spacesound_posts.html')
+          .then(response => response.text())
+          .then(data => {
+              const parser = new DOMParser();
+              const doc = parser.parseFromString(data, 'text/html');
+              const postLinks = document.querySelectorAll('.post-link');
+              postLinks.forEach(link => {
+                  const postId = link.getAttribute('data-post-id');
+                  const post = doc.getElementById(postId);
+                  if (post) {
+                      const background = post.getAttribute('data-background');
+                      if (background) {
+                          link.style.backgroundImage = `url(${background})`;
+                      }
+                  }
+              });
+          })
+          .catch(error => console.error('Error loading post backgrounds:', error));
+  }
+
   window.loadPostContent = loadPostContent;
+  window.loadPostBackgrounds = loadPostBackgrounds;
 });

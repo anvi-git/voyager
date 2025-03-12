@@ -320,19 +320,33 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 10px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: rgb(3, 53, 106);
-    font-weight: bold;
+.post-link {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+    transition: transform 0.3s;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
-    color: #cb122e;
+.post-link a {
+    color: white; /* Adjust text color as needed */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.post-link:hover {
+    transform: scale(1.05); /* Optional: add a hover effect */
 }
 
 /* Post styles */

@@ -83,6 +83,12 @@ header p {
     font-size: 20px;
 }
 
+.header-button .svg-icon {
+    width: 24px;
+    height: 24px;
+    fill: currentColor; /* Ensure the SVG uses the current text color */
+  }
+
 #site-title a {
     text-decoration: none;
     color: #000000;

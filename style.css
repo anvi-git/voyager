@@ -343,10 +343,16 @@ nav ul li {
     color: inherit; /* Inherit color from parent */
     font-weight: bold;
     font-size: 1.2em;
+    text-decoration: none; /* Remove underline from link */
 }
 
 .post-link:hover {
     transform: scale(1.05); /* Optional: add a hover effect */
+    text-decoration: none; /* Remove underline from link */
+}
+
+.post-link:hover div {
+    text-decoration: none; /* Ensure no underline on hover */
 }
 
 /* Post styles */

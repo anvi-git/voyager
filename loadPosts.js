@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const postId = urlParams.get('post');
       if (postId) {
           const currentPage = window.location.pathname.split('/').pop();
-          const postsFile = currentPage === 'lss.html' ? 'lss_posts.html' : 'spacesound_posts.html';
+          const postsFile = currentPage;
           const response = await fetch(postsFile);
           const data = await response.text();
           const parser = new DOMParser();
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   async function loadPostBackgrounds() {
       const currentPage = window.location.pathname.split('/').pop();
-      const postsFile = currentPage === 'lss.html' ? 'lss_posts.html' : 'spacesound_posts.html';
+      const postsFile = currentPage ;
       const response = await fetch(postsFile);
       const data = await response.text();
       const parser = new DOMParser();

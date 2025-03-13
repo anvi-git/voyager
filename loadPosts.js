@@ -76,51 +76,45 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  function loadPostContent() {
+  async function loadPostContent() {
       const urlParams = new URLSearchParams(window.location.search);
       const postId = urlParams.get('post');
       if (postId) {
           const currentPage = window.location.pathname.split('/').pop();
           const postsFile = currentPage === 'lss.html' ? 'lss_posts.html' : 'spacesound_posts.html';
-          fetch(postsFile)
-              .then(response => response.text())
-              .then(data => {
-                  const parser = new DOMParser();
-                  const doc = parser.parseFromString(data, 'text/html');
-                  const post = doc.getElementById(postId);
-                  if (post) {
-                      document.getElementById('post-container').innerHTML = post.outerHTML;
-                  } else {
-                      document.getElementById('post-container').innerHTML = '<p>Post not found.</p>';
-                  }
-              })
-              .catch(error => console.error('Error loading post:', error));
+          const response = await fetch(postsFile);
+          const data = await response.text();
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(data, 'text/html');
+          const post = doc.getElementById(postId);
+          if (post) {
+              document.getElementById('post-container').innerHTML = post.outerHTML;
+          } else {
+              document.getElementById('post-container').innerHTML = '<p>Post not found.</p>';
+          }
       } else {
           document.getElementById('post-container').innerHTML = '<p>No post specified.</p>';
       }
   }
 
-  function loadPostBackgrounds() {
+  async function loadPostBackgrounds() {
       const currentPage = window.location.pathname.split('/').pop();
       const postsFile = currentPage === 'lss.html' ? 'lss_posts.html' : 'spacesound_posts.html';
-      fetch(postsFile)
-          .then(response => response.text())
-          .then(data => {
-              const parser = new DOMParser();
-              const doc = parser.parseFromString(data, 'text/html');
-              const postLinks = document.querySelectorAll('.post-link');
-              postLinks.forEach(link => {
-                  const postId = link.getAttribute('data-post-id');
-                  const post = doc.getElementById(postId);
-                  if (post) {
-                      const background = post.getAttribute('data-background');
-                      if (background) {
-                          link.style.backgroundImage = `url(${background})`;
-                      }
-                  }
-              });
-          })
-          .catch(error => console.error('Error loading post backgrounds:', error));
+      const response = await fetch(postsFile);
+      const data = await response.text();
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(data, 'text/html');
+      const postLinks = document.querySelectorAll('.post-link');
+      postLinks.forEach(link => {
+          const postId = link.getAttribute('data-post-id');
+          const post = doc.getElementById(postId);
+          if (post) {
+              const background = post.getAttribute('data-background');
+              if (background) {
+                  link.style.backgroundImage = `url(${background})`;
+              }
+          }
+      });
   }
 
   window.loadPostContent = loadPostContent;

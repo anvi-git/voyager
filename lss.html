@@ -11,19 +11,19 @@
     <script src="loadPosts.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body onload="includeHTML(); updateDate();">
+<body onload="includeHTML(); updateDate(); loadPostBackgrounds();">
     <div include-html="header.html"></div>
     <main>
         <h1>Last Scattering Surface</h1>
-        <h2>This section contains posts coming straight from my cosmology newsletter.</h2>
         <nav>
             <ul>
-                <li><a href="#post1">Post 1</a></li>
-                <li><a href="#post2">Post 2</a></li>
-                <li><a href="#post3">Post 3</a></li>
+                <li>
+                    <a href="post_template.html?post=lss-post1" class="post-link" data-post-id="post1">
+                        <div>Hallucinating Love, by Maribou State</div>
+                    </a>
+                </li>
             </ul>
         </nav>
-        <div id="all-lss-posts"></div>
     </main>
     <div include-html="footer.html"></div>
 </body>

@@ -94,7 +94,18 @@ async function loadPostBackgrounds() {
   });
 }
 
-
+document.addEventListener('DOMContentLoaded', () => {
+  const currentPage = window.location.pathname.split('/').pop();
+  if (currentPage === 'lss.html') {
+    loadPosts('posts.html', 'lss-post', 'today-lss-posts', 'previous-lss-posts', 'all-lss-posts');
+  } else if (currentPage === 'spacesound.html') {
+    loadPosts('posts.html', 'sos-post', 'today-sos-posts', 'previous-sos-posts', 'all-sos-posts');
+  } else {
+    loadPosts('posts.html', 'post', 'today-posts', 'previous-posts', 'all-posts');
+  }
+  loadPostContent();
+  loadPostBackgrounds();
+});
 
 document.addEventListener('DOMContentLoaded', () => {
   const currentPage = window.location.pathname.split('/').pop();

@@ -99,6 +99,7 @@ async function loadPostBackgrounds() {
 document.addEventListener('DOMContentLoaded', () => {
   const currentPage = window.location.pathname.split('/').pop();
   currentPage === 'lss.html';
+  loadPosts('posts.html');
   loadPostContent();
   loadPostBackgrounds();
 });

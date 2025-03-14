@@ -69,9 +69,9 @@ async function loadPostBackgrounds() {
 
   // Determine the correct posts file based on the current page
   if (currentPage === 'lss.html') {
-    postsFile = 'lss_posts.html';
+    postsFile = 'posts.html';
   } else if (currentPage === 'spacesound.html') {
-    postsFile = 'spacesound_posts.html';
+    postsFile = 'posts.html';
   } else {
     postsFile = 'posts.html';
   }

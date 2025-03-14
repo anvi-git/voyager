@@ -82,30 +82,20 @@ async function loadPostBackgrounds() {
   const doc = parser.parseFromString(data, 'text/html');
   const postLinks = document.querySelectorAll('.post-link');
 
+  console.log(`Found ${postLinks.length} post links`);
+
   postLinks.forEach(link => {
     const postId = link.getAttribute('data-post-id');
     const post = doc.getElementById(postId);
     if (post) {
       const background = post.getAttribute('data-background');
       if (background) {
+        console.log(`Applying background image for post ID: ${postId}`);
         link.style.backgroundImage = `url(${background})`;
       }
     }
   });
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-  const currentPage = window.location.pathname.split('/').pop();
-  if (currentPage === 'lss.html') {
-    loadPosts('posts.html', 'lss-post', 'today-lss-posts', 'previous-lss-posts', 'all-lss-posts');
-  } else if (currentPage === 'spacesound.html') {
-    loadPosts('posts.html', 'sos-post', 'today-sos-posts', 'previous-sos-posts', 'all-sos-posts');
-  } else {
-    loadPosts('posts.html', 'post', 'today-posts', 'previous-posts', 'all-posts');
-  }
-  loadPostContent();
-  loadPostBackgrounds();
-});
 
 document.addEventListener('DOMContentLoaded', () => {
   const currentPage = window.location.pathname.split('/').pop();

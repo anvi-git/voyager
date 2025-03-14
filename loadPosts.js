@@ -37,7 +37,17 @@ async function loadPostContent() {
   const postId = urlParams.get('post');
   if (postId) {
     const currentPage = window.location.pathname.split('/').pop();
-    const postsFile = 'posts.html';
+    let postsFile;
+
+    // Determine the correct posts file based on the current page
+    if (currentPage === 'lss.html') {
+      postsFile = 'lss_posts.html';
+    } else if (currentPage === 'spacesound.html') {
+      postsFile = 'spacesound_posts.html';
+    } else {
+      postsFile = 'posts.html';
+    }
+
     const response = await fetch(postsFile);
     const data = await response.text();
     const parser = new DOMParser();

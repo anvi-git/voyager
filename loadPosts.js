@@ -92,7 +92,11 @@ async function loadPostBackgrounds() {
       if (background) {
         console.log(`Applying background image for post ID: ${postId}`);
         link.style.backgroundImage = `url(${background})`;
+      } else {
+        console.log(`No background image found for post ID: ${postId}`);
       }
+    } else {
+      console.log(`No post found for post ID: ${postId}`);
     }
   });
 }

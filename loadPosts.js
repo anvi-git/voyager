@@ -82,12 +82,15 @@ async function loadPostBackgrounds() {
   const doc = parser.parseFromString(data, 'text/html');
   const postLinks = document.querySelectorAll('.post-link');
 
+  console.log(`Found ${postLinks.length} post links`);
+
   postLinks.forEach(link => {
     const postId = link.getAttribute('data-post-id');
     const post = doc.getElementById(postId);
     if (post) {
       const background = post.getAttribute('data-background');
       if (background) {
+        console.log(`Applying background image for post ID: ${postId}`);
         link.style.backgroundImage = `url(${background})`;
       }
     }

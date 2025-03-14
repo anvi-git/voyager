@@ -65,12 +65,23 @@ async function loadPostContent() {
 
 async function loadPostBackgrounds() {
   const currentPage = window.location.pathname.split('/').pop();
-  const postsFile = 'posts.html';
+  let postsFile;
+
+  // Determine the correct posts file based on the current page
+  if (currentPage === 'lss.html') {
+    postsFile = 'lss_posts.html';
+  } else if (currentPage === 'spacesound.html') {
+    postsFile = 'spacesound_posts.html';
+  } else {
+    postsFile = 'posts.html';
+  }
+
   const response = await fetch(postsFile);
   const data = await response.text();
   const parser = new DOMParser();
   const doc = parser.parseFromString(data, 'text/html');
   const postLinks = document.querySelectorAll('.post-link');
+
   postLinks.forEach(link => {
     const postId = link.getAttribute('data-post-id');
     const post = doc.getElementById(postId);
@@ -82,6 +93,19 @@ async function loadPostBackgrounds() {
     }
   });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const currentPage = window.location.pathname.split('/').pop();
+  if (currentPage === 'lss.html') {
+    loadPosts('posts.html', 'lss-post', 'today-lss-posts', 'previous-lss-posts', 'all-lss-posts');
+  } else if (currentPage === 'spacesound.html') {
+    loadPosts('posts.html', 'sos-post', 'today-sos-posts', 'previous-sos-posts', 'all-sos-posts');
+  } else {
+    loadPosts('posts.html', 'post', 'today-posts', 'previous-posts', 'all-posts');
+  }
+  loadPostContent();
+  loadPostBackgrounds();
+});
 
 document.addEventListener('DOMContentLoaded', () => {
   const currentPage = window.location.pathname.split('/').pop();

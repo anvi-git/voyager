@@ -38,16 +38,7 @@ async function loadPostContent() {
   if (postId) {
     const currentPage = window.location.pathname.split('/').pop();
     let postsFile;
-
-    // Determine the correct posts file based on the current page
-    if (currentPage === 'lss.html') {
-      postsFile = 'posts.html';
-    } else if (currentPage === 'spacesound.html') {
-      postsFile = 'posts.html';
-    } else {
-      postsFile = 'posts.html';
-    }
-
+    postsFile = 'posts.html';
     const response = await fetch(postsFile);
     const data = await response.text();
     const parser = new DOMParser();
@@ -66,16 +57,7 @@ async function loadPostContent() {
 async function loadPostBackgrounds() {
   const currentPage = window.location.pathname.split('/').pop();
   let postsFile;
-
-  // Determine the correct posts file based on the current page
-  if (currentPage === 'lss.html') {
-    postsFile = 'posts.html';
-  } else if (currentPage === 'spacesound.html') {
-    postsFile = 'posts.html';
-  } else {
-    postsFile = 'posts.html';
-  }
-
+  postsFile = 'posts.html';
   const response = await fetch(postsFile);
   const data = await response.text();
   const parser = new DOMParser();

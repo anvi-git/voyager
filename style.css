@@ -87,7 +87,7 @@ header p {
     padding: 10px;
     font-size: 16px;
     margin: 4px 2px;    
-    fill: currentColor; /* Ensure the SVG uses the current text color */
+    fill: rgb(0, 0, 0); /* Ensure the SVG uses the current text color */
     color: rgb(0, 0, 0);
     border-radius: 5px;
     transition: background-color 0.3s;

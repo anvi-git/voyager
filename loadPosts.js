@@ -50,7 +50,7 @@ async function loadPostContent() {
       document.getElementById('post-container').innerHTML = '<p>Post not found.</p>';
     }
   } else {
-    document.getElementById('post-container').innerHTML = '<p>No post specified.</p>';
+    document.getElementById('post-container').innerHTML = post.outerHTML;
   }
 }
 

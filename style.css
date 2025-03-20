@@ -84,14 +84,31 @@ header p {
 }
 
 .header-button .svg-icon {
-    padding: 10px;
-    font-size: 16px;
-    margin: 4px 2px;    
-    fill: rgb(0, 0, 0); /* Ensure the SVG uses the current text color */
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
+    width: 24px; /* Set a fixed width */
+    height: 24px; /* Set a fixed height */
+    margin: 0; /* Remove unnecessary margins */
+    padding: 0; /* Remove unnecessary padding */
+    display: inline-block; /* Ensure the SVG is displayed inline */
+    fill: currentColor; /* Use the current text color for the SVG */
+    transition: transform 0.3s;
+}
+
+.header-button .svg-icon:hover {
+    transform: scale(1.1); /* Add a hover effect */
+}
+
+.header-button .png-icon {
+    width: 24px; /* Set a fixed width */
+    height: 24px; /* Set a fixed height */
+    margin: 0; /* Remove unnecessary margins */
+    padding: 0; /* Remove unnecessary padding */
+    display: inline-block; /* Ensure the PNG is displayed inline */
+    transition: transform 0.3s; /* Add a hover effect */
+}
+
+.header-button .png-icon:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
 
 #site-title a {
     text-decoration: none;

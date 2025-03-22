@@ -294,6 +294,16 @@ iframe {
         width: 100%;
         height: auto;
       }
+    .header-button {
+    padding: 8px; /* Reduce padding */
+    font-size: 14px; /* Reduce font size */
+    }
+
+    .header-button .svg-icon,
+    .header-button .png-icon {
+    width: 20px; /* Reduce icon size */
+    height: 20px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -322,6 +332,16 @@ iframe {
         width: 100%;
         height: auto;
       }
+    .header-button {
+    padding: 6px; /* Further reduce padding */
+    font-size: 12px; /* Further reduce font size */
+    }
+
+    .header-button .svg-icon,
+    .header-button .png-icon {
+    width: 16px; /* Further reduce icon size */
+    height: 16px;
+    }
 }
 
 .image-container {
@@ -381,8 +401,6 @@ nav ul li {
 .post-link:hover div {
     text-decoration: none; /* Ensure no underline on hover */
 }
-
-
 
 /* Smooth scrolling */
 html {

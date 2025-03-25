@@ -380,6 +380,7 @@ nav ul li {
     align-items: center;
     justify-content: center;
     border-radius: 10px; /* Optional: add rounded corners */
+    margin: 1px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
     transition: transform 0.3s;
     text-decoration: none; /* Remove underline from link */

@@ -268,7 +268,7 @@ iframe {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack posts vertically */
     align-items: flex-start; /* Align posts to the left */
-    gap: 20px; /* Add spacing between posts */
+    gap: 25px; /* Add spacing between posts */
     padding: 1px; /* Add padding around the container */
 }
 

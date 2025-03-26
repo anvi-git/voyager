@@ -155,6 +155,18 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 1;
 }
+
+/* Justify text to the left */
+main p {
+    text-align: left; /* Align text to the left */
+}
+
+/* Ensure images remain centered */
+main img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
 /* SECTION */
 section {
     background: linear-gradient(135deg, #ffffff, #ffffff);
@@ -251,6 +263,27 @@ iframe {
     background: transparent;
     margin-bottom: 20px;
   }
+/* Container for posts */
+.posts-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack posts vertically */
+    align-items: flex-start; /* Align posts to the left */
+    gap: 20px; /* Add spacing between posts */
+    padding: 1px; /* Add padding around the container */
+}
+
+/* Individual post styling */
+.post {
+    width: 100%; /* Make posts take the full width of the container */
+    max-width: 700px; /* Optional: Set a maximum width for posts */
+    text-align: left; /* Align text to the left */
+    background-color: #f9f9f9; /* Optional: Add a background color */
+    border: 1px solid #ddd; /* Optional: Add a border */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    padding: 20px; /* Add padding inside the post */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
     body {
@@ -343,11 +376,13 @@ iframe {
     height: 16px;
     }
 }
+/* Ensure images remain centered */
 
 .image-container {
     position: relative;
-    display: inline-block;
+    display: block;
     text-align: center;
+    margin: 0 auto; /* Center the image horizontally */
   }
   
 .caption {

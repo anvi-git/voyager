@@ -34,7 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /*background: linear-gradient(135deg, #0da7ca, #8de2f7);*/
+    background: linear-gradient(135deg, #0da7ca, #8de2f7);
     background-color: #0da7ca;
 }
 /* HEADER */
@@ -42,16 +42,16 @@ header {
     font-family: 'JetBrains Mono', sans-serif;
     background-color: #0da7ca;
     color: #ffffff;
-    padding: 20px;
-    text-align: left;
+    padding: 2px;
+    text-align: center;
     border-radius: 10px;
     /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
 }
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 5.5em;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     border-radius: 10px;
 }
 header p {
@@ -59,21 +59,6 @@ header p {
     font-size: 1.2em;
     font-weight: 400;
     border-radius: 10px;
-}
-/* Title Container */
-#title-container {
-    background-color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-}  
-#button-container {
-    display: flex;
-    align-items: right;
-    gap: 10px;
 }
 
 .header-button {
@@ -126,6 +111,21 @@ header p {
     transform: scale(1.1); /* Slight zoom effect on hover */
 }
 
+/* Title Container */
+#title-container {
+    background-color: #ffffff;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}  
+#button-container {
+    display: flex;
+    align-items: right;
+    gap: 10px;
+}
 #site-title a {
     text-decoration: none;
     color: #088ab6;
@@ -164,13 +164,10 @@ header p {
 }
 /* MAIN */
 main {
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex: 1;
+    background-color: #dcdcdcf2;
 }
 
 /* Justify text to the left */
@@ -188,10 +185,8 @@ main img {
 section {
     background: linear-gradient(135deg, #ffffff, #ffffff);
     padding: 20px;
-    margin: 20px 0;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0px 0;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -206,14 +201,13 @@ p {
 
 /* FOOTER */
 footer {
-    background-color: #08040481;
+    background-color: #088ab6;
     color: #ffffff;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
     width: 100%;
-    margin-top: auto;
+    margin-top: 0;
 }
 /* LINKS */
 a {
@@ -241,8 +235,8 @@ button:hover {
 /* ASIDE */
 aside {
     background-color: #ffffff;
-    padding: 20px;
-    margin: 20px 0;
+    padding: 0;
+    margin: 0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
@@ -255,7 +249,7 @@ aside ul {
     padding: 0;
 }
 aside ul li {
-    margin: 10px 0;
+    margin: 0px 0;
 }
 aside ul li a {
     color: #25b169;
@@ -274,39 +268,55 @@ aside ul li a:hover {
 /* General styles for iframes */
 iframe {
     border-radius: 12px;
-    width: 60%;
-    max-width: 660px;
+    width: 100%;
+    max-width: 100%;
     overflow: hidden;
     background: transparent;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
 /* Container for posts */
+/* Posts container styling */
 .posts-container {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack posts vertically */
-    align-items: flex-start; /* Align posts to the left */
-    gap: 25px; /* Add spacing between posts */
-    padding: 5px; /* Add padding around the container */
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Equal-sized columns */
+    gap: 0; /* Remove spacing between posts */
+    padding: 0; /* Remove padding around the container */
+    margin: 0; /* Remove margin around the container */
+    width: 100%; /* Ensure it fills the available space */
 }
 
 /* Individual post styling */
 .post {
-    width: 100%; /* Make posts take the full width of the container */
-    max-width: 700px; /* Optional: Set a maximum width for posts */
-    text-align: left; /* Align text to the left */
-    background-color: #f9f9f9; /* Optional: Add a background color */
-    border: 1px solid #ddd; /* Optional: Add a border */
-    border-radius: 10px; /* Optional: Add rounded corners */
-    padding: 20px; /* Add padding inside the post */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    width: 100%; /* Ensure the post fills its grid cell */
+    height: 300px; /* Set a consistent height */
+    background-size: cover; /* Ensure background images cover the entire post */
+    background-position: center; /* Center the background image */
+    display: flex; /* Use flexbox for content alignment */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    text-align: center; /* Center-align text inside posts */
+    color: rgb(255, 255, 255); /* Ensure text color is white */
+    text-shadow: -1px -1px 0 #000, /* Top-left shadow */
+                 1px -1px 0 #000,  /* Top-right shadow */
+                 -1px 1px 0 #000,  /* Bottom-left shadow */
+                 1px 1px 0 #000;   /* Bottom-right shadow */
+    border: none; /* Remove borders */
+    margin: 0; /* Remove margin between posts */
+    padding: 0; /* Remove padding inside posts */
+    box-sizing: border-box; /* Include padding and borders in width/height */
+}
+
+/* Optional: Make specific posts larger */
+.post.large {
+    grid-column: span 2; /* Span 2 columns */
+    grid-row: span 2; /* Span 2 rows */
 }
 
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
     body {
         flex-direction: column;
-        padding: 10px;
     }
 
     header {
@@ -330,12 +340,12 @@ iframe {
 
     main {
         padding: 10px;
-        margin: 10px 0;
+        margin: 0px 0;
     }
 
     section {
         padding: 10px;
-        margin: 10px 0;
+        margin: 0;
     }
 
     footer {
@@ -368,12 +378,10 @@ iframe {
 
     main {
         padding: 5px;
-        margin: 5px 0;
     }
 
     section {
         padding: 5px;
-        margin: 5px 0;
     }
 
     footer {
@@ -395,49 +403,33 @@ iframe {
     }
 }
 
-/* Ensure images remain centered */
-.image-container {
-    position: relative;
-    display: block;
-    text-align: center;
-    margin: 0 auto; /* Center the image horizontally */
-  }
-  
-.caption {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 14px;
-    font-family: 'DM Sans', sans-serif;
-    margin-top: 10px;
-    display: inline-block; 
-  }
+
 
 /* Navigation styles */
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10;
 }
 
 nav ul li {
     display: inline-block;
-    margin-right: 10px;
 }
 
 .post-link {
-    width: 350px; /* Adjust the size as needed */
-    height: 350px; /* Adjust the size as needed */
+    width: 600px; /* Adjust the size as needed */
+    height: 600px; /* Adjust the size as needed */
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px; /* Optional: add rounded corners */
-    margin: 1px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
-    transition: transform 1.0s;
+    border: none;
     text-decoration: none; /* Remove underline from link */
     color: rgb(255, 255, 255); /* Ensure text color is white */
+    text-shadow: -1px -1px 0 #000, /* Top-left shadow */
+                 1px -1px 0 #000,  /* Top-right shadow */
+                 -1px 1px 0 #000,  /* Bottom-left shadow */
+                 1px 1px 0 #000;   /* Bottom-right shadow */
 }
 
 .post-link div {
@@ -448,13 +440,26 @@ nav ul li {
 }
 
 .post-link:hover {
-    transform: scale(1.05); /* Optional: add a hover effect */
     text-decoration: none; /* Remove underline from link */
 }
 
-.post-link:hover div {
-    text-decoration: none; /* Ensure no underline on hover */
-}
+/* Ensure images remain centered */
+.image-container {
+    position: center;
+    display: inline-block;
+    text-align: wrap;
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+.caption {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit, sans-serif;
+    margin-top: 10px;
+    display: inline-block; 
+  }
 
 /* Smooth scrolling */
 html {

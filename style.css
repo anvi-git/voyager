@@ -19,17 +19,18 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(135deg, #ffffff, #ffffff);
+    /*background: linear-gradient(135deg, #0da7ca, #8de2f7);*/
+    background-color: #0da7ca;
 }
 /* HEADER */
 header {
     font-family: 'DM Sans', sans-serif;
-    background-color: #000000;
+    background-color: #0da7ca;
     color: #ffffff;
     padding: 20px;
     text-align: left;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
 }
 header h1 {
     margin: 0;
@@ -59,11 +60,11 @@ header p {
     align-items: right;
     gap: 10px;
 }
-  
+
 .header-button {
     background-color: #fffefe; /* GitHub color */
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(16, 181, 222);
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -112,7 +113,7 @@ header p {
 
 #site-title a {
     text-decoration: none;
-    color: #000000;
+    color: #088ab6;
     cursor: pointer;
 }  
 #site-title a:hover {
@@ -123,8 +124,9 @@ header p {
 .banner {
     display: flex;
     justify-content: center;
-    background-color: #000000;
+    background-color: #088ab6;
     padding: 10px 0;
+    border-radius: 5px;
 } 
 .banner section {
     margin: 0 10px;
@@ -189,7 +191,7 @@ p {
 
 /* FOOTER */
 footer {
-    background-color: #000000;
+    background-color: #08040481;
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -263,13 +265,14 @@ iframe {
     background: transparent;
     margin-bottom: 20px;
   }
+
 /* Container for posts */
 .posts-container {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack posts vertically */
     align-items: flex-start; /* Align posts to the left */
     gap: 25px; /* Add spacing between posts */
-    padding: 1px; /* Add padding around the container */
+    padding: 5px; /* Add padding around the container */
 }
 
 /* Individual post styling */
@@ -376,8 +379,8 @@ iframe {
     height: 16px;
     }
 }
-/* Ensure images remain centered */
 
+/* Ensure images remain centered */
 .image-container {
     position: relative;
     display: block;
@@ -417,7 +420,7 @@ nav ul li {
     border-radius: 10px; /* Optional: add rounded corners */
     margin: 1px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
-    transition: transform 0.3s;
+    transition: transform 1.0s;
     text-decoration: none; /* Remove underline from link */
     color: rgb(255, 255, 255); /* Ensure text color is white */
 }

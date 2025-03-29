@@ -1,6 +1,7 @@
 /* filepath: /Users/anvi/backyard_thoughts/style.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
 @font-face {
     font-family: "Canicule Display v0.1 Trial Light";
     src: url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.eot");
@@ -10,9 +11,23 @@
          url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.ttf") format("truetype"),
          url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.svg#Canicule Display v0.1 Trial Light") format("svg");
 }
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('fonts/jetbrains-mono/JetBrainsMono-Regular.woff2') format('woff2'),
+         url('fonts/jetbrains-mono/JetBrainsMono-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('fonts/jetbrains-mono/JetBrainsMono-Bold.woff2') format('woff2'),
+         url('fonts/jetbrains-mono/JetBrainsMono-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
 /* BODY */
 body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'JetBrains Mono', sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -24,7 +39,7 @@ body {
 }
 /* HEADER */
 header {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'JetBrains Mono', sans-serif;
     background-color: #0da7ca;
     color: #ffffff;
     padding: 20px;

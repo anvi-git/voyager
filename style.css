@@ -416,8 +416,8 @@ nav ul li {
 }
 
 .post-link {
-    width: 600px; /* Adjust the size as needed */
-    height: 600px; /* Adjust the size as needed */
+    width: 350px; /* Adjust the size as needed */
+    height: 350px; /* Adjust the size as needed */
     background-size: cover;
     background-position: center;
     display: flex;

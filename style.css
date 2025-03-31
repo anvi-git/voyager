@@ -365,6 +365,14 @@ iframe {
     width: 20px; /* Reduce icon size */
     height: 20px;
     }
+
+    .posts-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Smaller columns */
+    }
+
+    .post {
+        height: 200px; /* Reduce height for smaller screens */
+    }
 }
 
 @media (max-width: 480px) {
@@ -401,6 +409,14 @@ iframe {
     width: 16px; /* Further reduce icon size */
     height: 16px;
     }
+    .posts-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Even smaller columns */
+    }
+
+    .post {
+        height: 150px; /* Further reduce height */
+    }
+}    
 }
 
 

@@ -21,24 +21,28 @@
       
       const response = await fetch(proxyUrl);
       const data = await response.json();
-
+  
       const postsContainer = document.getElementById('substack-posts');
-
+  
       data.items.forEach(item => {
         const title = item.title;
         const link = item.link;
         const description = item.description;
-
+        const image = item.enclosure ? item.enclosure.link : ''; // Extract image URL if available
+  
         // Create a post element
         const postElement = document.createElement('div');
         postElement.innerHTML = `
-          <h2><a href="${link}" target="_blank">${title}</a></h2>
-          <p>${description}</p>
+          <div class="post">
+            ${image ? `<img src="${image}" alt="${title}" class="post-image">` : ''}
+            <h2><a href="${link}" target="_blank">${title}</a></h2>
+            <p>${description}</p>
+          </div>
         `;
         postsContainer.appendChild(postElement);
       });
     }
-
+  
     // Fetch and display posts on page load
     fetchSubstackPosts();
   </script>

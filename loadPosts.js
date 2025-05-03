@@ -82,13 +82,14 @@ async function loadPostBackgrounds() {
     }
   });
 }
-
 async function loadPostBackgrounds() {
   const rssFeedUrl = "https://spaceofsound.substack.com/feed"; // Replace with your Substack RSS feed URL
+  const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(rssFeedUrl)}`;
 
   try {
-      const response = await fetch(rssFeedUrl);
-      const rssText = await response.text();
+      const response = await fetch(proxyUrl);
+      const data = await response.json();
+      const rssText = data.contents;
 
       // Parse the RSS feed
       const parser = new DOMParser();

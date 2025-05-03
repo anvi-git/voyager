@@ -17,21 +17,17 @@
   <script>
     async function fetchSubstackPosts() {
       const rssUrl = 'https://spaceofsound.substack.com/feed';
-      const response = await fetch(rssUrl);
-      const rssText = await response.text();
+      const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+      
+      const response = await fetch(proxyUrl);
+      const data = await response.json();
 
-      // Parse the RSS feed
-      const parser = new DOMParser();
-      const xmlDoc = parser.parseFromString(rssText, 'application/xml');
-
-      // Extract items (posts)
-      const items = xmlDoc.querySelectorAll('item');
       const postsContainer = document.getElementById('substack-posts');
 
-      items.forEach(item => {
-        const title = item.querySelector('title').textContent;
-        const link = item.querySelector('link').textContent;
-        const description = item.querySelector('description').textContent;
+      data.items.forEach(item => {
+        const title = item.title;
+        const link = item.link;
+        const description = item.description;
 
         // Create a post element
         const postElement = document.createElement('div');

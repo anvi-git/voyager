@@ -83,45 +83,6 @@ async function loadPostBackgrounds() {
   });
 }
 
-async function loadPostBackgrounds() {
-  const rssFeedUrl = "https://spaceofsound.substack.com/feed"; // Replace with your Substack RSS feed URL
-
-  try {
-      const response = await fetch(rssFeedUrl);
-      const rssText = await response.text();
-
-      // Parse the RSS feed
-      const parser = new DOMParser();
-      const rssDoc = parser.parseFromString(rssText, "application/xml");
-
-      // Get all items (posts) from the RSS feed
-      const items = rssDoc.querySelectorAll("item");
-
-      // Select the <ul> element in the "spacesound" section
-      const postList = document.querySelector("main nav ul");
-      postList.innerHTML = ""; // Clear existing posts
-
-      // Loop through the items and create list elements
-      items.forEach((item) => {
-          const title = item.querySelector("title").textContent;
-          const link = item.querySelector("link").textContent;
-
-          // Create a new list item
-          const listItem = document.createElement("li");
-          listItem.innerHTML = `
-              <a href="${link}" target="_blank" class="post-link">
-                  <div>${title}</div>
-              </a>
-          `;
-
-          // Append the list item to the post list
-          postList.appendChild(listItem);
-      });
-  } catch (error) {
-      console.error("Error loading posts:", error);
-  }
-}
-
 document.addEventListener('DOMContentLoaded', () => {
   const currentPage = window.location.pathname.split('/').pop();
   loadPosts('posts.html', 'post', 'today-posts', 'previous-posts');

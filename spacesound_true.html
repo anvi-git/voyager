@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Substack Posts</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <h1>Latest Posts from Substack</h1>
+  <div id="substack-posts">
+    <!-- Posts will be dynamically inserted here -->
+  </div>
+
+  <script>
+    async function fetchSubstackPosts() {
+      const rssUrl = 'https://spaceofsound.substack.com/feed';
+      const response = await fetch(rssUrl);
+      const rssText = await response.text();
+
+      // Parse the RSS feed
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(rssText, 'application/xml');
+
+      // Extract items (posts)
+      const items = xmlDoc.querySelectorAll('item');
+      const postsContainer = document.getElementById('substack-posts');
+
+      items.forEach(item => {
+        const title = item.querySelector('title').textContent;
+        const link = item.querySelector('link').textContent;
+        const description = item.querySelector('description').textContent;
+
+        // Create a post element
+        const postElement = document.createElement('div');
+        postElement.innerHTML = `
+          <h2><a href="${link}" target="_blank">${title}</a></h2>
+          <p>${description}</p>
+        `;
+        postsContainer.appendChild(postElement);
+      });
+    }
+
+    // Fetch and display posts on page load
+    fetchSubstackPosts();
+  </script>
+</body>
+</html>

@@ -297,10 +297,6 @@ iframe {
     justify-content: center; /* Center content horizontally */
     text-align: center; /* Center-align text inside posts */
     color: rgb(255, 255, 255); /* Ensure text color is white */
-    text-shadow: -1px -1px 0 #000, /* Top-left shadow */
-                 1px -1px 0 #000,  /* Top-right shadow */
-                 -1px 1px 0 #000,  /* Bottom-left shadow */
-                 1px 1px 0 #000;   /* Bottom-right shadow */
     border: none; /* Remove borders */
     margin: 0; /* Remove margin between posts */
     padding: 0; /* Remove padding inside posts */

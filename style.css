@@ -305,6 +305,9 @@ iframe {
     margin: 0; /* Remove margin between posts */
     padding: 0; /* Remove padding inside posts */
     box-sizing: border-box; /* Include padding and borders in width/height */
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
 }
 
 /* Optional: Make specific posts larger */
@@ -457,6 +460,14 @@ nav ul li {
 .post-link:hover {
     text-decoration: none; /* Remove underline from link */
 }
+
+/* Post Image */
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
 
 /* Ensure images remain centered */
 .image-container {

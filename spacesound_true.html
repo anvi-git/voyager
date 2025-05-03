@@ -9,12 +9,24 @@
   <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
 </head>
 <body>
+  <div id="header-placeholder"></div>
   <h1>Latest Posts from Substack</h1>
   <div id="substack-posts">
     <!-- Posts will be dynamically inserted here -->
   </div>
+  <div id="header-placeholder"></div>
 
   <script>
+    // Function to load external HTML content into a placeholder
+    async function loadHTML(filePath, placeholderId) {
+      const response = await fetch(filePath);
+      const htmlContent = await response.text();
+      document.getElementById(placeholderId).innerHTML = htmlContent;
+    }
+
+    // Load header and footer dynamically
+    loadHTML('header.html', 'header-placeholder');
+    loadHTML('footer.html', 'footer-placeholder');
     async function fetchSubstackPosts() {
       const rssUrl = 'https://spaceofsound.substack.com/feed';
       const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;

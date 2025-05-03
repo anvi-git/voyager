@@ -10,16 +10,15 @@
 </head>
 <body>
   <div include-html="header.html"></div>
-    <main>
+  <main>
       <h1>Latest Posts from Substack</h1>
       <div id="substack-posts">
         <!-- Posts will be dynamically inserted here -->
       </div>
-
       <script>
         async function fetchSubstackPosts() {
           const rssUrl = 'https://spaceofsound.substack.com/feed';
-          const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}&count=30`;      
+          const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}&count=20`;      
           const response = await fetch(proxyUrl);
           const data = await response.json();
 
@@ -43,7 +42,7 @@
         // Fetch and display posts on page load
         fetchSubstackPosts();
       </script>
-    </main>
+  </main>
   <div include-html="footer.html"></div>
 </body>
 </html>

@@ -9,37 +9,41 @@
   <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <h1>Latest Posts from Substack</h1>
-  <div id="substack-posts">
-    <!-- Posts will be dynamically inserted here -->
-  </div>
+  <div include-html="header.html"></div>
+    <main>
+      <h1>Latest Posts from Substack</h1>
+      <div id="substack-posts">
+        <!-- Posts will be dynamically inserted here -->
+      </div>
 
-  <script>
-    async function fetchSubstackPosts() {
-      const rssUrl = 'https://spaceofsound.substack.com/feed';
-      const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}&count=30`;      
-      const response = await fetch(proxyUrl);
-      const data = await response.json();
+      <script>
+        async function fetchSubstackPosts() {
+          const rssUrl = 'https://spaceofsound.substack.com/feed';
+          const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}&count=30`;      
+          const response = await fetch(proxyUrl);
+          const data = await response.json();
 
-      const postsContainer = document.getElementById('substack-posts');
+          const postsContainer = document.getElementById('substack-posts');
 
-      data.items.forEach(item => {
-        const title = item.title;
-        const link = item.link;
-        const description = item.description;
+          data.items.forEach(item => {
+            const title = item.title;
+            const link = item.link;
+            const description = item.description;
 
-        // Create a post element
-        const postElement = document.createElement('div');
-        postElement.innerHTML = `
-          <h2><a href="${link}" target="_blank">${title}</a></h2>
-          <p>${description}</p>
-        `;
-        postsContainer.appendChild(postElement);
-      });
-    }
+            // Create a post element
+            const postElement = document.createElement('div');
+            postElement.innerHTML = `
+              <h2><a href="${link}" target="_blank">${title}</a></h2>
+              <p>${description}</p>
+            `;
+            postsContainer.appendChild(postElement);
+          });
+        }
 
-    // Fetch and display posts on page load
-    fetchSubstackPosts();
-  </script>
+        // Fetch and display posts on page load
+        fetchSubstackPosts();
+      </script>
+    </main>
+  <div include-html="footer.html"></div>
 </body>
 </html>

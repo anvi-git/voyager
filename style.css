@@ -43,15 +43,15 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(135deg, #0da7ca, #8de2f7);
-    background-color: #0da7ca;
+    background: linear-gradient(135deg, #rgb(118, 116, 116), #rgb(118, 116, 116));
+    background-color: rgb(118, 116, 116);
 }
 /* HEADER */
 header {
     font-family: "Bebas Neue", sans-serif;
     font-optical-sizing: auto;
-    background-color: #0da7ca;
-    color: #ffffff;
+    background-color: rgb(118, 116, 116);
+    color: rgb(118, 116, 116);
     padding: 2px;
     text-align: center;
     border-radius: 10px;
@@ -75,7 +75,7 @@ header p {
 .header-button {
     background-color: #ffffff; /* GitHub color */
     border: none;
-    color: rgb(16, 181, 222);
+    color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -139,7 +139,7 @@ header p {
 }
 #site-title a {
     text-decoration: none;
-    color: #088ab6;
+    color: #000000;
     cursor: pointer;
 }  
 #site-title a:hover {
@@ -150,7 +150,7 @@ header p {
 .banner {
     display: flex;
     justify-content: center;
-    background-color: #088ab6;
+    background-color: #333333;
     padding: 10px 0;
     border-radius: 5px;
 } 

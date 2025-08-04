@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
 @font-face {
     font-family: "Canicule Display v0.1 Trial Light";
     src: url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.eot");
@@ -25,9 +30,12 @@
     font-weight: 400;
     font-style: normal;
 }
+
 /* BODY */
 body {
-    font-family: 'JetBrains Mono', sans-serif;
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -39,7 +47,8 @@ body {
 }
 /* HEADER */
 header {
-    font-family: 'JetBrains Mono', sans-serif;
+    font-family: "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;
     background-color: #0da7ca;
     color: #ffffff;
     padding: 2px;
@@ -48,6 +57,7 @@ header {
     /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
 }
 header h1 {
+    font-family: "Bebas Neue", sans-serif;
     margin: 0;
     font-size: 5.5em;
     font-weight: 700;

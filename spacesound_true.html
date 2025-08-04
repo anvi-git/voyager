@@ -11,8 +11,17 @@
 <body>
   <div id="header-placeholder"></div>
   <h1>From my newsletter Space Sound on Substack!</h1>
-  <div id="substack-posts">
-    <!-- Posts will be dynamically inserted here -->
+  <div class="main-container">
+    <div class="left-column">
+      <h2>Latest Posts</h2>
+      <ul id="substack-posts-list">
+        <!-- Posts will be dynamically inserted here -->
+      </ul>
+    </div>
+    <div class="right-column">
+      <h2>More Stuff</h2>
+      <p>Put anything you want here: widgets, links, info, etc.</p>
+    </div>
   </div>
   <div id="header-placeholder"></div>
 
@@ -27,6 +36,7 @@
     // Load header and footer dynamically
     loadHTML('header.html', 'header-placeholder');
     loadHTML('footer.html', 'footer-placeholder');
+
     async function fetchSubstackPosts() {
       const rssUrl = 'https://spaceofsound.substack.com/feed';
       const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
@@ -34,24 +44,12 @@
       const response = await fetch(proxyUrl);
       const data = await response.json();
   
-      const postsContainer = document.getElementById('substack-posts');
+      const postsList = document.getElementById('substack-posts-list');
   
-      data.items.forEach(item => {
-        const title = item.title;
-        const link = item.link;
-        const description = item.description;
-        const image = item.enclosure ? item.enclosure.link : ''; // Extract image URL if available
-  
-        // Create a post element
-        const postElement = document.createElement('div');
-        postElement.innerHTML = `
-          <div class="post">
-            ${image ? `<img src="${image}" alt="${title}" class="post-image">` : ''}
-            <h2><a href="${link}" target="_blank">${title}</a></h2>
-            <p>${description}</p>
-          </div>
-        `;
-        postsContainer.appendChild(postElement);
+      data.items.slice(0, 10).forEach(item => { // Show only 5 latest posts
+        const li = document.createElement('li');
+        li.innerHTML = `<a href="${item.link}" target="_blank">${item.title}</a>`;
+        postsList.appendChild(li);
       });
     }
   

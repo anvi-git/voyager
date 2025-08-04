@@ -105,7 +105,7 @@ header p {
 }
 
 .header-button .svg-icon:hover {
-    transform: scale(1.1); /* Add a hover effect */
+    transform: scale(1.2); /* Add a hover effect */
 }
 
 .header-button .png-icon {

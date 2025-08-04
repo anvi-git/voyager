@@ -34,7 +34,7 @@
 /* BODY */
 body {
     font-family: "Zain", sans-serif;
-    font-weight: 400;
+    font-weight: 00;
     font-style: normal;
     text-align: center;
     margin: 0;
@@ -87,7 +87,7 @@ header p {
 }
   
 .header-button:hover {
-    background-color: #555;
+    background-color: #ffffff;
 }
   
 .header-button i {

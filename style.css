@@ -44,14 +44,14 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background: linear-gradient(135deg, #rgb(118, 116, 116), #rgb(118, 116, 116));
-    background-color: rgb(118, 116, 116);
+    background-color: #dcdcdcf2;
 }
 /* HEADER */
 header {
     font-family: "Bebas Neue", sans-serif;
     font-optical-sizing: auto;
-    background-color: rgb(118, 116, 116);
-    color: rgb(118, 116, 116);
+    background-color: #dcdcdcf2;
+    color: #dcdcdcf2;
     padding: 2px;
     text-align: center;
     border-radius: 10px;

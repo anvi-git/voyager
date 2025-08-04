@@ -46,6 +46,7 @@ body {
     background: linear-gradient(135deg, #rgb(118, 116, 116), #rgb(118, 116, 116));
     background-color: #dcdcdcf2;
 }
+
 /* HEADER */
 header {
     font-family: "Bebas Neue", sans-serif;
@@ -55,19 +56,18 @@ header {
     padding: 2px;
     text-align: center;
     border-radius: 10px;
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
 }
 header h1 {
     font-family: "Bebas Neue", sans-serif;
     margin: 0;
     font-size: 5.5em;
     font-weight: 700;
-    text-align: center;
-    border-radius: 10px;
+    text-align: left;
+    border-radius: 0px;
 }
 header p {
     margin: 10px 0 0;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 400;
     border-radius: 10px;
 }

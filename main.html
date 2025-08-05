@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="includeHTML.js"></script>
+    <script src="updateDate.js"></script>
+    <script src="loadPosts.js"></script>
+</head>
+<body onload="includeHTML(); updateDate();">
+    <div include-html="header.html"></div>
+    <main>
+        <h1>Welcome to my blog</h1>
+        <div id="post-container"></div>
+        <div id="today-posts"></div>
+        <div id="previous-posts"></div>
+    </main>
+    <div include-html="footer.html"></div>
+</body>
+</html>

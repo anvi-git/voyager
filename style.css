@@ -39,7 +39,7 @@
 body {
     font-family: "Josephine Sans", sans-serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 18px;
     font-style: normal;
     text-align: center;
     margin: 0;
@@ -132,7 +132,7 @@ header p {
 /* Title Container */
 #title-container {
     background-color: #ffffff;
-    padding: 25px;
+    padding: 20px;
     text-align: center;
     align-items: center;
     display: flex;
@@ -159,7 +159,7 @@ header p {
     justify-content: center;
     background-color: #333333;
     padding: 10px 0;
-    border-radius: 5px;
+    border-radius: 3px;
 } 
 .banner section {
     margin: 0 10px;
@@ -169,7 +169,7 @@ header p {
 }
 .banner h2 {
     color: #000000;
-    font-weight: 700;
+    font-weight: 70;
     margin: 0;
 }
 .banner a {
@@ -184,7 +184,7 @@ header p {
 main {
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2px;
     background-color: #dcdcdcf2;
 }
 
@@ -398,7 +398,7 @@ iframe {
     }
 
     .banner h2 {
-        font-size: 1em;
+        font-size: 0.5em;
     }
 
     main {

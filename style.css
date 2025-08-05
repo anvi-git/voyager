@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Monoton&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Plaster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Monoton&family=Plaster&display=swap');
 
 @font-face {
     font-family: "Canicule Display v0.1 Trial Light";
@@ -36,7 +37,7 @@
 
 /* BODY */
 body {
-    font-family: "Metamorphous", sans-serif;
+    font-family: "Josephine Sans", sans-serif;
     font-weight: 400;
     font-size: 30px;
     font-style: normal;

@@ -38,7 +38,7 @@
 /* BODY */
 body {
     font-family: "Josephine Sans", sans-serif;
-    font-weight: 400;
+    font-weight: 4;
     font-size: 18px;
     font-style: normal;
     text-align: center;
@@ -68,14 +68,14 @@ header h1 {
     font-family: "Plaster", sans-serif;
     margin: 0;
     font-size: 5.5em;
-    font-weight: 700;
+    font-weight: 4;
     text-align: left;
     border-radius: 0px;
 }
 header p {
     margin: 10px 0 0;
     font-size: 1.3em;
-    font-weight: 400;
+    font-weight: 4;
     border-radius: 10px;
 }
 
@@ -169,7 +169,7 @@ header p {
 }
 .banner h2 {
     color: #000000;
-    font-weight: 70;
+    font-weight: 4;
     margin: 0;
 }
 .banner a {
@@ -209,12 +209,12 @@ section {
 
 h2 {
     color: #000000;
-    font-weight: 700;
+    font-weight: 4;
 }
 
 p {
     color: rgb(0, 0, 0);
-    font-weight: 400;
+    font-weight: 4;
 }
 
 /* FOOTER */
@@ -260,7 +260,7 @@ aside {
 }
 aside h2 {
     color: #000000;
-    font-weight: 700;
+    font-weight: 4;
 }
 aside ul {
     list-style-type: none;

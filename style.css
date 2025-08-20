@@ -526,3 +526,26 @@ html, body {
     height: 100vh;
     border: none;
 }
+
+
+#substack-posts-list {
+  list-style: none;
+  padding: 0;
+}
+.substack-post {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+.substack-post h3 {
+  margin: 0 0 0.5rem;
+}
+.substack-post img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+}
+.post-preview {
+  font-size: 0.95rem;
+  color: #444;
+}

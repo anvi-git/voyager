@@ -38,12 +38,22 @@
       
       const response = await fetch(proxyUrl);
       const data = await response.json();
-  
+
       const postsList = document.getElementById('substack-posts-list');
-  
-      data.items.slice(0, 10).forEach(item => { // Show only 5 latest posts
+      postsList.innerHTML = ""; // clear previous
+
+      data.items.slice(0, 10).forEach(item => {
         const li = document.createElement('li');
-        li.innerHTML = `<a href="${item.link}" target="_blank">${item.title}</a>`;
+        li.classList.add("substack-post");
+
+        // rss2json provides `content` (full) and `description` (preview/first part)
+        const title = `<h3><a href="${item.link}" target="_blank">${item.title}</a></h3>`;
+        const preview = `<div class="post-preview">${item.description}</div>`;
+
+        // Sometimes Substack has an `enclosure.link` for images
+        const image = item.enclosure?.link ? `<img src="${item.enclosure.link}" alt="Post image">` : "";
+
+        li.innerHTML = `${title}${image}${preview}`;
         postsList.appendChild(li);
       });
     }

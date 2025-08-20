@@ -14,9 +14,9 @@
   <div class="main-container">
     <div class="left-column">
       <h2>Latest Posts</h2>
-      <ul id="substack-posts-list">
+      <div id="substack-posts-list">
         <!-- Posts will be dynamically inserted here -->
-      </ul>
+      </div>
     </div>
   <div id="header-placeholder"></div>
 
@@ -43,8 +43,8 @@
       postsList.innerHTML = ""; // clear previous
 
       data.items.slice(0, 10).forEach(item => {
-        const li = document.createElement('li');
-        li.classList.add("substack-post");
+        const postDiv = document.createElement('div');
+        postDiv.classList.add("substack-post");
 
         // rss2json provides `content` (full) and `description` (preview/first part)
         const title = `<h3><a href="${item.link}" target="_blank">${item.title}</a></h3>`;
@@ -53,8 +53,8 @@
         // Sometimes Substack has an `enclosure.link` for images
         const image = item.enclosure?.link ? `<img src="${item.enclosure.link}" alt="Post image">` : "";
 
-        li.innerHTML = `${title}${image}${preview}`;
-        postsList.appendChild(li);
+        postDiv.innerHTML = `${title}${image}${preview}`;
+        postsList.appendChild(postDiv);
       });
     }
   

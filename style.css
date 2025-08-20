@@ -49,6 +49,7 @@ body {
     min-height: 100vh;
     background: linear-gradient(135deg, #rgb(118, 116, 116), #rgb(118, 116, 116));
     background-color: #dcdcdcf2;
+    width: 100%;
 }
 
 /* HEADER */

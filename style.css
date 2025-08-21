@@ -41,7 +41,7 @@ body {
     font-weight: 4;
     font-size: 18px;
     font-style: normal;
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 0;
     display: flex;
@@ -186,6 +186,7 @@ main {
     margin: 0 auto;
     padding: 2px;
     background-color: #dcdcdcf2;
+    text-align: left;
 }
 
 /* Justify text to the left */
@@ -313,7 +314,7 @@ iframe {
     display: flex; /* Use flexbox for content alignment */
     align-items: center; /* Center content vertically */
     justify-content: center; /* Center content horizontally */
-    text-align: center; /* Center-align text inside posts */
+    text-align: left; /* Center-align text inside posts */
     color: rgb(255, 255, 255); /* Ensure text color is white */
     border: none; /* Remove borders */
     margin: 0; /* Remove margin between posts */

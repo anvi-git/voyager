@@ -68,14 +68,13 @@
         }
 
         const descriptionText = stripHtml(item.description || item.content || '');
-        const subtitle = truncate(descriptionText.split('. ')[0] || '', 120);
-        const excerptSource = descriptionText.startsWith(subtitle) ? descriptionText.slice(subtitle.length) : descriptionText;
-        const excerpt = truncate(excerptSource, 200);
+        // Build excerpt from the true start and remove awkward leading punctuation
+        const normalizedStart = descriptionText.replace(/^[\s\-–—.,;:()\[\]'"…]+/, '');
+        const excerpt = truncate(normalizedStart, 200);
 
         card.innerHTML = `
           <div class="overlay">
             <h3 class="title">${item.title}</h3>
-            ${subtitle ? `<div class=\"subtitle\">${subtitle}</div>` : ''}
             ${excerpt ? `<div class=\"excerpt\">${excerpt}</div>` : ''}
           </div>
         `;

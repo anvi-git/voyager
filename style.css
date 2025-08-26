@@ -533,20 +533,48 @@ html, body {
   list-style: none;
   padding: 0;
 }
-.substack-post {
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #ddd;
+.substack-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
 }
-.substack-post h3 {
-  margin: 0 0 0.5rem;
+.substack-card {
+  display: block;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-height: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
 }
-.substack-post img {
-  max-width: 100%;
-  border-radius: 8px;
-  margin: 0.5rem 0;
+.substack-card .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.85) 100%);
+  color: #fff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
-.post-preview {
+.substack-card .title {
+  margin: 0 0 6px;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.substack-card .subtitle {
+  margin: 0 0 6px;
   font-size: 0.95rem;
-  color: #444;
+  color: #e6e6e6;
+}
+.substack-card .excerpt {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #f0f0f0;
+}
+@media (max-width: 800px) {
+  .substack-grid {
+    grid-template-columns: 1fr;
+  }
 }

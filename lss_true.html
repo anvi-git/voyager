@@ -14,11 +14,12 @@
   <div class="main-container">
     <div class="left-column">
       <h2></h2>
-      <div id="substack-posts-list">
+      <div id="substack-posts-list" class="substack-grid">
         <!-- Posts will be dynamically inserted here -->
       </div>
     </div>
   <div id="header-placeholder"></div>
+  <div id="footer-placeholder"></div>
 
   <script>
     // Function to load external HTML content into a placeholder
@@ -32,6 +33,19 @@
     loadHTML('header.html', 'header-placeholder');
     loadHTML('footer.html', 'footer-placeholder');
 
+    function stripHtml(html) {
+      const tmp = document.createElement('div');
+      tmp.innerHTML = html;
+      return tmp.textContent || tmp.innerText || '';
+    }
+
+    function truncate(text, maxLength) {
+      if (!text) return '';
+      const clean = text.replace(/\s+/g, ' ').trim();
+      if (clean.length <= maxLength) return clean;
+      return clean.slice(0, maxLength).replace(/[,;:\-\s]+\S*$/, '') + '…';
+    }
+
     async function fetchSubstackPosts() {
       const rssUrl = 'https://lastscatteringsurface.substack.com/feed';
       const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
@@ -43,18 +57,30 @@
       postsList.innerHTML = ""; // clear previous
 
       data.items.slice(0, 10).forEach(item => {
-        const postDiv = document.createElement('div');
-        postDiv.classList.add("substack-post");
+        const card = document.createElement('a');
+        card.classList.add('substack-card');
+        card.href = item.link;
+        card.target = '_blank';
 
-        // rss2json provides `content` (full) and `description` (preview/first part)
-        const title = `<h3><a href="${item.link}" target="_blank">${item.title}</a></h3>`;
-        const preview = `<div class="post-preview">${item.description}</div>`;
+        const imageUrl = (item.enclosure && item.enclosure.link) || item.thumbnail || '';
+        if (imageUrl) {
+          card.style.backgroundImage = `url(${imageUrl})`;
+        }
 
-        // Sometimes Substack has an `enclosure.link` for images
-        const image = item.enclosure?.link ? `<img src="${item.enclosure.link}" alt="Post image">` : "";
+        const descriptionText = stripHtml(item.description || item.content || '');
+        const subtitle = truncate(descriptionText.split('. ')[0] || '', 120);
+        const excerptSource = descriptionText.startsWith(subtitle) ? descriptionText.slice(subtitle.length) : descriptionText;
+        const excerpt = truncate(excerptSource, 200);
 
-        postDiv.innerHTML = `${title}${image}${preview}`;
-        postsList.appendChild(postDiv);
+        card.innerHTML = `
+          <div class="overlay">
+            <h3 class="title">${item.title}</h3>
+            ${subtitle ? `<div class=\"subtitle\">${subtitle}</div>` : ''}
+            ${excerpt ? `<div class=\"excerpt\">${excerpt}</div>` : ''}
+          </div>
+        `;
+
+        postsList.appendChild(card);
       });
     }
 

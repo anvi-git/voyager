@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Article</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <script src="includeHTML.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('id') || '1';
+        const articles = {
+          '1': {
+            title: 'A Template Article',
+            date: '2025-08-27',
+            content: `
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Integer at aliquet ligula, sed molestie nibh. Cras ac tortor neque.</p>
+              <p>Aliquam erat volutpat. Suspendisse dictum, eros id consequat feugiat, ipsum arcu iaculis odio, quis venenatis lorem metus eget libero.</p>
+              <p>Curabitur eget urna rhoncus, feugiat libero vel, pretium magna. Vivamus feugiat, lorem at porta gravida, sem mi consectetur dui.</p>
+            `
+          },
+          '2': {
+            title: 'Another Sample Post',
+            date: '2025-08-27',
+            content: `
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non tortor consequat, imperdiet enim a, aliquet eros.</p>
+              <p>Duis ac sapien sed quam dapibus pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            `
+          }
+        };
+
+        const article = articles[id] || articles['1'];
+        document.getElementById('blog-article-title').textContent = article.title;
+        document.getElementById('blog-article-date').textContent = article.date;
+        document.getElementById('blog-article-body').innerHTML = article.content;
+      });
+    </script>
+</head>
+<body onload="includeHTML();">
+    <div include-html="header.html"></div>
+    <main id="blog-article">
+        <article class="blog-article-container">
+            <h1 id="blog-article-title"></h1>
+            <p class="blog-article-meta">Published <time id="blog-article-date"></time></p>
+            <section id="blog-article-body" class="blog-article-content"></section>
+        </article>
+    </main>
+    <div include-html="footer.html"></div>
+</body>
+</html>
+
+

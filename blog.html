@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <script src="includeHTML.js"></script>
+</head>
+<body onload="includeHTML();">
+    <div include-html="header.html"></div>
+    <main id="blog-page">
+        <h1>Blog</h1>
+        
+
+        <div id="blog-layout">
+            <section id="blog-articles">
+                <a class="blog-card" href="blog_article.html?id=1">
+                    <div class="blog-card-content">
+                        <h3 class="blog-card-title">A Template Article</h3>
+                        <p class="blog-card-excerpt">This is a short teaser that previews the article content. Click to read the full piece.</p>
+                    </div>
+                </a>
+
+                <a class="blog-card" href="blog_article.html?id=2">
+                    <div class="blog-card-content">
+                        <h3 class="blog-card-title">Another Sample Post</h3>
+                        <p class="blog-card-excerpt">A brief description to demonstrate how multiple posts will appear in the list.</p>
+                    </div>
+                </a>
+            </section>
+
+            <aside id="blog-sidebar">
+                <section>
+                    <h2>Most read</h2>
+                    <ul class="blog-sidebar-list">
+                        <li><a href="blog_article_1.html">A Template Article</a></li>
+                        <li><a href="blog_article_1.html">Another Sample Post</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Suggestions</h2>
+                    <ul class="blog-sidebar-list">
+                        <li><a href="spacesound_true.html">Space Sound newsletter</a></li>
+                        <li><a href="lss_true.html">LSS newsletter</a></li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+    </main>
+    <div include-html="footer.html"></div>
+</body>
+</html>
+
+

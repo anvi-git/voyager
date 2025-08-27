@@ -1,6 +1,6 @@
 window.BLOG_ARTICLES = {
   '1': {
-    title: 'A musical suggestion: Maribou State',
+    title: 'a musical suggestion: Maribou State',
     date: '2025-02-08',
     content: `
       <p>This is what I'm listening to lately:</p>
@@ -19,7 +19,7 @@ window.BLOG_ARTICLES = {
     `
   },
   '2': {
-    title: 'On Sulfur, Dante, and Gustave Doré',
+    title: 'on Sulfur, Dante, and Gustave Doré',
     date: '2025-02-09',
     content: `
         <p>Today I was in a conversation about sulfur and its connection with the devilish figures of literature. <br>
@@ -57,7 +57,7 @@ window.BLOG_ARTICLES = {
     `
   },
   '4': {
-    title: 'A brief reminder',
+    title: 'a brief reminder',
     date: '2025-02-12',
     content: `
               <p> 
@@ -70,7 +70,7 @@ window.BLOG_ARTICLES = {
     `
   },
   '5': {
-    title: 'To new paths',
+    title: 'to new paths',
     date: '2025-02-13',
     content: `
     <p> 
@@ -92,7 +92,7 @@ window.BLOG_ARTICLES = {
     `
   },
   '6': {
-    title: 'A poem by Matsuo Basho',
+    title: 'a poem by Matsuo Basho',
     date: '2025-02-14',
     content: `
       <p> 
@@ -128,7 +128,7 @@ window.BLOG_ARTICLES = {
     `
   },
   '7': {
-    title: 'We live in time',
+    title: 'we live in time',
     date: '2025-02-15',
     content: `
         <p> 

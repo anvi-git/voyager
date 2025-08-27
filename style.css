@@ -37,7 +37,7 @@
 
 /* BODY */
 body {
-    font-family: "Josephine Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 4;
     font-size: 18px;
     font-style: normal;
@@ -47,7 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(135deg, #rgb(118, 116, 116), #rgb(118, 116, 116));
+    background: linear-gradient(135deg, #dcdcdcf2, #dcdcdcf2);
     background-color: #dcdcdcf2;
 }
 
@@ -312,8 +312,7 @@ footer {
 }
 /* LINKS */
 a {
-    color: #0000ee;
-    text-decoration: none;
+    color: #000000;
 }
 a:hover {
     text-decoration: underline;
@@ -363,12 +362,12 @@ aside ul li a:hover {
 .post-date {
     display: block;
     font-size: 0.8em;
-    color: gray;
+    color: #dcdcdcf2;
     margin-top: 10px;
 }
 /* General styles for iframes */
 iframe {
-    border-radius: 12px;
+    border-radius: 10px;
     width: 100%;
     max-width: 100%;
     overflow: hidden;
@@ -548,7 +547,7 @@ nav ul li {
 }
 
 .post-link div {
-    color: inherit; /* Inherit color from parent */
+    color: black; /* Inherit color from parent */
     font-weight: bold;
     font-size: 1.2em;
     text-decoration: none; /* Remove underline from link */
@@ -626,7 +625,7 @@ html, body {
   background-size: cover;
   background-position: center;
   min-height: 260px;
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
 }

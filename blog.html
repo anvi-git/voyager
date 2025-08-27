@@ -36,7 +36,11 @@
         <script>
           document.addEventListener('DOMContentLoaded', () => {
             const container = document.getElementById('blog-articles');
-            const ids = Object.keys(window.BLOG_ARTICLES).sort();
+            const ids = Object.keys(window.BLOG_ARTICLES).sort((a, b) => {
+              const da = new Date(window.BLOG_ARTICLES[a].date || 0);
+              const db = new Date(window.BLOG_ARTICLES[b].date || 0);
+              return db - da; // newest first
+            });
             ids.forEach(id => {
               const { title, content } = window.BLOG_ARTICLES[id];
               const tmp = document.createElement('div');

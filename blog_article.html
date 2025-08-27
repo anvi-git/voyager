@@ -16,16 +16,21 @@
         document.getElementById('blog-article-title').textContent = article.title;
         document.getElementById('blog-article-date').textContent = article.date || '';
         document.getElementById('blog-article-body').innerHTML = article.content;
-        const list = document.getElementById('sidebar-posts');
-        if (list) {
-          const ids = Object.keys(window.BLOG_ARTICLES).filter(k => k !== id);
-          ids.forEach(otherId => {
+        // Populate Suggestions with three random posts (excluding current)
+        const suggestionsUl = document.getElementById('suggestions-list');
+        if (suggestionsUl) {
+          const allIds = Object.keys(window.BLOG_ARTICLES).filter(k => k !== id);
+          for (let i = allIds.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [allIds[i], allIds[j]] = [allIds[j], allIds[i]];
+          }
+          allIds.slice(0, 3).forEach(randId => {
             const li = document.createElement('li');
             const a = document.createElement('a');
-            a.href = `blog_article.html?id=${otherId}`;
-            a.textContent = window.BLOG_ARTICLES[otherId].title;
+            a.href = `blog_article.html?id=${randId}`;
+            a.textContent = window.BLOG_ARTICLES[randId].title;
             li.appendChild(a);
-            list.appendChild(li);
+            suggestionsUl.appendChild(li);
           });
         }
       });

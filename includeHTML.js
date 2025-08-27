@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", function() {
     if (siteTitleLink) {
       siteTitleLink.addEventListener("click", function(event) {
         event.preventDefault();
-        if (window.location.pathname !== "/index.html") {
-          window.location.href = "index.html";
+        if (window.location.pathname !== "/blog.html") {
+          window.location.href = "blog.html";
         }
       });
     } else {

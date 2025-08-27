@@ -11,6 +11,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Plaster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Monoton&family=Plaster&display=swap');
 
+:root {
+    --color-black: #000000;
+    --color-white: #ffffff;
+}
+
 @font-face {
     font-family: "Canicule Display v0.1 Trial Light";
     src: url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.eot");
@@ -131,7 +136,7 @@ header p {
 
 /* Title Container */
 #title-container {
-    background-color: #ffffff;
+    background-color: var(--color-white);
     padding: 20px;
     text-align: center;
     align-items: center;
@@ -168,12 +173,12 @@ header p {
     border-radius: 5px;
 }
 .banner h2 {
-    color: #000000;
+    color: var(--color-black);
     font-weight: 4;
     margin: 0;
 }
 .banner a {
-    color: #000000;
+    color: var(--color-black);
     text-decoration: none;
 }
 .banner a:hover {
@@ -200,7 +205,7 @@ main {
     gap: 12px;
     flex-wrap: wrap;
 }
-.blog-pages-nav a { color: #000000; }
+.blog-pages-nav a { color: var(--color-black); }
 
 #blog-layout {
     display: grid;
@@ -216,7 +221,7 @@ main {
 .blog-card {
     display: block;
     border-radius: 10px;
-    background: #ffffff;
+    background: var(--color-white);
     border: 1px solid #ddd;
     text-decoration: none;
     color: #000;
@@ -235,7 +240,7 @@ main {
 #blog-sidebar {
     position: sticky;
     top: 10px;
-    background: #ffffff;
+    background: var(--color-white);
     border-radius: 10px;
     padding: 16px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.08);
@@ -246,7 +251,7 @@ main {
     margin: 0;
 }
 .blog-sidebar-list li { margin: 6px 0; }
-.blog-sidebar-list a { color: #000000; }
+.blog-sidebar-list a { color: var(--color-black); }
 .blog-sidebar-list .header-button { padding: 6px; }
 .blog-sidebar-list .png-icon { width: 20px; height: 20px; }
 .blog-sidebar-list.icon-row { display: flex; gap: 8px; flex-wrap: wrap; }
@@ -254,15 +259,15 @@ main {
 
 /* Blog article */
 #blog-article .blog-article-container {
-    background: #ffffff;
+    background: var(--color-white);
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 16px;
     margin: 0;
 }
 #blog-article h1 { margin-top: 0; }
-.blog-article-meta { color: #000000; font-size: 0.9rem; }
-.blog-article-content p { color: #000; }
+.blog-article-meta { color: var(--color-black); font-size: 0.9rem; }
+.blog-article-content p { color: var(--color-black); }
 
 @media (max-width: 900px) {
     #blog-layout {
@@ -284,26 +289,26 @@ main img {
 
 /* SECTION */
 section {
-    background: linear-gradient(135deg, #ffffff, #ffffff);
+    background: linear-gradient(135deg, var(--color-white), var(--color-white));
     padding: 20px;
     margin: 0px 0;
     margin-bottom: 0px;
 }
 
 h2 {
-    color: #000000;
+    color: var(--color-black);
     font-weight: 4;
 }
 
 p {
-    color: rgb(0, 0, 0);
+    color: var(--color-black);
     font-weight: 4;
 }
 
 /* FOOTER */
 footer {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--color-black);
+    color: var(--color-white);
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -312,7 +317,7 @@ footer {
 }
 /* LINKS */
 a {
-    color: #000000;
+    color: var(--color-black);
 }
 a:hover {
     text-decoration: underline;
@@ -334,14 +339,14 @@ button:hover {
 }
 /* ASIDE */
 aside {
-    background-color: #ffffff;
+    background-color: var(--color-white);
     padding: 0;
     margin: 0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 aside h2 {
-    color: #000000;
+    color: var(--color-black);
     font-weight: 4;
 }
 aside ul {
@@ -539,7 +544,7 @@ nav ul li {
     justify-content: center;
     border: none;
     text-decoration: none; /* Remove underline from link */
-    color: rgb(255, 255, 255); /* Ensure text color is white */
+    color: var(--color-white); /* Ensure text color is white */
     text-shadow: -1px -1px 0 #000, /* Top-left shadow */
                  1px -1px 0 #000,  /* Top-right shadow */
                  -1px 1px 0 #000,  /* Bottom-left shadow */
@@ -633,7 +638,7 @@ html, body {
   position: absolute;
   inset: 0;
   background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.85) 100%);
-  color: #fff;
+  color: var(--color-white);
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -647,12 +652,12 @@ html, body {
 .substack-card .subtitle {
   margin: 0 0 6px;
   font-size: 0.95rem;
-  color: #ffffff;
+  color: var(--color-white);
 }
 .substack-card .excerpt {
   margin: 0;
   font-size: 0.9rem;
-  color: #ffffff;
+  color: var(--color-white);
 }
 @media (max-width: 800px) {
   .substack-grid {

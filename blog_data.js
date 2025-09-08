@@ -1,5 +1,14 @@
 window.BLOG_ARTICLES = {
-  '1': {
+// '2': {
+//     title: 'sulla organizzazione della vita',
+//     date: '2025-09-08',
+//     content: `
+//       <p> 
+      
+//       </p>
+//     `
+//   },
+'1': {
     title: 'a poem by Matsuo Basho',
     date: '2025-02-14',
     content: `

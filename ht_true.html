@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Substack Posts - Heralding Time </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+  <h2>From Heralding Time, my newsletter on the History and Philosophy of Science on Substack!</h2>
+  <div class="main-container">
+    <div class="left-column">
+      <h2></h2>
+      <div id="substack-posts-list" class="substack-grid">
+        <!-- Posts will be dynamically inserted here -->
+      </div>
+    </div>
+  <div id="header-placeholder"></div>
+  <div id="footer-placeholder"></div>
+
+  <script>
+    // Function to load external HTML content into a placeholder
+    async function loadHTML(filePath, placeholderId) {
+      const response = await fetch(filePath);
+      const htmlContent = await response.text();
+      document.getElementById(placeholderId).innerHTML = htmlContent;
+    }
+
+    // Load header and footer dynamically
+    loadHTML('header.html', 'header-placeholder');
+    loadHTML('footer.html', 'footer-placeholder');
+
+    function stripHtml(html) {
+      const tmp = document.createElement('div');
+      tmp.innerHTML = html;
+      return tmp.textContent || tmp.innerText || '';
+    }
+
+    function truncate(text, maxLength) {
+      if (!text) return '';
+      const clean = text.replace(/\s+/g, ' ').trim();
+      if (clean.length <= maxLength) return clean;
+      return clean.slice(0, maxLength).replace(/[,;:\-\s]+\S*$/, '') + '…';
+    }
+
+    async function fetchSubstackPosts() {
+      const rssUrl = 'https://heraldingtime.substack.com/feed';
+      const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+      
+      const response = await fetch(proxyUrl);
+      const data = await response.json();
+
+      const postsList = document.getElementById('substack-posts-list');
+      postsList.innerHTML = ""; // clear previous
+
+      data.items.slice(0, 10).forEach(item => {
+        const card = document.createElement('a');
+        card.classList.add('substack-card');
+        card.href = item.link;
+        card.target = '_blank';
+
+        const imageUrl = (item.enclosure && item.enclosure.link) || item.thumbnail || '';
+        if (imageUrl) {
+          card.style.backgroundImage = `url(${imageUrl})`;
+        }
+
+        const descriptionText = stripHtml(item.description || item.content || '');
+        // Build excerpt from the true start and remove awkward leading punctuation
+        const normalizedStart = descriptionText.replace(/^[\s\-–—.,;:()\[\]'"…]+/, '');
+        const excerpt = truncate(normalizedStart, 200);
+
+        card.innerHTML = `
+          <div class="overlay">
+            <h3 class="title">${item.title}</h3>
+            ${excerpt ? `<div class=\"excerpt\">${excerpt}</div>` : ''}
+          </div>
+        `;
+
+        postsList.appendChild(card);
+      });
+    }
+
+  
+    // Fetch and display posts on page load
+    fetchSubstackPosts();
+  </script>
+</body>
+</html>

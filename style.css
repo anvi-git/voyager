@@ -10,6 +10,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Monoton&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Plaster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Monoton&family=Plaster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 :root {
     --color-black: #000000;
@@ -59,7 +61,8 @@ body {
 /* HEADER */
 header {
     /* font-family: "Bebas Neue", sans-serif; */
-    font-family: "Plaster", sans-serif;
+    /* font-family: "Plaster", sans-serif; */
+    font-family: "MuseoModerno", sans-serif;
 
     font-optical-sizing: auto;
     background-color: #fffffff2;
@@ -70,10 +73,10 @@ header {
 }
 
 header h1 {
-    font-family: "Plaster", sans-serif;
+    font-family: "MuseoModerno", sans-serif;
     margin: 0;
     font-size: 5.5em;
-    font-weight: 4;
+    font-weight: 300;
     text-align: left;
     border-radius: 0px;
 }

@@ -111,8 +111,8 @@ header p {
 }
 
 .header-button .svg-icon {
-    width: 24px; /* Set a fixed width */
-    height: 24px; /* Set a fixed height */
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
     margin: 0; /* Remove unnecessary margins */
     padding: 0; /* Remove unnecessary padding */
     display: inline-block; /* Ensure the SVG is displayed inline */
@@ -125,8 +125,8 @@ header p {
 }
 
 .header-button .png-icon {
-    width: 24px; /* Set a fixed width */
-    height: 24px; /* Set a fixed height */
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
     margin: 0; /* Remove unnecessary margins */
     padding: 0; /* Remove unnecessary padding */
     display: inline-block; /* Ensure the PNG is displayed inline */

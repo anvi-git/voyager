@@ -15,7 +15,7 @@
 
 :root {
     --color-black: #000000;
-    --color-white: #ffffff;
+    --color-white: #ffffff00;
 }
 
 @font-face {
@@ -65,8 +65,12 @@ header {
     font-family: "MuseoModerno", sans-serif;
 
     font-optical-sizing: auto;
-    background-color: #fffffff2;
-    color: #fffffff2;
+    background-color: #ffffff;
+    background-image: url('images/landing_page/22agosto-1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
     padding: 2px;
     text-align: center;
     border-radius: 10px;
@@ -154,7 +158,10 @@ header p {
 }
 #site-title a {
     text-decoration: none;
-    color: #000000;
+    border: 2px solid #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #ffffff;
     cursor: pointer;
 }  
 #site-title a:hover {
@@ -165,23 +172,27 @@ header p {
 .banner {
     display: flex;
     justify-content: center;
-    background-color: #000000;
+    background-color: #00000000;
     padding: 10px 0;
     border-radius: 3px;
 } 
 .banner section {
     margin: 0 10px;
-    background-color: #ffffff;
+    background-color: #ffffff00;
     padding: 10px;
     border-radius: 5px;
 }
 .banner h2 {
-    color: var(--color-black);
+    color: #ffffff;
     font-weight: 4;
     margin: 0;
 }
+.banner h2 a {
+    color: #ffffff;
+    text-decoration: none;
+}
 .banner a {
-    color: var(--color-black);
+    color: #ffffff;
     text-decoration: none;
 }
 .banner a:hover {
@@ -225,7 +236,7 @@ main {
     display: block;
     border-radius: 10px;
     background: var(--color-white);
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     text-decoration: none;
     color: #000;
 }
@@ -246,7 +257,7 @@ main {
     background: var(--color-white);
     border-radius: 10px;
     padding: 16px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
 }
 .blog-sidebar-list {
     list-style: none;
@@ -299,7 +310,7 @@ section {
 }
 
 h2 {
-    color: var(--color-black);
+    color: #ffffff;
     font-weight: 4;
 }
 
@@ -349,7 +360,7 @@ aside {
     box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 aside h2 {
-    color: var(--color-black);
+    color: #ffffff;
     font-weight: 4;
 }
 aside ul {

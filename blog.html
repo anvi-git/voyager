@@ -40,11 +40,16 @@
               return db - da; // newest first
             });
             ids.forEach(id => {
-              const { title, content } = window.BLOG_ARTICLES[id];
-              const tmp = document.createElement('div');
-              tmp.innerHTML = content;
-              const firstParagraph = tmp.querySelector('p');
-              const excerpt = firstParagraph ? firstParagraph.textContent.trim() : '';
+              const { title, content, markdownFile, excerpt: excerptField } = window.BLOG_ARTICLES[id];
+              let excerpt = '';
+              if (excerptField) {
+                excerpt = excerptField;
+              } else if (content) {
+                const tmp = document.createElement('div');
+                tmp.innerHTML = content;
+                const firstParagraph = tmp.querySelector('p');
+                excerpt = firstParagraph ? firstParagraph.textContent.trim() : '';
+              }
 
               const a = document.createElement('a');
               a.className = 'blog-card';

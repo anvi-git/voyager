@@ -8,14 +8,23 @@
     <link rel="icon" href="favicon_io/backyard_thoughts.png" type="image/x-icon">
     <script src="includeHTML.js"></script>
     <script src="blog_data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', () => {
+      document.addEventListener('DOMContentLoaded', async () => {
         const params = new URLSearchParams(window.location.search);
         const id = params.get('id') || '1';
         const article = window.BLOG_ARTICLES[id] || window.BLOG_ARTICLES['1'];
         document.getElementById('blog-article-title').textContent = article.title;
         document.getElementById('blog-article-date').textContent = article.date || '';
-        document.getElementById('blog-article-body').innerHTML = article.content;
+
+        if (article.markdownFile) {
+          const response = await fetch(article.markdownFile);
+          const mdText = await response.text();
+          document.getElementById('blog-article-body').innerHTML = marked.parse(mdText);
+        } else {
+          document.getElementById('blog-article-body').innerHTML = article.content;
+        }
+
         // Populate Suggestions with three random posts (excluding current)
         const suggestionsUl = document.getElementById('suggestions-list');
         if (suggestionsUl) {

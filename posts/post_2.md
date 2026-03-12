@@ -1,3 +1,5 @@
+![atomos #0](images/posts/1/atomos0.png)
+
 *a thought from Mark Leidner*
 ---
 *[Italian version below — la versione italiana è qui sotto]*

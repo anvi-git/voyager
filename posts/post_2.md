@@ -1,6 +1,5 @@
-![atomos #0](images/posts/1/atomos0.png)
+<img src="images/posts/1/atomos0.png" alt="atomos #0" style="max-width: 40%; height: auto;">
 
-*a thought from Mark Leidner*
 ---
 *[Italian version below — la versione italiana è qui sotto]*
 

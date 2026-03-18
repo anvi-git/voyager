@@ -23,22 +23,7 @@ function includeHTML() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  includeHTML(); // Ensure includeHTML is called first to load the header
-
-  // Wait for the header to be included before setting the link
-  setTimeout(function() {
-    var siteTitleLink = document.getElementById("site-title-link");
-    if (siteTitleLink) {
-      siteTitleLink.addEventListener("click", function(event) {
-        event.preventDefault();
-        if (window.location.pathname !== "/blog.html") {
-          window.location.href = "blog.html";
-        }
-      });
-    } else {
-      console.error("Element with id 'site-title-link' not found.");
-    }
-  }, 100); // Adjust the timeout as needed
+  includeHTML();
 });
 
 document.addEventListener('DOMContentLoaded', function() {

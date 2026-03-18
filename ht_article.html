@@ -26,6 +26,12 @@
         return response.text();
       }
 
+      function showArticleError(containerId, message) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        container.innerHTML = `<p>Unable to load post content. ${message}</p>`;
+      }
+
       function renderArticleBody(containerId, bodyText) {
         const container = document.getElementById(containerId);
         if (!container) return;
@@ -68,12 +74,16 @@
       }
 
       document.addEventListener('DOMContentLoaded', async () => {
+        const bodyContainerId = 'ht-article-body';
+        try {
         const params = new URLSearchParams(window.location.search);
         const id = params.get('id') || '1';
-        const article = window.HT_ARTICLES[id] || window.HT_ARTICLES['1'];
+        const articles = window.HT_ARTICLES || {};
+        const fallbackId = Object.keys(articles)[0];
+        const article = articles[id] || articles[fallbackId];
 
         if (!article) {
-          document.getElementById('ht-article-body').innerHTML = '<p>Post not found.</p>';
+          showArticleError(bodyContainerId, 'Post not found.');
           return;
         }
 
@@ -82,23 +92,23 @@
 
         try {
           const mdText = await getArticleBody(article.markdownFile);
-          renderArticleBody('ht-article-body', mdText);
-          removeDuplicateTitle('ht-article-body', article.title);
+          renderArticleBody(bodyContainerId, mdText);
+          removeDuplicateTitle(bodyContainerId, article.title);
         } catch (error) {
-          document.getElementById('ht-article-body').innerHTML = '<p>Unable to load post content.</p>';
+          showArticleError(bodyContainerId, `File: ${article.markdownFile}.`);
         }
 
         const suggestionsUl = document.getElementById('ht-suggestions-list');
         if (suggestionsUl) {
-          const ids = Object.keys(window.HT_ARTICLES).sort((a, b) => {
-            const da = new Date(window.HT_ARTICLES[a].date || 0);
-            const db = new Date(window.HT_ARTICLES[b].date || 0);
+          const ids = Object.keys(articles).sort((a, b) => {
+            const da = new Date(articles[a].date || 0);
+            const db = new Date(articles[b].date || 0);
             return db - da;
           });
 
           const seriesIds = ids.filter(articleId => {
             if (articleId === id) return false;
-            const item = window.HT_ARTICLES[articleId] || {};
+            const item = articles[articleId] || {};
             const excerpt = (item.excerpt || '').toLowerCase();
             return excerpt.includes('on the motion of the earth') || excerpt.includes('sul moto della terra');
           });
@@ -112,11 +122,14 @@
               const li = document.createElement('li');
               const a = document.createElement('a');
               a.href = `ht_article.html?id=${seriesId}`;
-              a.textContent = window.HT_ARTICLES[seriesId].title;
+              a.textContent = articles[seriesId].title;
               li.appendChild(a);
               suggestionsUl.appendChild(li);
             });
           }
+        }
+        } catch (error) {
+          showArticleError(bodyContainerId, `Runtime error: ${error.message}`);
         }
       });
     </script>

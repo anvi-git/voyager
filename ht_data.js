@@ -3,7 +3,7 @@ window.HT_ARTICLES = {
     "title": "how the cycloid saved the British navy",
     "date": "2026-01-17",
     "excerpt": "of the mathematical curve that changed navigation",
-    "markdownFile": "posts/heralding_time/ht_post_how-the-cycloid-saved-the-british.md",
+    "markdownFile": "posts/heralding_time/ht_post_001-how-the-cycloid-saved-the-british-navy.md",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/fbe44cb8-5156-434c-82d5-3ddafcdf8469_1572x1048.png"
   },
   "2": {

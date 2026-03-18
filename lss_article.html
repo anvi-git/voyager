@@ -26,6 +26,12 @@
         return response.text();
       }
 
+      function showArticleError(containerId, message) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        container.innerHTML = `<p>Unable to load post content. ${message}</p>`;
+      }
+
       function renderArticleBody(containerId, bodyText) {
         const container = document.getElementById(containerId);
         if (!container) return;
@@ -68,12 +74,16 @@
       }
 
       document.addEventListener('DOMContentLoaded', async () => {
+        const bodyContainerId = 'lss-article-body';
+        try {
         const params = new URLSearchParams(window.location.search);
         const id = params.get('id') || '1';
-        const article = window.LSS_ARTICLES[id] || window.LSS_ARTICLES['1'];
+        const articles = window.LSS_ARTICLES || {};
+        const fallbackId = Object.keys(articles)[0];
+        const article = articles[id] || articles[fallbackId];
 
         if (!article) {
-          document.getElementById('lss-article-body').innerHTML = '<p>Post not found.</p>';
+          showArticleError(bodyContainerId, 'Post not found.');
           return;
         }
 
@@ -82,17 +92,17 @@
 
         try {
           const mdText = await getArticleBody(article.markdownFile);
-          renderArticleBody('lss-article-body', mdText);
-          removeDuplicateTitle('lss-article-body', article.title);
+          renderArticleBody(bodyContainerId, mdText);
+          removeDuplicateTitle(bodyContainerId, article.title);
         } catch (error) {
-          document.getElementById('lss-article-body').innerHTML = '<p>Unable to load post content.</p>';
+          showArticleError(bodyContainerId, `File: ${article.markdownFile}.`);
         }
 
         const suggestionsUl = document.getElementById('lss-suggestions-list');
         if (suggestionsUl) {
-          const allIds = Object.keys(window.LSS_ARTICLES).sort((a, b) => {
-            const da = new Date(window.LSS_ARTICLES[a].date || 0);
-            const db = new Date(window.LSS_ARTICLES[b].date || 0);
+          const allIds = Object.keys(articles).sort((a, b) => {
+            const da = new Date(articles[a].date || 0);
+            const db = new Date(articles[b].date || 0);
             return db - da;
           });
 
@@ -100,10 +110,13 @@
             const li = document.createElement('li');
             const a = document.createElement('a');
             a.href = `lss_article.html?id=${randId}`;
-            a.textContent = window.LSS_ARTICLES[randId].title;
+            a.textContent = articles[randId].title;
             li.appendChild(a);
             suggestionsUl.appendChild(li);
           });
+        }
+        } catch (error) {
+          showArticleError(bodyContainerId, `Runtime error: ${error.message}`);
         }
       });
     </script>

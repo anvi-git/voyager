@@ -26,6 +26,12 @@
         return response.text();
       }
 
+      function showArticleError(containerId, message) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        container.innerHTML = `<p>Unable to load post content. ${message}</p>`;
+      }
+
       function renderArticleBody(containerId, bodyText) {
         const container = document.getElementById(containerId);
         if (!container) return;
@@ -55,39 +61,54 @@
       }
 
       document.addEventListener('DOMContentLoaded', async () => {
-        const params = new URLSearchParams(window.location.search);
-        const id = params.get('id') || '1';
-        const article = window.BLOG_ARTICLES[id] || window.BLOG_ARTICLES['1'];
-        document.getElementById('blog-article-title').textContent = article.title;
-        document.getElementById('blog-article-date').textContent = article.date || '';
+        const bodyContainerId = 'blog-article-body';
+        try {
+          const params = new URLSearchParams(window.location.search);
+          const id = params.get('id') || '1';
+          const articles = window.BLOG_ARTICLES || {};
+          const fallbackId = Object.keys(articles)[0];
+          const article = articles[id] || articles[fallbackId];
 
-        if (article.markdownFile) {
-          try {
-            const mdText = await getArticleBody(article.markdownFile);
-            renderArticleBody('blog-article-body', mdText);
-          } catch (error) {
-            document.getElementById('blog-article-body').innerHTML = '<p>Unable to load post content.</p>';
+          if (!article) {
+            showArticleError(bodyContainerId, 'No post metadata found.');
+            return;
           }
-        } else {
-          renderArticleBody('blog-article-body', article.content || '');
-        }
+
+          const titleEl = document.getElementById('blog-article-title');
+          const dateEl = document.getElementById('blog-article-date');
+          if (titleEl) titleEl.textContent = article.title || '';
+          if (dateEl) dateEl.textContent = article.date || '';
+
+          if (article.markdownFile) {
+            try {
+              const mdText = await getArticleBody(article.markdownFile);
+              renderArticleBody(bodyContainerId, mdText);
+            } catch (error) {
+              showArticleError(bodyContainerId, `File: ${article.markdownFile}.`);
+            }
+          } else {
+            renderArticleBody(bodyContainerId, article.content || '');
+          }
 
         // Populate Suggestions with three random posts (excluding current)
-        const suggestionsUl = document.getElementById('suggestions-list');
-        if (suggestionsUl) {
-          const allIds = Object.keys(window.BLOG_ARTICLES).filter(k => k !== id);
-          for (let i = allIds.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [allIds[i], allIds[j]] = [allIds[j], allIds[i]];
+          const suggestionsUl = document.getElementById('suggestions-list');
+          if (suggestionsUl) {
+            const allIds = Object.keys(articles).filter(k => k !== id);
+            for (let i = allIds.length - 1; i > 0; i--) {
+              const j = Math.floor(Math.random() * (i + 1));
+              [allIds[i], allIds[j]] = [allIds[j], allIds[i]];
+            }
+            allIds.slice(0, 3).forEach(randId => {
+              const li = document.createElement('li');
+              const a = document.createElement('a');
+              a.href = `blog_article.html?id=${randId}`;
+              a.textContent = articles[randId].title;
+              li.appendChild(a);
+              suggestionsUl.appendChild(li);
+            });
           }
-          allIds.slice(0, 3).forEach(randId => {
-            const li = document.createElement('li');
-            const a = document.createElement('a');
-            a.href = `blog_article.html?id=${randId}`;
-            a.textContent = window.BLOG_ARTICLES[randId].title;
-            li.appendChild(a);
-            suggestionsUl.appendChild(li);
-          });
+        } catch (error) {
+          showArticleError(bodyContainerId, `Runtime error: ${error.message}`);
         }
       });
     </script>

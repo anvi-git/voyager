@@ -10,6 +10,34 @@
     <script src="blog_data.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
+      function renderArticleBody(containerId, bodyText) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        const trimmed = (bodyText || '').trim();
+        if (!trimmed) {
+          container.innerHTML = '<p>This post has no content yet.</p>';
+          return;
+        }
+
+        // Imported posts sometimes already contain HTML.
+        const looksLikeHtml = /<\s*[a-z!][^>]*>/i.test(trimmed);
+        if (looksLikeHtml) {
+          container.innerHTML = trimmed;
+          return;
+        }
+
+        if (window.marked && typeof window.marked.parse === 'function') {
+          container.innerHTML = window.marked.parse(trimmed);
+          return;
+        }
+
+        container.innerHTML = trimmed
+          .split(/\n{2,}/)
+          .map(block => `<p>${block.replace(/\n/g, '<br>')}</p>`)
+          .join('');
+      }
+
       document.addEventListener('DOMContentLoaded', async () => {
         const params = new URLSearchParams(window.location.search);
         const id = params.get('id') || '1';
@@ -18,11 +46,18 @@
         document.getElementById('blog-article-date').textContent = article.date || '';
 
         if (article.markdownFile) {
-          const response = await fetch(article.markdownFile);
-          const mdText = await response.text();
-          document.getElementById('blog-article-body').innerHTML = marked.parse(mdText);
+          try {
+            const response = await fetch(article.markdownFile);
+            if (!response.ok) {
+              throw new Error(`HTTP ${response.status}`);
+            }
+            const mdText = await response.text();
+            renderArticleBody('blog-article-body', mdText);
+          } catch (error) {
+            document.getElementById('blog-article-body').innerHTML = '<p>Unable to load post content.</p>';
+          }
         } else {
-          document.getElementById('blog-article-body').innerHTML = article.content;
+          renderArticleBody('blog-article-body', article.content || '');
         }
 
         // Populate Suggestions with three random posts (excluding current)

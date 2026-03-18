@@ -10,6 +10,34 @@
     <script src="ht_data.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
+      function renderArticleBody(containerId, bodyText) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        const trimmed = (bodyText || '').trim();
+        if (!trimmed) {
+          container.innerHTML = '<p>This post has no content yet.</p>';
+          return;
+        }
+
+        // Imported posts sometimes already contain HTML.
+        const looksLikeHtml = /<\s*[a-z!][^>]*>/i.test(trimmed);
+        if (looksLikeHtml) {
+          container.innerHTML = trimmed;
+          return;
+        }
+
+        if (window.marked && typeof window.marked.parse === 'function') {
+          container.innerHTML = window.marked.parse(trimmed);
+          return;
+        }
+
+        container.innerHTML = trimmed
+          .split(/\n{2,}/)
+          .map(block => `<p>${block.replace(/\n/g, '<br>')}</p>`)
+          .join('');
+      }
+
       function removeDuplicateTitle(containerId, pageTitle) {
         const container = document.getElementById(containerId);
         if (!container) return;
@@ -38,8 +66,11 @@
 
         try {
           const response = await fetch(article.markdownFile);
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
           const mdText = await response.text();
-          document.getElementById('ht-article-body').innerHTML = marked.parse(mdText);
+          renderArticleBody('ht-article-body', mdText);
           removeDuplicateTitle('ht-article-body', article.title);
         } catch (error) {
           document.getElementById('ht-article-body').innerHTML = '<p>Unable to load post content.</p>';

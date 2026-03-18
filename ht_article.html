@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heralding Time Article</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon_io/backyard_thoughts.png" type="image/x-icon">
+    <script src="includeHTML.js"></script>
+    <script src="ht_data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', async () => {
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('id') || '1';
+        const article = window.HT_ARTICLES[id] || window.HT_ARTICLES['1'];
+
+        if (!article) {
+          document.getElementById('ht-article-body').innerHTML = '<p>Post not found.</p>';
+          return;
+        }
+
+        document.getElementById('ht-article-title').textContent = article.title;
+        document.getElementById('ht-article-date').textContent = article.date || '';
+
+        try {
+          const response = await fetch(article.markdownFile);
+          const mdText = await response.text();
+          document.getElementById('ht-article-body').innerHTML = marked.parse(mdText);
+        } catch (error) {
+          document.getElementById('ht-article-body').innerHTML = '<p>Unable to load post content.</p>';
+        }
+
+        const suggestionsUl = document.getElementById('ht-suggestions-list');
+        if (suggestionsUl) {
+          const allIds = Object.keys(window.HT_ARTICLES).filter(k => k !== id);
+          for (let i = allIds.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [allIds[i], allIds[j]] = [allIds[j], allIds[i]];
+          }
+
+          allIds.slice(0, 3).forEach(randId => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = `ht_article.html?id=${randId}`;
+            a.textContent = window.HT_ARTICLES[randId].title;
+            li.appendChild(a);
+            suggestionsUl.appendChild(li);
+          });
+        }
+      });
+    </script>
+</head>
+<body onload="includeHTML();">
+    <div include-html="header.html"></div>
+    <main id="blog-article">
+        <div id="blog-layout">
+            <article class="blog-article-container">
+                <h1 id="ht-article-title"></h1>
+                <p class="blog-article-meta">Published <time id="ht-article-date"></time></p>
+                <section id="ht-article-body" class="blog-article-content"></section>
+            </article>
+            <aside id="blog-sidebar">
+                <section>
+                    <h2>read also...</h2>
+                    <ul class="blog-sidebar-list" id="ht-suggestions-list"></ul>
+                </section>
+            </aside>
+        </div>
+    </main>
+    <div include-html="footer.html"></div>
+</body>
+</html>

@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Plaster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Monoton&family=Plaster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap');
 
 
 :root {
@@ -16,6 +17,7 @@
     --color-white: #ffffff00;
     --header-bg: #e6e4cb;
     --header-height: 208px;
+    --site-font: "Cormorant Garamond", "Times New Roman", serif;
 }
 
 @font-face {
@@ -44,7 +46,7 @@
 
 /* BODY */
 body {
-    font-family: "Canicule Display v0.1 Trial Light", "Times New Roman", serif;
+    font-family: var(--site-font);
     font-weight: 4;
     font-size: 18px;
     font-style: normal;
@@ -62,12 +64,12 @@ button,
 input,
 select,
 textarea {
-    font-family: "Canicule Display v0.1 Trial Light", "Times New Roman", serif;
+    font-family: var(--site-font);
 }
 
 /* HEADER */
 header {
-    font-family: "Canicule Display v0.1 Trial Light", "Times New Roman", serif;
+    font-family: var(--site-font);
     background-color: var(--header-bg);
     color: var(--color-black);
     padding: 28px 0 18px;
@@ -87,7 +89,7 @@ header {
 }
 
 header h1 {
-    font-family: "Canicule Display v0.1 Trial Light", "Times New Roman", serif;
+    font-family: var(--site-font);
     margin: 0;
     font-size: 4.6rem;
     font-weight: 300;
@@ -111,7 +113,7 @@ header p {
 }
 
 #site-initials {
-    font-family: "Canicule Display v0.1 Trial Light", "Times New Roman", serif;
+    font-family: var(--site-font);
     color: var(--color-black);
     text-decoration: none;
     font-size: clamp(2.2rem, 2.6vw, 3.7rem);
@@ -245,6 +247,51 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     gap: 16px;
+}
+
+#ht-articles {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.collection-intro {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.collection-card {
+    display: block;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.22);
+    border: 1px solid #000000;
+    text-decoration: none;
+    color: #000;
+    overflow: hidden;
+}
+
+.collection-card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.collection-card-content {
+    padding: 14px 16px;
+}
+
+.collection-card-title {
+    margin: 0 0 6px;
+}
+
+.collection-card-meta {
+    margin: 0 0 8px;
+    font-size: 0.95rem;
+}
+
+.collection-card-excerpt {
+    margin: 0;
 }
 .blog-card {
     display: block;

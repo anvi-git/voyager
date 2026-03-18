@@ -32,32 +32,64 @@
         container.innerHTML = `<p>Unable to load post content. ${message}</p>`;
       }
 
-      function renderArticleBody(containerId, bodyText) {
+      function plainTextLength(input) {
+        return (input || '')
+          .replace(/<[^>]*>/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim()
+          .length;
+      }
+
+      function escapeHtml(input) {
+        return (input || '')
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      function buildShortContentNote(article) {
+        const excerpt = (article && article.excerpt) || '';
+        const markdownFile = (article && article.markdownFile) || 'unknown file';
+        const excerptHtml = excerpt ? `<p>${escapeHtml(excerpt)}</p>` : '';
+        return `
+          <div class="archive-short-content-note">
+            ${excerptHtml}
+            <p><em>Archive note: this local file currently contains only a short preview. Source file: ${escapeHtml(markdownFile)}.</em></p>
+          </div>
+        `;
+      }
+
+      function renderArticleBody(containerId, bodyText, article) {
         const container = document.getElementById(containerId);
         if (!container) return;
 
         const trimmed = (bodyText || '').trim();
         if (!trimmed) {
-          container.innerHTML = '<p>This post has no content yet.</p>';
+          container.innerHTML = buildShortContentNote(article);
           return;
         }
 
+        const plainLen = plainTextLength(trimmed);
+
         // Imported posts sometimes already contain HTML.
         const looksLikeHtml = /<\s*[a-z!][^>]*>/i.test(trimmed);
+        const shortNote = plainLen < 120 ? buildShortContentNote(article) : '';
         if (looksLikeHtml) {
-          container.innerHTML = trimmed;
+          container.innerHTML = trimmed + shortNote;
           return;
         }
 
         if (window.marked && typeof window.marked.parse === 'function') {
-          container.innerHTML = window.marked.parse(trimmed);
+          container.innerHTML = window.marked.parse(trimmed) + shortNote;
           return;
         }
 
         container.innerHTML = trimmed
           .split(/\n{2,}/)
           .map(block => `<p>${block.replace(/\n/g, '<br>')}</p>`)
-          .join('');
+          .join('') + shortNote;
       }
 
       function removeDuplicateTitle(containerId, pageTitle) {
@@ -92,7 +124,7 @@
 
         try {
           const mdText = await getArticleBody(article.markdownFile);
-          renderArticleBody(bodyContainerId, mdText);
+          renderArticleBody(bodyContainerId, mdText, article);
           removeDuplicateTitle(bodyContainerId, article.title);
         } catch (error) {
           showArticleError(bodyContainerId, `File: ${article.markdownFile}.`);

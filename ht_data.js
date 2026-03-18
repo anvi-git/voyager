@@ -3,7 +3,7 @@ window.HT_ARTICLES = {
     "title": "how the cycloid saved the British navy",
     "date": "2026-01-17",
     "excerpt": "of the mathematical curve that changed navigation",
-    "markdownFile": "posts/heralding_time/ht_post_001-how-the-cycloid-saved-the-british-navy.md",
+    "markdownFile": "posts/heralding_time/ht_post_how-the-cycloid-saved-the-british.md",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/fbe44cb8-5156-434c-82d5-3ddafcdf8469_1572x1048.png"
   },
   "2": {
@@ -24,7 +24,7 @@ window.HT_ARTICLES = {
     "title": "come la cicloide salvò la marina inglese",
     "date": "2026-01-10",
     "excerpt": "o, della curva matematica che ha cambiato la navigazione",
-    "markdownFile": "posts/heralding_time/ht_post_004-come-la-cicloide-salv-la-marina-inglese.md",
+    "markdownFile": "posts/heralding_time/ht_post_come-la-cicloide-salvo-la-marina.md",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/dc0540e2-73cc-4eb2-b35d-a50dff362eb1_1572x1048.png"
   },
   "5": {
@@ -87,56 +87,56 @@ window.HT_ARTICLES = {
     "title": "Anaximander’s indefinite principle and Anaximenes’ cosmic breath",
     "date": "2025-11-05",
     "excerpt": "on the motion of the Earth - chapter VI",
-    "markdownFile": "posts/heralding_time/ht_post_013-anaximander-s-indefinite-principle-and-anaximenes-cosmic-breath.md",
+    "markdownFile": "posts/heralding_time/ht_post_anaximanders-indefinite-principle.md",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/efd7526c-ff7d-45c5-abe2-e3a34827da3e_1572x1048.png"
   },
   "14": {
     "title": "il principio indefinito di Anassimandro e il respiro cosmico di Anassimene",
     "date": "2025-11-02",
     "excerpt": "sul moto della Terra - capitolo VI",
-    "markdownFile": "posts/heralding_time/ht_post_014-il-principio-indefinito-di-anassimandro-e-il-respiro-cosmico-di-anassime.md",
+    "markdownFile": "posts/heralding_time/ht_post_il-principio-indefinito-di-anassimandro.md",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/3e43c9b3-3cbf-4ec8-bb20-df6574163487_1572x1048.png"
   },
   "15": {
     "title": "Thales and the water",
     "date": "2025-10-22",
     "excerpt": "on the motion of the Earth - chapter V",
-    "markdownFile": "posts/heralding_time/ht_post_015-thales-and-the-water.md",
+    "markdownFile": "posts/heralding_time/ht_post_on-the-motion-of-the-earth-thales.md",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/392f282b-a807-4ee3-8df4-2f8a71d54fa2_1572x1048.png"
   },
   "16": {
     "title": "Talete e l'acqua",
     "date": "2025-10-19",
     "excerpt": "sul moto della Terra - capitolo V",
-    "markdownFile": "posts/heralding_time/ht_post_016-talete-e-l-acqua.md",
+    "markdownFile": "posts/heralding_time/ht_post_sul-moto-della-terra-talete-e-lacqua.md",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/9bef5e56-da7c-433c-bd7d-47d75785e7bf_1572x1048.png"
   },
   "17": {
     "title": "Homer, Hesiod, and a proto-philosopher",
     "date": "2025-10-15",
     "excerpt": "on the motion of the Earth - chapter IV",
-    "markdownFile": "posts/heralding_time/ht_post_017-homer-hesiod-and-a-proto-philosopher.md",
+    "markdownFile": "posts/heralding_time/ht_post_on-the-motion-of-the-earth-homer.md",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/18a0aaeb-9a68-4ef9-b132-fcbb3f544745_1572x1048.png"
   },
   "18": {
     "title": "Omero, Esiodo, e un proto-filosofo",
     "date": "2025-10-12",
     "excerpt": "sul moto della Terra - capitolo IV",
-    "markdownFile": "posts/heralding_time/ht_post_018-omero-esiodo-e-un-proto-filosofo.md",
+    "markdownFile": "posts/heralding_time/ht_post_sul-moto-della-terra-omero-esiodo.md",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/dfc523aa-6909-465c-9f21-e0ea8e41dd69_1572x1048.png"
   },
   "19": {
     "title": "constants, collections, synthesis",
     "date": "2025-10-08",
     "excerpt": "on the motion of the Earth - chapter III",
-    "markdownFile": "posts/heralding_time/ht_post_019-constants-collections-synthesis.md",
+    "markdownFile": "posts/heralding_time/ht_post_on-the-motion-of-the-earth-constants.md",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/ec5d904c-ad14-4f47-97b3-fc87e20d57a3_1572x1048.png"
   },
   "20": {
     "title": "costanti, raccolte, sintesi",
     "date": "2025-10-05",
     "excerpt": "sul moto della Terra - capitolo III",
-    "markdownFile": "posts/heralding_time/ht_post_020-costanti-raccolte-sintesi.md",
+    "markdownFile": "posts/heralding_time/ht_post_sul-moto-della-terra-costanti-raccolte.md",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/875f63f9-34c7-407a-9740-ded697982eb3_1572x1048.png"
   },
   "21": {

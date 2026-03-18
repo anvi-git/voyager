@@ -1,15 +1,35 @@
-<div><hr></div><blockquote><h6><code>Rimane nella lingua che utilizziamo riferirsi a qualcosa di singolo, non divisibile ulteriormente, come a un </code><em><strong>atomo</strong></em><code>.</code></h6></blockquote><div class="captioned-image-container"><figure><a class="image-link image2" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb95a86fd-370a-4373-a83b-49d276606b7f_4000x1000.png"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb95a86fd-370a-4373-a83b-49d276606b7f_4000x1000.png 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb95a86fd-370a-4373-a83b-49d276606b7f_4000x1000.png 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb95a86fd-370a-4373-a83b-49d276606b7f_4000x1000.png 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb95a86fd-370a-4373-a83b-49d276606b7f_4000x1000.png 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb95a86fd-370a-4373-a83b-49d276606b7f_4000x1000.png" alt="Image"></picture><div></div></div></a></figure></div><div class="preformatted-block"><label class="hide-text" contenteditable="false">Text within this block will maintain its original spacing when published</label><pre class="text">C'era una volta un famoso scienziato che si chiamava Galileo Galilei. Fu processato dall'Inquisizione e costretto a ritrattare i propri insegnamenti. Ciò causò grande agitazione e per ben duecentocinquant'anni e più il caso continuò a suscitare indignazione ed eccitazione, molto tempo dopo che l'opinione pubblica aveva vinto la sua battaglia e la Chiesa era diventata tollerante nei confronti della scienza.
- Ma adesso questa è una storia molto vecchia e io credo che abbia perso il suo interesse. La scienza galileiana non ha più nemici: la sua vita, d'ora in poi, è sicura. La vittoria ottenuta tanto tempo fa fu definitiva e tutto tace, ormai, su questo fronte. Così, al giorno d'oggi assumiamo un punto di vista distaccato a proposito della faccenda, perché abbiamo finalmente imparato a pensare in chiave storica e a comprendere ambo le parti di una disputa. E nessuno si dà la pena di ascoltare un seccatore che non può dimenticare i vecchi crucci. 
+Rimane nella lingua che utilizziamo riferirsi a qualcosa di singolo, non divisibile ulteriormente, come a un atomo .
 
-- Karl Popper, <em>La scienza di Galileo e il suo nuovo tradimento</em>, in <em>Tre punti di vista a proposito della conoscenza umana</em>. Pubblicato originariamente in <em>Contemporary British Philosophy</em>, terza serie, a cura di H. D. Lewis, 1956. (Traduzione di Mario Trinchero)</pre></div><p class="button-wrapper"><a class="button primary" href="https://heraldingtime.substack.com/subscribe?"><span>Subscribe now</span></a></p><p class="button-wrapper"><a class="button primary" href="https://heraldingtime.substack.com/p/atomos-1?utm_content=share&action=share"><span>Share</span></a></p><div><hr></div><div><hr></div><div><hr></div><blockquote><h6><code>We still use the word </code><em><strong>atom</strong></em><code> to refer to something singular and no longer divisible.</code></h6></blockquote><div class="captioned-image-container"><figure><a class="image-link image2" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbba75f05-ad2b-407c-85fc-5576365cb03d_4000x1000.png"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbba75f05-ad2b-407c-85fc-5576365cb03d_4000x1000.png 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbba75f05-ad2b-407c-85fc-5576365cb03d_4000x1000.png 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbba75f05-ad2b-407c-85fc-5576365cb03d_4000x1000.png 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbba75f05-ad2b-407c-85fc-5576365cb03d_4000x1000.png 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbba75f05-ad2b-407c-85fc-5576365cb03d_4000x1000.png" alt="Image"></picture><div></div></div></a></figure></div><div class="preformatted-block"><label class="hide-text" contenteditable="false">Text within this block will maintain its original spacing when published</label><pre class="text">Once upon a time there was a famous scientist whose name was Galileo Galilei. He
+![](https://substack-post-media.s3.amazonaws.com/public/images/b95a86fd-370a-4373-a83b-49d276606b7f_4000x1000.png)
+
+C'era una volta un famoso scienziato che si chiamava Galileo Galilei. Fu processato dall'Inquisizione e costretto a ritrattare i propri insegnamenti. Ciò causò grande agitazione e per ben duecentocinquant'anni e più il caso continuò a suscitare indignazione ed eccitazione, molto tempo dopo che l'opinione pubblica aveva vinto la sua battaglia e la Chiesa era diventata tollerante nei confronti della scienza.
+
+Ma adesso questa è una storia molto vecchia e io credo che abbia perso il suo interesse. La scienza galileiana non ha più nemici: la sua vita, d'ora in poi, è sicura. La vittoria ottenuta tanto tempo fa fu definitiva e tutto tace, ormai, su questo fronte. Così, al giorno d'oggi assumiamo un punto di vista distaccato a proposito della faccenda, perché abbiamo finalmente imparato a pensare in chiave storica e a comprendere ambo le parti di una disputa. E nessuno si dà la pena di ascoltare un seccatore che non può dimenticare i vecchi crucci.
+
+- Karl Popper, La scienza di Galileo e il suo nuovo tradimento , in Tre punti di vista a proposito della conoscenza umana . Pubblicato originariamente in Contemporary British Philosophy , terza serie, a cura di H. D. Lewis, 1956. (Traduzione di Mario Trinchero)
+
+We still use the word atom to refer to something singular and no longer divisible.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/bba75f05-ad2b-407c-85fc-5576365cb03d_4000x1000.png)
+
+Once upon a time there was a famous scientist whose name was Galileo Galilei. He
+
 was tried by the Inquisition, and forced to recant his teaching. This caused a great stir;
+
 and for well over two hundred and fifty years the case continued to arouse indignation
+
 and excitement–long after public opinion had won its victory, and the Church had
+
 become tolerant of science.
- But this is by now a very old story, and I fear it has lost its interest. For Galilean
+
+But this is by now a very old story, and I fear it has lost its interest. For Galilean
+
 science has no enemies left, it seems: its life hereafter is secure. The victory won long
+
 ago was final, and all is quiet on this front. So we take a detached view of the affair
+
 nowadays, having learned at last to think historically and to understand both sides of a
+
 dispute. And nobody cares to listen to the bore who can't forget an old grievance.
 
-- Karl Popper, <em>The science of Galileo and its most recent betrayal</em>, in <em>Three views concerning human knowledge</em>. Originally published in Contemporary British Philosophy, third series, edited by H. D. Lewis, 1956.</pre></div><div><hr></div><p class="button-wrapper"><a class="button primary" href="https://heraldingtime.substack.com/subscribe?"><span>Subscribe now</span></a></p><p class="button-wrapper"><a class="button primary" href="https://heraldingtime.substack.com/p/atomos-1?utm_content=share&action=share"><span>Share</span></a></p>
+- Karl Popper, The science of Galileo and its most recent betrayal , in Three views concerning human knowledge . Originally published in Contemporary British Philosophy, third series, edited by H. D. Lewis, 1956.

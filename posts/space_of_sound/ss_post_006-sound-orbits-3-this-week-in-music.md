@@ -1,1 +1,79 @@
-<h5><em>The name </em><code>sound orbits</code><em> is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.</em></h5><div><hr></div><pre><code>Space of Sound is also on <a href="https://open.spotify.com/playlist/0nrw5lrNnLvW8qyvjGgvOF?si=95fd3b2e6f774c0a">Spotify</a> and <a href="https://music.apple.com/it/playlist/space-of-sound/pl.u-KVXBk16sLk11D3e?l=en">Apple Music</a>, with a playlist.</code></pre><iframe class="spotify-wrap playlist" src="https://open.spotify.com/embed/playlist/0nrw5lrNnLvW8qyvjGgvOF" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><div><hr></div><p>This week:</p><div><hr></div><p><em><strong>Tom Misch: Sisters With Me <br></strong>Produced by: Beyond The Groove<br>Published by: AWAL Recordings Ltd<br>Published:  Jan 28, 2026<strong><br></strong></em>Young English musician Tom Misch gives a funky tour of what to expect from the new record, out in a couple of months.<br>The song is part of of the LP <strong>Full Circle</strong>, to be published March 27, 2026.<br>The artist on <a href="https://tommisch.bandcamp.com">Bandcamp</a>, the song on <a href="https://open.spotify.com/track/2ewg31VuWBIamb8f8APqw7?si=fc1717c143f84975">Spotify</a>, <a href="https://music.apple.com/it/album/sisters-with-me/1868437787?i=1868437921">Apple Music</a>, <a href="https://youtu.be/M3XsIcAVa9o?list=RDM3XsIcAVa9o">Youtube</a>.</p><div id="youtube2-M3XsIcAVa9o" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/M3XsIcAVa9o?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><em><strong>Noah Kahan: The Great Divide<br></strong>Produced by: Mercury Records<br>Published by: UMG Recordings, Inc.<br>Published:  Jan 30, 2026<strong><br></strong></em>American songwriter is heart-broken in this new song: <br>that’s the price you pay for this kind of heartfelt songs.<br>The song is part of the LP <strong>The Great Divide</strong>, to be published April 24, 2026.<br>The artist’s <a href="https://noahkahan.com">website</a>, the song on <a href="https://open.spotify.com/track/77zqs8ucHCSk5jh9TYec4b?si=e67a54c11a07416d">Spotify</a>, <a href="https://music.apple.com/it/album/the-great-divide/1872239868?i=1872239886">Apple Music</a>, <a href="https://youtu.be/wRzEvqbrn2c?list=RDwRzEvqbrn2c">Youtube</a>.</p><div id="youtube2-wRzEvqbrn2c" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/wRzEvqbrn2c?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><em><strong>The Man The Myth The Meatslab: (1000(1)000): one in a million<br></strong>Produced by: The Man The Myth The Meatslab<br>Published by: Mutual Friends<br>Published:  Jan 30, 2026<strong><br></strong></em>This folk project created by Jamie Clarke grows once more, and the chances he listened to Bon Iver are not <em>one in a million</em> - he <a href="https://mokbpresents.com/artist/the-man-the-myth-the-meatslab/">admits</a> Bon Iver is an inspiration, so it’s all good.<br>The song is part of the EP <strong>Until The Comet Came</strong>, published January 30, 2026.<br>The artist’s <a href="https://mokbpresents.com/artist/the-man-the-myth-the-meatslab/">website</a>, the record on <a href="https://open.spotify.com/track/34n7MV3PzakgjN2STfTWjD?si=4b4a5905fbc540ea">Spotify</a>, <a href="https://music.apple.com/it/album/1000-1-000-one-in-a-million/1862169458?i=1862169460">Apple Music</a>, <a href="https://youtu.be/xUuLXepXvOw?list=RDxUuLXepXvOw">Youtube</a>.</p><div id="youtube2-xUuLXepXvOw" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/xUuLXepXvOw?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/subscribe?"><span>Subscribe now</span></a></p><div><hr></div><p><em><strong>José Gonzàlez: Against The Dying Of The Light<br></strong>Produced by: Imperial Recordings<br>Published by: City Slang<br>Published:  Jan 23, 2026<strong><br></strong></em>Swedish songwriter and guitarist José Gabriel González conveys a new stunning trait to its canvas, following in the steps of its previous records.<br>The song is part of the LP <strong>Against The Dying Of The Light</strong>, to be published March 27, 2026.<br>The record on <a href="https://josgonzlez.bandcamp.com/album/against-the-dying-of-the-light">Bandcamp</a>, <a href="https://open.spotify.com/track/3v5WkwwPl4omj9kiXnaEJt?si=d415f87d8fdb4e56">Spotify</a>, <a href="https://music.apple.com/it/album/against-the-dying-of-the-light/1860365914?i=1860366217">Apple Music</a>, <a href="https://youtu.be/K9krPYK6JWM?list=RDK9krPYK6JWM">Youtube</a>.</p><div id="youtube2-K9krPYK6JWM" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/K9krPYK6JWM?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><div><hr></div><p><code>Delayed Orbit: a song/record/soundtrack not published this week, and that I encountered in these days.</code></p><blockquote><p><em><strong>Hania Rani : Sentimental Value<br></strong>Produced by: Gondwana Records<br>Published by: Gondwana Records<br>Published:  Jan 9, 2026<strong><br></strong></em>Composer from Poland, Hania Rani creates a garden of sound for the house that has such a central part in the film.  <br>The soundtrack on <a href="https://haniarani.bandcamp.com/album/sentimental-value">Bandcamp</a>, <a href="https://open.spotify.com/album/5OoZ2XvZIxa511ZkAmm3cO?si=YJAG7yfoSpCBYPzvXH42Tw">Spotify</a>, <a href="https://music.apple.com/it/album/sentimental-value/1862131975">Apple Music</a>, <a href="https://youtu.be/bnymieFim9Y?list=RDbnymieFim9Y">Youtube</a>.</p><div id="youtube2-bnymieFim9Y" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/bnymieFim9Y?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div></blockquote><p><code>From the same record label, you can read this episode:</code></p><blockquote></blockquote><div><hr></div><p>See you next time. <br>If you liked this episode, you can share it with other human beings.</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><div><hr></div><div><hr></div><h4>Read also:</h4><div><hr></div><div><hr></div><h6>Heralding Time: a blog on history, philosophy, and science. Subscribe here. <br>Last Scattering Surface: a blog on cosmology. Subscribe here<br>To support the project, here’s my <a href="https://ko-fi.com/anvianvi#checkoutModal">ko-fi</a>. <br>If you want, you can follow - and support - me on <a href="https://www.patreon.com/cw/anvianvi">Patreon</a>.<br>Finally, you can share this publication with whomever you want.</h6><p class="button-wrapper"><a class="button primary button-wrapper" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><h6>Ciao and see you soon!</h6>
+The name sound orbits is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.
+
+This week:
+
+Tom Misch: Sisters With Me
+
+Produced by: Beyond The Groove
+
+Published by: AWAL Recordings Ltd
+
+Published: Jan 28, 2026
+
+Young English musician Tom Misch gives a funky tour of what to expect from the new record, out in a couple of months.
+
+The song is part of of the LP Full Circle , to be published March 27, 2026.
+
+The artist on Bandcamp, the song on Spotify, Apple Music, Youtube.
+
+Noah Kahan: The Great Divide
+
+Produced by: Mercury Records
+
+Published by: UMG Recordings, Inc.
+
+Published: Jan 30, 2026
+
+American songwriter is heart-broken in this new song:
+
+that’s the price you pay for this kind of heartfelt songs.
+
+The song is part of the LP The Great Divide , to be published April 24, 2026.
+
+The artist’s website, the song on Spotify, Apple Music, Youtube.
+
+The Man The Myth The Meatslab: (1000(1)000): one in a million
+
+Produced by: The Man The Myth The Meatslab
+
+Published by: Mutual Friends
+
+Published: Jan 30, 2026
+
+This folk project created by Jamie Clarke grows once more, and the chances he listened to Bon Iver are not one in a million - he admits Bon Iver is an inspiration, so it’s all good.
+
+The song is part of the EP Until The Comet Came , published January 30, 2026.
+
+The artist’s website, the record on Spotify, Apple Music, Youtube.
+
+José Gonzàlez: Against The Dying Of The Light
+
+Produced by: Imperial Recordings
+
+Published by: City Slang
+
+Published: Jan 23, 2026
+
+Swedish songwriter and guitarist José Gabriel González conveys a new stunning trait to its canvas, following in the steps of its previous records.
+
+The song is part of the LP Against The Dying Of The Light , to be published March 27, 2026.
+
+The record on Bandcamp, Spotify, Apple Music, Youtube.
+
+Delayed Orbit: a song/record/soundtrack not published this week, and that I encountered in these days.
+
+Hania Rani : Sentimental Value
+
+Produced by: Gondwana Records
+
+Published by: Gondwana Records
+
+Published: Jan 9, 2026
+
+Composer from Poland, Hania Rani creates a garden of sound for the house that has such a central part in the film.
+
+The soundtrack on Bandcamp, Spotify, Apple Music, Youtube.
+
+From the same record label, you can read this episode:
+
+See you next time.

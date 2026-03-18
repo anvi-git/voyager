@@ -1,1 +1,95 @@
-<h6>Disclaimer: Space of Sound is on <a href="https://www.instagram.com/space_of_sound/">Instagram</a>. You can reach the page by clicking <a href="https://www.instagram.com/space_of_sound/">here</a>.</h6><div><hr></div><pre><code><code>Space of Sound è anche su Instagram. Puoi raggiungerlo seguendo questo link.</code></code></pre><a class="instagram-image" href="https://instagram.com/p/DRudYXhjByS" target="_blank"></a></div></div><pre><code>Space of Sound è anche su <a href="https://open.spotify.com/playlist/0nrw5lrNnLvW8qyvjGgvOF?si=95fd3b2e6f774c0a">Spotify</a> e <a href="https://music.apple.com/it/playlist/space-of-sound/pl.u-KVXBk16sLk11D3e?l=en">Apple Music</a> con una playlist.</code></pre><iframe class="spotify-wrap playlist" src="https://open.spotify.com/embed/playlist/0nrw5lrNnLvW8qyvjGgvOF" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><div><hr></div><p><em><strong>i cani</strong></em> sono <strong>Niccolò Contessa</strong>, ma Niccolò Contessa non è stato solo <em>i cani</em>. <code><br></code><em>"Vedi Niccolò, la gente non è il mestiere che fa".<br></em>il concerto di ieri (al Teatro della Concordia di Venaria) è l’inizio e la fine - <em>non finirà</em>, <em>finirà</em> - del concetto degli artisti generazionali. <br>i cani lo sono stati, generazionali. <br>forse quella generazione è finita.<br>chi è il colpevole? il tempo? <br>Niccolò Contessa inizia il concerto con "<em>io</em>": forse c’è qualcosa sotto.</p><div class="native-video-embed"></div><div class="native-video-embed"></div><p><em>sempre fotografati, lui che girava con una busta di carta in testa. <br>cosa è diventato il rito del concerto dell’artista </em>nascosto<em>? <br>una seduta fotografica per immortalarlo.<br>qualcuno urla “ah ma allora esiste davvero!”. </em></p><div><hr></div><p><em>a un certo punto dal vocoder esce una voce, mi dico “avrà scoperto </em>Bon Iver<em>”, poi lo lascia stare e anch’io lascio stare.</em></p><div class="image-gallery-embed"></div><p><em>altre magie altri misteri altri dubbi questioni domande:<br>il fuoco brucia e resta </em>carbone<em>.</em></p><div class="native-video-embed"></div><p><em>questa esperienza viene raccontata come involuta<br>si fa mitologia ma non è chissà cosa;<br>non è questo il punto non importa:<br>risuonare per qualcosa </em>io non credo sia un caso</p><div class="native-video-embed"></div><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/p/i-cani-teatro-della-concordia-venaria?utm_content=share&action=share"><span>Share</span></a></p><p><em>la verità forse non c’è<br>forse è inesistente inventata dimenticata<br>eppure è lì, in ogni nuova esperienza, </em>nascosta in piena vista.</p><div class="native-video-embed"></div><p><em>ritornano </em>le coppie, <em>non erano riuscite a dividersi, <br>si erano lasciate e poi si cercavano, ma non esistono più i romantici, <br>anche </em>i pariolini di diciott’anni<em> ora sarebbero più che trentenni. </em></p><div class="native-video-embed"></div><div class="native-video-embed"></div><p><em>nessuna paura, qui si balla</em></p><div class="native-video-embed"></div><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/subscribe?"><span>Subscribe now</span></a></p><p><em>l’unica nostalgia che (</em>non<em>) ho</em>.</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><div class="native-video-embed"></div><p><em>una volta </em>Vasco Brondi<em> parlava con (la ragazza di) qualcuno, <br>ora </em>Lucio Corsi<em> (s)parla da solo: <br>diventiamo atomi </em>anche<em> metaforicamente.</em></p><div class="native-video-embed"></div><p><em>l’AI avanza, Internet è morto, chi usa più </em>Google<em>?<br>non serve più a nulla supplicare di</em> <em>non essere ricercato</em>.</p><div class="native-video-embed"></div><p><em>c’erano altre canzoni.<br>c’era un’ultima canzone, <br>ma Niccolò Contessa ha chiesto che non si registrasse più nulla, <br>per lasciarsi guardandosi e riconoscendosi.<br>tanto era </em>una cosa stupida<em>.</em></p><div><hr></div><p><em>tutti a registrare tutto: chissà quanto dovremo aspettare per sentirlo di nuovo dal vivo. potrebbe anche finirla qua, <br>le generazioni passano, <br>chi lo ascoltava dall’inizio ha cambiato vita. <br>con nostalgie, rimorsi, rimpianti, più per cose che non sarebbero mai potute accadere che per qualcosa di realizzabile. ma </em>ho un groppo in gola, <em>e </em>le mani in tasca <em>al freddo.</em></p><div id="youtube2-y4u133Nw2m0" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/y4u133Nw2m0?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><pre><code>Questo dicembre, puoi supportare Space of Sound con una offerta speciale, che equivale a 1.5€/mese.</code></pre><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/subscribe?coupon=bc4ee6cd&amp;utm_content=178191565"><span>Get 40% off for 1 year</span></a></p><pre><code>Grazie!</code></pre><div><hr></div><h6>Questa newsletter è una tra le tre che pubblico qui su Substack: le altre due sono Last Scattering Surface, e Heralding Time. Tutte le pubblicazioni sono gratuite e senza paywall; puoi liberamente leggere tutti gli articoli. Se vuoi, puoi iscriverti qui e qui. </h6><h6>Se vuoi, puoi sostenermi su <a href="https://ko-fi.com/anvianvi#checkoutModal">ko-fi</a>. </h6><h6>Inoltre, puoi condividere questa pubblicazione con chi vuoi.</h6><p class="button-wrapper"><a class="button primary button-wrapper" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><h6>Ciao and a presto!</h6>
+Disclaimer: Space of Sound is on Instagram. You can reach the page by clicking here.
+
+Space of Sound è anche su Instagram. Puoi raggiungerlo seguendo questo link.
+
+Space of Sound è anche su Spotify e Apple Music con una playlist.
+
+i cani sono Niccolò Contessa , ma Niccolò Contessa non è stato solo i cani .
+
+"Vedi Niccolò, la gente non è il mestiere che fa".
+
+il concerto di ieri (al Teatro della Concordia di Venaria) è l’inizio e la fine - non finirà , finirà - del concetto degli artisti generazionali.
+
+i cani lo sono stati, generazionali.
+
+forse quella generazione è finita.
+
+chi è il colpevole? il tempo?
+
+Niccolò Contessa inizia il concerto con " io ": forse c’è qualcosa sotto.
+
+sempre fotografati, lui che girava con una busta di carta in testa.
+
+cosa è diventato il rito del concerto dell’artista nascosto ?
+
+una seduta fotografica per immortalarlo.
+
+qualcuno urla “ah ma allora esiste davvero!”.
+
+a un certo punto dal vocoder esce una voce, mi dico “avrà scoperto Bon Iver ”, poi lo lascia stare e anch’io lascio stare.
+
+altre magie altri misteri altri dubbi questioni domande:
+
+il fuoco brucia e resta carbone .
+
+questa esperienza viene raccontata come involuta
+
+si fa mitologia ma non è chissà cosa;
+
+non è questo il punto non importa:
+
+risuonare per qualcosa io non credo sia un caso
+
+la verità forse non c’è
+
+forse è inesistente inventata dimenticata
+
+eppure è lì, in ogni nuova esperienza, nascosta in piena vista.
+
+ritornano le coppie, non erano riuscite a dividersi,
+
+si erano lasciate e poi si cercavano, ma non esistono più i romantici,
+
+anche i pariolini di diciott’anni ora sarebbero più che trentenni.
+
+nessuna paura, qui si balla
+
+l’unica nostalgia che ( non ) ho .
+
+una volta Vasco Brondi parlava con (la ragazza di) qualcuno,
+
+ora Lucio Corsi (s)parla da solo:
+
+diventiamo atomi anche metaforicamente.
+
+l’AI avanza, Internet è morto, chi usa più Google ?
+
+non serve più a nulla supplicare di non essere ricercato .
+
+c’erano altre canzoni.
+
+c’era un’ultima canzone,
+
+ma Niccolò Contessa ha chiesto che non si registrasse più nulla,
+
+per lasciarsi guardandosi e riconoscendosi.
+
+tanto era una cosa stupida .
+
+tutti a registrare tutto: chissà quanto dovremo aspettare per sentirlo di nuovo dal vivo. potrebbe anche finirla qua,
+
+le generazioni passano,
+
+chi lo ascoltava dall’inizio ha cambiato vita.
+
+con nostalgie, rimorsi, rimpianti, più per cose che non sarebbero mai potute accadere che per qualcosa di realizzabile. ma ho un groppo in gola, e le mani in tasca al freddo.
+
+Questo dicembre, puoi supportare Space of Sound con una offerta speciale, che equivale a 1.5€/mese.
+
+Get 40% off for 1 year
+
+Grazie!
+
+Inoltre, puoi condividere questa pubblicazione con chi vuoi.
+
+Ciao and a presto!

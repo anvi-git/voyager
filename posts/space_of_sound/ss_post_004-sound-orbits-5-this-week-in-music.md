@@ -1,1 +1,71 @@
-<h5><em>The name </em><code>sound orbits</code><em> is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.</em></h5><div><hr></div><pre><code>Space of Sound is also on <a href="https://open.spotify.com/playlist/0nrw5lrNnLvW8qyvjGgvOF?si=95fd3b2e6f774c0a">Spotify</a> and <a href="https://music.apple.com/it/playlist/space-of-sound/pl.u-KVXBk16sLk11D3e?l=en">Apple Music</a>, with a playlist.</code></pre><iframe class="spotify-wrap playlist" src="https://open.spotify.com/embed/playlist/0nrw5lrNnLvW8qyvjGgvOF" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><div><hr></div><p>This week:</p><div><hr></div><p><em><strong>Bleachers: you and forever<br></strong>Produced by: Dirty Hit<br>Published by: Dirty Hit<br>Published:  Feb 11, 2026<strong><br></strong></em>Jack Antonoff and the band - aka Bleachers - come back for another anthem of pop-rock. This time, it’s a compliment.<br>The song is part of of the LP <strong>everyone for ten minutes</strong>, to be published May 22, 2026.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb127a8b-d497-4a9c-9bf3-4837fdc38962_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb127a8b-d497-4a9c-9bf3-4837fdc38962_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb127a8b-d497-4a9c-9bf3-4837fdc38962_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb127a8b-d497-4a9c-9bf3-4837fdc38962_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb127a8b-d497-4a9c-9bf3-4837fdc38962_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb127a8b-d497-4a9c-9bf3-4837fdc38962_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><strong>Bleachers</strong> on <a href="https://bleachers.bandcamp.com/album/everyone-for-ten-minutes">Bandcamp</a>, <em><strong>you and forever</strong></em> on <a href="https://open.spotify.com/track/7faK0eOWGbfxWeuw1inyBN?si=7fe547e954e54bbf">Spotify</a>, on <a href="https://music.apple.com/it/album/you-and-forever/1872842313?i=1872842319&amp;l=en-GB">Apple Music</a>, on <a href="https://youtu.be/I6ox7VKVzqU?list=RDI6ox7VKVzqU">Youtube</a>.</p><div id="youtube2-I6ox7VKVzqU" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/I6ox7VKVzqU?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p><code>Here the piece on Bleachers’ live LP:</code></p><div><hr></div><p><em><strong>Runnner: Branch bent <br></strong>Produced by: Rose Garden<br>Published by: Rose Garden<br>Published:  Feb 11, 2026<br></em>Noah Weinman from Los Angeles, California comes back with a new song, heartbroken as his previous ones. </p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb915053a-9138-4e60-8359-26cf58a611b6_1000x1000.png"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb915053a-9138-4e60-8359-26cf58a611b6_1000x1000.png 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb915053a-9138-4e60-8359-26cf58a611b6_1000x1000.png 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb915053a-9138-4e60-8359-26cf58a611b6_1000x1000.png 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb915053a-9138-4e60-8359-26cf58a611b6_1000x1000.png 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb915053a-9138-4e60-8359-26cf58a611b6_1000x1000.png" alt="Image"></picture></a></figure></div><p><strong>Runnner</strong> on <a href="https://runnner.bandcamp.com/album/a-welcome-kind-of-weakness">Bandcamp</a>, <em><strong>Branch bent</strong></em> on <a href="https://open.spotify.com/track/3ICa8SGMQ0r9s9xj6RhbuO?si=77793ae4c2a44742">Spotify</a>, on <a href="https://music.apple.com/it/album/branch-bent-single/1866989288">Apple Music</a>, on <a href="https://youtu.be/HAW3C9SR_Zg?list=RDHAW3C9SR_Zg">Youtube</a>.</p><div id="youtube2-HAW3C9SR_Zg" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/HAW3C9SR_Zg?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><em><strong>Last Dinosaurs: Kebabs<br></strong>Produced by: LOS DINOS PTY LTD<br>Published by: Nettwerk Music Group<br>Published:  Feb 13, 2026<br></em>This band from Brisbane, Australia comes back with an album named after Wellness. Ten years later, it’s Wellnxss. <em>Kebabs</em> is almost psychedelic - it’s been a <em>long night</em>.<br>The song is part of the EP <strong>Wellnxss</strong>, published February 13, 2026.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa291f05d-8d16-4789-9355-61d083130adf_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa291f05d-8d16-4789-9355-61d083130adf_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa291f05d-8d16-4789-9355-61d083130adf_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa291f05d-8d16-4789-9355-61d083130adf_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa291f05d-8d16-4789-9355-61d083130adf_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa291f05d-8d16-4789-9355-61d083130adf_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><strong>Last Dinosaurs</strong> on <a href="https://last-dinosaurs.bandcamp.com/?search_item_id%3D2673016375%26search_item_type%3Db%26search_match_part%3D%253F%26search_page_id%3D5130894180%26search_page_no%3D0%26search_rank%3D1">Bandcamp</a>, <em><strong>Kebabs</strong></em> on <a href="https://open.spotify.com/track/6esPrEq7jnLV1huBnwO1xJ?si=98176f604f434344">Spotify</a>, on <a href="https://music.apple.com/it/album/kebabs/1850831214?i=1850831710&amp;l=en-GB">Apple Music</a>, on <a href="https://youtu.be/9QxIaKkpr30?list=RD9QxIaKkpr30">Youtube</a>.</p><div id="youtube2-9QxIaKkpr30" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/9QxIaKkpr30?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><code>Delayed Orbit: a song/record/soundtrack not published this week, and that I encountered in these days.</code></p><blockquote><p><em><strong>Joshua Burnside: Something Else<br></strong>Produced by: Nettwerk Music Group<br>Published by: Nettwerk Music Group<br>Published:  Jan 2, 2026<strong><br></strong></em>Folk artist from Belfast, UK, Joshua Burnside catches you off guard: starts delicately, then it hits you at the end of the <em>X-files</em>. <br>The song is part of the EP <strong>It’s Not Going To Be Okay</strong>, to be published March 20, 2026.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F054d22bd-96e8-476f-9a58-2b705ec7a055_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F054d22bd-96e8-476f-9a58-2b705ec7a055_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F054d22bd-96e8-476f-9a58-2b705ec7a055_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F054d22bd-96e8-476f-9a58-2b705ec7a055_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F054d22bd-96e8-476f-9a58-2b705ec7a055_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F054d22bd-96e8-476f-9a58-2b705ec7a055_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><strong>Joshua Burnside</strong> on <a href="https://joshuaburnside.bandcamp.com/track/something-else?search_item_id%3D1776485615%26search_item_type%3Dt%26search_match_part%3D%253F%26search_page_id%3D5130900421%26search_page_no%3D0%26search_rank%3D1">Bandcamp</a>, <em><strong>Something Else</strong></em> on <a href="https://open.spotify.com/track/1lkQ8iHP3XCcMX34D8Bb5M?si=c6dd44a9ff414af7">Spotify</a>, on <a href="https://music.apple.com/it/album/something-else/1859080056?i=1859080313&amp;l=en-GB">Apple Music</a>, on <a href="https://youtu.be/P5AS8OttXS4?list=RDP5AS8OttXS4">Youtube</a>.</p><div id="youtube2-P5AS8OttXS4" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/P5AS8OttXS4?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div></blockquote><div><hr></div><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/subscribe?"><span>Subscribe now</span></a></p><p>See you next time. <br>If you liked this episode, you can share it with other human beings.</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><div><hr></div><div><hr></div><h4>Read also:</h4><div><hr></div><div><hr></div><h6>Heralding Time: a blog on history, philosophy, and science. Subscribe here. <br>Last Scattering Surface: a blog on cosmology. Subscribe here<br>To support the project, here’s my <a href="https://ko-fi.com/anvianvi#checkoutModal">ko-fi</a>. <br>If you want, you can follow - and support - me on <a href="https://www.patreon.com/cw/anvianvi">Patreon</a>.<br>Finally, you can share this publication with whomever you want.</h6><p class="button-wrapper"><a class="button primary button-wrapper" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><h6>Ciao and see you soon!</h6>
+The name sound orbits is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.
+
+This week:
+
+Bleachers: you and forever
+
+Produced by: Dirty Hit
+
+Published by: Dirty Hit
+
+Published: Feb 11, 2026
+
+Jack Antonoff and the band - aka Bleachers - come back for another anthem of pop-rock. This time, it’s a compliment.
+
+The song is part of of the LP everyone for ten minutes , to be published May 22, 2026.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/fb127a8b-d497-4a9c-9bf3-4837fdc38962_1200x1200.jpeg)
+
+Bleachers on Bandcamp, you and forever on Spotify, on Apple Music, on Youtube.
+
+Here the piece on Bleachers’ live LP:
+
+Runnner: Branch bent
+
+Produced by: Rose Garden
+
+Published by: Rose Garden
+
+Published: Feb 11, 2026
+
+Noah Weinman from Los Angeles, California comes back with a new song, heartbroken as his previous ones.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/b915053a-9138-4e60-8359-26cf58a611b6_1000x1000.png)
+
+Runnner on Bandcamp, Branch bent on Spotify, on Apple Music, on Youtube.
+
+Last Dinosaurs: Kebabs
+
+Produced by: LOS DINOS PTY LTD
+
+Published by: Nettwerk Music Group
+
+Published: Feb 13, 2026
+
+This band from Brisbane, Australia comes back with an album named after Wellness. Ten years later, it’s Wellnxss. Kebabs is almost psychedelic - it’s been a long night .
+
+The song is part of the EP Wellnxss , published February 13, 2026.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/a291f05d-8d16-4789-9355-61d083130adf_1200x1200.jpeg)
+
+Last Dinosaurs on Bandcamp, Kebabs on Spotify, on Apple Music, on Youtube.
+
+Delayed Orbit: a song/record/soundtrack not published this week, and that I encountered in these days.
+
+Joshua Burnside: Something Else
+
+Produced by: Nettwerk Music Group
+
+Published by: Nettwerk Music Group
+
+Published: Jan 2, 2026
+
+Folk artist from Belfast, UK, Joshua Burnside catches you off guard: starts delicately, then it hits you at the end of the X-files .
+
+The song is part of the EP It’s Not Going To Be Okay , to be published March 20, 2026.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/054d22bd-96e8-476f-9a58-2b705ec7a055_1200x1200.jpeg)
+
+Joshua Burnside on Bandcamp, Something Else on Spotify, on Apple Music, on Youtube.
+
+See you next time.

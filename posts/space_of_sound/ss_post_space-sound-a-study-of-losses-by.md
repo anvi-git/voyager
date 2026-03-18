@@ -1,1 +1,93 @@
-<blockquote><h5><em>God is the garden<br>I tend to believe<br>Whoever you are<br>I'll leave you the keys</em></h5></blockquote><p><strong><a href="https://open.spotify.com/album/78tXJfTs54x8GO5aq4rbVE?si=CkQrvEnWSm-4GdTRu3OZLg">A Study of Losses</a></strong> is the last (and seventh) studio LP by <strong><a href="https://open.spotify.com/artist/6pmxr66tMAePxzOLfjGNcX?si=nu4QemrCTmqoXGPIHplWTg">Beirut</a></strong>. It was produced by <strong>Zach Condon</strong>, and published on April 18, 2025, by <em>Pompeii Records</em>.</p><iframe class="spotify-wrap album" src="https://open.spotify.com/embed/album/78tXJfTs54x8GO5aq4rbVE" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><p>The project was born in 2006 in Santa Fe, the city where Condon is from. The first album was substantially produced and recorded by himself, and the multi-instrumental and individual nature of the project remained a trademark of Beirut for a long time, despite the presence of band members, both in the studio and on tour.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3f43055-8ff1-40ee-8d78-21ac4b8f1512_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3f43055-8ff1-40ee-8d78-21ac4b8f1512_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3f43055-8ff1-40ee-8d78-21ac4b8f1512_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3f43055-8ff1-40ee-8d78-21ac4b8f1512_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3f43055-8ff1-40ee-8d78-21ac4b8f1512_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3f43055-8ff1-40ee-8d78-21ac4b8f1512_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><em>Disappearances and Losses</em> opens the album, and it's a heart-wrenching instrumental track that immediately transports us into a world of memories, of <em>disappearances</em> and <em>losses</em>. </p><p><em>Forest Encyclopedia</em> is a song full of questions, full of doubts and hopes. </p><p>What will happen when I'm gone, when it will be "long past the time," and what will happen to everything I've "hidden in the trees"? </p><p>Will my legacy be betrayed? And again, what will I find, should I return? </p><p>And return how, like a breeze, through the leaves, a little here and a little there, everywhere and intangible?</p><div><hr></div><p><em>Oceanus Procellarum</em> is yet another orchestral track, in which the chamber-folk nature of the project returns. </p><p>In <em>Villa Sacchetti</em> Condon speaks of a house that he no longer knows where it is, and that he seeks among the <em>ivy lines</em> and the <em>fallen stones</em>, and finds it in Rome, among <em>alleys and tombs</em>. </p><p>An elegant and heart-wrenching motif, intimate and personal, permeates the instrumental part of this song, as in Forest Encyclopedia, accompanying the transitions between verses and chorus.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4245e94-3b36-4555-8e31-cd1ec9208c15_1920x1080.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4245e94-3b36-4555-8e31-cd1ec9208c15_1920x1080.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4245e94-3b36-4555-8e31-cd1ec9208c15_1920x1080.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4245e94-3b36-4555-8e31-cd1ec9208c15_1920x1080.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4245e94-3b36-4555-8e31-cd1ec9208c15_1920x1080.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4245e94-3b36-4555-8e31-cd1ec9208c15_1920x1080.jpeg" alt="Image"></picture></a></figure></div><p><em>Mare Crisium</em> - the stress on the various <em>seas</em> are an explicit reference to the various floors that are present on the Moon - is yet another instrumental interlude, with strummed guitars and cello lines, violas and violins that create a musicality that permeates the entire record.</p><p><em>Garbo's Face</em> speaks of <em>hair</em> turning <em>gray</em>, of time passing and settling around the <em>eyes</em>, of habits changing, of now-sporadic encounters, of people drifting apart.</p><p>And in all of this, are you waiting for me? </p><p>Or am I mistaken, and you've forgotten your dreams? </p><p>Condon's performance is heart-wrenching and inquisitive, mournful and pressing.</p><div><hr></div><p><em>Mare Imbrium</em> continues the instrumental alternation, and does so by conceptually continuing where Mare Crisium left off. </p><p>The violin rises, rises and then settles where Tuanaki Atoll begins, which opens with a selfish request, to forget about the world. </p><p>After all, <em>what if I drowned</em>?</p><p>And although sometimes you can neither <em>win</em> nor <em>lose</em>, I still don't know if I should […] <em>run</em> or […] <em>turn</em>.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fe14516-5ebb-4d9d-9263-1f9968662321_1200x800.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fe14516-5ebb-4d9d-9263-1f9968662321_1200x800.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fe14516-5ebb-4d9d-9263-1f9968662321_1200x800.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fe14516-5ebb-4d9d-9263-1f9968662321_1200x800.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fe14516-5ebb-4d9d-9263-1f9968662321_1200x800.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fe14516-5ebb-4d9d-9263-1f9968662321_1200x800.jpeg" alt="Image"></picture></a></figure></div><p><em>Mare Serinitatis</em> is another instrumental track, delicate and from which some of the serenity of the title emerges; it is followed by <em>Guericke's Unicorn</em>, the most upbeat of the tracks, with a more evident percussion line compared to the others: Condon wonders if this thing, whatever it is, can make sense. </p><p>But life, like lies, always finds - and they find - a way to present themselves - full of consequences, it seems.</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><p>After a brief instrumental break, the verses repeat, to emphasize the inevitable truth of the cycle of truth, lies, of life and its end that one must face - sooner or later.</p><p><em>Mare Humorum</em> is the next instrumental track, but this time a humming Condon appears, supporting the guitars and violins, and sustains the song until delivering it to the next one, <em>Sappho's Poems</em>, which is truly a poem that could have been written on a Greek island on a day without shadows, while two eyes scrutinize you, two eyes like razor blades.</p><p>And you, are you <em>aware of my plan?</em> Condon asks whom - us, Sappho, his muse? <em>Eros</em>?</p><div><hr></div><p>In <em>Ghost Train</em> the lies return, something returns after death, when we will be free. Then the text slows down, dwells on dispensing advice - <em>leave me now to be free</em> - and to be able to think freely.</p><p>A nice beat, strings and brass accompany this track - a beautiful announcement you will never hear in a train station - a ghost train, indeed.</p><p><em>Caspian Tiger</em> is an ode to the futility of battle, which, however holy, always leaves hunger. But it also speaks of watching one's enemies, and that something changes when we realize that they too die, that they too will be saved.</p><p>And we can then say that "<em>I feel your pain</em>".</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/subscribe?"><span>Subscribe now</span></a></p><p><em>Mani's 7 Books</em> speaks of the unknown, of the wild, of what you encounter when you set sail. It speaks of those who are not sung in the deeds, of those who are not saved.</p><p>And there is only waiting for one's turn, being guided by the brass and drums of this track, which seem built specifically "<em>to keep</em> [us] <em>going</em>".</p><p><em>Moon Voyager</em> is an invitation to conquer every place, every space, every city: "<em>I'll be ready</em>" sings Condon, since he too is almost finished (nearly over).</p><p><em>Mare Nectaris</em> is cosmic, spatial, extraterrestrial in its sounds - it seems like we are no longer on Earth. But immediately Condon sings "You can't be above all this", and repeats it, so probably it won't be so.</p><p>After all, <em>Mare Tranquillitatis</em> continues in this vein, takes us to a place - Neverland - from which we don't remember at all the way back. Had we perhaps come to observe the sea of the title? Condon "can't remember", and all that remains for him is to be.</p><div><hr></div><div><hr></div><p>A Study of Losses is a gem of introspection, a pearl of reflections on the nature of things we create and those we leave when we go away, when we embrace the unknown that will remain there forever, and that has forever waited for us.</p><p>Condon is capable of creating a recognizable sound, of transporting us from the very first notes to a place different from wherever we are when we begin to listen - it is truly magic, a secular miracle.</p><p>A complete listening cannot leave one indifferent, and a nocturnal listening might leave you a little more complete, a little more connected to the journey we all live, only once.</p><div><hr></div><blockquote><h5><em><strong>Wait out your trouble<br>I'll make space for, I will wait for<br>Heaven above this time</strong></em></h5></blockquote><div id="youtube2-3O0RXGHLiCg" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/3O0RXGHLiCg?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p>If you liked this, you could share this project with others. Here’s the button:</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sounds</span></a></p><p>See you next time!</p><form class="subscription-widget-subscribe"><input type="email" class="email-input" name="email" placeholder="Type your email…" tabindex="-1"><input type="submit" class="button primary" value="Subscribe"><div class="fake-input-wrapper"><div class="fake-input"></div><div class="fake-button"></div></div></form></div></div>
+God is the garden
+
+I tend to believe
+
+Whoever you are
+
+I'll leave you the keys
+
+A Study of Losses is the last (and seventh) studio LP by Beirut . It was produced by Zach Condon , and published on April 18, 2025, by Pompeii Records .
+
+The project was born in 2006 in Santa Fe, the city where Condon is from. The first album was substantially produced and recorded by himself, and the multi-instrumental and individual nature of the project remained a trademark of Beirut for a long time, despite the presence of band members, both in the studio and on tour.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/a3f43055-8ff1-40ee-8d78-21ac4b8f1512_1200x1200.jpeg)
+
+Disappearances and Losses opens the album, and it's a heart-wrenching instrumental track that immediately transports us into a world of memories, of disappearances and losses .
+
+Forest Encyclopedia is a song full of questions, full of doubts and hopes.
+
+What will happen when I'm gone, when it will be "long past the time," and what will happen to everything I've "hidden in the trees"?
+
+Will my legacy be betrayed? And again, what will I find, should I return?
+
+And return how, like a breeze, through the leaves, a little here and a little there, everywhere and intangible?
+
+Oceanus Procellarum is yet another orchestral track, in which the chamber-folk nature of the project returns.
+
+In Villa Sacchetti Condon speaks of a house that he no longer knows where it is, and that he seeks among the ivy lines and the fallen stones , and finds it in Rome, among alleys and tombs .
+
+An elegant and heart-wrenching motif, intimate and personal, permeates the instrumental part of this song, as in Forest Encyclopedia, accompanying the transitions between verses and chorus.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/e4245e94-3b36-4555-8e31-cd1ec9208c15_1920x1080.jpeg)
+
+Mare Crisium - the stress on the various seas are an explicit reference to the various floors that are present on the Moon - is yet another instrumental interlude, with strummed guitars and cello lines, violas and violins that create a musicality that permeates the entire record.
+
+Garbo's Face speaks of hair turning gray , of time passing and settling around the eyes , of habits changing, of now-sporadic encounters, of people drifting apart.
+
+And in all of this, are you waiting for me?
+
+Or am I mistaken, and you've forgotten your dreams?
+
+Condon's performance is heart-wrenching and inquisitive, mournful and pressing.
+
+Mare Imbrium continues the instrumental alternation, and does so by conceptually continuing where Mare Crisium left off.
+
+The violin rises, rises and then settles where Tuanaki Atoll begins, which opens with a selfish request, to forget about the world.
+
+After all, what if I drowned ?
+
+And although sometimes you can neither win nor lose , I still don't know if I should […] run or […] turn .
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/1fe14516-5ebb-4d9d-9263-1f9968662321_1200x800.jpeg)
+
+Mare Serinitatis is another instrumental track, delicate and from which some of the serenity of the title emerges; it is followed by Guericke's Unicorn , the most upbeat of the tracks, with a more evident percussion line compared to the others: Condon wonders if this thing, whatever it is, can make sense.
+
+But life, like lies, always finds - and they find - a way to present themselves - full of consequences, it seems.
+
+After a brief instrumental break, the verses repeat, to emphasize the inevitable truth of the cycle of truth, lies, of life and its end that one must face - sooner or later.
+
+Mare Humorum is the next instrumental track, but this time a humming Condon appears, supporting the guitars and violins, and sustains the song until delivering it to the next one, Sappho's Poems , which is truly a poem that could have been written on a Greek island on a day without shadows, while two eyes scrutinize you, two eyes like razor blades.
+
+And you, are you aware of my plan? Condon asks whom - us, Sappho, his muse? Eros ?
+
+In Ghost Train the lies return, something returns after death, when we will be free. Then the text slows down, dwells on dispensing advice - leave me now to be free - and to be able to think freely.
+
+A nice beat, strings and brass accompany this track - a beautiful announcement you will never hear in a train station - a ghost train, indeed.
+
+Caspian Tiger is an ode to the futility of battle, which, however holy, always leaves hunger. But it also speaks of watching one's enemies, and that something changes when we realize that they too die, that they too will be saved.
+
+And we can then say that " I feel your pain ".
+
+Mani's 7 Books speaks of the unknown, of the wild, of what you encounter when you set sail. It speaks of those who are not sung in the deeds, of those who are not saved.
+
+And there is only waiting for one's turn, being guided by the brass and drums of this track, which seem built specifically " to keep [us] going ".
+
+Moon Voyager is an invitation to conquer every place, every space, every city: " I'll be ready " sings Condon, since he too is almost finished (nearly over).
+
+Mare Nectaris is cosmic, spatial, extraterrestrial in its sounds - it seems like we are no longer on Earth. But immediately Condon sings "You can't be above all this", and repeats it, so probably it won't be so.
+
+After all, Mare Tranquillitatis continues in this vein, takes us to a place - Neverland - from which we don't remember at all the way back. Had we perhaps come to observe the sea of the title? Condon "can't remember", and all that remains for him is to be.
+
+A Study of Losses is a gem of introspection, a pearl of reflections on the nature of things we create and those we leave when we go away, when we embrace the unknown that will remain there forever, and that has forever waited for us.
+
+Condon is capable of creating a recognizable sound, of transporting us from the very first notes to a place different from wherever we are when we begin to listen - it is truly magic, a secular miracle.
+
+A complete listening cannot leave one indifferent, and a nocturnal listening might leave you a little more complete, a little more connected to the journey we all live, only once.
+
+Wait out your trouble
+
+I'll make space for, I will wait for
+
+Heaven above this time
+
+See you next time!

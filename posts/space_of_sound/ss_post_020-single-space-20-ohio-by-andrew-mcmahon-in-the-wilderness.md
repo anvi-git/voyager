@@ -1,3 +1,23 @@
 # single space #20: Ohio, by Andrew McMahon in the Wilderness
 
-<p><strong>Andrew McMahon</strong> is an American songwriter and music artist from Concord, Massachusetts. He also lived in New Jersey, Ohio, and California.</p><p><strong><a href="https://open.spotify.com/track/0fkD7hezCmtyR6oJ2PY3qJ?si=61debc9cf397432e">Ohio</a></strong> was released as a single in 2018, and then was included in the album <em><strong>Upside Down Flowers</strong> </em>in the same year, under <em>Fantasy</em> label.</p><div><hr></div><iframe class="spotify-wrap" src="https://open.spotify.com/embed/track/0fkD7hezCmtyR6oJ2PY3qJ" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><p>Ohio is a song on new directions, fleeing from Ohio to California, to &#8220;<em>start a new life</em>&#8221;. It&#8217;s also a song of new travels, and reminiscing old ones. </p><p>A car (station wagon) covers many states, crosses many state lines, makes you miss your old state, but you&#8217;re full of hopes to &#8220;<em>get it right</em>&#8221; this time. </p><p>Andrew is not alone, there&#8217;s his sister &#8220;<em>counting crows</em>&#8221; looking outside the car. </p><p>Not just life, also music might be &#8220;<em>better on the west coast</em>&#8221; (on the radio, at least).</p><p>He makes some references to some &#8220;<em>men</em>&#8221; who &#8220;<em>never change</em>&#8221;, so it&#8217;s safe to suppose that they&#8217;re fleeing some form of abusive behaviour, presumably from their father. </p><p>They leave a &#8220;<em>blue house&#8221;</em>, a &#8220;<em>red door&#8221;</em>, and they feel a pull from the ocean (on the west coast they&#8217;re reaching).</p><div><hr></div><p>The song has evidently a personal touch, and that&#8217;s the main quality it has. But it is not shy in terms of rhythm: the chorus comes with a good crescendo, and the lines of drums are well executed, and in the bridge section a sort of depth to the song is reached.</p><iframe src="https://www.youtube-nocookie.com/embed/0qKASreVxpc?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div><p> If you liked this, you could share this project with others. Here&#8217;s the button:</p><p>See you next time!</p><p>P.S. If you wish to participate in the project, and you&#8217;d like to donate a small amount, you can do so by checking my Ko-fi page, following this <a href="https://ko-fi.com/anvianvi">link</a>.</p><p>Anything makes a big difference! Thanks :)</p>
+Andrew McMahon is an American songwriter and music artist from Concord, Massachusetts. He also lived in New Jersey, Ohio, and California.
+
+Ohio was released as a single in 2018, and then was included in the album Upside Down Flowers in the same year, under Fantasy label.
+
+Ohio is a song on new directions, fleeing from Ohio to California, to “ start a new life ”. It’s also a song of new travels, and reminiscing old ones.
+
+A car (station wagon) covers many states, crosses many state lines, makes you miss your old state, but you’re full of hopes to “ get it right ” this time.
+
+Andrew is not alone, there’s his sister “ counting crows ” looking outside the car.
+
+Not just life, also music might be “ better on the west coast ” (on the radio, at least).
+
+He makes some references to some “ men ” who “ never change ”, so it’s safe to suppose that they’re fleeing some form of abusive behaviour, presumably from their father.
+
+They leave a “ blue house” , a “ red door” , and they feel a pull from the ocean (on the west coast they’re reaching).
+
+The song has evidently a personal touch, and that’s the main quality it has. But it is not shy in terms of rhythm: the chorus comes with a good crescendo, and the lines of drums are well executed, and in the bridge section a sort of depth to the song is reached.
+
+See you next time!
+
+Anything makes a big difference! Thanks :)

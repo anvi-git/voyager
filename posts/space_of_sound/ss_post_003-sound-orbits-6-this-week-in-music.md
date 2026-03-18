@@ -1,1 +1,73 @@
-<h5><em>The name </em><code>sound orbits</code><em> is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.</em></h5><div><hr></div><pre><code>Space of Sound is also on <a href="https://open.spotify.com/playlist/0nrw5lrNnLvW8qyvjGgvOF?si=95fd3b2e6f774c0a">Spotify</a> and <a href="https://music.apple.com/it/playlist/space-of-sound/pl.u-KVXBk16sLk11D3e?l=en">Apple Music</a>, with a playlist.</code></pre><iframe class="spotify-wrap playlist" src="https://open.spotify.com/embed/playlist/0nrw5lrNnLvW8qyvjGgvOF" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><div><hr></div><p>This week:</p><div><hr></div><p><em><strong>Godblesscomputers: Bassa Marea<br></strong>Produced by: Délicieuse Records<br>Published by: Délicieuse Records<br>Published: Feb 13, 2026<strong><br></strong></em>Italian producer Lorenzo Nada, now based in Berlin, records this album blending a beach, a forest, and an art exhibition.<br>The song is part of of the LP <strong>Dance Until Dawn</strong>, published February 13, 2026.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8167aa02-a6ea-43c7-887c-8c67de7c2612_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8167aa02-a6ea-43c7-887c-8c67de7c2612_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8167aa02-a6ea-43c7-887c-8c67de7c2612_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8167aa02-a6ea-43c7-887c-8c67de7c2612_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8167aa02-a6ea-43c7-887c-8c67de7c2612_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8167aa02-a6ea-43c7-887c-8c67de7c2612_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><strong>Godblesscomputers</strong> on <a href="https://godblesscomputers.bandcamp.com/album/dance-until-dawn">Bandcamp</a>,  <strong>Bassa Marea</strong> on <a href="https://open.spotify.com/track/2h233f5zwCU9zjunvqBqHO?si=2a8f31fd5c154b3c">Spotify</a>, on <a href="https://music.apple.com/it/album/bassa-marea/1867007486?i=1867007491&amp;l=en-GB">Apple Music</a>, on <a href="https://youtu.be/q2Qh35bnZyQ?list=RDq2Qh35bnZyQ">Youtube</a>.<br></p><div class="bandcamp-wrap"><iframe src="https://bandcamp.com/EmbeddedPlayer/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/track=4252317928/transparent=true/" frameborder="0" gesture="media" scrolling="no" allowfullscreen="true"></iframe></div><div id="youtube2-q2Qh35bnZyQ" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/q2Qh35bnZyQ?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><em><strong>Amir Bresler: Lesoto (feat. Rejoicer)<br></strong>Produced by: Raw Tapes Records<br>Published by: Raw Tapes Records <br>Published:  February 13, 2026<br></em>Drummer from Tel Aviv, Amir Bresler releases a new LP and this song has a summer-y vibe, even in the cold of February.<br>The song is part of the records See What Happens, published February 13, 2026.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1b0fc3a-0a4c-4115-aba0-03fc9e3588a4_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1b0fc3a-0a4c-4115-aba0-03fc9e3588a4_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1b0fc3a-0a4c-4115-aba0-03fc9e3588a4_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1b0fc3a-0a4c-4115-aba0-03fc9e3588a4_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1b0fc3a-0a4c-4115-aba0-03fc9e3588a4_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1b0fc3a-0a4c-4115-aba0-03fc9e3588a4_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><strong>Amir Bresler</strong> on <a href="https://amirbresler.bandcamp.com/album/see-what-happens">Bandcamp</a>,  <strong>Lesoto</strong> on <a href="https://open.spotify.com/track/7xr4eyBWMnjwCvvTwFMi75?si=fba59890331c4cad">Spotify</a>, on <a href="https://music.apple.com/it/album/lesoto-feat-rejoicer/1856540703?i=1856541610&amp;l=en-GB">Apple Music</a>.<br></p><div class="bandcamp-wrap"><iframe src="https://bandcamp.com/EmbeddedPlayer/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/track=3559720575/transparent=true/" frameborder="0" gesture="media" scrolling="no" allowfullscreen="true"></iframe></div><div><hr></div><p><em><strong>vegas water taxi: new irish boyfriend<br></strong>Produced by: PNKSLM Recordings<br>Published by: PNKSLM Recordings<br>Published:  February 6, 2026<br></em>London based band, <strong>vegas water taxi</strong> release this album and some needed sadness. <br>The song is part of the LP <strong>long time caller, first time listener</strong>, published February 6, 2026.</p><p><strong>vegas water taxi</strong> on <a href="https://vegaswatertaxi.bandcamp.com/album/long-time-caller-first-time-listener-lp">Bandcamp</a>,  on <a href="https://open.spotify.com/track/3034WnWL3BvS9h7pw0Lu4C?si=6d7da4a44a7f4755">Spotify</a>, on <a href="https://music.apple.com/it/album/new-irish-boyfriend/1849476535?i=1849476917">Apple Music</a>, on <a href="https://youtu.be/co830EhPEuQ?list=RDco830EhPEuQ">Youtube</a>.</p><div class="bandcamp-wrap"><iframe src="https://bandcamp.com/EmbeddedPlayer/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/track=613854268/transparent=true/" frameborder="0" gesture="media" scrolling="no" allowfullscreen="true"></iframe></div><div id="youtube2-co830EhPEuQ" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/co830EhPEuQ?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><code>Delayed Orbit: a song/record/soundtrack not published this week, and that I encountered in these days.</code></p><blockquote><p><em><strong>Gracie Abrams: Sold Out (feat. Bon Iver &amp; Aaron Dessner)<br></strong>Produced by: Gracie Abrams, Aaron Dessner, Justin Vernon<br>Published by: Gracie Abrams, Aaron Dessner, Justin Vernon<br>Published: December 22, 2025<strong><br></strong></em>This song was made “in the wake of a school shooting”. The three artists support <strong><a href="https://www.everytown.org">Everytown</a></strong>, an organization dedicated to ending gun violence in America.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b0660e2-fbdf-4c9e-a0dc-8a4642b5e550_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b0660e2-fbdf-4c9e-a0dc-8a4642b5e550_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b0660e2-fbdf-4c9e-a0dc-8a4642b5e550_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b0660e2-fbdf-4c9e-a0dc-8a4642b5e550_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b0660e2-fbdf-4c9e-a0dc-8a4642b5e550_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b0660e2-fbdf-4c9e-a0dc-8a4642b5e550_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><strong>Gracie Abrams</strong> on <a href="https://gracieabrams.bandcamp.com/track/sold-out">Bandcamp</a>, <em><strong>Sold Out</strong></em> on <a href="https://gracieabrams.bandcamp.com/track/sold-out">Bandcamp</a>. <br>Sold Out is not Apple Music. <br>Sold Out is not on Spotify. <br>Sold Out is not on Youtube.</p></blockquote><div class="bandcamp-wrap"><iframe src="https://cdn.iframe.ly/api/iframe?_layout=standard&amp;_playlist=false&amp;_theme=light&amp;app=1&amp;url=https%3A%2F%2Fgracieabrams.bandcamp.com%2Ftrack%2Fsold-out%3Fsearch_item_id%253D3838827598%2526search_item_type%253Dt%2526search_match_part%253D%25253F%2526search_page_id%253D5157276396%2526search_page_no%253D0%2526search_rank%253D2&amp;key=e27c740634285c9ddc20db64f73358dd" frameborder="0" gesture="media" scrolling="no" allowfullscreen="true"></iframe></div><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/subscribe?"><span>Subscribe now</span></a></p><p>See you next time. <br>If you liked this episode, you can share it with other human beings.</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><div><hr></div><div><hr></div><h4>Read also:<br></h4><div><hr></div><div><hr></div><h6>Heralding Time: a blog on history, philosophy, and science. Subscribe here. <br>Last Scattering Surface: a blog on cosmology. Subscribe here<br>To support the project, here’s my <a href="https://ko-fi.com/anvianvi#checkoutModal">ko-fi</a>. <br>If you want, you can follow - and support - me on <a href="https://www.patreon.com/cw/anvianvi">Patreon</a>.<br>Finally, you can share this publication with whomever you want.</h6><p class="button-wrapper"><a class="button primary button-wrapper" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><h6>Ciao and see you soon!</h6>
+The name sound orbits is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.
+
+This week:
+
+Godblesscomputers: Bassa Marea
+
+Produced by: Délicieuse Records
+
+Published by: Délicieuse Records
+
+Published: Feb 13, 2026
+
+Italian producer Lorenzo Nada, now based in Berlin, records this album blending a beach, a forest, and an art exhibition.
+
+The song is part of of the LP Dance Until Dawn , published February 13, 2026.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/8167aa02-a6ea-43c7-887c-8c67de7c2612_1200x1200.jpeg)
+
+Godblesscomputers on Bandcamp, Bassa Marea on Spotify, on Apple Music, on Youtube.
+
+Amir Bresler: Lesoto (feat. Rejoicer)
+
+Produced by: Raw Tapes Records
+
+Published by: Raw Tapes Records
+
+Published: February 13, 2026
+
+Drummer from Tel Aviv, Amir Bresler releases a new LP and this song has a summer-y vibe, even in the cold of February.
+
+The song is part of the records See What Happens, published February 13, 2026.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/d1b0fc3a-0a4c-4115-aba0-03fc9e3588a4_1200x1200.jpeg)
+
+Amir Bresler on Bandcamp, Lesoto on Spotify, on Apple Music.
+
+vegas water taxi: new irish boyfriend
+
+Produced by: PNKSLM Recordings
+
+Published by: PNKSLM Recordings
+
+Published: February 6, 2026
+
+London based band, vegas water taxi release this album and some needed sadness.
+
+The song is part of the LP long time caller, first time listener , published February 6, 2026.
+
+vegas water taxi on Bandcamp, on Spotify, on Apple Music, on Youtube.
+
+Delayed Orbit: a song/record/soundtrack not published this week, and that I encountered in these days.
+
+Gracie Abrams: Sold Out (feat. Bon Iver & Aaron Dessner)
+
+Produced by: Gracie Abrams, Aaron Dessner, Justin Vernon
+
+Published by: Gracie Abrams, Aaron Dessner, Justin Vernon
+
+Published: December 22, 2025
+
+This song was made “in the wake of a school shooting”. The three artists support Everytown , an organization dedicated to ending gun violence in America.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/5b0660e2-fbdf-4c9e-a0dc-8a4642b5e550_1200x1200.jpeg)
+
+Gracie Abrams on Bandcamp, Sold Out on Bandcamp.
+
+Sold Out is not Apple Music.
+
+Sold Out is not on Spotify.
+
+Sold Out is not on Youtube.
+
+See you next time.

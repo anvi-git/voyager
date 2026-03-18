@@ -1,1 +1,79 @@
-<h5><em>The name </em><code>sound orbits</code><em> is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.</em></h5><div><hr></div><pre><code>Space of Sound is also on <a href="https://open.spotify.com/playlist/0nrw5lrNnLvW8qyvjGgvOF?si=95fd3b2e6f774c0a">Spotify</a> and <a href="https://music.apple.com/it/playlist/space-of-sound/pl.u-KVXBk16sLk11D3e?l=en">Apple Music</a>, with a playlist.</code></pre><iframe class="spotify-wrap playlist" src="https://open.spotify.com/embed/playlist/0nrw5lrNnLvW8qyvjGgvOF" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><div><hr></div><p>This week</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df905b1-ad69-416a-96ed-0094fea70290_1572x1048.png"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df905b1-ad69-416a-96ed-0094fea70290_1572x1048.png 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df905b1-ad69-416a-96ed-0094fea70290_1572x1048.png 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df905b1-ad69-416a-96ed-0094fea70290_1572x1048.png 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df905b1-ad69-416a-96ed-0094fea70290_1572x1048.png 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df905b1-ad69-416a-96ed-0094fea70290_1572x1048.png" alt="Image"></picture></a></figure></div><p>:</p><div><hr></div><p><em><strong>John Vincent III: Walking Through The Water<br></strong>Produced by: Blue June Music<br>Published by: Concord Records<br>Published: Mar 6, 2026<br><br></em>Singer-songwriter from Houston, Texas, John Vincent III goes out in the fields with a hoodie or a raincoat. <br>This song feels like waiting for a spring rain.<em> </em></p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0ecb017-e677-4d32-ae9b-3558074918c9_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0ecb017-e677-4d32-ae9b-3558074918c9_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0ecb017-e677-4d32-ae9b-3558074918c9_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0ecb017-e677-4d32-ae9b-3558074918c9_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0ecb017-e677-4d32-ae9b-3558074918c9_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0ecb017-e677-4d32-ae9b-3558074918c9_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><strong>John Vincent III</strong> on <a href="https://johnvincentiii.bandcamp.com/album/walking-through-the-water">Bandcamp</a>, <strong>Walking Through The Water</strong> on <a href="https://open.spotify.com/track/4eZ5yY3JOU2yD2GA7u7afs?si=1e665659003f4e50">Spotify</a>, on <a href="https://music.apple.com/it/album/walking-through-the-water/1873439737?i=1873439740&amp;l=en-GB">Apple Music</a>, on <a href="https://youtu.be/uSyddpt75GM?list=RDuSyddpt75GM">Youtube</a>.</p><div class="bandcamp-wrap"><iframe src="https://bandcamp.com/EmbeddedPlayer/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/track=1166074118/transparent=true/" frameborder="0" gesture="media" scrolling="no" allowfullscreen="true"></iframe></div><div id="youtube2-uSyddpt75GM" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/uSyddpt75GM?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><em><strong>The Brook &amp; The Bluff: Can’t Figure It Out<br></strong>Produced by: Dualtone Music Group<br>Published by: Dualtone Music Group<br>Published: Mar 6, 2026<br><strong><br></strong></em>This band from Nashville, Tennessee is joyful and funny. This song is a breather. <br><em>Don’t come looking for me, I don’t want to be found.<br></em>The song is part of of the LP <strong>Werewolf</strong>, published March 6, 2026.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab43cd77-8498-4b8c-a828-918ae77f6438_1000x1000.webp"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab43cd77-8498-4b8c-a828-918ae77f6438_1000x1000.webp 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab43cd77-8498-4b8c-a828-918ae77f6438_1000x1000.webp 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab43cd77-8498-4b8c-a828-918ae77f6438_1000x1000.webp 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab43cd77-8498-4b8c-a828-918ae77f6438_1000x1000.webp 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab43cd77-8498-4b8c-a828-918ae77f6438_1000x1000.webp" alt="Image"></picture></a></figure></div><p><strong>The Brook &amp; The Bluff</strong> on <a href="https://brookandbluff.bandcamp.com/?search_item_id%3D4275651050%26search_item_type%3Db%26search_match_part%3D%253F%26search_page_id%3D5225316858%26search_page_no%3D0%26search_rank%3D2">Bandcamp</a>,  <strong>Can’t Figure It Out</strong> on <a href="https://open.spotify.com/track/6xNNinxqPFd9LxZg3UCDfY?si=93bf33d7b1a14b89">Spotify</a>, on <a href="https://music.apple.com/it/album/cant-figure-it-out/1844870787?i=1844870803&amp;l=en-GB">Apple Music</a>, on <a href="https://youtu.be/OYMzDdmM768">Youtube</a>.</p><div id="youtube2-OYMzDdmM768" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/OYMzDdmM768?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><div><hr></div><p><code>Delayed Orbit: a song/record/soundtrack not published this week, and that I encountered in these days.<br>This week, more than just one song.</code></p><blockquote><p><em><strong>Jasmine Myra: Reflections<br></strong>Produced by: Gondwana Records<br>Published by: Gondwana Records<br>Published: Feb 27, 2026<br><strong><br></strong></em>The composer from Leeds, UK, performs a gentle introduction to her forthcoming album. Feels like a magic realm, then reality catches up.<br>The song is part of of the LP <strong>Where Lights Settles</strong>, to be published May 15, 2026.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6174a479-2bfb-4a13-94ea-891e23b6f6b1_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6174a479-2bfb-4a13-94ea-891e23b6f6b1_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6174a479-2bfb-4a13-94ea-891e23b6f6b1_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6174a479-2bfb-4a13-94ea-891e23b6f6b1_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6174a479-2bfb-4a13-94ea-891e23b6f6b1_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6174a479-2bfb-4a13-94ea-891e23b6f6b1_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><strong>Jasmine Myra</strong> on <a href="https://jasminemyra.bandcamp.com/?search_item_id%3D3441291514%26search_item_type%3Db%26search_match_part%3D%253F%26search_page_id%3D5225305251%26search_page_no%3D0%26search_rank%3D1">Bandcamp</a>,  <strong>Reflections</strong> on <a href="https://open.spotify.com/track/6EiddSbc6b4quXfQvrVND1?si=c18b0e200a1848a6">Spotify</a>, on <a href="https://music.apple.com/it/album/reflections/1873975822?i=1873975841&amp;l=en-GB">Apple Music</a>, on <a href="https://youtu.be/I0Ymo2Lw8ts?list=RDI0Ymo2Lw8ts">Youtube</a>.</p><div class="bandcamp-wrap"><iframe src="https://bandcamp.com/EmbeddedPlayer/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/track=2197767174/transparent=true/" frameborder="0" gesture="media" scrolling="no" allowfullscreen="true"></iframe></div><div id="youtube2-I0Ymo2Lw8ts" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/I0Ymo2Lw8ts?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div></blockquote><blockquote><p><em><strong>Catching Flies: When It’s Late<br></strong>Produced by: Indigo Soul<br>Published by: Indigo Soul<br>Published: Feb 18, 2026<br><br></em>This producer under the pseudonym Catching Flies brings energy to the dancefloor, a place I never went to. <em><br></em>The song is part of the LP Beat &amp; Pieces II, to be released on March 27, 2026.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75015ca7-4eb0-40a9-8a58-e7f17d9b567d_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75015ca7-4eb0-40a9-8a58-e7f17d9b567d_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75015ca7-4eb0-40a9-8a58-e7f17d9b567d_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75015ca7-4eb0-40a9-8a58-e7f17d9b567d_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75015ca7-4eb0-40a9-8a58-e7f17d9b567d_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75015ca7-4eb0-40a9-8a58-e7f17d9b567d_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><strong>Catching Flies</strong> on <a href="https://catchingflies.bandcamp.com">Bandcamp</a>,  <strong>When It’s Late</strong> on <a href="https://open.spotify.com/track/1ttFxosF4kLEcxLPJX1JRH?si=5070c1ce52724c69">Spotify</a>, on <a href="http://ìhttps://music.apple.com/it/album/when-its-late/1867242838?i=1867243067&amp;l=en-GB">Apple Music</a>, on <a href="https://youtu.be/qC3pHLo9L6Q">Youtube</a>.</p><div id="youtube2-qC3pHLo9L6Q" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/qC3pHLo9L6Q?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div></blockquote><p class="button-wrapper"><a class="button primary button-wrapper" href="https://spaceofsound.substack.com/subscribe?"><span>Subscribe now</span></a></p><p>See you next time. <br>If you liked this episode, you can share it with other human beings.</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><div><hr></div><div><hr></div><h4>Read also:</h4><div><hr></div><div><hr></div><h6>Heralding Time: a blog on history, philosophy, and science. Subscribe here. <br>Last Scattering Surface: a blog on cosmology. Subscribe here<br>To support the project, here’s my <a href="https://ko-fi.com/anvianvi#checkoutModal">ko-fi</a>. <br>If you want, you can follow - and support - me on <a href="https://www.patreon.com/cw/anvianvi">Patreon</a>.<br>Finally, you can share this publication with whomever you want.</h6><p class="button-wrapper"><a class="button primary button-wrapper" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><h6>Ciao and see you soon!</h6>
+The name sound orbits is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.
+
+This week
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/4df905b1-ad69-416a-96ed-0094fea70290_1572x1048.png)
+
+:
+
+John Vincent III: Walking Through The Water
+
+Produced by: Blue June Music
+
+Published by: Concord Records
+
+Published: Mar 6, 2026
+
+Singer-songwriter from Houston, Texas, John Vincent III goes out in the fields with a hoodie or a raincoat.
+
+This song feels like waiting for a spring rain.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/b0ecb017-e677-4d32-ae9b-3558074918c9_1200x1200.jpeg)
+
+John Vincent III on Bandcamp, Walking Through The Water on Spotify, on Apple Music, on Youtube.
+
+The Brook & The Bluff: Can’t Figure It Out
+
+Produced by: Dualtone Music Group
+
+Published by: Dualtone Music Group
+
+Published: Mar 6, 2026
+
+This band from Nashville, Tennessee is joyful and funny. This song is a breather.
+
+Don’t come looking for me, I don’t want to be found.
+
+The song is part of of the LP Werewolf , published March 6, 2026.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/ab43cd77-8498-4b8c-a828-918ae77f6438_1000x1000.webp)
+
+The Brook & The Bluff on Bandcamp, Can’t Figure It Out on Spotify, on Apple Music, on Youtube.
+
+Delayed Orbit: a song/record/soundtrack not published this week, and that I encountered in these days.
+
+This week, more than just one song.
+
+Jasmine Myra: Reflections
+
+Produced by: Gondwana Records
+
+Published by: Gondwana Records
+
+Published: Feb 27, 2026
+
+The composer from Leeds, UK, performs a gentle introduction to her forthcoming album. Feels like a magic realm, then reality catches up.
+
+The song is part of of the LP Where Lights Settles , to be published May 15, 2026.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/6174a479-2bfb-4a13-94ea-891e23b6f6b1_1200x1200.jpeg)
+
+Jasmine Myra on Bandcamp, Reflections on Spotify, on Apple Music, on Youtube.
+
+Catching Flies: When It’s Late
+
+Produced by: Indigo Soul
+
+Published by: Indigo Soul
+
+Published: Feb 18, 2026
+
+This producer under the pseudonym Catching Flies brings energy to the dancefloor, a place I never went to.
+
+The song is part of the LP Beat & Pieces II, to be released on March 27, 2026.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/75015ca7-4eb0-40a9-8a58-e7f17d9b567d_1200x1200.jpeg)
+
+Catching Flies on Bandcamp, When It’s Late on Spotify, on Apple Music, on Youtube.
+
+See you next time.

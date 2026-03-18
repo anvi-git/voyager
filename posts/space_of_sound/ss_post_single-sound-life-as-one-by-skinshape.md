@@ -1,1 +1,23 @@
-<blockquote><h5><em><strong>We come in numbers, we come with need</strong></em></h5></blockquote><p>I stumbled upon this song thanks to YouTube's algorithm, which brought me <a href="https://youtu.be/4O8tmTW_ndM">here</a>. </p><p><strong><a href="https://open.spotify.com/artist/1itM5tXaK5THggpXA7ovAe?si=9INnEgtgSN22VIVVMo1o1A">Skinshape</a></strong> is the solo project of British artist <strong>William Dorey</strong>, formerly of Palace. </p><p><strong><a href="https://open.spotify.com/track/5eMjdwl5jguG5E64bHTJMx?si=e8c8e1e994fd4f3c">Life as One</a></strong> is track #6 on the album <strong>Filoxiny</strong>, self-released in 2018.</p><iframe class="spotify-wrap" src="https://open.spotify.com/embed/track/5eMjdwl5jguG5E64bHTJMx" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><p>The track begins with a drone sequence and a drum line; then Dorey talks about an ocean of cement, and stars that can be observed by looking where we are now, and far up in the sky. </p><p>We lie in an ocean of lights, we reach toward an ocean of lights.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd79d0a93-af31-4774-809b-fe8e70370600_800x800.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd79d0a93-af31-4774-809b-fe8e70370600_800x800.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd79d0a93-af31-4774-809b-fe8e70370600_800x800.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd79d0a93-af31-4774-809b-fe8e70370600_800x800.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd79d0a93-af31-4774-809b-fe8e70370600_800x800.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd79d0a93-af31-4774-809b-fe8e70370600_800x800.jpeg" alt="Image"></picture></a></figure></div><p>After the interlude that becomes almost lyrical, with psychedelic sounds and an even more drone-like sequence than the initial part, Dorey speaks of humanity as a single entity, uses a "we" but addresses himself; and gradually becomes aware of looking within, to cast a glance at his now outdated image (could the lights be involved, softening our shadows?). </p><p>But our strength is in being One.</p><div><hr></div><blockquote><h5><em><strong>Just take a look, don't look too hard<br>You’ll see your image, yourself surpassed</strong></em></h5></blockquote><div id="youtube2-kmmoVJIuUOQ" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/kmmoVJIuUOQ?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p>If you liked this, you could share this project with others. Here’s the button:</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sounds</span></a></p><p>See you next time!</p><form class="subscription-widget-subscribe"><input type="email" class="email-input" name="email" placeholder="Type your email…" tabindex="-1"><input type="submit" class="button primary" value="Subscribe"><div class="fake-input-wrapper"><div class="fake-input"></div><div class="fake-button"></div></div></form></div></div>
+We come in numbers, we come with need
+
+I stumbled upon this song thanks to YouTube's algorithm, which brought me here.
+
+Skinshape is the solo project of British artist William Dorey , formerly of Palace.
+
+Life as One is track #6 on the album Filoxiny , self-released in 2018.
+
+The track begins with a drone sequence and a drum line; then Dorey talks about an ocean of cement, and stars that can be observed by looking where we are now, and far up in the sky.
+
+We lie in an ocean of lights, we reach toward an ocean of lights.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/d79d0a93-af31-4774-809b-fe8e70370600_800x800.jpeg)
+
+After the interlude that becomes almost lyrical, with psychedelic sounds and an even more drone-like sequence than the initial part, Dorey speaks of humanity as a single entity, uses a "we" but addresses himself; and gradually becomes aware of looking within, to cast a glance at his now outdated image (could the lights be involved, softening our shadows?).
+
+But our strength is in being One.
+
+Just take a look, don't look too hard
+
+You’ll see your image, yourself surpassed
+
+See you next time!

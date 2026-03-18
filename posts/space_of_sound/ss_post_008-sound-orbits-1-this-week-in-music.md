@@ -1,1 +1,85 @@
-<h5><em>This newsletter, as you probably know, is part of a three publications here on Substack - here and here the others. <br>This project is now also on <a href="https://www.patreon.com/cw/anvianvi">Patreon</a>, and the idea is to make it one day a single publication with different strands: here the concept of giving it a single name - not my name anymore, but to call it <strong>Backyard Thoughts</strong>. Hence the new header.<br>We’ll see what the future brings: let’s get back to the newsletter, for the first episode of 2026.</em></h5><div><hr></div><pre><code>Space of Sound is also on <a href="https://open.spotify.com/playlist/0nrw5lrNnLvW8qyvjGgvOF?si=95fd3b2e6f774c0a">Spotify</a> and <a href="https://music.apple.com/it/playlist/space-of-sound/pl.u-KVXBk16sLk11D3e?l=en">Apple Music</a>, with a playlist.</code></pre><iframe class="spotify-wrap playlist" src="https://open.spotify.com/embed/playlist/0nrw5lrNnLvW8qyvjGgvOF" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><div><hr></div><p><em><strong>sound orbits</strong></em> is a new section of this newsletter: every week (hopefully) there will be a new episode of this newsletter with the music published that particular week. <br>There is so much music coming out these days, one gets humbled by the amount there is and tends to go back to their usual listenings. <br>Which is fine, except one could miss some good stuff. <br>The name <em><strong>sound orbits</strong></em> is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.</p><div><hr></div><p>This week a deluxe edition, to cover also the first days of the year.</p><div><hr></div><p><em><strong>Louis Matute : Dolce Vita<br></strong>Produced by: Association Encontro<br>Label - Naïve Believe<br>Published:  Jan 9, 2026<strong><br></strong></em>A guitarist from Geneva, Switzerland, <strong>Louis Matute</strong> produces <strong>Dolce Vita</strong> with many suggestions: among them, his family history of exile from Honduras. <br>Contemporary Jazz and a feeling of music free of borders.<br>The record on <a href="https://louismatute.bandcamp.com/album/dolce-vita">Bandcamp</a>, <a href="https://open.spotify.com/album/6jLSXSwAGPur7sq0sZpFCv?si=RWvBGfeURZSdpTfddhRotg">Spotify</a>, <a href="https://music.apple.com/it/album/dolce-vita/1816974933?l=en-GB">Apple Music</a>, <a href="https://youtu.be/bsuwyhn8q2c?list=RDbsuwyhn8q2c">Youtube</a>.</p><div id="youtube2-bsuwyhn8q2c" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/bsuwyhn8q2c?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><em><strong>Midori Hirano : Rainwalk<br></strong>Produced by: Thrill Jockey Music<br>Published by: Erased Tapes Music<br>Published:  Jan 14, 2026<strong><br></strong></em>A composer and pianist born in Kyoto and based in Berlin, <strong>Midori Hirano</strong> created ethereal soundscapes, and synthesises abstract music in real form.<br>The song anticipates the record <strong>Otonoma</strong>, out February 20, 2026.<br>The record on <a href="https://midorih.bandcamp.com/album/otonoma">Bandcamp</a>, <a href="https://open.spotify.com/album/59c7a5AhuGNtiuQXkzJJ9k?si=Hy4ThZGkSTOCYC_UtiO54Q">Spotify</a>, <a href="https://music.apple.com/it/album/otonoma/1837277068?l=en-GB">Apple Music</a>, <a href="https://youtu.be/yXYXRpw25V4?list=OLAK5uy_kr1wmiae1PFG9aTuGFdg_m0UGtYnQ_wOI">Youtube</a>.</p><div id="youtube2-yXYXRpw25V4" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/yXYXRpw25V4?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><em><strong>Ásgeir : Against the Current - EP<br></strong>Produced by: one little independent records<br>Published by: one little independent records<br>Published:  Jan 14, 2026<strong><br></strong></em>Singer-songwriter from Iceland, <strong>Ásgeir</strong> publishes this EP to warm your heart in this ice-cold Europe.<br>The EP anticipates the full LP <strong>Julia</strong>, out February 13, 2026.<br>The record on <a href="https://asgeirtrausti.bandcamp.com/album/julia">Bandcamp</a>, <a href="https://open.spotify.com/album/680Q8QjaLVuXs6MO9xLVJY?si=RGTP2VRqSKa_1_MbrqR7QA">Spotify</a>, <a href="https://music.apple.com/it/album/against-the-current-ep/1834555455?l=en-GB">Apple Music</a>, <a href="https://youtu.be/F_st5vp0Qtk?list=OLAK5uy_mVftv674IgimdIC52-oDUygLM-vrV8rPo">Youtube</a>.</p><div id="youtube2-F_st5vp0Qtk" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/F_st5vp0Qtk?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/subscribe?"><span>Subscribe now</span></a></p><div><hr></div><p><em><strong>Daughter : Not Enough<br></strong>Produced by: 4AD.<br>Published by: 4AD.<br>Published:  Jan 15, 2026<strong><br></strong></em>Band of three from London, <strong>Daughter</strong> publishes the single <strong>Not Enough</strong>, and Elena Tonra still has one of the most soothing voices in alternative/indie/folk music. <br>You’ll get sad by listening to it, and you’ll be lulled by it.<br>The band on <a href="https://ohdaughter.bandcamp.com/music">Bandcamp</a>, the songs on <a href="https://open.spotify.com/album/4iPdqqlQoDwpsarVVgGmHu?si=OU6VF_RETWK2gYYNO9PaEQ">Spotify</a>, <a href="https://music.apple.com/it/album/not-enough-single/1862840501?l=en-GB">Apple Music</a>, <a href="https://youtu.be/Wg_EP8Sicwo?list=RDWg_EP8Sicwo">Youtube</a>.</p><div id="youtube2-Wg_EP8Sicwo" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/Wg_EP8Sicwo?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><em><strong>Yellow Days : I Cannot Believe in Tomorrow<br></strong>Produced by: Independent Co.<br>Published by: Independent Co.<br>Published:  Jan 16, 2026<strong><br></strong></em>Singer-songwriter from Haslemere, England, <strong>Yellow Days</strong> drops three songs to remind us of his incredible voice. <br>The EP anticipates the full LP <strong>Rock And A Hard Place</strong>, out February 13, 2026.<br>The artist on <a href="https://yellowdaysband.bandcamp.com/album/hotel-heaven">Bandcamp</a>, the songs on <a href="https://open.spotify.com/album/5b7x03T43AJwPQNg7gEhO0?si=G3I8POcUQC-XoOz11LmncQ">Spotify</a>, <a href="https://music.apple.com/it/album/i-cannot-believe-in-tomorrow-single/1860136669?l=en-GB">Apple Music</a>, <a href="https://youtu.be/fB59rvDjKNA?list=OLAK5uy_mbev1PHeFWwzqiobPc27bJrRW2Jhkn4Fo">Youtube</a>.</p><div id="youtube2-fB59rvDjKNA" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/fB59rvDjKNA?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p>See you next time. <br>If you liked this episode, you can share it with other human beings.</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><div><hr></div><div><hr></div><h4>Read also:</h4><div><hr></div><h6>Last Scattering Surface: a blog on cosmology. Subscribe here<br>Heralding Time: a blog on history, philosophy, and science. Subscribe here. <br>To support the project, here’s my <a href="https://ko-fi.com/anvianvi#checkoutModal">ko-fi</a>. <br>If you want, you can follow me - and support also - on <a href="https://www.patreon.com/cw/anvianvi">Patreon</a>.<br>Finally, you can share this publication with whomever you want.</h6><p class="button-wrapper"><a class="button primary button-wrapper" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><h6>Ciao and see you soon!</h6>
+This newsletter, as you probably know, is part of a three publications here on Substack - here and here the others.
+
+We’ll see what the future brings: let’s get back to the newsletter, for the first episode of 2026.
+
+sound orbits is a new section of this newsletter: every week (hopefully) there will be a new episode of this newsletter with the music published that particular week.
+
+There is so much music coming out these days, one gets humbled by the amount there is and tends to go back to their usual listenings.
+
+Which is fine, except one could miss some good stuff.
+
+The name sound orbits is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.
+
+This week a deluxe edition, to cover also the first days of the year.
+
+Louis Matute : Dolce Vita
+
+Produced by: Association Encontro
+
+Label - Naïve Believe
+
+Published: Jan 9, 2026
+
+A guitarist from Geneva, Switzerland, Louis Matute produces Dolce Vita with many suggestions: among them, his family history of exile from Honduras.
+
+Contemporary Jazz and a feeling of music free of borders.
+
+The record on Bandcamp, Spotify, Apple Music, Youtube.
+
+Midori Hirano : Rainwalk
+
+Produced by: Thrill Jockey Music
+
+Published by: Erased Tapes Music
+
+Published: Jan 14, 2026
+
+A composer and pianist born in Kyoto and based in Berlin, Midori Hirano created ethereal soundscapes, and synthesises abstract music in real form.
+
+The song anticipates the record Otonoma , out February 20, 2026.
+
+The record on Bandcamp, Spotify, Apple Music, Youtube.
+
+Ásgeir : Against the Current - EP
+
+Produced by: one little independent records
+
+Published by: one little independent records
+
+Published: Jan 14, 2026
+
+Singer-songwriter from Iceland, Ásgeir publishes this EP to warm your heart in this ice-cold Europe.
+
+The EP anticipates the full LP Julia , out February 13, 2026.
+
+The record on Bandcamp, Spotify, Apple Music, Youtube.
+
+Daughter : Not Enough
+
+Produced by: 4AD.
+
+Published by: 4AD.
+
+Published: Jan 15, 2026
+
+Band of three from London, Daughter publishes the single Not Enough , and Elena Tonra still has one of the most soothing voices in alternative/indie/folk music.
+
+You’ll get sad by listening to it, and you’ll be lulled by it.
+
+The band on Bandcamp, the songs on Spotify, Apple Music, Youtube.
+
+Yellow Days : I Cannot Believe in Tomorrow
+
+Produced by: Independent Co.
+
+Published by: Independent Co.
+
+Published: Jan 16, 2026
+
+Singer-songwriter from Haslemere, England, Yellow Days drops three songs to remind us of his incredible voice.
+
+The EP anticipates the full LP Rock And A Hard Place , out February 13, 2026.
+
+The artist on Bandcamp, the songs on Spotify, Apple Music, Youtube.
+
+See you next time.

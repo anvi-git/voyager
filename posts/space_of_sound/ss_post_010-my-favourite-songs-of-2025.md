@@ -1,1 +1,109 @@
-<h6>Disclaimer: Space of Sound is on <a href="https://www.instagram.com/space_of_sound/">Instagram</a>. You can reach the page by clicking <a href="https://www.instagram.com/space_of_sound/">here</a>.</h6><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07fd819b-8f56-4855-b7ec-42c402844de8_1080x1350.png"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07fd819b-8f56-4855-b7ec-42c402844de8_1080x1350.png 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07fd819b-8f56-4855-b7ec-42c402844de8_1080x1350.png 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07fd819b-8f56-4855-b7ec-42c402844de8_1080x1350.png 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07fd819b-8f56-4855-b7ec-42c402844de8_1080x1350.png 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07fd819b-8f56-4855-b7ec-42c402844de8_1080x1350.png" alt="Image"></picture></a></figure></div><div><hr></div><pre><code>Space of Sound is also on <a href="https://open.spotify.com/playlist/0nrw5lrNnLvW8qyvjGgvOF?si=95fd3b2e6f774c0a">Spotify</a> and <a href="https://music.apple.com/it/playlist/space-of-sound/pl.u-KVXBk16sLk11D3e?l=en">Apple Music</a>, with a playlist.</code></pre><iframe class="spotify-wrap playlist" src="https://open.spotify.com/embed/playlist/0nrw5lrNnLvW8qyvjGgvOF" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><div><hr></div><p>In this episode, a list of songs I found and listened to in 2025. <br>It does not contain exclusively songs published in this year. <br>For every song, there will be a one-line comment that (hopefully) will make you listen to that song. <br>Enjoy! </p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><div><hr></div><p>First, some songs that you probably already know, if you follow this newsletter.</p><h4>- There’s a Rhythm, by Bon Iver. Listen it <a href="https://youtu.be/sFIfWgSMOug?list=RDsFIfWgSMOug">here</a>. Read it here.<br>- Forest Encyclopedia, by Beirut. Listen it <a href="https://youtu.be/lApyAxl8a8I?list=RDlApyAxl8a8I">here</a>. Read it here.<br>- Sun in the Morning, by Future Islands. Listen it <a href="https://youtu.be/rAkqVipk8Fs?list=RDrAkqVipk8Fs">here</a>. Read it here.<br>- About Today, by The National. Listen it <a href="https://youtu.be/N-nq3SmUkvw?list=RDN-nq3SmUkvw">here</a>. Read it here.<br>- Fourth of July, by Sufjan Stevens. Listen it <a href="https://youtu.be/JTeKpWp8Psw?list=RDJTeKpWp8Psw">here</a>. Read it here.</h4><div><hr></div><p>Next, some "new" songs (at least for me)!</p><div><hr></div><h4><strong>News from Verona</strong>, by <em>Portico Quartet</em> </h4><h6>(track #1 of <em>Knee-Deep in the North Sea</em>, published in 2007 with Real World Productions).<br></h6><p>It’s a warm, mesmerising blanket of sounds.</p><div id="youtube2-7gVQvlWFg5Q" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/7gVQvlWFg5Q?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><h4><strong>My Heart is Buried in Venice</strong>, by <em>Ricky Montgomery</em> </h4><h6>(track #7 of <em>Montgomery Ricky</em>, published in 2016 with Warner Music).<br></h6><p>It’s an open-hearted song on nostalgia towards things that haven’t happened yet.</p><div id="youtube2-aqlVI6xMzpA" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/aqlVI6xMzpA?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><h4><strong>Kandaiki</strong>, by <em>Mammal Hands</em> </h4><h6>(track #3 of <em>Animalia</em>, published in 2014 with Gondwana Records).<br></h6><p>Just put this song on and follow wherever it’ll lead you.</p><div id="youtube2-philyDq8aaw" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/philyDq8aaw?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><h4><strong>Kin</strong>, by <em>Tourist</em> </h4><h6>(track #9 of <em>Wild</em>, published in 2019 with Monday Records).</h6><p>It leads you nowhere, entertaining you all the while.</p><div id="youtube2-LK6TWyhwvFI" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/LK6TWyhwvFI?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><h4><strong>Too Many Birds</strong>, by <em>Bill Callahan</em></h4><h6>(track #5 of <em>Sometimes I Wish We Were an Eagle</em>, published in 2009 with Drag City Records).</h6><p>Probably Americana, surely you’ll picture a clear sky at some point during the song.</p><div id="youtube2-ry01mrtQJhI" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/ry01mrtQJhI?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><h4><strong>Albert Ross (Acoustic Version)</strong>, by <em>Wild Pink</em></h4><h6>(single published in 2017 with Tiny Engines).</h6><p>Indie song, little song, delicate song. What songs in the tiniest form should be.</p><div id="youtube2-KcYC1f_T1Ao" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/KcYC1f_T1Ao?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><h4><strong>Quietest Town in England</strong>, by <em>Tom Rosenthal</em></h4><h6>(track #5 of <em>Zz-Sides</em>, published in 2023 with Tinpot Records).</h6><p>One of the most beautiful lullabies you’ll hear. </p><div id="youtube2-tIrSEhcIgQA" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/tIrSEhcIgQA?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/subscribe?"><span>Subscribe now</span></a></p><div><hr></div><pre><code>This Christmas, you can support Space of Sound with a special offer, for just 1.5€/month (that's under 2 USD per month).</code></pre><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/subscribe?coupon=45d057e4&amp;utm_content=181280071"><span>Get 50% off for 1 year</span></a></p><pre><code>Thanks!</code></pre><div><hr></div><h4><strong>we fell in love in october</strong>, by <em>girl in red</em></h4><h6>(single published in 2018 with AWAL Recordings).</h6><p>A song from another room is playing. It probably is this very one.</p><div id="youtube2-iggmiF7DNoM" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/iggmiF7DNoM?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><h4><strong>Earth (Rey&amp;Kjavik remix)</strong>, by <em>Mogli</em></h4><h6>(single published in 2021 with Studio Ewig).</h6><p>Water as the ocean, this song as the natural world. </p><div id="youtube2-2eYy9RZSgys" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/2eYy9RZSgys?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><h4><strong>Green Green Grass of Tunnel</strong>, by <em>múm</em></h4><h6>(track #2 of <em>Finally We Are No One</em>, published in 2002 with FATCAT RECORDS).</h6><p>An electronic soundscape for the elves. Also for humans.</p><div id="youtube2-AcaITzRkO3c" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/AcaITzRkO3c?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><h4><strong>Another Song Called Tonight</strong>, by <em>Fort Atlantic</em></h4><h6>(single published in 2021 with Hot Garbage Music).</h6><p>Drive while this song is playing, it’ll make something to you.</p><div id="youtube2-kJMvFtkpImE" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/kJMvFtkpImE?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><h4><strong>Mt. Washington</strong>, by <em>Local Natives</em></h4><h6>(single #9 of <em>Hummingbird</em>, published in 2013 with Infectious Music).</h6><p>Drive while this song is playing, it’ll make something to you.</p><div id="youtube2-3sUQvjFsavg" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/3sUQvjFsavg?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><h4><strong>Sit Around the Fire</strong>, by <em>Jon Hopkins (with Ram Dass, <strong>East Forest</strong>)</em></h4><h6>(single #9 of <em>Music For Psychedelic Therapy</em>, published in 2021 with Domino Recording).</h6><p>Sheer meditation, it heals your mind.</p><div id="youtube2-3G4kCi_ldr8" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/3G4kCi_ldr8?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><h4>Read also:</h4><div><hr></div><h6>This newsletter is one of three I have created: the other two are Last Scattering Surface, and Heralding Time. All publications are free and without paywall; you can consult all articles. If you want, you can subscribe here e here. </h6><h6>If you want, you can support me on <a href="https://ko-fi.com/anvianvi#checkoutModal">ko-fi</a>. </h6><h6>Finally, you can share this publication with whomever you want.</h6><p class="button-wrapper"><a class="button primary button-wrapper" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><h6>Ciao and see you soon!</h6>
+Disclaimer: Space of Sound is on Instagram. You can reach the page by clicking here.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/07fd819b-8f56-4855-b7ec-42c402844de8_1080x1350.png)
+
+In this episode, a list of songs I found and listened to in 2025.
+
+It does not contain exclusively songs published in this year.
+
+For every song, there will be a one-line comment that (hopefully) will make you listen to that song.
+
+Enjoy!
+
+First, some songs that you probably already know, if you follow this newsletter.
+
+- There’s a Rhythm, by Bon Iver. Listen it here. Read it here.
+
+- Forest Encyclopedia, by Beirut. Listen it here. Read it here.
+
+- Sun in the Morning, by Future Islands. Listen it here. Read it here.
+
+- About Today, by The National. Listen it here. Read it here.
+
+- Fourth of July, by Sufjan Stevens. Listen it here. Read it here.
+
+Next, some "new" songs (at least for me)!
+
+News from Verona , by Portico Quartet
+
+(track #1 of Knee-Deep in the North Sea , published in 2007 with Real World Productions).
+
+It’s a warm, mesmerising blanket of sounds.
+
+My Heart is Buried in Venice , by Ricky Montgomery
+
+(track #7 of Montgomery Ricky , published in 2016 with Warner Music).
+
+It’s an open-hearted song on nostalgia towards things that haven’t happened yet.
+
+Kandaiki , by Mammal Hands
+
+(track #3 of Animalia , published in 2014 with Gondwana Records).
+
+Just put this song on and follow wherever it’ll lead you.
+
+Kin , by Tourist
+
+(track #9 of Wild , published in 2019 with Monday Records).
+
+It leads you nowhere, entertaining you all the while.
+
+Too Many Birds , by Bill Callahan
+
+(track #5 of Sometimes I Wish We Were an Eagle , published in 2009 with Drag City Records).
+
+Probably Americana, surely you’ll picture a clear sky at some point during the song.
+
+Albert Ross (Acoustic Version) , by Wild Pink
+
+(single published in 2017 with Tiny Engines).
+
+Indie song, little song, delicate song. What songs in the tiniest form should be.
+
+Quietest Town in England , by Tom Rosenthal
+
+(track #5 of Zz-Sides , published in 2023 with Tinpot Records).
+
+One of the most beautiful lullabies you’ll hear.
+
+This Christmas, you can support Space of Sound with a special offer, for just 1.5€/month (that's under 2 USD per month).
+
+Get 50% off for 1 year
+
+Thanks!
+
+we fell in love in october , by girl in red
+
+(single published in 2018 with AWAL Recordings).
+
+A song from another room is playing. It probably is this very one.
+
+Earth (Rey&Kjavik remix) , by Mogli
+
+(single published in 2021 with Studio Ewig).
+
+Water as the ocean, this song as the natural world.
+
+Green Green Grass of Tunnel , by múm
+
+(track #2 of Finally We Are No One , published in 2002 with FATCAT RECORDS).
+
+An electronic soundscape for the elves. Also for humans.
+
+Another Song Called Tonight , by Fort Atlantic
+
+(single published in 2021 with Hot Garbage Music).
+
+Drive while this song is playing, it’ll make something to you.
+
+Mt. Washington , by Local Natives
+
+(single #9 of Hummingbird , published in 2013 with Infectious Music).
+
+Drive while this song is playing, it’ll make something to you.
+
+Sit Around the Fire , by Jon Hopkins (with Ram Dass, East Forest )
+
+(single #9 of Music For Psychedelic Therapy , published in 2021 with Domino Recording).
+
+Sheer meditation, it heals your mind.

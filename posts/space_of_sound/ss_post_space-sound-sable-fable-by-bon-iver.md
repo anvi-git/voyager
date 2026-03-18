@@ -1,1 +1,187 @@
-<h6><strong>disclaimer: this post will be too long for Gmail to post it in its entirety. So please follow the instructions of your mail provider to view it fully. Thanks!</strong></h6><div><hr></div><blockquote><p><em><strong>Nothing’s really happened as I thought it would</strong></em></p></blockquote><p><em><strong><a href="https://open.spotify.com/artist/4LEiUm1SRbFMgfqnQTwUbQ?si=-kwb-NezQW-Sj1l1bcDuZA">Bon Iver</a></strong></em> is a project started in 2007 by <strong>Justin Vernon</strong>, an artist from Eau Claire, Wisconsin. After four full length albums, one EP and two singles published in the last years, on October 18, 2024 <em><strong><a href="https://open.spotify.com/album/2Cwxsws0uZcu61gliYLOEm?si=ny8U1yzUShmqxo4-vGEwSA">SABLE</a></strong></em> was published, an EP consisting of four songs. Then on February 11, 2025 it was announced that SABLE was only a <em>prologue</em> to the fifth LP, <em><strong><a href="https://open.spotify.com/album/3L3UjpXtom6T0Plt1j6l1T?si=a5JdwEwfQ_24IXX8J5a7Ag">SABLE, fABLE</a></strong></em>, published on April 11, 2025. </p><div><hr></div><h4>The cycle of seasons. </h4><p>There will be a time to talk about Bon Iver’s discography, dissecting every album and every song. But what excites me right now is the sense of joy in observing that after four LPs, each ascribable to a different season, the cycle has not stopped: it has changed, because this new record seems more “complete” than the others; maybe it finally shrugged off the label of “one LP for one season” and started representing for everyone a new era. </p><p>And for Vernon in particular. </p><div><hr></div><h3>The near-blackness of SABLE</h3><div><hr></div><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b04ba5b-8697-4306-b2b7-07d45d761400_3000x3000.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b04ba5b-8697-4306-b2b7-07d45d761400_3000x3000.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b04ba5b-8697-4306-b2b7-07d45d761400_3000x3000.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b04ba5b-8697-4306-b2b7-07d45d761400_3000x3000.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b04ba5b-8697-4306-b2b7-07d45d761400_3000x3000.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b04ba5b-8697-4306-b2b7-07d45d761400_3000x3000.jpeg" alt="Image"></picture></a></figure></div><h4>Rings within rings within rings</h4><p>The prologue EP published on October is composed of four songs, but the first, <em>“…”</em>, is twelve seconds of high -pitched drone that blends in the next, <em>“<a href="https://youtu.be/SKEMyEVoZos">Things Behind Things Behind Things</a>”</em>. A first version of this song was <a href="https://youtu.be/K2hD0bt3UqI">performed</a> in 2020 during a virtual rally for progressive candidate for U.S. Presidency Bernie Sanders.</p><p>The EP/LP version starts with strings and drums, you could see some similarities to some <a href="https://open.spotify.com/album/7EJ0OT5ZqybXxcYRa6mccM?si=DH4Z9GDjT5aQ8n8Y67mnrQ">FEFA</a> songs. But the song is more spacious, the vocals are sung by Vernon is his profound baritone voice, the rhythm is sustained by the pedals. Vernon wrote this song after talking to his friend and fellow artist Phil, where they talked about dealing with life as with like a garage with too much shit, where there are “things behind things behind things”.</p><p>Vernon sings about not being able to discard his feelings to have become “his own news”, to be “afraid of changing” and to exit his zone of “dis-comfort” and to feel happy again. </p><p>The black and white <a href="https://youtu.be/SKEMyEVoZos">video</a> published with the song shows him barefoot and dressed in black, with a black rodeo hat, playing his guitar and traveling in a car while looking outside. It’s his <em>version of Johnny Cash</em>, as he said in an interview at the New York Times, <a href="https://youtu.be/kBvC_-XaTTc">Popcast</a>.</p><div id="youtube2-SKEMyEVoZos" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/SKEMyEVoZos?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><h4>(Not) a waste of wood in Speyside </h4><p><em><a href="https://youtu.be/th4u1yrpuRE">Speyside</a></em> starts with a beautifully recorded picking of guitar strings, in a way that reminds us that Justin Vernon can also beautifully play without room for error. As the <a href="https://en.wikipedia.org/wiki/The_Speyside_distillery">place</a> that gives the song its name, Vernon distills words and chords in his falsetto mixed with his bass voice. </p><p>He wishes to make good although he thinks he can’t, and he thinks that his words and works are “<em>a waste of wood</em>”. He seems not to be able to make peace with his “<em>dynasty</em>”, and that feels wrong. </p><p>He’s desperately trying to know what <em>“had hold on</em> [him]<em>”</em>, with its legacy as a musician and as a person. </p><p>The <a href="https://youtu.be/th4u1yrpuRE">video</a> starts in the same place as the first song: the dress is the same, and also the hat. The guitar is different, and he’s apparently arrived where he was driving before, because now he’s in the ocean, and stands there and swims and looks at seagulls flying by, all in black and white. </p><div id="youtube2-th4u1yrpuRE" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/th4u1yrpuRE?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><h4>Awards season is upon him</h4><p>The EP/prequel ends with <em><a href="https://youtu.be/awWPV6GnjxY">Awards Season</a></em>, and here the video seems to show the return of a new Justin from the ocean he visited in Speyside, to the same cabin he was in during Things Behind Things Behind Things. </p><p>He sings from a black and white TV, then at some point the TV turns off and he’s sitting in his chair singing with his hands clasped. He leans to the back of his chair as the song ends, then sits up and comes out the door placed in the right of the image, from which filters a white light. He does not have to “<em>reach</em>[…]<em> for the handle”</em> anymore, he can live again. </p><div id="youtube2-awWPV6GnjxY" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/awWPV6GnjxY?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p>This song is the realisation that no matter the difficulties,</p><blockquote><p><em><strong>You can be remade / You can live again</strong></em></p><p><em><strong>What was pain now’s gained / A new path gets laid</strong></em></p><p><em><strong>And you know what is great? / Nothing stays the same</strong></em></p></blockquote><p>And he’s a <em><strong>sable</strong></em>, but he’s not alone (<em><strong>honey, us the fable</strong></em>). Now “<em>it’s the season”</em>, and from black and white, there “<em>comes in gray”</em>.</p><div><hr></div><h3>But you know what will stay? Everything we’ve made</h3><div><hr></div><p>Vernon was “cooking with the same stuff [he’s] used to” as he said in a conversation with <a href="https://youtu.be/BWfQYYDhefs">Lil Yachty</a>.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa06f0c82-f316-4bbd-af6b-81af838d2cec_760x942.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa06f0c82-f316-4bbd-af6b-81af838d2cec_760x942.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa06f0c82-f316-4bbd-af6b-81af838d2cec_760x942.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa06f0c82-f316-4bbd-af6b-81af838d2cec_760x942.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa06f0c82-f316-4bbd-af6b-81af838d2cec_760x942.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa06f0c82-f316-4bbd-af6b-81af838d2cec_760x942.jpeg" alt="Image"></picture></a></figure></div><p>This EP was him looking back to his last 18 years, and the culmination of his work as “the voice of a generation”, as he does not like to be called (but he is). </p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f569c60-8f66-42cd-b060-adc85d89e4bb_600x900.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f569c60-8f66-42cd-b060-adc85d89e4bb_600x900.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f569c60-8f66-42cd-b060-adc85d89e4bb_600x900.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f569c60-8f66-42cd-b060-adc85d89e4bb_600x900.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f569c60-8f66-42cd-b060-adc85d89e4bb_600x900.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f569c60-8f66-42cd-b060-adc85d89e4bb_600x900.jpeg" alt="Image"></picture></a></figure></div><p>In the meantime he got happy, he felt “the boot he had on [his] chest <a href="https://youtu.be/kBvC_-XaTTc">go away</a>”, and he felt in service of music: so he gave us this new record, SABLE, fABLE, and in his words it’s “my version of Bob Seger’s <em>“Against the wind”</em>”.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F022a2eb2-ae37-4f92-b8a6-d4118e8165c3_3000x3000.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F022a2eb2-ae37-4f92-b8a6-d4118e8165c3_3000x3000.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F022a2eb2-ae37-4f92-b8a6-d4118e8165c3_3000x3000.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F022a2eb2-ae37-4f92-b8a6-d4118e8165c3_3000x3000.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F022a2eb2-ae37-4f92-b8a6-d4118e8165c3_3000x3000.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F022a2eb2-ae37-4f92-b8a6-d4118e8165c3_3000x3000.jpeg" alt="Image"></picture></a></figure></div><h4>A long (Short Story) </h4><p>The second part of the LP, which has a specular choice of colors as opposed to the EP, starts with <em><strong><a href="https://youtu.be/eWcUMQB_trM">Short Story</a></strong></em> keyboards and drones and gets brighter as it prolongs the first verse in the bridge</p><blockquote><p><em><strong>That January ain’t the whole world</strong></em></p></blockquote><p>It’s an acceptance that human are not made to be complete, that you can find sweetness in thirstiness and strain, and that ultimately you’re never really, really on your own. There is a huge amount of hope in this song, and the sound it is composed of explodes and then heals, and then […] repeats. </p><p><strong>Kacy Hill</strong> backs up Vernon in this song, and a deer shows up in the <a href="https://youtu.be/eWcUMQB_trM">video</a>.</p><div id="youtube2-eWcUMQB_trM" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/eWcUMQB_trM?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><h4>So much love, it’s everywhere</h4><p>Justin Vernon has become happier even more so in this next song, <em><a href="https://youtu.be/yaPX-i1TjCc">Everything Is Peaceful Love</a></em>, that he sings</p><blockquote><p><em><strong>And damn if I’m not climbin’ / up a tree right now</strong></em></p></blockquote><p>He’s <em>steady on a rock</em>, he’s not <em>slipping</em>, he’s <em>right at home</em>. </p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03a20ad1-a451-498c-ba1d-95d9c7928308_1080x1485"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03a20ad1-a451-498c-ba1d-95d9c7928308_1080x1485 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03a20ad1-a451-498c-ba1d-95d9c7928308_1080x1485 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03a20ad1-a451-498c-ba1d-95d9c7928308_1080x1485 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03a20ad1-a451-498c-ba1d-95d9c7928308_1080x1485 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03a20ad1-a451-498c-ba1d-95d9c7928308_1080x1485" alt="Image"></picture></a></figure></div><p>He’s embracing change, and that we can all change someday, and we’re parting ways, but “<em>every little thing is love”</em>.</p><div id="youtube2-yaPX-i1TjCc" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/yaPX-i1TjCc?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p>The video is directed by <strong>John Wilson</strong> from “How To with John Wilson”, and feels like a summer camp reel from the ‘00s. There are pedal steels, synthesizers, and all the village (in Vernon words, all the people that are creating Bon Iver alongside him) comes together in what is the most “pop” song on the record. Which is a great song, by the way. </p><h4>Close the curtains for this one</h4><p>Although Vernon sings in <em><a href="https://youtu.be/zfDVCLvbFXs">Walk Home</a></em> that “<em>we don’t need”</em> them, so that light can “<em>come in / and we can shed your earthly burdens”</em>. Vernon himself said that</p><div class="pullquote"><p>“Walk Home” is a romp where you can’t wait to pull your clothes off fast enough and jump inside bed with your true lover.</p></div><p>“<em>There’s just no more I can say sometimes”</em>, to quote another part of the song.</p><div id="youtube2-zfDVCLvbFXs" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/zfDVCLvbFXs?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><h4>Don’t let shit rip you apart</h4><p>“<a href="https://youtu.be/BsFFe2SK-VA">Day One</a>” comprises of a collaboration with <strong>Dijon</strong> and <strong>Flock of Dimes</strong>, and if the latter features <strong>Jenn Wasner</strong>, which is also a band member of Bon Iver when they are in tour, Dijon Duenas is a young artist from Baltimore that collaborated among others with boygenius and Kanye West. </p><blockquote><p><em><strong>Well, can I get a rewind?<br>Just this once, if you don't mind</strong></em></p></blockquote><p>Vernon got definitely a rewind, and let’s hope not just this once. </p><div id="youtube2-BsFFe2SK-VA" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/BsFFe2SK-VA?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><h4>Give me time</h4><p><em>“<a href="https://youtu.be/vRK5Lz5lmws">From</a>”</em> is a great, plain song, with a line of drums that is the best you can get in this record (Vernon is on drums on this one).</p><blockquote><p><em><strong>I’m beset with what we could become </strong></em></p></blockquote><p>This song features a collaboration with STOUT and Jacob Collier, and the voice arrangements is spectacular, it seems they go back and forth in a three-minute conversation.</p><p>Vernon “<em>got time”</em> now, he says. He doesn’t seem to be troubled in any way (he at some point imagined to <a href="https://youtu.be/kBvC_-XaTTc">have a wife and a family</a> at his age now, but that seems not to bother him anymore: “<em>Just take my love in your time</em>”.</p><blockquote><p><em><strong>I'm from somewhere far from here</strong></em></p></blockquote><div id="youtube2-vRK5Lz5lmws" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/vRK5Lz5lmws?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><h4>Keep the sad shit off the phone</h4><p>“<em><a href="https://youtu.be/ZSkXZ6zz5PQ">I’ll be there</a></em>” has an almost gospel-y vibe, and it is intertwined with the voices of Vernon and <strong>Danielle Haim</strong>, with the samples by <strong>Jim-E Stack</strong>, long time collaborator and producer of this album along with Vernon himself.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8dade200-4ea0-440c-8add-321d6b27c804_1581x1054.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8dade200-4ea0-440c-8add-321d6b27c804_1581x1054.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8dade200-4ea0-440c-8add-321d6b27c804_1581x1054.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8dade200-4ea0-440c-8add-321d6b27c804_1581x1054.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8dade200-4ea0-440c-8add-321d6b27c804_1581x1054.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8dade200-4ea0-440c-8add-321d6b27c804_1581x1054.jpeg" alt="Image"></picture></a></figure></div><p>Vernon moved (he really did, he went from Eau Claire to East Los Angeles), although here he sings “<em>I’ll be there / I won’t move”</em>.</p><p>He wants someone to tell him something, not to tell him nothing. </p><p>But what if the place you’re moving to is occupied by someone else? Well, you’ll end up being “<em>no more alone</em>”.  </p><div id="youtube2-ZSkXZ6zz5PQ" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/ZSkXZ6zz5PQ?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><h4>Oh, babe / I'll take the pain</h4><p>In “<em><a href="https://youtu.be/6XXovIhGZuo">If Only I Could Wait</a>”</em> Haim joins once again Vernon, and the two talk about the states they’re in, where “summer are charades now”, and dream about praying in a “<em>norther bar</em>”, where there is a good winter and light rays don’t hit you. But maybe that is long gone now.</p><blockquote><p><em><strong>But what a taste<br>Oh, babe<br>In every way<br>Not for the freight<br>I'll best alone<br>In high ways</strong></em></p></blockquote><div id="youtube2-6XXovIhGZuo" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/6XXovIhGZuo?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><h4>Now things really are arranged</h4><p>The next song, “<em><a href="https://youtu.be/sFIfWgSMOug">There’s A Rhythm</a></em>” is basically the end of the record, although technically there is also “<em><a href="https://youtu.be/UwdV1EUkS4g">Au Revoir</a>”</em>, which is an instrumental encore of the final part of this song. </p><p>The song is <strong>that </strong>song you have to listen to while watching the <a href="https://youtu.be/sFIfWgSMOug">video</a>. </p><p>It’s a laid back song, it knows it’s coming after a rollercoaster of emotions and different styles. It’s exquisite, and these verses explain his entire musical journey</p><blockquote><p><em><strong>Can I feel another way?<br>Or are less and more the same?<br>Can I really still complain?<br>To be back here once again<br>There are miles and miles of tape<br>You can watch it, it's been saved<br>There's a rhythmn to reclaim<br>Get tall and walk away</strong></em></p></blockquote><p>he created a new way of dealing with music, he was an oracle, not only a voice of a generation, for an entire generation. </p><p>And now it appears he’s back. He left the only home he “<em>knew</em>”, “<em>for</em> <em>a land of palm and gold</em>”, </p><div id="youtube2-sFIfWgSMOug" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/sFIfWgSMOug?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div id="youtube2-UwdV1EUkS4g" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/UwdV1EUkS4g?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><h4>A profound, vivacious record</h4><p>He really seems to be centered, happier and in a new space, allowing others to take the scene. He said that his team is now more of a village, and I figure him as the man who founded the construction company to build all those houses in that village. Now he’s collecting all those different views from the diverse styles of music he embraced during his career.</p><div><hr></div><p>Sparkles of FEFA and in particular of re:stacks are placed here and there in the record, and that really described the idea Vernon embraces: he outgrew himself from that period, he did not repudiated that person. That is growing.</p><p>Let’s hope he continues this journey. In LA, back in Eau Claire, wherever: there will be a rhythm. </p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5429e69-fdf8-41f9-b653-52b6a88795e1_1240x690.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5429e69-fdf8-41f9-b653-52b6a88795e1_1240x690.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5429e69-fdf8-41f9-b653-52b6a88795e1_1240x690.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5429e69-fdf8-41f9-b653-52b6a88795e1_1240x690.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5429e69-fdf8-41f9-b653-52b6a88795e1_1240x690.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5429e69-fdf8-41f9-b653-52b6a88795e1_1240x690.jpeg" alt="Image"></picture></a></figure></div><div><hr></div><p>If you liked this, you could share this project with others. Here’s the button:</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/p/space-sound-sable-fable-by-bon-iver?utm_content=share&action=share"><span>Share</span></a></p><p>See you next time!</p><form class="subscription-widget-subscribe"><input type="email" class="email-input" name="email" placeholder="Type your email…" tabindex="-1"><input type="submit" class="button primary" value="Subscribe"><div class="fake-input-wrapper"><div class="fake-input"></div><div class="fake-button"></div></div></form></div></div>
+disclaimer: this post will be too long for Gmail to post it in its entirety. So please follow the instructions of your mail provider to view it fully. Thanks!
+
+Nothing’s really happened as I thought it would
+
+Bon Iver is a project started in 2007 by Justin Vernon , an artist from Eau Claire, Wisconsin. After four full length albums, one EP and two singles published in the last years, on October 18, 2024 SABLE was published, an EP consisting of four songs. Then on February 11, 2025 it was announced that SABLE was only a prologue to the fifth LP, SABLE, fABLE , published on April 11, 2025.
+
+The cycle of seasons.
+
+There will be a time to talk about Bon Iver’s discography, dissecting every album and every song. But what excites me right now is the sense of joy in observing that after four LPs, each ascribable to a different season, the cycle has not stopped: it has changed, because this new record seems more “complete” than the others; maybe it finally shrugged off the label of “one LP for one season” and started representing for everyone a new era.
+
+And for Vernon in particular.
+
+The near-blackness of SABLE
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/5b04ba5b-8697-4306-b2b7-07d45d761400_3000x3000.jpeg)
+
+Rings within rings within rings
+
+The prologue EP published on October is composed of four songs, but the first, “…” , is twelve seconds of high -pitched drone that blends in the next, “Things Behind Things Behind Things” . A first version of this song was performed in 2020 during a virtual rally for progressive candidate for U.S. Presidency Bernie Sanders.
+
+The EP/LP version starts with strings and drums, you could see some similarities to some FEFA songs. But the song is more spacious, the vocals are sung by Vernon is his profound baritone voice, the rhythm is sustained by the pedals. Vernon wrote this song after talking to his friend and fellow artist Phil, where they talked about dealing with life as with like a garage with too much shit, where there are “things behind things behind things”.
+
+Vernon sings about not being able to discard his feelings to have become “his own news”, to be “afraid of changing” and to exit his zone of “dis-comfort” and to feel happy again.
+
+The black and white video published with the song shows him barefoot and dressed in black, with a black rodeo hat, playing his guitar and traveling in a car while looking outside. It’s his version of Johnny Cash , as he said in an interview at the New York Times, Popcast.
+
+(Not) a waste of wood in Speyside
+
+Speyside starts with a beautifully recorded picking of guitar strings, in a way that reminds us that Justin Vernon can also beautifully play without room for error. As the place that gives the song its name, Vernon distills words and chords in his falsetto mixed with his bass voice.
+
+He wishes to make good although he thinks he can’t, and he thinks that his words and works are “ a waste of wood ”. He seems not to be able to make peace with his “ dynasty ”, and that feels wrong.
+
+He’s desperately trying to know what “had hold on [him] ” , with its legacy as a musician and as a person.
+
+The video starts in the same place as the first song: the dress is the same, and also the hat. The guitar is different, and he’s apparently arrived where he was driving before, because now he’s in the ocean, and stands there and swims and looks at seagulls flying by, all in black and white.
+
+Awards season is upon him
+
+The EP/prequel ends with Awards Season , and here the video seems to show the return of a new Justin from the ocean he visited in Speyside, to the same cabin he was in during Things Behind Things Behind Things.
+
+He sings from a black and white TV, then at some point the TV turns off and he’s sitting in his chair singing with his hands clasped. He leans to the back of his chair as the song ends, then sits up and comes out the door placed in the right of the image, from which filters a white light. He does not have to “ reach […] for the handle” anymore, he can live again.
+
+This song is the realisation that no matter the difficulties,
+
+You can be remade / You can live again
+
+What was pain now’s gained / A new path gets laid
+
+And you know what is great? / Nothing stays the same
+
+And he’s a sable , but he’s not alone ( honey, us the fable ). Now “ it’s the season” , and from black and white, there “ comes in gray” .
+
+But you know what will stay? Everything we’ve made
+
+Vernon was “cooking with the same stuff [he’s] used to” as he said in a conversation with Lil Yachty.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/a06f0c82-f316-4bbd-af6b-81af838d2cec_760x942.jpeg)
+
+This EP was him looking back to his last 18 years, and the culmination of his work as “the voice of a generation”, as he does not like to be called (but he is).
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/1f569c60-8f66-42cd-b060-adc85d89e4bb_600x900.jpeg)
+
+In the meantime he got happy, he felt “the boot he had on [his] chest go away”, and he felt in service of music: so he gave us this new record, SABLE, fABLE, and in his words it’s “my version of Bob Seger’s “Against the wind” ”.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/022a2eb2-ae37-4f92-b8a6-d4118e8165c3_3000x3000.jpeg)
+
+A long (Short Story)
+
+The second part of the LP, which has a specular choice of colors as opposed to the EP, starts with Short Story keyboards and drones and gets brighter as it prolongs the first verse in the bridge
+
+That January ain’t the whole world
+
+It’s an acceptance that human are not made to be complete, that you can find sweetness in thirstiness and strain, and that ultimately you’re never really, really on your own. There is a huge amount of hope in this song, and the sound it is composed of explodes and then heals, and then […] repeats.
+
+Kacy Hill backs up Vernon in this song, and a deer shows up in the video.
+
+So much love, it’s everywhere
+
+Justin Vernon has become happier even more so in this next song, Everything Is Peaceful Love , that he sings
+
+And damn if I’m not climbin’ / up a tree right now
+
+He’s steady on a rock , he’s not slipping , he’s right at home .
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/03a20ad1-a451-498c-ba1d-95d9c7928308_1080x1485)
+
+He’s embracing change, and that we can all change someday, and we’re parting ways, but “ every little thing is love” .
+
+The video is directed by John Wilson from “How To with John Wilson”, and feels like a summer camp reel from the ‘00s. There are pedal steels, synthesizers, and all the village (in Vernon words, all the people that are creating Bon Iver alongside him) comes together in what is the most “pop” song on the record. Which is a great song, by the way.
+
+Close the curtains for this one
+
+Although Vernon sings in Walk Home that “ we don’t need” them, so that light can “ come in / and we can shed your earthly burdens” . Vernon himself said that
+
+“Walk Home” is a romp where you can’t wait to pull your clothes off fast enough and jump inside bed with your true lover.
+
+“ There’s just no more I can say sometimes” , to quote another part of the song.
+
+Don’t let shit rip you apart
+
+“Day One” comprises of a collaboration with Dijon and Flock of Dimes , and if the latter features Jenn Wasner , which is also a band member of Bon Iver when they are in tour, Dijon Duenas is a young artist from Baltimore that collaborated among others with boygenius and Kanye West.
+
+Well, can I get a rewind?
+
+Just this once, if you don't mind
+
+Vernon got definitely a rewind, and let’s hope not just this once.
+
+Give me time
+
+“From” is a great, plain song, with a line of drums that is the best you can get in this record (Vernon is on drums on this one).
+
+I’m beset with what we could become
+
+This song features a collaboration with STOUT and Jacob Collier, and the voice arrangements is spectacular, it seems they go back and forth in a three-minute conversation.
+
+Vernon “ got time” now, he says. He doesn’t seem to be troubled in any way (he at some point imagined to have a wife and a family at his age now, but that seems not to bother him anymore: “ Just take my love in your time ”.
+
+I'm from somewhere far from here
+
+Keep the sad shit off the phone
+
+“ I’ll be there ” has an almost gospel-y vibe, and it is intertwined with the voices of Vernon and Danielle Haim , with the samples by Jim-E Stack , long time collaborator and producer of this album along with Vernon himself.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/8dade200-4ea0-440c-8add-321d6b27c804_1581x1054.jpeg)
+
+Vernon moved (he really did, he went from Eau Claire to East Los Angeles), although here he sings “ I’ll be there / I won’t move” .
+
+He wants someone to tell him something, not to tell him nothing.
+
+But what if the place you’re moving to is occupied by someone else? Well, you’ll end up being “ no more alone ”.
+
+Oh, babe / I'll take the pain
+
+In “ If Only I Could Wait” Haim joins once again Vernon, and the two talk about the states they’re in, where “summer are charades now”, and dream about praying in a “ norther bar ”, where there is a good winter and light rays don’t hit you. But maybe that is long gone now.
+
+But what a taste
+
+Oh, babe
+
+In every way
+
+Not for the freight
+
+I'll best alone
+
+In high ways
+
+Now things really are arranged
+
+The next song, “ There’s A Rhythm ” is basically the end of the record, although technically there is also “ Au Revoir” , which is an instrumental encore of the final part of this song.
+
+The song is that song you have to listen to while watching the video.
+
+It’s a laid back song, it knows it’s coming after a rollercoaster of emotions and different styles. It’s exquisite, and these verses explain his entire musical journey
+
+Can I feel another way?
+
+Or are less and more the same?
+
+Can I really still complain?
+
+To be back here once again
+
+There are miles and miles of tape
+
+You can watch it, it's been saved
+
+There's a rhythmn to reclaim
+
+Get tall and walk away
+
+he created a new way of dealing with music, he was an oracle, not only a voice of a generation, for an entire generation.
+
+And now it appears he’s back. He left the only home he “ knew ”, “ for a land of palm and gold ”,
+
+A profound, vivacious record
+
+He really seems to be centered, happier and in a new space, allowing others to take the scene. He said that his team is now more of a village, and I figure him as the man who founded the construction company to build all those houses in that village. Now he’s collecting all those different views from the diverse styles of music he embraced during his career.
+
+Sparkles of FEFA and in particular of re:stacks are placed here and there in the record, and that really described the idea Vernon embraces: he outgrew himself from that period, he did not repudiated that person. That is growing.
+
+Let’s hope he continues this journey. In LA, back in Eau Claire, wherever: there will be a rhythm.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/d5429e69-fdf8-41f9-b653-52b6a88795e1_1240x690.jpeg)
+
+See you next time!

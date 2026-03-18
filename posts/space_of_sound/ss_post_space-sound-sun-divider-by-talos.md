@@ -1,1 +1,47 @@
-<blockquote><h5><em><strong>Take those tears to dry<br>Someday we will own our darkest nights</strong></em></h5></blockquote><p><a href="https://open.spotify.com/album/05tnbHcqUeAX9pVhnXPAab?si=4jsxmXhXSta51SqUbcNm6Q">Sun Divider</a> is an EP by <strong><a href="https://open.spotify.com/artist/5pdzKTGQAcRcxDOfN4mXSc?si=tz8_i74PQi2qvW2tEKixPw">Talos</a></strong> in collaboration with <strong><a href="https://open.spotify.com/artist/2fqgzLpPOMc7GMw9qcOfQT?si=L8B6OgtUTuOdP21fjAGBjQ">Atli Örvarsson</a></strong>. The former, moniker of <strong>Eoin French</strong>, was a musician from Cork, Ireland, while the latter is a composer from Iceland. </p><p>The record was produced by the two artists and published in 2024. </p><iframe class="spotify-wrap album" src="https://open.spotify.com/embed/album/05tnbHcqUeAX9pVhnXPAab" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><div><hr></div><p>The EP starts with <em>Baltimore</em>, a gentle ballad made of piano and dreamy electronic beats, murmured like the singing voice itself. </p><p>It is a love song to curl up in bed with (it may be a recurring theme this, maybe due to the fact that I use to write this newsletter at night - that is, now you have had a peek behind this newsletter’s curtain. Back to the song, now).</p><p>Talos pleads his lover to tell him what “<em>I’ve become</em>”, to remind him of all those times he left when they called him to stay. </p><p>Nonetheless, he keeps faith that the burning skies will clear someday, if only we “<em>hold our hearts in tight”</em>.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa259e39e-fa09-4b48-a420-0c4821f0e6bf_2000x1450.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa259e39e-fa09-4b48-a420-0c4821f0e6bf_2000x1450.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa259e39e-fa09-4b48-a420-0c4821f0e6bf_2000x1450.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa259e39e-fa09-4b48-a420-0c4821f0e6bf_2000x1450.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa259e39e-fa09-4b48-a420-0c4821f0e6bf_2000x1450.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa259e39e-fa09-4b48-a420-0c4821f0e6bf_2000x1450.jpeg" alt="Image"></picture></a></figure></div><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sounds</span></a></p><p><em>Matter</em> is a song sustained by French’s voice and what I think is Örvarsson on the piano. </p><p>It’s a wonder how this song, simple in its construction - at least in the first part - is an ode to what one can and cant’ do: are you able to darken lightning, to make contact with a star? </p><p>Maybe you’ll fail, nonetheless you’ll end up “<em>feel[</em>ing<em>] alive, feast, recognize</em>”, and “<em>seize</em>” love. And who knows, maybe a star will rise up on your earthly “<em>broken, bright, ready</em>” lungs, now full of love.</p><div><hr></div><p> <em>Fireworks</em> starts where Matter ended, “<em>but</em> <em>I’m weaker now that I’d begun”</em>, although this does not translate in a weaker song: with the first chorus enter a sustained beat, a drum machine prepares us to “<em>those wars</em>” that “<em>were ours</em>”: all we are left to is to conceal and hide the bleed we inflicted each other.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60fc24f6-c6a1-472c-b750-4f9063214b34_1176x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60fc24f6-c6a1-472c-b750-4f9063214b34_1176x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60fc24f6-c6a1-472c-b750-4f9063214b34_1176x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60fc24f6-c6a1-472c-b750-4f9063214b34_1176x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60fc24f6-c6a1-472c-b750-4f9063214b34_1176x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60fc24f6-c6a1-472c-b750-4f9063214b34_1176x1200.jpeg" alt="Image"></picture></a></figure></div><p>The EP ends with <em>Landing</em>, which is composed of a single verse and then fades in a chorus/ambient-y instrumental tail that should be rendered in a loop.</p><p>We had to darken lightning, but we didn’t succeed and now</p><blockquote><p>we’re lightning</p></blockquote><p>and we hope not to </p><blockquote><p>fall apart</p></blockquote><p>like stars in sight.</p><p>This EP is small and brief, but the 15 minutes spanned over these four songs are a precious gift.  </p><blockquote><h5><em><strong>But if you knew how to keep me, I would wait here<br>With all we lost, yet I was there when you were down</strong></em></h5></blockquote><div id="youtube2-SslfL93mUrI" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/SslfL93mUrI?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p>If you liked this, you could share this project with others. Here’s the button:</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/p/space-sound-sun-divider-by-talos?utm_content=share&action=share"><span>Share</span></a></p><p>See you next time!</p><form class="subscription-widget-subscribe"><input type="email" class="email-input" name="email" placeholder="Type your email…" tabindex="-1"><input type="submit" class="button primary" value="Subscribe"><div class="fake-input-wrapper"><div class="fake-input"></div><div class="fake-button"></div></div></form></div></div>
+Take those tears to dry
+
+Someday we will own our darkest nights
+
+Sun Divider is an EP by Talos in collaboration with Atli Örvarsson . The former, moniker of Eoin French , was a musician from Cork, Ireland, while the latter is a composer from Iceland.
+
+The record was produced by the two artists and published in 2024.
+
+The EP starts with Baltimore , a gentle ballad made of piano and dreamy electronic beats, murmured like the singing voice itself.
+
+It is a love song to curl up in bed with (it may be a recurring theme this, maybe due to the fact that I use to write this newsletter at night - that is, now you have had a peek behind this newsletter’s curtain. Back to the song, now).
+
+Talos pleads his lover to tell him what “ I’ve become ”, to remind him of all those times he left when they called him to stay.
+
+Nonetheless, he keeps faith that the burning skies will clear someday, if only we “ hold our hearts in tight” .
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/a259e39e-fa09-4b48-a420-0c4821f0e6bf_2000x1450.jpeg)
+
+Matter is a song sustained by French’s voice and what I think is Örvarsson on the piano.
+
+It’s a wonder how this song, simple in its construction - at least in the first part - is an ode to what one can and cant’ do: are you able to darken lightning, to make contact with a star?
+
+Maybe you’ll fail, nonetheless you’ll end up “ feel[ ing ] alive, feast, recognize ”, and “ seize ” love. And who knows, maybe a star will rise up on your earthly “ broken, bright, ready ” lungs, now full of love.
+
+Fireworks starts where Matter ended, “ but I’m weaker now that I’d begun” , although this does not translate in a weaker song: with the first chorus enter a sustained beat, a drum machine prepares us to “ those wars ” that “ were ours ”: all we are left to is to conceal and hide the bleed we inflicted each other.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/60fc24f6-c6a1-472c-b750-4f9063214b34_1176x1200.jpeg)
+
+The EP ends with Landing , which is composed of a single verse and then fades in a chorus/ambient-y instrumental tail that should be rendered in a loop.
+
+We had to darken lightning, but we didn’t succeed and now
+
+we’re lightning
+
+and we hope not to
+
+fall apart
+
+like stars in sight.
+
+This EP is small and brief, but the 15 minutes spanned over these four songs are a precious gift.
+
+But if you knew how to keep me, I would wait here
+
+With all we lost, yet I was there when you were down
+
+See you next time!

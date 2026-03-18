@@ -1,1 +1,31 @@
-<p>As you know, this newsletter is composed of one piece published on Tuesdays dealing with single songs, and another in which I “review” (It would be better to say that I ramble on) full albums, LPs or EPs.</p><p>Well, tomorrow will come out a review on a beautiful record from Sufjan Stevens, which contains a song titled “Fourth of July”.</p><p>What better occasion that to share it with you exactly on the fourth of July?</p><p>Have a read, and don’t forget to share this with music lovers!</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><div><hr></div><iframe class="spotify-wrap" src="https://open.spotify.com/embed/track/52SrGQ0vcsf1RwhO6ONk4A" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><p>It's a conversation between Sufjan Stevens and his dying mother.</p><p>Stevens speaks of an illness that spread like a fever, remembers that his mother died one night, like a firefly.</p><p>He wonders what he could have ever done to bring her back, compares her to a sky crossed by fireworks, wonderful but ephemeral.</p><p>And his mother responds to him, almost reproaches him ("<em>you do enough talk</em>"), asks him in a sweet tone why he's crying, if he's learned anything from the fires, which explain with clear images that things fade away, people like trees, their ashes like fireworks.</p><p>And for the first time she states something obvious, which no one really thinks about: "<em>we're all gonna die</em>".</p><p>Stevens speaks again now, wonders if the memory he has of his mother isn't packaged, modified somehow, if it will ever fade.</p><p>And his mother responds to him again, once more compares him to a bird, asks him again why he's crying, apologizes for having disappeared.</p><p>And then come the formalities, the hospital's request about how to treat his mother's body, the strange effect of dressing a dead body.</p><p>His mother speaks to him again, to give him one last piece of advice, to live his life to the fullest, to do it while he can.</p><p>Few songs are as heartbreaking as this one, few encapsulate in a sweet and delicate voice the entirety of emotions that such a loss entails.</p><p>The version that closes the record has a choir at the end that, repeating "We're all gonna die", the mother's caring warning, builds an emotional outro: listen to it one evening, late at night, don't do anything else, and you'll find yourself in places perhaps a bit sad, maybe a bit haunting, maybe not completely pleasant, but that will surely know how to cradle you.</p><div id="youtube2-klbajA0478Y" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/klbajA0478Y?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p>If you liked this, you could share this project with others. Here’s the button:</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><p>See you next time!</p><form class="subscription-widget-subscribe"><input type="email" class="email-input" name="email" placeholder="Type your email…" tabindex="-1"><input type="submit" class="button primary" value="Subscribe"><div class="fake-input-wrapper"><div class="fake-input"></div><div class="fake-button"></div></div></form></div></div>
+As you know, this newsletter is composed of one piece published on Tuesdays dealing with single songs, and another in which I “review” (It would be better to say that I ramble on) full albums, LPs or EPs.
+
+Well, tomorrow will come out a review on a beautiful record from Sufjan Stevens, which contains a song titled “Fourth of July”.
+
+What better occasion that to share it with you exactly on the fourth of July?
+
+Have a read, and don’t forget to share this with music lovers!
+
+It's a conversation between Sufjan Stevens and his dying mother.
+
+Stevens speaks of an illness that spread like a fever, remembers that his mother died one night, like a firefly.
+
+He wonders what he could have ever done to bring her back, compares her to a sky crossed by fireworks, wonderful but ephemeral.
+
+And his mother responds to him, almost reproaches him (" you do enough talk "), asks him in a sweet tone why he's crying, if he's learned anything from the fires, which explain with clear images that things fade away, people like trees, their ashes like fireworks.
+
+And for the first time she states something obvious, which no one really thinks about: " we're all gonna die ".
+
+Stevens speaks again now, wonders if the memory he has of his mother isn't packaged, modified somehow, if it will ever fade.
+
+And his mother responds to him again, once more compares him to a bird, asks him again why he's crying, apologizes for having disappeared.
+
+And then come the formalities, the hospital's request about how to treat his mother's body, the strange effect of dressing a dead body.
+
+His mother speaks to him again, to give him one last piece of advice, to live his life to the fullest, to do it while he can.
+
+Few songs are as heartbreaking as this one, few encapsulate in a sweet and delicate voice the entirety of emotions that such a loss entails.
+
+The version that closes the record has a choir at the end that, repeating "We're all gonna die", the mother's caring warning, builds an emotional outro: listen to it one evening, late at night, don't do anything else, and you'll find yourself in places perhaps a bit sad, maybe a bit haunting, maybe not completely pleasant, but that will surely know how to cradle you.
+
+See you next time!

@@ -1,1 +1,85 @@
-<h5><em>The name </em><code>sound orbits</code><em> is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.</em></h5><div><hr></div><pre><code>Space of Sound is also on <a href="https://open.spotify.com/playlist/0nrw5lrNnLvW8qyvjGgvOF?si=95fd3b2e6f774c0a">Spotify</a> and <a href="https://music.apple.com/it/playlist/space-of-sound/pl.u-KVXBk16sLk11D3e?l=en">Apple Music</a>, with a playlist.</code></pre><iframe class="spotify-wrap playlist" src="https://open.spotify.com/embed/playlist/0nrw5lrNnLvW8qyvjGgvOF" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><div><hr></div><p>This week:</p><div><hr></div><p><em><strong>Dua Saleh: The Flood (feat. Bon Iver)<br></strong>Produced by: Dua Saleh<br>Published by: Ghostly International<br>Published:  Feb 3, 2026<strong><br></strong></em>Sudanese-American artist Dua Saleh features Bon Iver in their new project. <br>I had not listened to any songs from the former, but I evidently recognize the latter. <br>Fresh water coming all at once: a flood.<br>The song is part of of the LP <strong>Of Earth &amp; Wires</strong>, to be published May 15, 2026.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46e3dcc0-77f2-4e05-aeed-ee127807303e_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46e3dcc0-77f2-4e05-aeed-ee127807303e_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46e3dcc0-77f2-4e05-aeed-ee127807303e_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46e3dcc0-77f2-4e05-aeed-ee127807303e_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46e3dcc0-77f2-4e05-aeed-ee127807303e_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46e3dcc0-77f2-4e05-aeed-ee127807303e_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><strong>Dua Saleh</strong> on <a href="https://duasaleh.bandcamp.com/album/of-earth-wires">Bandcamp</a>, <strong>Bon Iver</strong> on <a href="https://boniver.bandcamp.com/album/bon-iver?search_item_id%3D1859002916%26search_item_type%3Da%26search_match_part%3D%253F%26search_page_id%3D5103567012%26search_page_no%3D0%26search_rank%3D1">Bandcamp</a>, <em><strong>The Flood</strong></em> on <a href="https://open.spotify.com/track/2L8V5ufkP4ZzBBqjVBE2SW?si=040946044fda43ec">Spotify</a>, <a href="https://music.apple.com/it/album/flood-feat-bon-iver/1868826829?i=1868826992&amp;l=en-GB">Apple Music</a>, <a href="https://youtu.be/t_z4UdzxJuA?list=RDt_z4UdzxJuA">Youtube</a>.</p><div id="youtube2-t_z4UdzxJuA" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/t_z4UdzxJuA?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p><code>Here the piece on Bon Iver’s last LP:</code></p><div><hr></div><p><em><strong>Iron &amp; Wine: Roses<br></strong>Produced by: Sub Pop Records <br>Published by: Sub Pop Records<br>Published:  Feb 5, 2026<strong><br></strong></em>Samuel Ervin Beam prints another page of his book of full-of-words songs, and the new cover is a story all by itself.<br>The song is part of the LP <strong>Hen’s Teeth</strong>, to be published February 27, 2026.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda8a131b-d56a-4e10-b924-c67dc106ba01_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda8a131b-d56a-4e10-b924-c67dc106ba01_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda8a131b-d56a-4e10-b924-c67dc106ba01_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda8a131b-d56a-4e10-b924-c67dc106ba01_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda8a131b-d56a-4e10-b924-c67dc106ba01_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda8a131b-d56a-4e10-b924-c67dc106ba01_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><strong>Iron &amp; Wine</strong> on <a href="https://ironandwine.bandcamp.com/album/hens-teeth">Bandcamp</a>, <em><strong>Roses</strong></em> on <a href="https://open.spotify.com/track/6kBwPPG1Vdhh3mnApOk1XA?si=3e1d0d21620e4599">Spotify</a>, <a href="https://music.apple.com/it/album/roses/1858386028?i=1858386031&amp;l=en-GB">Apple Music</a>, <a href="https://youtu.be/NF8uW2DFWG4?list=RDNF8uW2DFWG4">Youtube</a>.</p><div id="youtube2-NF8uW2DFWG4" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/NF8uW2DFWG4?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p><code>Here the piece on another song by Iron &amp; Wine:</code></p><div><hr></div><p><em><strong>Young The Giant: Different Kind of Love<br></strong>Produced by: Jungle Youth Records<br>Published by: Concord<br>Published:  Feb 6, 2026<strong><br></strong></em>The band from Irvine, California are preparing for a great year. <br>This song is solid alt-rock. Truly.<br>The song is part of the EP <strong>Victory Garden</strong>, to be published May 1, 2026.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbac7ee5-bc4d-4458-a478-8247267e4189_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbac7ee5-bc4d-4458-a478-8247267e4189_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbac7ee5-bc4d-4458-a478-8247267e4189_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbac7ee5-bc4d-4458-a478-8247267e4189_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbac7ee5-bc4d-4458-a478-8247267e4189_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbac7ee5-bc4d-4458-a478-8247267e4189_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p><strong>Young The Giant</strong> on <a href="https://youngthegiant.bandcamp.com/album/victory-garden">Bandcamp</a>, <em><strong>Different Kind of Love</strong></em> on <a href="https://open.spotify.com/track/2aD8QNWrmr8vslwcTLApxd?si=a42ca11fba7c4275">Spotify</a>, <a href="https://music.apple.com/it/album/different-kind-of-love/1866700309?i=1866700768&amp;l=en-GB">Apple Music</a>, <a href="https://youtu.be/Sh8e_n-H2AY?list=RDSh8e_n-H2AY">Youtube</a>.</p><div id="youtube2-Sh8e_n-H2AY" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/Sh8e_n-H2AY?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/subscribe?"><span>Subscribe now</span></a></p><div><hr></div><p><code>Delayed Orbit: a song/record/soundtrack not published this week, and that I encountered in these days.</code></p><blockquote><p><em><strong>James Blake: Death of Love <br></strong>Produced by: Good Boy Records<br>Published by: Good Boy Records<br>Published:  Jan 22, 2026<strong><br></strong></em>The artist from England (now in Los Angeles) is still embedded in spikes of sounds, surrounding him like in the cover photo of the new album. <br>His art on a pike: these are <em>trying times</em>.<br>The song is part of the LP <strong>Trying Times</strong>, to be published March 13, 2026.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b229203-9326-43d4-93ba-c1cffafbc61e_1200x1200.webp"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b229203-9326-43d4-93ba-c1cffafbc61e_1200x1200.webp 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b229203-9326-43d4-93ba-c1cffafbc61e_1200x1200.webp 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b229203-9326-43d4-93ba-c1cffafbc61e_1200x1200.webp 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b229203-9326-43d4-93ba-c1cffafbc61e_1200x1200.webp 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b229203-9326-43d4-93ba-c1cffafbc61e_1200x1200.webp" alt="Image"></picture></a></figure></div><p><strong>James Blake</strong> on <a href="https://jamesblakemusic.com">the web</a>, <strong>Death of Love</strong> on <a href="https://open.spotify.com/track/18NDaA50I2xeHYeMkfVPp6?si=21b1a00b94d846ad">Spotify</a>, <a href="https://music.apple.com/it/album/death-of-love/1862353780?i=1862353786">Apple Music</a>, <a href="https://youtu.be/neglkknTYB4?list=RDneglkknTYB4">Youtube</a>.</p><div id="youtube2-neglkknTYB4" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/neglkknTYB4?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div></blockquote><p><code>From James Blake, you can read this episode:</code></p><div><hr></div><p>See you next time. <br>If you liked this episode, you can share it with other human beings.</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><div><hr></div><div><hr></div><h4>Read also:</h4><div><hr></div><div><hr></div><h6>Heralding Time: a blog on history, philosophy, and science. Subscribe here. <br>Last Scattering Surface: a blog on cosmology. Subscribe here<br>To support the project, here’s my <a href="https://ko-fi.com/anvianvi#checkoutModal">ko-fi</a>. <br>If you want, you can follow - and support - me on <a href="https://www.patreon.com/cw/anvianvi">Patreon</a>.<br>Finally, you can share this publication with whomever you want.</h6><p class="button-wrapper"><a class="button primary button-wrapper" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><h6>Ciao and see you soon!</h6>
+The name sound orbits is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.
+
+This week:
+
+Dua Saleh: The Flood (feat. Bon Iver)
+
+Produced by: Dua Saleh
+
+Published by: Ghostly International
+
+Published: Feb 3, 2026
+
+Sudanese-American artist Dua Saleh features Bon Iver in their new project.
+
+I had not listened to any songs from the former, but I evidently recognize the latter.
+
+Fresh water coming all at once: a flood.
+
+The song is part of of the LP Of Earth & Wires , to be published May 15, 2026.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/46e3dcc0-77f2-4e05-aeed-ee127807303e_1200x1200.jpeg)
+
+Dua Saleh on Bandcamp, Bon Iver on Bandcamp, The Flood on Spotify, Apple Music, Youtube.
+
+Here the piece on Bon Iver’s last LP:
+
+Iron & Wine: Roses
+
+Produced by: Sub Pop Records
+
+Published by: Sub Pop Records
+
+Published: Feb 5, 2026
+
+Samuel Ervin Beam prints another page of his book of full-of-words songs, and the new cover is a story all by itself.
+
+The song is part of the LP Hen’s Teeth , to be published February 27, 2026.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/da8a131b-d56a-4e10-b924-c67dc106ba01_1200x1200.jpeg)
+
+Iron & Wine on Bandcamp, Roses on Spotify, Apple Music, Youtube.
+
+Here the piece on another song by Iron & Wine:
+
+Young The Giant: Different Kind of Love
+
+Produced by: Jungle Youth Records
+
+Published by: Concord
+
+Published: Feb 6, 2026
+
+The band from Irvine, California are preparing for a great year.
+
+This song is solid alt-rock. Truly.
+
+The song is part of the EP Victory Garden , to be published May 1, 2026.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/bbac7ee5-bc4d-4458-a478-8247267e4189_1200x1200.jpeg)
+
+Young The Giant on Bandcamp, Different Kind of Love on Spotify, Apple Music, Youtube.
+
+Delayed Orbit: a song/record/soundtrack not published this week, and that I encountered in these days.
+
+James Blake: Death of Love
+
+Produced by: Good Boy Records
+
+Published by: Good Boy Records
+
+Published: Jan 22, 2026
+
+The artist from England (now in Los Angeles) is still embedded in spikes of sounds, surrounding him like in the cover photo of the new album.
+
+His art on a pike: these are trying times .
+
+The song is part of the LP Trying Times , to be published March 13, 2026.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/2b229203-9326-43d4-93ba-c1cffafbc61e_1200x1200.webp)
+
+James Blake on the web, Death of Love on Spotify, Apple Music, Youtube.
+
+From James Blake, you can read this episode:
+
+See you next time.

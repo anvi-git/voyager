@@ -1,1 +1,17 @@
-<p></p><p class="button-wrapper"><a class="button primary" href="https://lastscatteringsurface.substack.com/subscribe?"><span>Subscribe now</span></a></p><h2>Beginnings are hard. Especially for the Universe.</h2><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a7995d0-9558-4a23-87de-4c22b76ae990_1572x1048.png"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a7995d0-9558-4a23-87de-4c22b76ae990_1572x1048.png 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a7995d0-9558-4a23-87de-4c22b76ae990_1572x1048.png 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a7995d0-9558-4a23-87de-4c22b76ae990_1572x1048.png 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a7995d0-9558-4a23-87de-4c22b76ae990_1572x1048.png 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a7995d0-9558-4a23-87de-4c22b76ae990_1572x1048.png" alt="Image"></picture></a></figure></div><p>Welcome to the new, first, only place where you can look up to the immensity of the cosmic structures.</p><h3>1. Why Last, why Scattering</h3><p>The idea behind the name “Last Scattering Surface” came to me while I was studying for my Cosmology exam during my ongoing Master’s Studies in Astrophysics.</p><p>The idea behind the project is to talk about whatever fascinates me about the Universe. It’s going to be a long journey. </p><h3>2. Do you feel like you should join this project? </h3><p>Do you feel anything at all when you gaze upon the stars (abused expression, pardon me)?</p><p>If this is the case for you, here you can find something to enjoy yourself while gazing. Whenever you decide to stop staring at the sky and decide to use the Internet, he said.</p><p> </p><h3></h3><p></p><div><hr></div><form class="subscription-widget-subscribe"><input type="email" class="email-input" name="email" placeholder="Type your email…" tabindex="-1"><input type="submit" class="button primary" value="Subscribe"><div class="fake-input-wrapper"><div class="fake-input"></div><div class="fake-button"></div></div></form></div></div><p></p>
+Beginnings are hard. Especially for the Universe.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/9a7995d0-9558-4a23-87de-4c22b76ae990_1572x1048.png)
+
+Welcome to the new, first, only place where you can look up to the immensity of the cosmic structures.
+
+1. Why Last, why Scattering
+
+The idea behind the name “Last Scattering Surface” came to me while I was studying for my Cosmology exam during my ongoing Master’s Studies in Astrophysics.
+
+The idea behind the project is to talk about whatever fascinates me about the Universe. It’s going to be a long journey.
+
+2. Do you feel like you should join this project?
+
+Do you feel anything at all when you gaze upon the stars (abused expression, pardon me)?
+
+If this is the case for you, here you can find something to enjoy yourself while gazing. Whenever you decide to stop staring at the sky and decide to use the Internet, he said.

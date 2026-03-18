@@ -1,3 +1,95 @@
 # live sound #4: i cani @ Teatro della Concordia - Venaria
 
-<h6>Disclaimer: Space of Sound is on <a href="https://www.instagram.com/space_of_sound/">Instagram</a>. You can reach the page by clicking <a href="https://www.instagram.com/space_of_sound/">here</a>.</h6><div><hr></div><pre><code><code>Space of Sound &#232; anche su Instagram. Puoi raggiungerlo seguendo questo link.</code></code></pre><figure><a href="https://instagram.com/p/DRudYXhjByS"><img src="https://substackcdn.com/image/fetch/$s_!1J4o!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__IG-meta-DRudYXhjByS.jpg" alt="Instagram post"></a></figure><pre><code>Space of Sound &#232; anche su <a href="https://open.spotify.com/playlist/0nrw5lrNnLvW8qyvjGgvOF?si=95fd3b2e6f774c0a">Spotify</a> e <a href="https://music.apple.com/it/playlist/space-of-sound/pl.u-KVXBk16sLk11D3e?l=en">Apple Music</a> con una playlist.</code></pre><iframe class="spotify-wrap playlist" src="https://open.spotify.com/embed/playlist/0nrw5lrNnLvW8qyvjGgvOF" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><div><hr></div><p><em><strong>i cani</strong></em> sono <strong>Niccol&#242; Contessa</strong>, ma Niccol&#242; Contessa non &#232; stato solo <em>i cani</em>. <code><br></code><em>"Vedi Niccol&#242;, la gente non &#232; il mestiere che fa".<br></em>il concerto di ieri (al Teatro della Concordia di Venaria) &#232; l&#8217;inizio e la fine - <em>non finir&#224;</em>, <em>finir&#224;</em> - del concetto degli artisti generazionali. <br>i cani lo sono stati, generazionali. <br>forse quella generazione &#232; finita.<br>chi &#232; il colpevole? il tempo? <br>Niccol&#242; Contessa inizia il concerto con "<em>io</em>": forse c&#8217;&#232; qualcosa sotto.</p><p><em>sempre fotografati, lui che girava con una busta di carta in testa. <br>cosa &#232; diventato il rito del concerto dell&#8217;artista </em>nascosto<em>? <br>una seduta fotografica per immortalarlo.<br>qualcuno urla &#8220;ah ma allora esiste davvero!&#8221;. </em></p><div><hr></div><p><em>a un certo punto dal vocoder esce una voce, mi dico &#8220;avr&#224; scoperto </em>Bon Iver<em>&#8221;, poi lo lascia stare e anch&#8217;io lascio stare.</em></p><p><em>altre magie altri misteri altri dubbi questioni domande:<br>il fuoco brucia e resta </em>carbone<em>.</em></p><p><em>questa esperienza viene raccontata come involuta<br>si fa mitologia ma non &#232; chiss&#224; cosa;<br>non &#232; questo il punto non importa:<br>risuonare per qualcosa </em>io non credo sia un caso</p><p><em>la verit&#224; forse non c&#8217;&#232;<br>forse &#232; inesistente inventata dimenticata<br>eppure &#232; l&#236;, in ogni nuova esperienza, </em>nascosta in piena vista.</p><p><em>ritornano </em>le coppie, <em>non erano riuscite a dividersi, <br>si erano lasciate e poi si cercavano, ma non esistono pi&#249; i romantici, <br>anche </em>i pariolini di diciott&#8217;anni<em> ora sarebbero pi&#249; che trentenni. </em></p><p><em>nessuna paura, qui si balla</em></p><p><em>l&#8217;unica nostalgia che (</em>non<em>) ho</em>.</p><p><em>una volta </em>Vasco Brondi<em> parlava con (la ragazza di) qualcuno, <br>ora </em>Lucio Corsi<em> (s)parla da solo: <br>diventiamo atomi </em>anche<em> metaforicamente.</em></p><p><em>l&#8217;AI avanza, Internet &#232; morto, chi usa pi&#249; </em>Google<em>?<br>non serve pi&#249; a nulla supplicare di</em> <em>non essere ricercato</em>.</p><p><em>c&#8217;erano altre canzoni.<br>c&#8217;era un&#8217;ultima canzone, <br>ma Niccol&#242; Contessa ha chiesto che non si registrasse pi&#249; nulla, <br>per lasciarsi guardandosi e riconoscendosi.<br>tanto era </em>una cosa stupida<em>.</em></p><div><hr></div><p><em>tutti a registrare tutto: chiss&#224; quanto dovremo aspettare per sentirlo di nuovo dal vivo. potrebbe anche finirla qua, <br>le generazioni passano, <br>chi lo ascoltava dall&#8217;inizio ha cambiato vita. <br>con nostalgie, rimorsi, rimpianti, pi&#249; per cose che non sarebbero mai potute accadere che per qualcosa di realizzabile. ma </em>ho un groppo in gola, <em>e </em>le mani in tasca <em>al freddo.</em></p><iframe src="https://www.youtube-nocookie.com/embed/y4u133Nw2m0?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div><pre><code>Questo dicembre, puoi supportare Space of Sound con una offerta speciale, che equivale a 1.5&#8364;/mese.</code></pre><pre><code>Grazie!</code></pre><div><hr></div><h6>Questa newsletter &#232; una tra le tre che pubblico qui su Substack: le altre due sono <a href="https://lastscatteringsurface.substack.com/">Last Scattering Surface</a>, e <a href="https://heraldingtime.substack.com/">Heralding Time</a>. Tutte le pubblicazioni sono gratuite e senza paywall; puoi liberamente leggere tutti gli articoli. Se vuoi, puoi iscriverti <a href="https://lastscatteringsurface.substack.com/">qui</a> e <a href="https://heraldingtime.substack.com/">qui</a>. </h6><h6>Se vuoi, puoi sostenermi su <a href="https://ko-fi.com/anvianvi#checkoutModal">ko-fi</a>. </h6><h6>Inoltre, puoi condividere questa pubblicazione con chi vuoi.</h6>
+Disclaimer: Space of Sound is on Instagram. You can reach the page by clicking here.
+
+Space of Sound è anche su Instagram. Puoi raggiungerlo seguendo questo link.
+
+![](https://substackcdn.com/image/fetch/$s_!1J4o!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https://substack-post-media.s3.amazonaws.com/public/images/__ss-rehost__IG-meta-DRudYXhjByS.jpg)
+
+Space of Sound è anche su Spotify e Apple Music con una playlist.
+
+i cani sono Niccolò Contessa , ma Niccolò Contessa non è stato solo i cani .
+
+"Vedi Niccolò, la gente non è il mestiere che fa".
+
+il concerto di ieri (al Teatro della Concordia di Venaria) è l’inizio e la fine - non finirà , finirà - del concetto degli artisti generazionali.
+
+i cani lo sono stati, generazionali.
+
+forse quella generazione è finita.
+
+chi è il colpevole? il tempo?
+
+Niccolò Contessa inizia il concerto con " io ": forse c’è qualcosa sotto.
+
+sempre fotografati, lui che girava con una busta di carta in testa.
+
+cosa è diventato il rito del concerto dell’artista nascosto ?
+
+una seduta fotografica per immortalarlo.
+
+qualcuno urla “ah ma allora esiste davvero!”.
+
+a un certo punto dal vocoder esce una voce, mi dico “avrà scoperto Bon Iver ”, poi lo lascia stare e anch’io lascio stare.
+
+altre magie altri misteri altri dubbi questioni domande:
+
+il fuoco brucia e resta carbone .
+
+questa esperienza viene raccontata come involuta
+
+si fa mitologia ma non è chissà cosa;
+
+non è questo il punto non importa:
+
+risuonare per qualcosa io non credo sia un caso
+
+la verità forse non c’è
+
+forse è inesistente inventata dimenticata
+
+eppure è lì, in ogni nuova esperienza, nascosta in piena vista.
+
+ritornano le coppie, non erano riuscite a dividersi,
+
+si erano lasciate e poi si cercavano, ma non esistono più i romantici,
+
+anche i pariolini di diciott’anni ora sarebbero più che trentenni.
+
+nessuna paura, qui si balla
+
+l’unica nostalgia che ( non ) ho .
+
+una volta Vasco Brondi parlava con (la ragazza di) qualcuno,
+
+ora Lucio Corsi (s)parla da solo:
+
+diventiamo atomi anche metaforicamente.
+
+l’AI avanza, Internet è morto, chi usa più Google ?
+
+non serve più a nulla supplicare di non essere ricercato .
+
+c’erano altre canzoni.
+
+c’era un’ultima canzone,
+
+ma Niccolò Contessa ha chiesto che non si registrasse più nulla,
+
+per lasciarsi guardandosi e riconoscendosi.
+
+tanto era una cosa stupida .
+
+tutti a registrare tutto: chissà quanto dovremo aspettare per sentirlo di nuovo dal vivo. potrebbe anche finirla qua,
+
+le generazioni passano,
+
+chi lo ascoltava dall’inizio ha cambiato vita.
+
+con nostalgie, rimorsi, rimpianti, più per cose che non sarebbero mai potute accadere che per qualcosa di realizzabile. ma ho un groppo in gola, e le mani in tasca al freddo.
+
+Questo dicembre, puoi supportare Space of Sound con una offerta speciale, che equivale a 1.5€/mese.
+
+Grazie!
+
+Inoltre, puoi condividere questa pubblicazione con chi vuoi.

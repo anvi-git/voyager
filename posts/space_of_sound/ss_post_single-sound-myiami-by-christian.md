@@ -1,1 +1,27 @@
-<p><strong><a href="https://open.spotify.com/artist/3tSvlEzeDnVbQJBTkIA6nO?si=pTw1RmX8Qku1s1-bLp84FA">Christian Löffler</a></strong> is a German musician. After some <em>field recording</em>, he processed (without expensive studio equipment) various sounds on the drum machine<a class="footnote-anchor" id="footnote-anchor-1" href="#footnote-1" target="_self">1</a>. </p><iframe class="spotify-wrap" src="https://open.spotify.com/embed/track/5dpLWxdUFGY0cszTCwyPUU" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><p>This song comes from <em><strong><a href="https://open.spotify.com/album/392RA8UhAIoBzpbn3bPy3Q?si=cO0MX3bjR6WgEMYzHB_pPA">Mare</a></strong></em>, his second album published in 2016 with the self-created record label Ki Records. </p><div id="youtube2-u5lmdu9HWjk" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/u5lmdu9HWjk?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p>It starts with glass-like sounds, then a beat appears from the drum machine. </p><p>The song is instrumental, there are no lyrics. </p><p>The beat become more persistent, the sound starts to build up.</p><p>There is a reverb, now.</p><p>The music surrounds you, the rhythm increases, now it feels like a run.</p><p>You’re questioning where this is going. </p><p>The song is completed in itself. </p><p>It’s fading now, the wave has passed,  “Mare” is now calm (but the record just started).</p><p>I didn’t even noticed the song was on repeat, the flow of the song comes in circles and cycles.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6f33bc9-e6ea-4fd6-a517-96e37a56b1cd_1200x1200.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6f33bc9-e6ea-4fd6-a517-96e37a56b1cd_1200x1200.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6f33bc9-e6ea-4fd6-a517-96e37a56b1cd_1200x1200.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6f33bc9-e6ea-4fd6-a517-96e37a56b1cd_1200x1200.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6f33bc9-e6ea-4fd6-a517-96e37a56b1cd_1200x1200.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6f33bc9-e6ea-4fd6-a517-96e37a56b1cd_1200x1200.jpeg" alt="Image"></picture></a></figure></div><p>If you liked this, you could share this project with others. Here’s the button:</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/p/single-sound-myiami-by-christian?utm_content=share&action=share"><span>Share</span></a></p><p>See you next time!</p><form class="subscription-widget-subscribe"><input type="email" class="email-input" name="email" placeholder="Type your email…" tabindex="-1"><input type="submit" class="button primary" value="Subscribe"><div class="fake-input-wrapper"><div class="fake-input"></div><div class="fake-button"></div></div></form></div></div><div class="footnote"><a id="footnote-1" href="#footnote-anchor-1" class="footnote-number" contenteditable="false" target="_self">1</a><div class="footnote-content"><h6>https://www.ndr.de/kultur/musik/pop/New-York-Tokio-Graal-Mueritz-DJ-Star-zwischen-den-Welten,christianloeffler106.html</h6><p></p></div></div>
+Christian Löffler is a German musician. After some field recording , he processed (without expensive studio equipment) various sounds on the drum machine1.
+
+This song comes from Mare , his second album published in 2016 with the self-created record label Ki Records.
+
+It starts with glass-like sounds, then a beat appears from the drum machine.
+
+The song is instrumental, there are no lyrics.
+
+The beat become more persistent, the sound starts to build up.
+
+There is a reverb, now.
+
+The music surrounds you, the rhythm increases, now it feels like a run.
+
+You’re questioning where this is going.
+
+The song is completed in itself.
+
+It’s fading now, the wave has passed, “Mare” is now calm (but the record just started).
+
+I didn’t even noticed the song was on repeat, the flow of the song comes in circles and cycles.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/b6f33bc9-e6ea-4fd6-a517-96e37a56b1cd_1200x1200.jpeg)
+
+See you next time!
+
+1 https://www.ndr.de/kultur/musik/pop/New-York-Tokio-Graal-Mueritz-DJ-Star-zwischen-den-Welten,christianloeffler106.html

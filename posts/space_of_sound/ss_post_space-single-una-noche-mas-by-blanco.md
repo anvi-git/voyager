@@ -1,1 +1,27 @@
-<h6>*this email was already sent to you, but this time the header is correct. I apologize for the spam.</h6><div><hr></div><blockquote><p><em><strong>So I hope for signs</strong></em></p><p><em><strong>Any time, I lie awake</strong></em></p></blockquote><p><strong>Josh Edwards</strong> is an english artist who studied flamenco guitar in Cadiz, Spain, and charango in Sucre, Bolivia. He came back in Europe and started a project with the moniker <strong><a href="https://open.spotify.com/artist/3ccVtqcqedranb7y8eywJ5?si=EbKDSb9vT9aw_8WyMyHPNg">Blanco White</a></strong>, after some Anglo-Spanish of the XIX century.</p><p><em><strong><a href="https://open.spotify.com/track/3sqqz9BKUWyakfUuM0t9VG?si=abf38c1d7df344fe">Una Noche Mas</a></strong></em> is track 4 on <em><strong>Tarifa</strong></em>, which is the second studio album, published in 2023.</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/subscribe?"><span>Subscribe now</span></a></p><iframe class="spotify-wrap" src="https://open.spotify.com/embed/track/3sqqz9BKUWyakfUuM0t9VG" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><p>The song reminds me of a time travelling experience I didn’t have: to travel back in time to assist to some muezzin singing on some night in the XIV century in Baghdad, Damascus or Tyre. But, instead of chanting the Quran, those people could have sung love letters to young princesses in faraway castles.</p><p>And I have “<em>no reason to doubt</em>”, because with songs you can do whatever you want. </p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" target="_blank" href="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F508a7ed1-f1df-471c-a7f3-29ced001a3d6_750x750.jpeg"><div class="image2-inset"><picture><source type="image/webp" srcset="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F508a7ed1-f1df-471c-a7f3-29ced001a3d6_750x750.jpeg 424w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F508a7ed1-f1df-471c-a7f3-29ced001a3d6_750x750.jpeg 848w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F508a7ed1-f1df-471c-a7f3-29ced001a3d6_750x750.jpeg 1272w, https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F508a7ed1-f1df-471c-a7f3-29ced001a3d6_750x750.jpeg 1456w" sizes="100vw"><img src="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F508a7ed1-f1df-471c-a7f3-29ced001a3d6_750x750.jpeg" alt="Image"></picture></a><figcaption class="image-caption">Una Noche Mas, Blanco White</figcaption></figure></div><p>Edwards’ voice is naturally soothing and warm and calm: he could sing you to sleep quite easily every night.</p><p>And the next morning, “<em>let the sun take you down</em>”, just to “<em>lie awake</em>”. And since you’re there, you should reassure your loved one that “it’s alright to stay”, just this time, “<em>una noche mas”.</em></p><div><hr></div><blockquote><p><em><strong>And though you're tired of it all<br>You said it's alright to stay</strong></em></p></blockquote><div id="youtube2--sNLKvyEyn0" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/-sNLKvyEyn0?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p>If you liked this, you could share this project with others. Here’s the button:</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/p/space-single-una-noche-mas-by-blanco?utm_content=share&action=share"><span>Share</span></a></p><p>See you next time!</p><form class="subscription-widget-subscribe"><input type="email" class="email-input" name="email" placeholder="Type your email…" tabindex="-1"><input type="submit" class="button primary" value="Subscribe"><div class="fake-input-wrapper"><div class="fake-input"></div><div class="fake-button"></div></div></form></div></div>
+*this email was already sent to you, but this time the header is correct. I apologize for the spam.
+
+So I hope for signs
+
+Any time, I lie awake
+
+Josh Edwards is an english artist who studied flamenco guitar in Cadiz, Spain, and charango in Sucre, Bolivia. He came back in Europe and started a project with the moniker Blanco White , after some Anglo-Spanish of the XIX century.
+
+Una Noche Mas is track 4 on Tarifa , which is the second studio album, published in 2023.
+
+The song reminds me of a time travelling experience I didn’t have: to travel back in time to assist to some muezzin singing on some night in the XIV century in Baghdad, Damascus or Tyre. But, instead of chanting the Quran, those people could have sung love letters to young princesses in faraway castles.
+
+And I have “ no reason to doubt ”, because with songs you can do whatever you want.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/508a7ed1-f1df-471c-a7f3-29ced001a3d6_750x750.jpeg)
+
+Una Noche Mas, Blanco White
+
+Edwards’ voice is naturally soothing and warm and calm: he could sing you to sleep quite easily every night.
+
+And the next morning, “ let the sun take you down ”, just to “ lie awake ”. And since you’re there, you should reassure your loved one that “it’s alright to stay”, just this time, “ una noche mas”.
+
+And though you're tired of it all
+
+You said it's alright to stay
+
+See you next time!

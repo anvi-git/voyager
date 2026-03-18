@@ -1,1 +1,79 @@
-<h5><em>The name </em><code>sound orbits</code><em> is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.</em></h5><div><hr></div><pre><code>Space of Sound is also on <a href="https://open.spotify.com/playlist/0nrw5lrNnLvW8qyvjGgvOF?si=95fd3b2e6f774c0a">Spotify</a> and <a href="https://music.apple.com/it/playlist/space-of-sound/pl.u-KVXBk16sLk11D3e?l=en">Apple Music</a>, with a playlist.</code></pre><iframe class="spotify-wrap playlist" src="https://open.spotify.com/embed/playlist/0nrw5lrNnLvW8qyvjGgvOF" frameborder="0" gesture="media" allowfullscreen="true" allow="encrypted-media"></iframe><div><hr></div><p>This week:</p><div><hr></div><p><em><strong>Master Peace : Fuck It Up (with Declan McKenna)<br></strong>Produced by: Big Family Music<br>Published by: Stem<br>Published:  Jan 16, 2026<strong><br></strong></em>Peace Okienze, real name of Master Peace, is set out to return to the British public with a few new energetic songs. <br>“<em>Be happy, don’t worry, that’s a lie and I know it is</em>”.<br>The song is part of of the self-titled EP, published January 16, 2026.<br>The artist’s <a href="https://www.masterpeaceofficial.com/home-1">website</a>, the song on <a href="https://open.spotify.com/track/4PR3GPNQg8RNkGSSA1LAqX?si=1b169ed47ae349c9">Spotify</a>, <a href="https://music.apple.com/it/album/fuck-it-up/1849002928?i=1849002929">Apple Music</a>, <a href="https://youtu.be/Vkh2-SU1l98">Youtube</a>.</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/subscribe?"><span>Subscribe now</span></a></p><div id="youtube2-Vkh2-SU1l98" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/Vkh2-SU1l98?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><p><em><strong>The Milk Carton Kids : A Friend Like You<br></strong>Produced by: Big Family Music<br>Published by: Stem<br>Published:  Jan 16, 2026<strong><br></strong></em>This folk duo from California composed of singer-guitarists Kenneth Pattengale and Joey Ryan comes back after three years with new lyrics and the same soothing and delicate sounds.<br>The song is part of the LP <strong>Lost Cause Lover Fool</strong>, to be published April 24, 2026.<br>The band on <a href="https://themilkcartonkids.bandcamp.com/music">Bandcamp</a>, the song on <a href="https://open.spotify.com/track/2t0s7VqkEetNbUbyPyErHq?si=1d50a0ceeddd4b03">Spotify</a>, <a href="https://music.apple.com/it/album/lost-cause-lover-fool/1860384647?l=en-GB">Apple Music</a>, <a href="https://youtu.be/YBlMGuwXZLk?list=RDYBlMGuwXZLk">Youtube</a>.</p><div id="youtube2-YBlMGuwXZLk" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/YBlMGuwXZLk?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><em><strong>The Paper Kites: If  You Go There, I Hope You Find It<br></strong>Produced by: The Paper Kites<br>Published by: Nettwerk Music Group<br>Published:  Jan 23, 2026<strong><br></strong></em>This folk band from Australia (composed of David Powys, Sam Bentley, Sam Rasmussen, Christina Lacy, Josh Bentley) enters the new year with a new record, but the feelings are unaltered: the kites are made of cozy, soft wool.<br>The band’s <a href="https://www.thepaperkites.com.au">website</a>, the record on <a href="https://open.spotify.com/album/7vULyg3RtEXYxsOulFZQ41?si=4GqVZ9nJT7azOZlqAvRRbA">Spotify</a>, <a href="https://music.apple.com/it/album/if-you-go-there-i-hope-you-find-it/1837761226">Apple Music</a>, <a href="https://youtu.be/KMFYLABTYN4?list=OLAK5uy_n7htjLOOqjOZWaIPFeY3wQklCzuVj79UU">Youtube</a>.</p><div id="youtube2-KMFYLABTYN4" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/KMFYLABTYN4?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><em><strong>Christian Löffler: Until We Meet Again<br></strong>Produced by: Ki Records<br>Published by: Ki Records<br>Published:  Jan 23, 2026<strong><br></strong></em>German musician Christian Löffler comes back with another touching soundscape. <br>Every sound creates vibrations that build up to embrace your body. <br>On speakers, on headphones: just listen to it while doing nothing.<br>The record on <a href="https://christianloffler.bandcamp.com/album/until-we-meet-again">Bandcamp</a>, <a href="https://open.spotify.com/album/0BHheZxTmxC2fZh6mbCVx2?si=gLtg-vimQLqR6eF553MBfw">Spotify</a>, <a href="https://music.apple.com/it/album/until-we-meet-again/1852510251">Apple Music</a>, <a href="https://youtu.be/oQ1gTZXmaU0?list=OLAK5uy_mAIx-e1QIfDvP-n1Qy2WujHxvxRLt9rDs">Youtube</a>.<br>Here the review on another song by Löffler, Myiami.</p><div id="youtube2-oQ1gTZXmaU0" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/oQ1gTZXmaU0?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p><em><strong>Edwin Raphael : First Time On Earth<br></strong>Produced by: Favourite Library<br>Published by: Favourite Library<br>Published:  Jan 20, 2026<strong><br></strong></em>Edwin Raphael, Indian musician based in Toronto, brings synthesis and refrains-that-make-your-head-move to the turntable. <br>The song is part of the self-titled EP, published April 20, 2026.<br>The band on <a href="https://themilkcartonkids.bandcamp.com/music">Bandcamp</a>, the song on <a href="https://open.spotify.com/track/0u7CYaqdPPtGTguEP9Zt86?si=bf8008b3272e41df">Spotify</a>, <a href="https://music.apple.com/it/album/first-time-on-earth/1861967086?i=1861967087&amp;l=en-GB">Apple Music</a>, <a href="https://youtu.be/7OcGcBU47Ks">Youtube</a>.</p><div id="youtube2-7OcGcBU47Ks" class="youtube-wrap"><div class="youtube-inner"><iframe src="https://www.youtube-nocookie.com/embed/7OcGcBU47Ks?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="true" width="728" height="409"></iframe></div></div><div><hr></div><p>See you next time. <br>If you liked this episode, you can share it with other human beings.</p><p class="button-wrapper"><a class="button primary" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><div><hr></div><div><hr></div><h4>Read also:<br></h4><div><hr></div><div><hr></div><h6>Heralding Time: a blog on history, philosophy, and science. Subscribe here. <br>Last Scattering Surface: a blog on cosmology. Subscribe here<br>To support the project, here’s my <a href="https://ko-fi.com/anvianvi#checkoutModal">ko-fi</a>. <br>If you want, you can follow - and support - me on <a href="https://www.patreon.com/cw/anvianvi">Patreon</a>.<br>Finally, you can share this publication with whomever you want.</h6><p class="button-wrapper"><a class="button primary button-wrapper" href="https://spaceofsound.substack.com/?amp;utm_medium=email&amp;utm_content=share&amp;action=share"><span>Share Space of Sound</span></a></p><h6>Ciao and see you soon!</h6><form class="subscription-widget-subscribe"><input type="email" class="email-input" name="email" placeholder="Type your email…" tabindex="-1"><input type="submit" class="button primary" value="Subscribe"><div class="fake-input-wrapper"><div class="fake-input"></div><div class="fake-button"></div></div></form></div></div>
+The name sound orbits is inspired to the weekly rotation of streaming services: this is no rotation, it’s an orbit, and we are all on that.
+
+This week:
+
+Master Peace : Fuck It Up (with Declan McKenna)
+
+Produced by: Big Family Music
+
+Published by: Stem
+
+Published: Jan 16, 2026
+
+Peace Okienze, real name of Master Peace, is set out to return to the British public with a few new energetic songs.
+
+“ Be happy, don’t worry, that’s a lie and I know it is ”.
+
+The song is part of of the self-titled EP, published January 16, 2026.
+
+The artist’s website, the song on Spotify, Apple Music, Youtube.
+
+The Milk Carton Kids : A Friend Like You
+
+Produced by: Big Family Music
+
+Published by: Stem
+
+Published: Jan 16, 2026
+
+This folk duo from California composed of singer-guitarists Kenneth Pattengale and Joey Ryan comes back after three years with new lyrics and the same soothing and delicate sounds.
+
+The song is part of the LP Lost Cause Lover Fool , to be published April 24, 2026.
+
+The band on Bandcamp, the song on Spotify, Apple Music, Youtube.
+
+The Paper Kites: If You Go There, I Hope You Find It
+
+Produced by: The Paper Kites
+
+Published by: Nettwerk Music Group
+
+Published: Jan 23, 2026
+
+This folk band from Australia (composed of David Powys, Sam Bentley, Sam Rasmussen, Christina Lacy, Josh Bentley) enters the new year with a new record, but the feelings are unaltered: the kites are made of cozy, soft wool.
+
+The band’s website, the record on Spotify, Apple Music, Youtube.
+
+Christian Löffler: Until We Meet Again
+
+Produced by: Ki Records
+
+Published by: Ki Records
+
+Published: Jan 23, 2026
+
+German musician Christian Löffler comes back with another touching soundscape.
+
+Every sound creates vibrations that build up to embrace your body.
+
+On speakers, on headphones: just listen to it while doing nothing.
+
+The record on Bandcamp, Spotify, Apple Music, Youtube.
+
+Here the review on another song by Löffler, Myiami.
+
+Edwin Raphael : First Time On Earth
+
+Produced by: Favourite Library
+
+Published by: Favourite Library
+
+Published: Jan 20, 2026
+
+Edwin Raphael, Indian musician based in Toronto, brings synthesis and refrains-that-make-your-head-move to the turntable.
+
+The song is part of the self-titled EP, published April 20, 2026.
+
+The band on Bandcamp, the song on Spotify, Apple Music, Youtube.
+
+See you next time.

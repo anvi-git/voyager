@@ -635,6 +635,40 @@ main {
     line-height: 1.66;
 }
 
+.blog-article-content {
+    font-family: var(--site-font);
+    color: var(--color-black);
+}
+
+.blog-article-content * {
+    font-family: inherit !important;
+    color: inherit;
+}
+
+.blog-article-content p,
+.blog-article-content li,
+.blog-article-content blockquote,
+.blog-article-content figcaption {
+    font-size: 1em;
+    line-height: 1.66;
+}
+
+.blog-article-content h1,
+.blog-article-content h2,
+.blog-article-content h3,
+.blog-article-content h4,
+.blog-article-content h5,
+.blog-article-content h6 {
+    font-family: var(--site-font);
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.blog-article-content a {
+    color: inherit;
+    text-decoration: underline;
+}
+
 .blog-article-content p { color: var(--color-black); }
 
 .blog-article-content figure {

@@ -10,6 +10,7 @@
     <script src="post_content_data.js"></script>
     <script src="blog_data.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="article_content_sanitizer.js"></script>
     <script>
       async function getArticleBody(markdownFile) {
         if (
@@ -76,20 +77,30 @@
         // Imported posts sometimes already contain HTML.
         const looksLikeHtml = /<\s*[a-z!][^>]*>/i.test(trimmed);
         const shortNote = plainLen < 120 ? buildShortContentNote(article) : '';
+        let renderedHtml = '';
+
         if (looksLikeHtml) {
-          container.innerHTML = trimmed + shortNote;
+          renderedHtml = trimmed;
+        } else if (window.marked && typeof window.marked.parse === 'function') {
+          renderedHtml = window.marked.parse(trimmed);
+        } else {
+          renderedHtml = trimmed
+            .split(/\n{2,}/)
+            .map(block => `<p>${block.replace(/\n/g, '<br>')}</p>`)
+            .join('');
+        }
+
+        const sanitizer = window.sanitizeImportedArticleHtml;
+        const sanitizedHtml = typeof sanitizer === 'function'
+          ? sanitizer(renderedHtml)
+          : renderedHtml;
+
+        if (!plainTextLength(sanitizedHtml)) {
+          container.innerHTML = buildShortContentNote(article);
           return;
         }
 
-        if (window.marked && typeof window.marked.parse === 'function') {
-          container.innerHTML = window.marked.parse(trimmed) + shortNote;
-          return;
-        }
-
-        container.innerHTML = trimmed
-          .split(/\n{2,}/)
-          .map(block => `<p>${block.replace(/\n/g, '<br>')}</p>`)
-          .join('') + shortNote;
+        container.innerHTML = sanitizedHtml + shortNote;
       }
 
       document.addEventListener('DOMContentLoaded', async () => {

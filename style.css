@@ -272,7 +272,7 @@ main {
 
 .collection-card-image {
     width: 100%;
-    height: auto;
+    height: 190px;
     display: block;
     object-fit: cover;
 }
@@ -344,11 +344,38 @@ main {
 .blog-article-meta { color: var(--color-black); font-size: 0.9rem; }
 .blog-article-content p { color: var(--color-black); }
 
+.blog-article-content figure {
+    width: min(72%, 640px);
+    margin: 1.1rem auto;
+}
+
+.blog-article-content figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+.blog-article-content figcaption {
+    margin-top: 0.45rem;
+    font-size: 0.9rem;
+    line-height: 1.35;
+    text-align: left;
+}
+
 @media (max-width: 900px) {
     #blog-layout {
         grid-template-columns: 1fr;
     }
     #blog-sidebar { position: static; }
+
+    .blog-article-content figure {
+        width: min(86%, 560px);
+    }
+
+    .collection-card-image {
+        height: 165px;
+    }
 }
 
 /* Justify text to the left */
@@ -371,7 +398,7 @@ section {
 }
 
 h2 {
-    color: #ffffff;
+    color: var(--color-black);
     font-weight: 4;
 }
 
@@ -396,7 +423,15 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: inherit;
+}
+
+::selection {
+    text-decoration: underline;
+}
+
+::-moz-selection {
+    text-decoration: underline;
 }
 /* BUTTONS */
 button {
@@ -647,6 +682,14 @@ iframe {
     .post {
         height: 150px; /* Further reduce height */
     }
+
+    .blog-article-content figure {
+        width: 100%;
+    }
+
+    .collection-card-image {
+        height: 145px;
+    }
 }    
 
 
@@ -691,7 +734,7 @@ nav ul li {
 
 /* Post Image */
 .post-image {
-    max-width: 15%;
+    max-width: 11%;
     height: auto;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -756,7 +799,7 @@ html, body {
   position: relative;
   background-size: cover;
   background-position: center;
-  min-height: 260px;
+    min-height: 210px;
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;

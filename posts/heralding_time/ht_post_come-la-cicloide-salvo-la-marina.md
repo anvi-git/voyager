@@ -1,3 +1,5 @@
+# come la cicloide salvò la marina inglese
+
 Disclaimer #1: this article is in Italian. The English is here.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/2be87920-05f4-4827-9bf9-ff185dc5e828_1572x1048.png)
@@ -39,8 +41,6 @@ Problemi di questo tipo erano conosciuti da tempo, e non solo dalla marina ingle
 Ad ogni modo, questo disastro in particolare provocò grande preoccupazione nel pubblico inglese, e il suo governo si decise a fare qualcosa.
 
 Quest'anno, diventa un abbonato a pagamento per supportare questa pubblicazione!
-
-Get 50% off for 1 year
 
 Grazie! E se vuoi, condividila!
 

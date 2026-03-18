@@ -1,3 +1,5 @@
+# costanti, raccolte, sintesi
+
 Disclaimer #1: this article is in Italian. I will publish the English version next Wednesday.
 
 Disclaimer #2: questo pezzo fa parte di una serie, pubblicata sia su questa newsletter, Heralding Time , che su Last Scattering Surface . Se vuoi, puoi seguirle entrambe. Il primo capitolo si legge qui. Il secondo qui.
@@ -32,8 +34,6 @@ Il centro della Terra è attraversato da un asse celeste intorno a cui ruota il 
 
 Questa teoria è diventata intorno al 180 CE la teoria considerata “vera” in Cina, poiché come formula Chang Heng , astronomo cinese del I secolo CE, “non c’è nessuno vivo attualmente che promuove questa teoria [hsuan yeh]”, e “[kai thien] è stata provata essere sbagliata e mancante di molti prove ed esperimenti”.
 
-donate a coffee?
-
 Accumulazione, non sintesi
 
 La cosmologia indiana, che R.F. Gombrich sottolinea essere diversa dall’astronomia indiana, può essere divisa in quattro filoni, che seguono le diverse dottrine che nei millenni hanno visitato il continente asiatico.
@@ -53,8 +53,6 @@ La Terra è una massa al centro dell’Universo; è un disco piatto, diviso dall
 Per i Giainisti il tempo è eterno, e la Terra è un disco. Nella filosofia buddista, spazio e tempo sono infiniti; e infinito è il numero di Terre.
 
 La Terra giace sull’acqua, e l’acqua sull’aria, e l’aria sullo spazio. Il mondo, ovvero l’Universo, si espande e si contrae.
-
-subscribe?
 
 “Edo”, o “io scrivo”
 

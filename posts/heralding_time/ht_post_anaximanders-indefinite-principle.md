@@ -1,3 +1,5 @@
+# Anaximander’s indefinite principle and Anaximenes’ cosmic breath
+
 Disclaimer #1: questo articolo è in inglese, la versione in italiano si può leggere qui.
 
 Disclaimer #2: this episode is part of a series named “ on the motion of the Earth ”, published both on this publication, Heralding Time , and on Last Scattering Surface . If you want, you can follow them both. Here chapters I, II, III, IV, V.
@@ -11,6 +13,8 @@ In the previous episode we talked about Miletus and Thales, the first philosophe
 In this episode we will talk about the other two philosophers from Miletus, we will hear what they have to say, we will understand how they answer questions about the origin of the world and its composition.
 
 Heralding Time is on Instagram. You can follow it here.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/__ss-rehost__IG-meta-DQgnHW1jFsY.jpg)
 
 Anaximander
 
@@ -58,11 +62,11 @@ Koestler5 speaks of Anaximander as the first who conceived a mechanistic system 
 
 We have a fairly clear vision of his idea of the world, following various sources. According to Pseudo-Plutarch, Anaximander describes the Earth as a cylinder three times as wide as its length; Hippolytus also agrees6. According to Aristotle, the Earth for Anaximander is stationary at the center of the Universe, and is freely suspended without being supported by anything (unlike in Thales’ world, where the Earth is suspended by water), and this happens because and thanks to its “ being equally bound to all things ”7.
 
+![](https://substack-post-media.s3.amazonaws.com/public/images/ec711e97-0367-4221-a708-51af6c518dff_1280x1280.png)
+
 Last Scattering Surface
 
-A story of a star - Part I
-
-Chasing the Sun…
+A story of a star - Part I Chasing the Sun…
 
 Read more
 
@@ -161,8 +165,6 @@ Anaximenes explains the world by tracing everything back to the ἀρχή, and i
 Furthermore, he operates a reduction of multiple phenomena, from the presence of celestial bodies to the diversity of elements, to a single cause: air and its behaviours. He associates two opposite qualities - hot and cold, light and heavy, rarefied and dense - with a single quantity .
 
 From terrestrial events like earthquakes, due according to Anaximenes to the Earth drying out and cracking18, to the gods who are born and preside over the world, everything in the Universe has air as its principle.
-
-buy me a coffee?
 
 Traces of the Near East
 

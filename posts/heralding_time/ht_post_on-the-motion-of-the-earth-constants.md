@@ -1,3 +1,5 @@
+# constants, collections, synthesis
+
 Disclaimer #1: questo articolo è in inglese, la versione in italiano si può leggere qui.
 
 Disclaimer #2: this episode is part of a series named " on the motion of the Earth ”, published both on this publication, Heralding Time , and on Last Scattering Surface . If you want, you can follow them both. The first chapter is here. The second is here.
@@ -32,8 +34,6 @@ The center of Earth is traversed by a celestial axis around which the sky rotate
 
 This theory became around 180 CE the theory considered “true” in China, since as Chang Heng , a Chinese astronomer of the 1st century CE, formulates it, “there is no one alive currently who promotes this theory [hsuan yeh],” and “[kai thien] has been proven to be wrong and lacking many proofs and experiments.”
 
-buy me a coffee?
-
 Accumulation, not synthesis
 
 Indian cosmology, which R.F. Gombrich emphasises is different from Indian astronomy, can be divided into four strands, which follow the different doctrines that have visited the Asian continent over the millennia.
@@ -53,8 +53,6 @@ Earth is a mass at the center of the Universe; it’s a flat disc, divided from 
 For the Jains, time is eternal, and Earth is a disc. In Buddhist philosophy, space and time are infinite; and infinite is the number of Earths.
 
 Earth rests upon water, and water upon air, and air upon space. The world, that is the Universe, expands and contracts.
-
-subscribe?
 
 “Edo,” or “I write”
 

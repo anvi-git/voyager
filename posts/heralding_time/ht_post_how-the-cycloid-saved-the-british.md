@@ -1,3 +1,5 @@
+# how the cycloid saved the British navy
+
 Disclaimer #1: questo articolo è in inglese. La versione in italiano è qui.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/248c7282-e634-4f06-8586-7ababd96471b_1572x1048.png)

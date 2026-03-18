@@ -1,3 +1,5 @@
+# Thales and the water
+
 Disclaimer #1: questo articolo è in inglese, la versione in italiano si può leggere qui.
 
 Disclaimer #2: this episode is part of a series named “ on the motion of the Earth ”, published both on this publication, Heralding Time , and on Last Scattering Surface . If you want, you can follow them both. Here chapters I, II, III, IV.
@@ -64,11 +66,11 @@ November Meteors, by Étienne Léopold Trouvelot, 1882 . Picture taken from Publ
 
 Both of these stories speak of practical consequences of Thales’ “philosophical” life: even if probably legendary, the first tells of the “philosopher in the clouds,” far from common life; the second of a man who with his studies and calculations could have drawn enormous riches. On this point, Aristotle explains that Thales was not attracted to it, despite being more than well-off - after all, he was a member of the city aristocracy - since it is not in his interest to enrich himself thanks to his ingenuity.
 
+![](https://substack-post-media.s3.amazonaws.com/public/images/ec711e97-0367-4221-a708-51af6c518dff_1280x1280.png)
+
 Last Scattering Surface
 
-Annals of LSS: why is dark at night? E.A.Poe and Olbers's Paradox
-
-The darkness of the sky looks natural. The Sunsets is at the horizon, maybe there is a new moon and you are left with the light of stars (and light pollution, unfortunately…
+Annals of LSS: why is dark at night? E.A.Poe and Olbers's Paradox The darkness of the sky looks natural. The Sunsets is at the horizon, maybe there is a new moon and you are left with the light of stars (and light pollution, unfortunately…
 
 Read more
 
@@ -92,8 +94,6 @@ Partial Eclipse of the Moon, by Étienne Léopold Trouvelot, 1882 . Picture take
 
 Thales knows when the solstices will occur: this seems feasible, with a suitable instrument, the gnomon, of Babylonian derivation and which Eudemus recounts allowed the philosopher to measure the height of the pyramids, using the principle of proportions between the length of the shadow of an object and that of the pyramid at the same hour of the day, with the actual measurements of that object and the pyramid.
 
-buy me a coffee?
-
 According to Callimachus9, Thales observes Ursa Minor starting from Ursa Major, as the Phoenicians do, and advises Greek sailors to use this method to orient themselves and find north10.
 
 The study of Babylonian tables to predict upcoming eclipses; the measurement of the days that pass between a solstice and the following equinox; the study of the positions of stars in asterisms and constellations: all these things compose the study of ἀστρονομία, astronomy.
@@ -108,11 +108,11 @@ Water, by Maerten de Vos, Adriaen Collaert, 1580-1584 . Picture taken from Publi
 
 The answer therefore for Thales is water, understood not only as the liquid we drink or that flows in a river or that forms the sea, but as a fluid that generates life: it is connected to rain, to semen, to bodily fluids and to everything that flows. Here Thales evokes the Babylonian tradition of water as generating power, and the Egyptian one of creative water. But in Thales there is nothing magical or religious: water is part of the Nature from which everything comes. It is the origin of everything, but it has an origin that is part of this world and that we can observe.
 
+![](https://substack-post-media.s3.amazonaws.com/public/images/a9daf835-0536-4732-a0bc-8750f2ae2ae7_1280x1280.png)
+
 Space of Sound
 
-single space: About Today, by The National
-
-I said I would be back in September: a promise is a promise. But I didn’t sit idly by…
+single space: About Today, by The National I said I would be back in September: a promise is a promise. But I didn’t sit idly by…
 
 Read more
 

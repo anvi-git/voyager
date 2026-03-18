@@ -1,3 +1,5 @@
+# Homer, Hesiod, and a proto-philosopher
+
 Disclaimer #1: questo articolo è in inglese, la versione in italiano si può leggere qui.
 
 Disclaimer #2: this episode is part of a series named “ on the motion of the Earth ”, published both on this publication, Heralding Time , and on Last Scattering Surface . If you want, you can follow them both. The first chapter is here. The second is here. The third here.
@@ -117,8 +119,6 @@ The Theogony does not contain original or new ideas: it is a collection of stori
 Hesiod’s world is a flat, circular disk, as in Homer, and above it is the Sky, populated by the Sun, the Moon, and the stars; below it is Tartarus, never illuminated by any light. The space between sky and earth is bright by day, and dark by night. As in Homer, and as in the myths of other peoples of the Mediterranean, the celestial bodies move across the sky; after setting beyond the horizon, they navigate Ocean to return each day to the place where they will rise again, again and again.
 
 Now Hesiod departs, and the gods he sang of remain, transforming themselves.
-
-buy me a coffee?
 
 A syncretic and mysterious proto-philosopher
 

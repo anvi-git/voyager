@@ -1,3 +1,5 @@
+# Talete e l'acqua
+
 Disclaimer #1: this article is in Italian. I will publish the English version next Wednesday.
 
 Disclaimer #2: questo pezzo fa parte di una serie, pubblicata sia su questa newsletter, Heralding Time , che su Last Scattering Surface . Se vuoi, puoi seguirle entrambe. Qui i capitoli I, II, III, IV.
@@ -81,8 +83,6 @@ Per Talete, le eclissi solari avvengono quando il Sole è coperto dalla Luna; in
 Eclisse parziale di Luna, opera di Étienne Léopold Trouvelot, 1882 . Immagine ottenuta da Public Domain Image Archive / New York Public Library.
 
 Talete conosce quando avverranno i solstizi: ciò sembra fattibile, con uno strumento adatto, lo gnomone, di derivazione babilonese e che Eudemo racconta abbia permesso al filosofo di misurare l’altezza delle piramidi, utilizzando il principio delle proporzioni tra la lunghezza dell’ombra di un oggetto e di quella della piramide alla stessa ora del giorno, con le misure reali di quell’oggetto e della piramide.
-
-buy me a coffee?
 
 Secondo Callimaco9, Talete osserva l’Orsa Minore partendo dall’Orsa Maggiore, come fanno i Fenici, e consiglia ai naviganti greci di utilizzare questo metodo per orientarsi e trovare il nord10.
 

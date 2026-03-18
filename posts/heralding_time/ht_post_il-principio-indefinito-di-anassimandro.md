@@ -1,3 +1,5 @@
+# il principio indefinito di Anassimandro e il respiro cosmico di Anassimene
+
 Disclaimer #1: this article is in Italian. I will publish the English version next Wednesday.
 
 Disclaimer #2: questo pezzo fa parte di una serie, pubblicata sia su questa newsletter, Heralding Time , che su Last Scattering Surface . Se vuoi, puoi seguirle entrambe. Qui i capitoli I, II, III, IV, V.
@@ -11,6 +13,8 @@ Nel precedente episodio abbiamo parlato di Mileto e di Talete, il primo filosofo
 In questo episodio parleremo degli altri due filosofi provenienti da Mileto, sentiremo cosa hanno da dire, capiremo come rispondono alle domande sull’origine del mondo e sulla sua composizione.
 
 Heralding Time è su Instagram. Puoi seguirlo qui.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/__ss-rehost__IG-meta-DP_M6usDF1N.jpg)
 
 Anassimandro
 
@@ -58,11 +62,11 @@ Koestler5 parla di Anassimandro come del primo che ha ideato un sistema meccanic
 
 Abbiamo una visione abbastanza chiara della sua idea di mondo, seguendo diverse fonti. Secondo Pseudo-Plutarco, Anassimandro descrive la Terra come un cilindro largo tre volte la sua lunghezza; concorde è anche Ippolito6. Secondo Aristotele, la Terra per Anassimandro è ferma al centro dell’Universo, ed è sospesa liberamente senza essere sostenuta da nulla (come invece avviene nel mondo di Talete, in cui la Terra è sospesa dall’acqua), e questo avviene per causa e merito del suo " essere legata in modo uguale a tutte le cose "7.
 
+![](https://substack-post-media.s3.amazonaws.com/public/images/ec711e97-0367-4221-a708-51af6c518dff_1280x1280.png)
+
 Last Scattering Surface
 
-A story of a star - Part I
-
-Chasing the Sun…
+A story of a star - Part I Chasing the Sun…
 
 Read more
 
@@ -161,8 +165,6 @@ Anassimene spiega il mondo riconducendo tutto all’ἀρχή, e in questo unisc
 Inoltre, opera una riduzione di più fenomeni, dalla presenza dei corpi celesti alla diversità degli elementi, ad una sola causa: l’aria e i suoi comportamenti. Associa due qualità opposte - caldo e freddo, leggere e pesante, rarefatto e denso - ad un’unica quantità .
 
 Dagli eventi terrestri come i terremoti, dovuti secondo Anassimene alla Terra che si asciuga e spacca18, agli dei che nascono e presiedono il mondo, tutto nell’Universo ha come principio l’aria.
-
-buy me a coffee?
 
 Tracce del vicino oriente
 

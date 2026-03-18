@@ -1,3 +1,5 @@
+# Omero, Esiodo, e un proto-filosofo
+
 Disclaimer #1: this article is in Italian. I will publish the English version next Wednesday.
 
 Disclaimer #2: questo pezzo fa parte di una serie, pubblicata sia su questa newsletter, Heralding Time , che su Last Scattering Surface . Se vuoi, puoi seguirle entrambe. Il primo capitolo si legge qui. Il secondo qui. Il terzo qui.
@@ -117,8 +119,6 @@ La Teogonia non contiene idee originali o nuove: è una raccolta di storie e mit
 Il mondo di Esiodo è un disco piatto e circolare, come per Omero, e su di esso c’è il Cielo, popolato dal Sole, dalla Luna e dalle stelle; sotto di esso c’è il Tartaro, mai illuminato da nessuna luce. Lo spazio tra cielo e terra è luminoso di giorno, e buio di notte. Come in Omero, e come nei miti degli altri popoli del Mediterraneo, i corpi celesti si muovono nel cielo; dopo essere tramontati oltre l’orizzonte, navigano Oceano per ritornare ogni giorno nel luogo in cui sorgeranno di nuovo, ancora e ancora.
 
 Ora Esiodo si allontana, e gli dei che ha cantato restano, trasformandosi.
-
-buy me a coffee?
 
 Un proto-filosofo sincretico e misterioso
 

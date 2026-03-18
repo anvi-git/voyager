@@ -7,9 +7,25 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon_io/backyard_thoughts.png" type="image/x-icon">
     <script src="includeHTML.js"></script>
+    <script src="post_content_data.js"></script>
     <script src="blog_data.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
+      async function getArticleBody(markdownFile) {
+        if (
+          window.POST_CONTENTS &&
+          Object.prototype.hasOwnProperty.call(window.POST_CONTENTS, markdownFile)
+        ) {
+          return window.POST_CONTENTS[markdownFile];
+        }
+
+        const response = await fetch(markdownFile);
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+        return response.text();
+      }
+
       function renderArticleBody(containerId, bodyText) {
         const container = document.getElementById(containerId);
         if (!container) return;
@@ -47,11 +63,7 @@
 
         if (article.markdownFile) {
           try {
-            const response = await fetch(article.markdownFile);
-            if (!response.ok) {
-              throw new Error(`HTTP ${response.status}`);
-            }
-            const mdText = await response.text();
+            const mdText = await getArticleBody(article.markdownFile);
             renderArticleBody('blog-article-body', mdText);
           } catch (error) {
             document.getElementById('blog-article-body').innerHTML = '<p>Unable to load post content.</p>';

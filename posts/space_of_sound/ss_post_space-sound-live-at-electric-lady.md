@@ -1,3 +1,1 @@
-# space sound #20: Live at Electric Lady, by Bleachers (LP)
-
-
+<p>a live record to forget about a past lover who's now a stranger</p>

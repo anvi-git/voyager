@@ -66,7 +66,9 @@ async function fetchAllArchiveItems(baseUrl) {
 function normalizeApiItem(item) {
   const title = (item.title || '').trim() || 'Untitled';
   const slug = (item.slug || '').trim() || slugify(title);
-  const bodyHtml = (item.body_html || '').trim();
+  const fallbackText = (item.subtitle || item.description || item.truncated_body_text || '').trim();
+  const rawBodyHtml = (item.body_html || '').trim();
+  const bodyHtml = rawBodyHtml || (fallbackText ? `<p>${fallbackText}</p>` : '');
   const date = toIsoDateString(item.post_date || item.date || '');
   const image = item.cover_image || firstImageFromHtml(bodyHtml);
   const excerpt = excerptFromHtml(bodyHtml, item.description || item.truncated_body_text || '');

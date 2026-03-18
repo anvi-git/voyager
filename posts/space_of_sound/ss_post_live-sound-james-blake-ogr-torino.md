@@ -1,3 +1,1 @@
-# live sound #1: James Blake @ OGR Torino
-
-
+<p>in Turin, a piano solo performance by the English artist</p>

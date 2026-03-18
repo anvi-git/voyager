@@ -1,3 +1,1 @@
-# space sound #2: Middle Farm Session by Daughter (EP)
-
-
+<p>the new work by the trio fronted by Elena Tonra is a gentle wound</p>

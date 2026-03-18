@@ -13,13 +13,22 @@
   <div include-html="header.html"></div>
   <main id="blog-page" class="collection-page">
     <h1>Space of Sound</h1>
-    <section id="spacesound-articles"></section>
+    <div id="blog-layout">
+      <section id="spacesound-articles"></section>
+      <aside id="blog-sidebar">
+        <section>
+          <h2>read also...</h2>
+          <ul class="blog-sidebar-list" id="spacesound-readalso-list"></ul>
+        </section>
+      </aside>
+    </div>
   </main>
   <div include-html="footer.html"></div>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const container = document.getElementById('spacesound-articles');
+      const readAlsoList = document.getElementById('spacesound-readalso-list');
       const ids = Object.keys(window.SPACESOUND_ARTICLES || {}).sort((a, b) => {
         const da = new Date(window.SPACESOUND_ARTICLES[a].date || 0);
         const db = new Date(window.SPACESOUND_ARTICLES[b].date || 0);
@@ -51,6 +60,18 @@
         `;
         container.appendChild(card);
       });
+
+      if (readAlsoList) {
+        ids.slice(0, 12).forEach(id => {
+          const article = window.SPACESOUND_ARTICLES[id];
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = `spacesound_article.html?id=${id}`;
+          a.textContent = article.title;
+          li.appendChild(a);
+          readAlsoList.appendChild(li);
+        });
+      }
     });
   </script>
 </body>

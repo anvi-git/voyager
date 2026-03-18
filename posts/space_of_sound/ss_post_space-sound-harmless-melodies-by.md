@@ -1,3 +1,1 @@
-# space sound #16: Harmless Melodies, by Yellow Days (LP)
-
-
+<p>striking melodies and a spectacular voice come from Manchester</p>

@@ -1,3 +1,1 @@
-# space sound #17: Mahal, by Glass Beams (EP)
-
-
+<p>a compelling electro-jazz from the shores of the Indian Ocean</p>

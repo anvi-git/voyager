@@ -47,13 +47,13 @@
 
         const suggestionsUl = document.getElementById('lss-suggestions-list');
         if (suggestionsUl) {
-          const allIds = Object.keys(window.LSS_ARTICLES).filter(k => k !== id);
-          for (let i = allIds.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [allIds[i], allIds[j]] = [allIds[j], allIds[i]];
-          }
+          const allIds = Object.keys(window.LSS_ARTICLES).sort((a, b) => {
+            const da = new Date(window.LSS_ARTICLES[a].date || 0);
+            const db = new Date(window.LSS_ARTICLES[b].date || 0);
+            return db - da;
+          }).filter(k => k !== id);
 
-          allIds.slice(0, 3).forEach(randId => {
+          allIds.slice(0, 12).forEach(randId => {
             const li = document.createElement('li');
             const a = document.createElement('a');
             a.href = `lss_article.html?id=${randId}`;

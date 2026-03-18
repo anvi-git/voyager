@@ -1,3 +1,1 @@
-# space sound #14: These Semi Feelings, They Are Everywhere, by dné (LP)
-
-
+<p>half an hour of piano songs and drone-like sequence from Czech Republic</p>

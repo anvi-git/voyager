@@ -1,3 +1,1 @@
-# tre fiumi, nove sfere, un Creatore
-
-
+<p>sul moto della Terra - capitolo II</p>

@@ -1,3 +1,1 @@
-# space sound #9: First Light, by Dustin Tebbutt (LP)
-
-
+<p>a delicate sound comes from Australia, blending moods from Wisconsin and Michigan</p>

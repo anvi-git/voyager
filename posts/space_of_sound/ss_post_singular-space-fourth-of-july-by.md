@@ -1,3 +1,1 @@
-# singular space: a song on the Fourth of July, by Sufjan Stevens
-
-
+<p>a brief excerpt from tomorrow's newsletter</p>

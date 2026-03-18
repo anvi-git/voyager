@@ -1,3 +1,1 @@
-# space sound #8: Big Red Machine, by Big Red Machine (LP)
-
-
+<p>a complex record from a fruitful collaboration</p>

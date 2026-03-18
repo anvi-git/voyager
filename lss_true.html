@@ -13,13 +13,22 @@
   <div include-html="header.html"></div>
   <main id="blog-page" class="collection-page">
     <h1>Last Scattering Surface</h1>
-    <section id="lss-articles"></section>
+    <div id="blog-layout">
+      <section id="lss-articles"></section>
+      <aside id="blog-sidebar">
+        <section>
+          <h2>read also...</h2>
+          <ul class="blog-sidebar-list" id="lss-readalso-list"></ul>
+        </section>
+      </aside>
+    </div>
   </main>
   <div include-html="footer.html"></div>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const container = document.getElementById('lss-articles');
+      const readAlsoList = document.getElementById('lss-readalso-list');
       const ids = Object.keys(window.LSS_ARTICLES || {}).sort((a, b) => {
         const da = new Date(window.LSS_ARTICLES[a].date || 0);
         const db = new Date(window.LSS_ARTICLES[b].date || 0);
@@ -51,6 +60,18 @@
         `;
         container.appendChild(card);
       });
+
+      if (readAlsoList) {
+        ids.slice(0, 12).forEach(id => {
+          const article = window.LSS_ARTICLES[id];
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = `lss_article.html?id=${id}`;
+          a.textContent = article.title;
+          li.appendChild(a);
+          readAlsoList.appendChild(li);
+        });
+      }
     });
   </script>
 </body>

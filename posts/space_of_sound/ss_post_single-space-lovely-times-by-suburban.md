@@ -1,3 +1,1 @@
-# single space #6: Lovely Times, by Suburban Living
-
-
+<p>urban shoegaze coming from Philadelphia</p>

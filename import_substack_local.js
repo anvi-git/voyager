@@ -90,7 +90,9 @@ async function fetchRssItems(baseUrl) {
 function normalizeApiItem(item) {
   const title = (item.title || '').trim() || 'Untitled';
   const slug = (item.slug || '').trim() || slugify(title);
-  const bodyHtml = (item.body_html || '').trim();
+  const fallbackText = (item.subtitle || item.description || item.truncated_body_text || '').trim();
+  const rawBodyHtml = (item.body_html || '').trim();
+  const bodyHtml = rawBodyHtml || (fallbackText ? `<p>${htmlEntityDecode(fallbackText)}</p>` : '');
   const date = toIsoDateString(item.post_date || item.date || '');
   const image = item.cover_image || firstImageFromHtml(bodyHtml);
   const excerpt = excerptFromHtml(bodyHtml, item.description || item.truncated_body_text || '');
@@ -121,14 +123,88 @@ async function fetchArchiveLatestItems(baseUrl) {
   return items.map(normalizeApiItem).filter(x => x.slug && x.title);
 }
 
-async function fetchLatestItems(publication) {
-  try {
-    const rssItems = await fetchRssItems(publication.baseUrl);
-    return { items: rssItems, source: 'feed' };
-  } catch (rssError) {
-    const archiveItems = await fetchArchiveLatestItems(publication.baseUrl);
-    return { items: archiveItems, source: `archive fallback (${rssError.message})` };
+async function fetchPostsLatestItems(baseUrl) {
+  const url = `${baseUrl}/api/v1/posts?offset=0&limit=${ARCHIVE_LIMIT}`;
+  const res = await fetch(url, {
+    headers: REQUEST_HEADERS
+  });
+
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status} for ${url}`);
   }
+
+  const data = await res.json();
+  const items = Array.isArray(data) ? data : [];
+  return items.map(normalizeApiItem).filter(x => x.slug && x.title);
+}
+
+function parseMaybeJinaJson(text) {
+  const trimmed = (text || '').trim();
+  if (!trimmed) return [];
+
+  if (trimmed.startsWith('[') || trimmed.startsWith('{')) {
+    const parsed = JSON.parse(trimmed);
+    return Array.isArray(parsed) ? parsed : [];
+  }
+
+  const marker = 'Markdown Content:';
+  const i = trimmed.indexOf(marker);
+  if (i === -1) return [];
+
+  const maybeJson = trimmed.slice(i + marker.length).trim();
+  const parsed = JSON.parse(maybeJson);
+  return Array.isArray(parsed) ? parsed : [];
+}
+
+async function fetchJinaMirroredJson(url) {
+  const mirrorUrl = `https://r.jina.ai/http://${url.replace(/^https?:\/\//i, '')}`;
+  const res = await fetch(mirrorUrl, {
+    headers: REQUEST_HEADERS
+  });
+
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status} for ${mirrorUrl}`);
+  }
+
+  const text = await res.text();
+  return parseMaybeJinaJson(text);
+}
+
+async function fetchArchiveLatestViaJina(baseUrl) {
+  const url = `${baseUrl}/api/v1/archive?sort=new&offset=0&limit=${ARCHIVE_LIMIT}`;
+  const items = await fetchJinaMirroredJson(url);
+  return items.map(normalizeApiItem).filter(x => x.slug && x.title);
+}
+
+async function fetchPostsLatestViaJina(baseUrl) {
+  const url = `${baseUrl}/api/v1/posts?offset=0&limit=${ARCHIVE_LIMIT}`;
+  const items = await fetchJinaMirroredJson(url);
+  return items.map(normalizeApiItem).filter(x => x.slug && x.title);
+}
+
+async function fetchLatestItems(publication) {
+  const attempts = [
+    { source: 'feed', fn: () => fetchRssItems(publication.baseUrl) },
+    { source: 'archive', fn: () => fetchArchiveLatestItems(publication.baseUrl) },
+    { source: 'posts', fn: () => fetchPostsLatestItems(publication.baseUrl) },
+    { source: 'archive via jina', fn: () => fetchArchiveLatestViaJina(publication.baseUrl) },
+    { source: 'posts via jina', fn: () => fetchPostsLatestViaJina(publication.baseUrl) }
+  ];
+
+  const errors = [];
+  for (const attempt of attempts) {
+    try {
+      const items = await attempt.fn();
+      if (items.length > 0) {
+        return { items, source: attempt.source };
+      }
+      errors.push(`${attempt.source}: no items`);
+    } catch (error) {
+      errors.push(`${attempt.source}: ${error.message}`);
+    }
+  }
+
+  throw new Error(`all sources failed (${errors.join(' | ')})`);
 }
 
 async function incrementalPublication(publication) {
@@ -154,8 +230,16 @@ async function incrementalPublication(publication) {
     });
   });
 
-  const latestResult = await fetchLatestItems(publication);
-  const latestItems = latestResult.items;
+  let latestResult;
+  let latestItems;
+  try {
+    latestResult = await fetchLatestItems(publication);
+    latestItems = latestResult.items;
+  } catch (error) {
+    // Keep existing local data if upstream sources are temporarily blocked.
+    latestResult = { source: `none (${error.message})` };
+    latestItems = [];
+  }
 
   latestItems.forEach(post => {
     const existingPath = slugToExistingPath.get(post.slug);
@@ -190,7 +274,7 @@ async function main() {
       const result = await incrementalPublication(pub);
       console.log(`${pub.name}: ${result.total} local posts, ${result.updatedFromSource} updated from ${result.source}.`);
     } catch (error) {
-      console.error(`${pub.name}: failed -> ${error.message}`);
+      console.error(`${pub.name}: failed to process local merge -> ${error.message}`);
       process.exitCode = 1;
     }
   }

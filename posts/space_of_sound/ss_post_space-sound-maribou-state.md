@@ -1,3 +1,1 @@
-# space sound #1: Hallucinating Love by Maribou State (LP)
-
-
+<p>a duo from southern England that makes heartwarming electronic music</p>

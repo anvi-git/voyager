@@ -1,3 +1,1 @@
-# space sound #11: Sun Divider, by Talos & Atli Örvarsson (EP)
-
-
+<p>in this collaborative EP, warm sounds come both from Ireland and Iceland</p>

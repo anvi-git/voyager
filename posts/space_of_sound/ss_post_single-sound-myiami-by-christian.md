@@ -1,3 +1,1 @@
-# single space #9: Myiami, by Christian Löffler
-
-
+<p>a new sound between ambient and electronica, from Germany</p>

@@ -33,20 +33,33 @@
 
         const suggestionsUl = document.getElementById('ht-suggestions-list');
         if (suggestionsUl) {
-          const allIds = Object.keys(window.HT_ARTICLES).filter(k => k !== id);
-          for (let i = allIds.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [allIds[i], allIds[j]] = [allIds[j], allIds[i]];
-          }
-
-          allIds.slice(0, 3).forEach(randId => {
-            const li = document.createElement('li');
-            const a = document.createElement('a');
-            a.href = `ht_article.html?id=${randId}`;
-            a.textContent = window.HT_ARTICLES[randId].title;
-            li.appendChild(a);
-            suggestionsUl.appendChild(li);
+          const ids = Object.keys(window.HT_ARTICLES).sort((a, b) => {
+            const da = new Date(window.HT_ARTICLES[a].date || 0);
+            const db = new Date(window.HT_ARTICLES[b].date || 0);
+            return db - da;
           });
+
+          const seriesIds = ids.filter(articleId => {
+            if (articleId === id) return false;
+            const item = window.HT_ARTICLES[articleId] || {};
+            const excerpt = (item.excerpt || '').toLowerCase();
+            return excerpt.includes('on the motion of the earth') || excerpt.includes('sul moto della terra');
+          });
+
+          if (!seriesIds.length) {
+            const li = document.createElement('li');
+            li.textContent = 'No related posts yet.';
+            suggestionsUl.appendChild(li);
+          } else {
+            seriesIds.forEach(seriesId => {
+              const li = document.createElement('li');
+              const a = document.createElement('a');
+              a.href = `ht_article.html?id=${seriesId}`;
+              a.textContent = window.HT_ARTICLES[seriesId].title;
+              li.appendChild(a);
+              suggestionsUl.appendChild(li);
+            });
+          }
         }
       });
     </script>

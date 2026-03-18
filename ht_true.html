@@ -13,14 +13,22 @@
   <div include-html="header.html"></div>
   <main id="blog-page" class="collection-page">
     <h1>Heralding Time</h1>
-    <p class="collection-intro">Posts on the history and philosophy of science, hosted directly on Backyard Thoughts.</p>
-    <section id="ht-articles"></section>
+    <div id="blog-layout">
+      <section id="ht-articles"></section>
+      <aside id="blog-sidebar">
+        <section>
+          <h2>read also...</h2>
+          <ul class="blog-sidebar-list" id="ht-readalso-list"></ul>
+        </section>
+      </aside>
+    </div>
   </main>
   <div include-html="footer.html"></div>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const container = document.getElementById('ht-articles');
+      const readAlsoList = document.getElementById('ht-readalso-list');
       const ids = Object.keys(window.HT_ARTICLES || {}).sort((a, b) => {
         const da = new Date(window.HT_ARTICLES[a].date || 0);
         const db = new Date(window.HT_ARTICLES[b].date || 0);
@@ -52,6 +60,31 @@
         `;
         container.appendChild(card);
       });
+
+      if (readAlsoList) {
+        const seriesIds = ids.filter(id => {
+          const article = window.HT_ARTICLES[id] || {};
+          const excerpt = (article.excerpt || '').toLowerCase();
+          return excerpt.includes('on the motion of the earth') || excerpt.includes('sul moto della terra');
+        });
+
+        if (!seriesIds.length) {
+          const li = document.createElement('li');
+          li.textContent = 'No related posts yet.';
+          readAlsoList.appendChild(li);
+          return;
+        }
+
+        seriesIds.forEach(id => {
+          const article = window.HT_ARTICLES[id];
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = `ht_article.html?id=${id}`;
+          a.textContent = article.title;
+          li.appendChild(a);
+          readAlsoList.appendChild(li);
+        });
+      }
     });
   </script>
 </body>

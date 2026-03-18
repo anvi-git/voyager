@@ -16,6 +16,14 @@ const {
 } = require('./substack_import_common');
 
 const WORKSPACE = process.cwd();
+const ARCHIVE_LIMIT = 20;
+const REQUEST_HEADERS = {
+  'accept': 'application/rss+xml, application/xml;q=0.9, application/json;q=0.8, text/html;q=0.7, */*;q=0.6',
+  'accept-language': 'en-US,en;q=0.9',
+  'cache-control': 'no-cache',
+  'pragma': 'no-cache',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+};
 
 function extractTag(block, tagName) {
   const re = new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)<\\/${tagName}>`, 'i');
@@ -68,10 +76,7 @@ function parseRssItems(xml) {
 async function fetchRssItems(baseUrl) {
   const url = `${baseUrl}/feed`;
   const res = await fetch(url, {
-    headers: {
-      'accept': 'application/rss+xml, application/xml;q=0.9, */*;q=0.8',
-      'user-agent': 'backyard-thoughts-importer/1.0'
-    }
+    headers: REQUEST_HEADERS
   });
 
   if (!res.ok) {
@@ -80,6 +85,50 @@ async function fetchRssItems(baseUrl) {
 
   const xml = await res.text();
   return parseRssItems(xml);
+}
+
+function normalizeApiItem(item) {
+  const title = (item.title || '').trim() || 'Untitled';
+  const slug = (item.slug || '').trim() || slugify(title);
+  const bodyHtml = (item.body_html || '').trim();
+  const date = toIsoDateString(item.post_date || item.date || '');
+  const image = item.cover_image || firstImageFromHtml(bodyHtml);
+  const excerpt = excerptFromHtml(bodyHtml, item.description || item.truncated_body_text || '');
+
+  return {
+    slug,
+    title,
+    bodyHtml,
+    date,
+    image,
+    excerpt,
+    _sortDate: item.post_date || item.date || ''
+  };
+}
+
+async function fetchArchiveLatestItems(baseUrl) {
+  const url = `${baseUrl}/api/v1/archive?sort=new&offset=0&limit=${ARCHIVE_LIMIT}`;
+  const res = await fetch(url, {
+    headers: REQUEST_HEADERS
+  });
+
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status} for ${url}`);
+  }
+
+  const data = await res.json();
+  const items = Array.isArray(data) ? data : [];
+  return items.map(normalizeApiItem).filter(x => x.slug && x.title);
+}
+
+async function fetchLatestItems(publication) {
+  try {
+    const rssItems = await fetchRssItems(publication.baseUrl);
+    return { items: rssItems, source: 'feed' };
+  } catch (rssError) {
+    const archiveItems = await fetchArchiveLatestItems(publication.baseUrl);
+    return { items: archiveItems, source: `archive fallback (${rssError.message})` };
+  }
 }
 
 async function incrementalPublication(publication) {
@@ -105,7 +154,8 @@ async function incrementalPublication(publication) {
     });
   });
 
-  const latestItems = await fetchRssItems(publication.baseUrl);
+  const latestResult = await fetchLatestItems(publication);
+  const latestItems = latestResult.items;
 
   latestItems.forEach(post => {
     const existingPath = slugToExistingPath.get(post.slug);
@@ -126,7 +176,11 @@ async function incrementalPublication(publication) {
   });
 
   writeDataFile(WORKSPACE, publication, entriesDesc);
-  return { total: entriesDesc.length, updatedFromFeed: latestItems.length };
+  return {
+    total: entriesDesc.length,
+    updatedFromSource: latestItems.length,
+    source: latestResult.source
+  };
 }
 
 async function main() {
@@ -134,7 +188,7 @@ async function main() {
   for (const pub of PUBLICATIONS) {
     try {
       const result = await incrementalPublication(pub);
-      console.log(`${pub.name}: ${result.total} local posts, ${result.updatedFromFeed} updated from feed.`);
+      console.log(`${pub.name}: ${result.total} local posts, ${result.updatedFromSource} updated from ${result.source}.`);
     } catch (error) {
       console.error(`${pub.name}: failed -> ${error.message}`);
       process.exitCode = 1;

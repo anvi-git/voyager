@@ -15,14 +15,18 @@ const {
 
 const WORKSPACE = process.cwd();
 const LIMIT = 20;
+const REQUEST_HEADERS = {
+  'accept': 'application/json, text/plain;q=0.9, */*;q=0.8',
+  'accept-language': 'en-US,en;q=0.9',
+  'cache-control': 'no-cache',
+  'pragma': 'no-cache',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+};
 
 async function fetchArchivePage(baseUrl, offset) {
   const url = `${baseUrl}/api/v1/archive?sort=new&offset=${offset}&limit=${LIMIT}`;
   const res = await fetch(url, {
-    headers: {
-      'accept': 'application/json',
-      'user-agent': 'backyard-thoughts-importer/1.0'
-    }
+    headers: REQUEST_HEADERS
   });
 
   if (!res.ok) {

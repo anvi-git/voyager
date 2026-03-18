@@ -376,6 +376,13 @@ main {
     text-align: left;
 }
 
+/* Hide imported Substack image-control widgets that render as black square link/buttons. */
+.blog-article-content .image-link-expand,
+.blog-article-content .icon-container.restack-image,
+.blog-article-content .icon-container.view-image {
+    display: none !important;
+}
+
 @media (max-width: 900px) {
     #blog-layout {
         grid-template-columns: 1fr;

@@ -110,7 +110,9 @@ function toIsoDateString(dateInput) {
 }
 
 function buildMarkdown(title, bodyHtml) {
-  return `# ${title || 'Untitled'}\n\n${bodyHtml || ''}\n`;
+  const html = (bodyHtml || '').trim();
+  if (html) return `${html}\n`;
+  return `# ${title || 'Untitled'}\n`;
 }
 
 function writeMarkdown(workspacePath, markdownPath, content) {

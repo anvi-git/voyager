@@ -10,6 +10,19 @@
     <script src="ht_data.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
+      function removeDuplicateTitle(containerId, pageTitle) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        const firstHeading = container.querySelector('h1, h2');
+        if (!firstHeading) return;
+
+        const normalize = text => (text || '').replace(/\s+/g, ' ').trim().toLowerCase();
+        if (normalize(firstHeading.textContent) === normalize(pageTitle)) {
+          firstHeading.remove();
+        }
+      }
+
       document.addEventListener('DOMContentLoaded', async () => {
         const params = new URLSearchParams(window.location.search);
         const id = params.get('id') || '1';
@@ -27,6 +40,7 @@
           const response = await fetch(article.markdownFile);
           const mdText = await response.text();
           document.getElementById('ht-article-body').innerHTML = marked.parse(mdText);
+          removeDuplicateTitle('ht-article-body', article.title);
         } catch (error) {
           document.getElementById('ht-article-body').innerHTML = '<p>Unable to load post content.</p>';
         }

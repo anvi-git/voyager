@@ -61,7 +61,7 @@
 
             const imageMarkup = article.image
               ? `<img src="${article.image}" alt="${article.title}" class="publication-small-image">`
-              : '';
+              : '<div class="publication-small-image publication-small-image-empty" aria-hidden="true"></div>';
 
             card.innerHTML = `
               ${imageMarkup}

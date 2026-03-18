@@ -451,6 +451,7 @@ main {
     display: block;
     text-decoration: none;
     color: var(--color-black);
+    height: 100%;
 }
 
 .publication-small-image {
@@ -460,6 +461,16 @@ main {
     object-fit: cover;
     display: block;
     margin-bottom: 12px;
+}
+
+.publication-small-image-empty {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.publication-small-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 120px;
 }
 
 #lss-featured .publication-featured-image,

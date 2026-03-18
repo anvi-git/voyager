@@ -11,24 +11,65 @@
 </head>
 <body onload="includeHTML();">
   <div include-html="header.html"></div>
-  <main id="blog-page" class="collection-page">
+  <main id="blog-page" class="collection-page publication-home">
     <h1>Heralding Time</h1>
-    <div id="blog-layout" class="publication-layout">
-      <aside id="blog-sidebar">
-        <section>
-          <h2>read also...</h2>
-          <ul class="blog-sidebar-list" id="ht-readalso-list"></ul>
-        </section>
-      </aside>
-      <section id="ht-articles"></section>
-    </div>
+    <section id="ht-featured" class="publication-featured"></section>
+    <section id="ht-sections" class="publication-sections"></section>
   </main>
   <div include-html="footer.html"></div>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const container = document.getElementById('ht-articles');
-      const readAlsoList = document.getElementById('ht-readalso-list');
+      const detectLanguage = article => {
+        const text = `${article.title || ''} ${article.excerpt || ''}`.toLowerCase();
+        const italianHints = [' sul ', ' della ', ' degli ', ' gli ', ' una ', ' questo ', ' capitolo ', ' il ', ' la ', ' di ', ' e '];
+        const score = italianHints.reduce((acc, hint) => acc + (text.includes(hint) ? 1 : 0), 0);
+        return score >= 2 ? 'it' : 'en';
+      };
+
+      const createSectionBlock = (title, items, buildHref) => {
+        const block = document.createElement('section');
+        block.className = 'publication-section-block';
+        block.innerHTML = `
+          <h2 class="publication-section-title">${title}</h2>
+          <div class="publication-section-controls">
+            <button class="publication-section-nav prev" type="button" aria-label="Scroll section left">&#9664;</button>
+            <button class="publication-section-nav next" type="button" aria-label="Scroll section right">&#9654;</button>
+          </div>
+          <div class="publication-section-rail"></div>
+        `;
+
+        const rail = block.querySelector('.publication-section-rail');
+        items.forEach(({ id, article }) => {
+          const card = document.createElement('a');
+          card.className = 'publication-small-card';
+          card.href = buildHref(id);
+
+          const imageMarkup = article.image
+            ? `<img src="${article.image}" alt="${article.title}" class="publication-small-image">`
+            : '';
+
+          card.innerHTML = `
+            ${imageMarkup}
+            <div class="publication-small-content">
+              <h3 class="publication-small-title">${article.title}</h3>
+              <p class="publication-small-excerpt">${article.excerpt || ''}</p>
+              <p class="publication-small-date">${article.date || ''}</p>
+            </div>
+          `;
+          rail.appendChild(card);
+        });
+
+        const prev = block.querySelector('.publication-section-nav.prev');
+        const next = block.querySelector('.publication-section-nav.next');
+        prev.addEventListener('click', () => rail.scrollBy({ left: -rail.clientWidth * 0.9, behavior: 'smooth' }));
+        next.addEventListener('click', () => rail.scrollBy({ left: rail.clientWidth * 0.9, behavior: 'smooth' }));
+
+        return block;
+      };
+
+      const sectionsContainer = document.getElementById('ht-sections');
+      const featured = document.getElementById('ht-featured');
       const ids = Object.keys(window.HT_ARTICLES || {}).sort((a, b) => {
         const da = new Date(window.HT_ARTICLES[a].date || 0);
         const db = new Date(window.HT_ARTICLES[b].date || 0);
@@ -36,55 +77,96 @@
       });
 
       if (!ids.length) {
-        container.innerHTML = '<p>No posts yet.</p>';
+        featured.innerHTML = '<p>No posts yet.</p>';
         return;
       }
 
-      ids.forEach(id => {
-        const article = window.HT_ARTICLES[id];
-        const card = document.createElement('a');
-        card.className = 'collection-card';
-        card.href = `ht_article.html?id=${id}`;
+      const [latestId, ...restIds] = ids;
+      const latest = window.HT_ARTICLES[latestId];
 
-        const imageMarkup = article.image
-          ? `<img src="${article.image}" alt="${article.title}" class="collection-card-image">`
-          : '';
-
-        card.innerHTML = `
-          ${imageMarkup}
-          <div class="collection-card-content">
-            <h2 class="collection-card-title">${article.title}</h2>
-            <p class="collection-card-meta">${article.date || ''}</p>
-            <p class="collection-card-excerpt">${article.excerpt || ''}</p>
+      featured.innerHTML = `
+        <a class="publication-featured-card" href="ht_article.html?id=${latestId}">
+          ${latest.image ? `<img src="${latest.image}" alt="${latest.title}" class="publication-featured-image">` : '<div class="publication-featured-image publication-featured-image-empty"></div>'}
+          <div class="publication-featured-content">
+            <p class="publication-featured-meta">Latest</p>
+            <h2 class="publication-featured-title">${latest.title}</h2>
+            <p class="publication-featured-excerpt">${latest.excerpt || ''}</p>
+            <p class="publication-featured-date">${latest.date || ''}</p>
           </div>
-        `;
-        container.appendChild(card);
+        </a>
+      `;
+
+      const sections = [
+        {
+          key: 'motion',
+          match: article => {
+            const excerpt = (article.excerpt || '').toLowerCase();
+            return excerpt.includes('on the motion of the earth') || excerpt.includes('sul moto della terra');
+          },
+          splitLabels: {
+            en: 'on the motion of the earth',
+            it: 'sul moto della terra'
+          }
+        },
+        {
+          key: 'atomos',
+          title: 'atomos',
+          match: article => (article.title || '').toLowerCase().includes('atomos'),
+          splitByLanguage: true,
+          splitLabels: {
+            en: 'atomos (english)',
+            it: 'atomos (italiano)'
+          }
+        },
+        {
+          key: 'essays',
+          title: 'essays',
+          match: () => true,
+          splitByLanguage: true,
+          splitLabels: {
+            en: 'essays in english',
+            it: 'saggi in italiano'
+          }
+        }
+      ];
+
+      const sectionBuckets = new Map();
+      sections.forEach(section => sectionBuckets.set(section.key, []));
+
+      restIds.forEach(id => {
+        const article = window.HT_ARTICLES[id];
+        const matched = sections.find(section => section.match(article));
+        if (matched) sectionBuckets.get(matched.key).push({ id, article });
       });
 
-      if (readAlsoList) {
-        const seriesIds = ids.filter(id => {
-          const article = window.HT_ARTICLES[id] || {};
-          const excerpt = (article.excerpt || '').toLowerCase();
-          return excerpt.includes('on the motion of the earth') || excerpt.includes('sul moto della terra');
+      sections.forEach(section => {
+        const items = sectionBuckets.get(section.key) || [];
+        if (!items.length) return;
+
+        const byLanguage = { en: [], it: [] };
+        items.forEach(item => {
+          byLanguage[detectLanguage(item.article)].push(item);
         });
 
-        if (!seriesIds.length) {
-          const li = document.createElement('li');
-          li.textContent = 'No related posts yet.';
-          readAlsoList.appendChild(li);
+        if (section.splitByLanguage || section.splitLabels) {
+          const hasEn = byLanguage.en.length > 0;
+          const hasIt = byLanguage.it.length > 0;
+
+          if (hasEn) {
+            const title = (section.splitLabels && section.splitLabels.en) || `${section.title} (english)`;
+            sectionsContainer.appendChild(createSectionBlock(title, byLanguage.en, id => `ht_article.html?id=${id}`));
+          }
+
+          if (hasIt) {
+            const title = (section.splitLabels && section.splitLabels.it) || `${section.title} (italiano)`;
+            sectionsContainer.appendChild(createSectionBlock(title, byLanguage.it, id => `ht_article.html?id=${id}`));
+          }
+
           return;
         }
 
-        seriesIds.forEach(id => {
-          const article = window.HT_ARTICLES[id];
-          const li = document.createElement('li');
-          const a = document.createElement('a');
-          a.href = `ht_article.html?id=${id}`;
-          a.textContent = article.title;
-          li.appendChild(a);
-          readAlsoList.appendChild(li);
-        });
-      }
+        sectionsContainer.appendChild(createSectionBlock(section.title, items, id => `ht_article.html?id=${id}`));
+      });
     });
   </script>
 </body>

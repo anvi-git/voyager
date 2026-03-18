@@ -11,24 +11,65 @@
 </head>
 <body onload="includeHTML();">
   <div include-html="header.html"></div>
-  <main id="blog-page" class="collection-page">
+  <main id="blog-page" class="collection-page publication-home">
     <h1>Last Scattering Surface</h1>
-    <div id="blog-layout" class="publication-layout">
-      <aside id="blog-sidebar">
-        <section>
-          <h2>read also...</h2>
-          <ul class="blog-sidebar-list" id="lss-readalso-list"></ul>
-        </section>
-      </aside>
-      <section id="lss-articles"></section>
-    </div>
+    <section id="lss-featured" class="publication-featured"></section>
+    <section id="lss-sections" class="publication-sections"></section>
   </main>
   <div include-html="footer.html"></div>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const container = document.getElementById('lss-articles');
-      const readAlsoList = document.getElementById('lss-readalso-list');
+      const detectLanguage = article => {
+        const text = `${article.title || ''} ${article.excerpt || ''}`.toLowerCase();
+        const italianHints = [' sul ', ' della ', ' degli ', ' gli ', ' una ', ' questo ', ' capitolo ', ' il ', ' la ', ' di ', ' e '];
+        const score = italianHints.reduce((acc, hint) => acc + (text.includes(hint) ? 1 : 0), 0);
+        return score >= 2 ? 'it' : 'en';
+      };
+
+      const createSectionBlock = (title, items, buildHref) => {
+        const block = document.createElement('section');
+        block.className = 'publication-section-block';
+        block.innerHTML = `
+          <h2 class="publication-section-title">${title}</h2>
+          <div class="publication-section-controls">
+            <button class="publication-section-nav prev" type="button" aria-label="Scroll section left">&#9664;</button>
+            <button class="publication-section-nav next" type="button" aria-label="Scroll section right">&#9654;</button>
+          </div>
+          <div class="publication-section-rail"></div>
+        `;
+
+        const rail = block.querySelector('.publication-section-rail');
+        items.forEach(({ id, article }) => {
+          const card = document.createElement('a');
+          card.className = 'publication-small-card';
+          card.href = buildHref(id);
+
+          const imageMarkup = article.image
+            ? `<img src="${article.image}" alt="${article.title}" class="publication-small-image">`
+            : '';
+
+          card.innerHTML = `
+            ${imageMarkup}
+            <div class="publication-small-content">
+              <h3 class="publication-small-title">${article.title}</h3>
+              <p class="publication-small-excerpt">${article.excerpt || ''}</p>
+              <p class="publication-small-date">${article.date || ''}</p>
+            </div>
+          `;
+          rail.appendChild(card);
+        });
+
+        const prev = block.querySelector('.publication-section-nav.prev');
+        const next = block.querySelector('.publication-section-nav.next');
+        prev.addEventListener('click', () => rail.scrollBy({ left: -rail.clientWidth * 0.9, behavior: 'smooth' }));
+        next.addEventListener('click', () => rail.scrollBy({ left: rail.clientWidth * 0.9, behavior: 'smooth' }));
+
+        return block;
+      };
+
+      const sectionsContainer = document.getElementById('lss-sections');
+      const featured = document.getElementById('lss-featured');
       const ids = Object.keys(window.LSS_ARTICLES || {}).sort((a, b) => {
         const da = new Date(window.LSS_ARTICLES[a].date || 0);
         const db = new Date(window.LSS_ARTICLES[b].date || 0);
@@ -36,42 +77,82 @@
       });
 
       if (!ids.length) {
-        container.innerHTML = '<p>No posts yet.</p>';
+        featured.innerHTML = '<p>No posts yet.</p>';
         return;
       }
 
-      ids.forEach(id => {
-        const article = window.LSS_ARTICLES[id];
-        const card = document.createElement('a');
-        card.className = 'collection-card';
-        card.href = `lss_article.html?id=${id}`;
+      const [latestId, ...restIds] = ids;
+      const latest = window.LSS_ARTICLES[latestId];
 
-        const imageMarkup = article.image
-          ? `<img src="${article.image}" alt="${article.title}" class="collection-card-image">`
-          : '';
-
-        card.innerHTML = `
-          ${imageMarkup}
-          <div class="collection-card-content">
-            <h2 class="collection-card-title">${article.title}</h2>
-            <p class="collection-card-meta">${article.date || ''}</p>
-            <p class="collection-card-excerpt">${article.excerpt || ''}</p>
+      featured.innerHTML = `
+        <a class="publication-featured-card" href="lss_article.html?id=${latestId}">
+          ${latest.image ? `<img src="${latest.image}" alt="${latest.title}" class="publication-featured-image">` : '<div class="publication-featured-image publication-featured-image-empty"></div>'}
+          <div class="publication-featured-content">
+            <p class="publication-featured-meta">Latest</p>
+            <h2 class="publication-featured-title">${latest.title}</h2>
+            <p class="publication-featured-excerpt">${latest.excerpt || ''}</p>
+            <p class="publication-featured-date">${latest.date || ''}</p>
           </div>
-        `;
-        container.appendChild(card);
+        </a>
+      `;
+
+      const sections = [
+        {
+          key: 'star-story',
+          title: 'story of a star',
+          match: article => (article.title || '').toLowerCase().includes('story of a star'),
+          splitByLanguage: true
+        },
+        {
+          key: 'annals',
+          title: 'annals of lss',
+          match: article => (article.title || '').toLowerCase().includes('annals of lss'),
+          splitByLanguage: true
+        },
+        {
+          key: 'proceedings',
+          title: 'proceedings of lss',
+          match: article => (article.title || '').toLowerCase().includes('proceedings of lss'),
+          splitByLanguage: true
+        },
+        {
+          key: 'essays',
+          title: 'last scattering surface essays',
+          match: () => true,
+          splitByLanguage: true
+        }
+      ];
+
+      const sectionBuckets = new Map();
+      sections.forEach(section => sectionBuckets.set(section.key, []));
+
+      restIds.forEach(id => {
+        const article = window.LSS_ARTICLES[id];
+        const matched = sections.find(section => section.match(article));
+        if (matched) sectionBuckets.get(matched.key).push({ id, article });
       });
 
-      if (readAlsoList) {
-        ids.slice(0, 12).forEach(id => {
-          const article = window.LSS_ARTICLES[id];
-          const li = document.createElement('li');
-          const a = document.createElement('a');
-          a.href = `lss_article.html?id=${id}`;
-          a.textContent = article.title;
-          li.appendChild(a);
-          readAlsoList.appendChild(li);
-        });
-      }
+      sections.forEach(section => {
+        const items = sectionBuckets.get(section.key) || [];
+        if (!items.length) return;
+
+        if (section.splitByLanguage) {
+          const byLanguage = { en: [], it: [] };
+          items.forEach(item => {
+            byLanguage[detectLanguage(item.article)].push(item);
+          });
+
+          if (byLanguage.en.length) {
+            sectionsContainer.appendChild(createSectionBlock(section.title, byLanguage.en, id => `lss_article.html?id=${id}`));
+          }
+          if (byLanguage.it.length) {
+            sectionsContainer.appendChild(createSectionBlock(`${section.title} (italiano)`, byLanguage.it, id => `lss_article.html?id=${id}`));
+          }
+          return;
+        }
+
+        sectionsContainer.appendChild(createSectionBlock(section.title, items, id => `lss_article.html?id=${id}`));
+      });
     });
   </script>
 </body>

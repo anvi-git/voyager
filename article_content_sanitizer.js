@@ -92,7 +92,7 @@
 
       Array.from(node.attributes).forEach(attr => {
         const name = attr.name.toLowerCase();
-        if (name === 'src' || name === 'href' || name === 'alt' || name === 'title' || name === 'loading' || name === 'allow' || name === 'allowfullscreen') {
+        if (name === 'src' || name === 'srcset' || name === 'href' || name === 'alt' || name === 'title' || name === 'loading' || name === 'allow' || name === 'allowfullscreen' || name === 'type' || name === 'sizes') {
           return;
         }
         node.removeAttribute(attr.name);

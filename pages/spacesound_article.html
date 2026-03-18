@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Last Scattering Surface Article</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon_io/backyard_thoughts.png" type="image/x-icon">
-    <script src="includeHTML.js"></script>
-    <script src="post_content_data.js"></script>
-    <script src="lss_data.js"></script>
+    <title>Space of Sound Article</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../favicon_io/backyard_thoughts.png" type="image/x-icon">
+    <script src="../backend/includeHTML.js"></script>
+    <script src="../backend/post_content_data.js"></script>
+    <script src="../backend/spacesound_data.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="article_content_sanitizer.js"></script>
+    <script src="../backend/article_content_sanitizer.js"></script>
     <script>
       async function getArticleBody(markdownFile) {
         if (
@@ -117,11 +117,11 @@
       }
 
       document.addEventListener('DOMContentLoaded', async () => {
-        const bodyContainerId = 'lss-article-body';
+        const bodyContainerId = 'spacesound-article-body';
         try {
         const params = new URLSearchParams(window.location.search);
         const id = params.get('id') || '1';
-        const articles = window.LSS_ARTICLES || {};
+        const articles = window.SPACESOUND_ARTICLES || {};
         const fallbackId = Object.keys(articles)[0];
         const article = articles[id] || articles[fallbackId];
 
@@ -130,8 +130,8 @@
           return;
         }
 
-        document.getElementById('lss-article-title').textContent = article.title;
-        document.getElementById('lss-article-date').textContent = article.date || '';
+        document.getElementById('spacesound-article-title').textContent = article.title;
+        document.getElementById('spacesound-article-date').textContent = article.date || '';
 
         try {
           const mdText = await getArticleBody(article.markdownFile);
@@ -141,7 +141,7 @@
           showArticleError(bodyContainerId, `File: ${article.markdownFile}.`);
         }
 
-        const suggestionsUl = document.getElementById('lss-suggestions-list');
+        const suggestionsUl = document.getElementById('spacesound-suggestions-list');
         if (suggestionsUl) {
           const allIds = Object.keys(articles).sort((a, b) => {
             const da = new Date(articles[a].date || 0);
@@ -152,7 +152,7 @@
           allIds.slice(0, 12).forEach(randId => {
             const li = document.createElement('li');
             const a = document.createElement('a');
-            a.href = `lss_article.html?id=${randId}`;
+            a.href = `spacesound_article.html?id=${randId}`;
             a.textContent = articles[randId].title;
             li.appendChild(a);
             suggestionsUl.appendChild(li);
@@ -171,13 +171,13 @@
             <aside id="blog-sidebar">
                 <section>
                     <h2>read also...</h2>
-                    <ul class="blog-sidebar-list" id="lss-suggestions-list"></ul>
+                    <ul class="blog-sidebar-list" id="spacesound-suggestions-list"></ul>
                 </section>
             </aside>
         <article class="blog-article-container">
-          <h1 id="lss-article-title"></h1>
-          <p class="blog-article-meta">Published <time id="lss-article-date"></time></p>
-          <section id="lss-article-body" class="blog-article-content"></section>
+          <h1 id="spacesound-article-title"></h1>
+          <p class="blog-article-meta">Published <time id="spacesound-article-date"></time></p>
+          <section id="spacesound-article-body" class="blog-article-content"></section>
         </article>
         </div>
     </main>

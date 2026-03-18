@@ -45,6 +45,7 @@
       '.native-video-embed',
       '.instagram',
       '.button-wrapper',
+      '.image-link-expand',
       '[data-component-name="SubscribeWidgetToDOM"]',
       '[data-component-name="ButtonCreateButton"]',
       '[data-component-name="InstagramToDOM"]',
@@ -72,6 +73,21 @@
       Object.entries(keep).forEach(([key, value]) => {
         if (value) frame.setAttribute(key, value);
       });
+    });
+
+    // Add fallback img tags to picture elements that don't have them
+    doc.querySelectorAll('picture').forEach(picture => {
+      if (!picture.querySelector('img')) {
+        const source = picture.querySelector('source[srcset]');
+        if (source) {
+          const img = doc.createElement('img');
+          const srcset = source.getAttribute('srcset') || '';
+          const firstUrl = srcset.split(/\s+/)[0];
+          img.setAttribute('src', firstUrl);
+          img.setAttribute('alt', 'Image');
+          picture.appendChild(img);
+        }
+      }
     });
 
     doc.querySelectorAll('a').forEach(anchor => {

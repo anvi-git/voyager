@@ -81,18 +81,18 @@
 <body onload="includeHTML();">
     <div include-html="header.html"></div>
     <main id="blog-article">
-        <div id="blog-layout">
-            <article class="blog-article-container">
-                <h1 id="ht-article-title"></h1>
-                <p class="blog-article-meta">Published <time id="ht-article-date"></time></p>
-                <section id="ht-article-body" class="blog-article-content"></section>
-            </article>
+    <div id="blog-layout" class="publication-layout">
             <aside id="blog-sidebar">
                 <section>
                     <h2>read also...</h2>
                     <ul class="blog-sidebar-list" id="ht-suggestions-list"></ul>
                 </section>
             </aside>
+      <article class="blog-article-container">
+        <h1 id="ht-article-title"></h1>
+        <p class="blog-article-meta">Published <time id="ht-article-date"></time></p>
+        <section id="ht-article-body" class="blog-article-content"></section>
+      </article>
         </div>
     </main>
     <div include-html="footer.html"></div>

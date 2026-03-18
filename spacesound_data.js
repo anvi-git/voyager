@@ -4,140 +4,140 @@ window.SPACESOUND_ARTICLES = {
     "date": "2026-03-14",
     "excerpt": "Sun 01 March - Sat 14 Mar",
     "markdownFile": "posts/space_of_sound/ss_post_001-sound-orbits-8-this-week-in-music.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!92i8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df905b1-ad69-416a-96ed-0094fea70290_1572x1048.png"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/a664ff14-aff4-4055-a216-84c3abb2aeb8_1572x1048.png"
   },
   "2": {
     "title": "sound orbits #7: this week in music",
     "date": "2026-02-28",
     "excerpt": "Sun 22 Feb - Sat 28 Jan",
     "markdownFile": "posts/space_of_sound/ss_post_002-sound-orbits-7-this-week-in-music.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!fhL6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95f15844-b01d-48b5-9dee-5862dcb1895b_1172x1178.png"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/ca132739-e39b-4249-a950-f3f7bd3d49d0_1572x1048.png"
   },
   "3": {
     "title": "sound orbits #6: this week in music",
     "date": "2026-02-22",
     "excerpt": "Sun 15 Feb - Sat 21 Jan",
     "markdownFile": "posts/space_of_sound/ss_post_003-sound-orbits-6-this-week-in-music.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!OMTX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8167aa02-a6ea-43c7-887c-8c67de7c2612_1200x1200.jpeg"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/e00bc69c-0338-46ff-98a4-d73530afd8e5_1572x1048.png"
   },
   "4": {
     "title": "sound orbits #5: this week in music",
     "date": "2026-02-14",
     "excerpt": "Sun 8 Feb - Sat 14 Jan",
     "markdownFile": "posts/space_of_sound/ss_post_004-sound-orbits-5-this-week-in-music.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!rNV4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb127a8b-d497-4a9c-9bf3-4837fdc38962_1200x1200.jpeg"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/3bd0507b-ac56-4382-8e81-23fabbb0f36e_1572x1048.png"
   },
   "5": {
     "title": "sound orbits #4: this week in music",
     "date": "2026-02-07",
     "excerpt": "Sun 1 Feb - Sat 7 Jan",
     "markdownFile": "posts/space_of_sound/ss_post_005-sound-orbits-4-this-week-in-music.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!TkJR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46e3dcc0-77f2-4e05-aeed-ee127807303e_1200x1200.jpeg"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/76e823b9-a124-40ed-9cbe-2066e3b08211_1572x1048.png"
   },
   "6": {
     "title": "sound orbits #3: this week in music",
     "date": "2026-01-31",
     "excerpt": "Sun 25 Jan - Sat 31 Jan",
     "markdownFile": "posts/space_of_sound/ss_post_006-sound-orbits-3-this-week-in-music.md",
-    "image": ""
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/25c4ae43-9e98-4dc9-a4e2-ddc179330104_1572x1048.png"
   },
   "7": {
     "title": "sound orbits #2: this week in music",
     "date": "2026-01-24",
     "excerpt": "Sun 18 Jan - Sat 24 Jan",
     "markdownFile": "posts/space_of_sound/ss_post_007-sound-orbits-2-this-week-in-music.md",
-    "image": ""
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/1b29fe1a-b705-4d68-a414-267728f32063_1572x1048.png"
   },
   "8": {
     "title": "sound orbits #1: this week in music",
     "date": "2026-01-17",
     "excerpt": "state of the newsletter 2026, and a new section of this publication",
     "markdownFile": "posts/space_of_sound/ss_post_008-sound-orbits-1-this-week-in-music.md",
-    "image": ""
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/68c0650c-888a-444c-b207-a76054c0dd65_1572x1048.png"
   },
   "9": {
     "title": "my favourite albums of 2025",
     "date": "2025-12-19",
     "excerpt": "the best songs I discovered in 2025",
     "markdownFile": "posts/space_of_sound/ss_post_009-my-favourite-albums-of-2025.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!-J-_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F366e219c-9eca-447e-ab62-372149262f17_1080x1350.png"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/2d9482e3-f350-4703-a441-de3bac3a69e4_1572x1048.png"
   },
   "10": {
     "title": "my favourite songs of 2025",
     "date": "2025-12-12",
     "excerpt": "the best songs I discovered in 2025",
     "markdownFile": "posts/space_of_sound/ss_post_010-my-favourite-songs-of-2025.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!dBui!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07fd819b-8f56-4855-b7ec-42c402844de8_1080x1350.png"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/921f2e97-2ec2-4f15-b1bf-86ea15bb2453_1572x1048.png"
   },
   "11": {
     "title": "live sound #4: i cani @ Teatro della Concordia - Venaria",
     "date": "2025-12-01",
     "excerpt": "è finita un'era, è iniziata un'era",
     "markdownFile": "posts/space_of_sound/ss_post_i-cani-teatro-della-concordia-venaria.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!1J4o!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__IG-meta-DRudYXhjByS.jpg"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/7789520d-3322-472d-af23-f7c0d8fb5f1f_1572x1048.png"
   },
   "12": {
     "title": "space sound #23: We Had Everything But Time, by The Field Index",
     "date": "2025-11-25",
     "excerpt": "the follow-up album by Brooklyn-based Michael Chau",
     "markdownFile": "posts/space_of_sound/ss_post_rising-sound-we-had-everything-but.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!1YPm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53d6a0f9-ef24-4200-94d7-6cd0b8b92d0e_1572x1048.png"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/004bc30d-77c8-491d-afa1-d9a037f43339_1572x1048.png"
   },
   "13": {
     "title": "live sound #3: MÚM @ Hiroshima Mon Amour - Torino",
     "date": "2025-11-13",
     "excerpt": "live sound: a voyage through warm glaciers",
     "markdownFile": "posts/space_of_sound/ss_post_mum-hiroshima-mon-amour-torino.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!6lPd!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__IG-meta-DRAcKz5jHLD.jpg"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/1f4ec2ce-bbf9-4cd2-ad50-9bdd73b60e61_1572x1048.png"
   },
   "14": {
     "title": "live sound #2: Mammal Hands @ JAZZMI",
     "date": "2025-11-06",
     "excerpt": "live sound: a mystical experience",
     "markdownFile": "posts/space_of_sound/ss_post_mammal-hands-jazzmi.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!vYFl!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__IG-meta-DQtv6I6jDZD.jpg"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/3dd2975d-860d-4289-a554-c4e8b90f9d0a_1572x1048.png"
   },
   "15": {
     "title": "space sound #22.2: Costellazioni, by Le Luci della Centrale Elettrica",
     "date": "2025-10-29",
     "excerpt": "\"nel disastro il futuro era sempre lì a sorriderci\"",
     "markdownFile": "posts/space_of_sound/ss_post_costellazioni-by-le-luci-della-centrale.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!bssC!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__IG-meta-DQRRwV8DCsC.jpg"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/24788d9c-059f-49d4-a43e-f17121c0c7b3_1572x1048.png"
   },
   "16": {
     "title": "space sound #22.1 : Costellazioni, di Le Luci della Centrale Elettrica",
     "date": "2025-10-26",
     "excerpt": "\"nel disastro il futuro era sempre lì a sorriderci\"",
     "markdownFile": "posts/space_of_sound/ss_post_costellazioni-di-le-luci-della-centrale.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!bssC!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__IG-meta-DQRRwV8DCsC.jpg"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/a0b8e573-7b31-454f-8b86-5c08103820ad_1572x1048.png"
   },
   "17": {
     "title": "rising sound: My Inner Goth Girl, by The Field Index",
     "date": "2025-10-17",
     "excerpt": "a single by Brooklyn-based Michael Chau",
     "markdownFile": "posts/space_of_sound/ss_post_rising-sound-my-inner-goth-girl-by.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!dpvV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05c8abab-444d-446e-884e-85cf316fc48f_1080x1350.png"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/8ebaeb3f-a26c-4690-baae-a70817980061_1572x1048.png"
   },
   "18": {
     "title": "rising sound: I Knew Everything But I Forgot It, by Zac Vanacoro",
     "date": "2025-10-17",
     "excerpt": "a record that crossed half the world to reach me",
     "markdownFile": "posts/space_of_sound/ss_post_rising-sound-i-knew-everything-but.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!PM6Y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd48c4852-4832-473c-94ff-454d034cca34_1080x1350.png"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/ddf2d252-39df-40bc-b22a-bfdc74a950cf_1572x1048.png"
   },
   "19": {
     "title": "single space #21: About Today, by The National",
     "date": "2025-09-30",
     "excerpt": "you'll be crying on this one",
     "markdownFile": "posts/space_of_sound/ss_post_space-sound-about-today-by-the-national.md",
-    "image": "https://substackcdn.com/image/fetch/$s_!GJXU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd07706c9-ebf4-4dfb-bb41-8b7c0b3a0b26_1080x1350.png"
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/44a9ef5c-2e27-4107-b9ba-9406e9f6aac7_1572x1048.png"
   },
   "20": {
     "title": "single space #20: Ohio, by Andrew McMahon in the Wilderness",
     "date": "2025-07-29",
     "excerpt": "a personal journey to reach the west coast and start a new life",
     "markdownFile": "posts/space_of_sound/ss_post_single-space-ohio-by-andrew-mcmahon.md",
-    "image": ""
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/b63365cb-2b22-40da-a591-d6064f22a8a1_1572x1048.png"
   },
   "21": {
     "title": "space sound #21: Dancing For The Answers, by Nick Mulvey (EP)",

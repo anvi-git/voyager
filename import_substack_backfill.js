@@ -63,6 +63,46 @@ async function fetchAllArchiveItems(baseUrl) {
   return all;
 }
 
+async function fetchPostsPage(baseUrl, offset) {
+  const url = `${baseUrl}/api/v1/posts?offset=${offset}&limit=${LIMIT}`;
+  const res = await fetch(url, {
+    headers: REQUEST_HEADERS
+  });
+
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status} for ${url}`);
+  }
+
+  const data = await res.json();
+  return Array.isArray(data) ? data : [];
+}
+
+async function fetchAllPostsItems(baseUrl) {
+  let offset = 0;
+  const all = [];
+  const seenIds = new Set();
+
+  while (true) {
+    const page = await fetchPostsPage(baseUrl, offset);
+    if (!page.length) break;
+
+    let added = 0;
+    for (const item of page) {
+      if (item && item.id && !seenIds.has(item.id)) {
+        seenIds.add(item.id);
+        all.push(item);
+        added += 1;
+      }
+    }
+
+    if (page.length < LIMIT) break;
+    if (added === 0) break;
+    offset += LIMIT;
+  }
+
+  return all;
+}
+
 function normalizeApiItem(item) {
   const title = (item.title || '').trim() || 'Untitled';
   const slug = (item.slug || '').trim() || slugify(title);
@@ -87,7 +127,9 @@ function normalizeApiItem(item) {
 async function backfillPublication(publication) {
   const existing = readExistingArticles(WORKSPACE, publication);
   const slugToExistingPath = existingSlugToMarkdownPath(existing);
-  const items = await fetchAllArchiveItems(publication.baseUrl);
+  const archiveItems = await fetchAllArchiveItems(publication.baseUrl);
+  const postsItems = await fetchAllPostsItems(publication.baseUrl);
+  const items = [...archiveItems, ...postsItems];
 
   const normalized = items
     .map(normalizeApiItem)
@@ -100,7 +142,17 @@ async function backfillPublication(publication) {
 
   const dedup = new Map();
   normalized.forEach(post => {
-    if (!dedup.has(post.slug)) dedup.set(post.slug, post);
+    const existingPost = dedup.get(post.slug);
+    if (!existingPost) {
+      dedup.set(post.slug, post);
+      return;
+    }
+
+    const existingLen = (existingPost.bodyHtml || '').length;
+    const nextLen = (post.bodyHtml || '').length;
+    if (nextLen > existingLen) {
+      dedup.set(post.slug, post);
+    }
   });
 
   const entriesDesc = stableSortByDateDesc(Array.from(dedup.values()));

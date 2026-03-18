@@ -51,7 +51,7 @@
             const da = new Date(window.SPACESOUND_ARTICLES[a].date || 0);
             const db = new Date(window.SPACESOUND_ARTICLES[b].date || 0);
             return db - da;
-          }).filter(k => k !== id);
+          });
 
           allIds.slice(0, 12).forEach(randId => {
             const li = document.createElement('li');
@@ -68,18 +68,18 @@
 <body onload="includeHTML();">
     <div include-html="header.html"></div>
     <main id="blog-article">
-        <div id="blog-layout">
-            <article class="blog-article-container">
-                <h1 id="spacesound-article-title"></h1>
-                <p class="blog-article-meta">Published <time id="spacesound-article-date"></time></p>
-                <section id="spacesound-article-body" class="blog-article-content"></section>
-            </article>
+      <div id="blog-layout" class="publication-layout">
             <aside id="blog-sidebar">
                 <section>
                     <h2>read also...</h2>
                     <ul class="blog-sidebar-list" id="spacesound-suggestions-list"></ul>
                 </section>
             </aside>
+        <article class="blog-article-container">
+          <h1 id="spacesound-article-title"></h1>
+          <p class="blog-article-meta">Published <time id="spacesound-article-date"></time></p>
+          <section id="spacesound-article-body" class="blog-article-content"></section>
+        </article>
         </div>
     </main>
     <div include-html="footer.html"></div>

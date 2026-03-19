@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const SCRIPT_DIR = __dirname;
-const PROJECT_ROOT = path.resolve(SCRIPT_DIR, '..');
+const PROJECT_ROOT = SCRIPT_DIR;
 const POSTS_DIR = path.join(PROJECT_ROOT, 'posts');
 const OUT_FILE = path.join(SCRIPT_DIR, 'post_content_data.js');
 

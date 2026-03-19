@@ -180,24 +180,33 @@ header p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: min(86%, 900px);
+    width: min(96%, 1500px);
     margin: 0 auto;
-    padding: 0;
-    gap: clamp(24px, 2.1vw, 34px);
-    flex-wrap: wrap;
+    padding: 3px 0 6px;
+    gap: clamp(12px, 1.3vw, 24px);
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.banner::-webkit-scrollbar {
+    display: none;
 }
 
 .banner section {
     margin: 0;
-    padding: 0;
+    padding: 1px 0;
+    flex: 0 0 auto;
 }
 
 .banner h2 {
     color: var(--color-black);
     font-weight: 4;
     margin: 0;
-    font-size: clamp(1.8rem, 1.8vw, 2.4rem);
-    line-height: 1.08;
+    font-size: clamp(1.15rem, 1.5vw, 2rem);
+    line-height: 1.2;
+    white-space: nowrap;
 }
 
 .banner h2 a {
@@ -745,6 +754,27 @@ main {
     text-align: left;
 }
 
+/* Heralding Time images use a narrower measure than other publications. */
+#ht-article-body figure,
+#ht-article-body .captioned-image-container {
+    width: min(60%, 520px);
+    max-width: 520px;
+}
+
+#ht-article-body figure img,
+#ht-article-body img {
+    max-width: min(100%, 520px);
+}
+
+#ht-article-body > p:first-of-type::first-letter {
+    float: left;
+    font-size: 3.2em;
+    line-height: 0.9;
+    margin-right: 0.08em;
+    margin-top: 0.06em;
+    font-weight: 600;
+}
+
 /* Hide imported Substack image-control widgets that render as black square link/buttons. */
 .blog-article-content .image-link-expand,
 .blog-article-content .icon-container.restack-image,
@@ -998,8 +1028,8 @@ iframe {
     }
 
     .banner {
-        width: min(94%, 760px);
-        gap: 14px;
+        width: min(96%, 900px);
+        gap: 12px;
     }
 
     .banner section {
@@ -1008,7 +1038,7 @@ iframe {
     }
 
     .banner h2 {
-        font-size: clamp(1.2rem, 3.4vw, 1.7rem);
+        font-size: clamp(0.98rem, 2.6vw, 1.25rem);
     }
 
     main {
@@ -1075,11 +1105,11 @@ iframe {
     }
 
     .banner h2 {
-        font-size: clamp(0.92rem, 4.2vw, 1.05rem);
+        font-size: clamp(0.86rem, 3.8vw, 0.98rem);
     }
 
     .banner {
-        gap: 10px;
+        gap: 9px;
     }
 
     main {

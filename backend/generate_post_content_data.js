@@ -1,9 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = __dirname;
-const POSTS_DIR = path.join(ROOT, 'posts');
-const OUT_FILE = path.join(ROOT, 'post_content_data.js');
+const SCRIPT_DIR = __dirname;
+const PROJECT_ROOT = path.resolve(SCRIPT_DIR, '..');
+const POSTS_DIR = path.join(PROJECT_ROOT, 'posts');
+const OUT_FILE = path.join(SCRIPT_DIR, 'post_content_data.js');
 
 function toPosix(relativePath) {
   return relativePath.split(path.sep).join('/');
@@ -29,7 +30,7 @@ const files = walk(POSTS_DIR).sort();
 const map = {};
 
 for (const filePath of files) {
-  const relativePath = toPosix(path.relative(ROOT, filePath));
+  const relativePath = toPosix(path.relative(SCRIPT_DIR, filePath));
   map[relativePath] = fs.readFileSync(filePath, 'utf8');
 }
 

@@ -757,7 +757,7 @@ main {
         grid-template-columns: 1fr;
     }
     .publication-layout > #blog-sidebar {
-        order: 0;
+        order: 2;
     }
     #blog-sidebar { position: static; }
 
@@ -801,6 +801,13 @@ main {
     .publication-section-rail {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .publication-section-rail {
+        grid-template-columns: 1fr;
+        gap: 12px;
     }
 }
 

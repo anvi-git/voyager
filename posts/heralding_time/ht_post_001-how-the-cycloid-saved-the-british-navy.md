@@ -1,7 +1,5 @@
 # how the cycloid saved the British navy
 
-Disclaimer #1: questo articolo è in inglese. La versione in italiano è qui.
-
 ![](https://substackcdn.com/image/fetch/$s_!nOhi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https://substack-post-media.s3.amazonaws.com/public/images/248c7282-e634-4f06-8586-7ababd96471b_1572x1048.png)
 
 On 29 September 1707 Admiral Sir Clowdisley Shovel with twenty-one ships of the Royal Navy sailed from Gibraltar for England.
@@ -34,7 +32,7 @@ The disaster reported by the book’s author had been only the latest in a serie
 
 Problems of this type had been known for some time, and not only by the English navy: France, Spain, Holland, all nations that sailed the oceans. In any case, this particular disaster caused great concern among the English public, and its government decided to do something.
 
-The Longitude Act
+## The Longitude Act
 
 The story we will tell starts from the Longitude Act of 1714, one of the least controversial legislative acts proposed by the English Parliament, which took only 70 days to be transformed into law from the moment it was presented2, on June 17, 1714; Royal Assent was given on July 9 of the same year. The prize, for anyone who had “discovered longitude at sea,” was decided by the commission of experts called to decide on the responses to the petition: the commission included Isaac Newton , Samuel Clarke, Edmond Halley , and Roger Cotes.
 

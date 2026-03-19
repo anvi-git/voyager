@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon_io/backyard_thoughts.png" type="image/x-icon">
+    <script src="backend/includeHTML.js"></script>
+    <script src="backend/blog_data.js"></script>
+</head>
+<body onload="includeHTML();">
+    <div include-html="header.html"></div>
+    <main id="blog-page">
+        <h2></h2>
+        <div id="blog-layout">
+            <section id="blog-articles"></section>
+            <aside id="blog-sidebar">
+                <section>
+                    <h2>read also...</h2>
+                    <ul class="blog-sidebar-list" id="suggestions-list"></ul>
+                </section>
+                <section>
+                    <h2>links</h2>
+                    <ul class="blog-sidebar-list icon-row">
+                        <li><button class="header-button" onclick="window.open('https://github.com/anvi-git', '_blank')"><img src="svg_images/github-icon.png" alt="GitHub" class="png-icon"></button></li>
+                        <li><button class="header-button" onclick="window.open('https://substack.com/@anvianvi', '_blank')"><img src="svg_images/substack-icon.png" alt="Substack" class="png-icon"></button></li>
+                        <li><button class="header-button" onclick="window.open('https://bsky.app/profile/anvi.bsky.social', '_blank')"><img src="svg_images/Bluesky_Logo.svg" alt="Bluesky" class="png-icon"></button></li>
+                      </ul>
+                </section>
+            </aside>
+        </div>
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            const container = document.getElementById('blog-articles');
+            const ids = Object.keys(window.BLOG_ARTICLES).sort((a, b) => {
+              const da = new Date(window.BLOG_ARTICLES[a].date || 0);
+              const db = new Date(window.BLOG_ARTICLES[b].date || 0);
+              return db - da; // newest first
+            });
+            ids.forEach(id => {
+              const { title, content, markdownFile, excerpt: excerptField } = window.BLOG_ARTICLES[id];
+              let excerpt = '';
+              if (excerptField) {
+                excerpt = excerptField;
+              } else if (content) {
+                const tmp = document.createElement('div');
+                tmp.innerHTML = content;
+                const firstParagraph = tmp.querySelector('p');
+                excerpt = firstParagraph ? firstParagraph.textContent.trim() : '';
+              }
+
+              const a = document.createElement('a');
+              a.className = 'blog-card';
+              a.href = `blog_article.html?id=${id}`;
+              a.innerHTML = `
+                <div class="blog-card-content">
+                  <h3 class="blog-card-title">${title}</h3>
+                  <p class="blog-card-excerpt">${excerpt}</p>
+                </div>
+              `;
+              container.appendChild(a);
+            });
+
+            // Populate Suggestions with three random posts
+            const suggestionsUl = document.getElementById('suggestions-list');
+            if (suggestionsUl) {
+              const allIds = Object.keys(window.BLOG_ARTICLES);
+              // Fisher-Yates shuffle
+              for (let i = allIds.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [allIds[i], allIds[j]] = [allIds[j], allIds[i]];
+              }
+              allIds.slice(0, 3).forEach(id => {
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = `blog_article.html?id=${id}`;
+                a.textContent = window.BLOG_ARTICLES[id].title;
+                li.appendChild(a);
+                suggestionsUl.appendChild(li);
+              });
+            }
+          });
+        </script>
+    </main>
+    <div include-html="footer.html"></div>
+</body>
+</html>

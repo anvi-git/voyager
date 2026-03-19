@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Article</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon_io/backyard_thoughts.png" type="image/x-icon">
+    <script src="backend/includeHTML.js"></script>
+    <script src="backend/post_content_data.js"></script>
+    <script src="backend/blog_data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="backend/article_content_sanitizer.js"></script>
+    <script>
+      async function getArticleBody(markdownFile) {
+        if (
+          window.POST_CONTENTS &&
+          Object.prototype.hasOwnProperty.call(window.POST_CONTENTS, markdownFile)
+        ) {
+          return window.POST_CONTENTS[markdownFile];
+        }
+
+        const response = await fetch(markdownFile);
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+        return response.text();
+      }
+
+      function showArticleError(containerId, message) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        container.innerHTML = `<p>Unable to load post content. ${message}</p>`;
+      }
+
+      function plainTextLength(input) {
+        return (input || '')
+          .replace(/<[^>]*>/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim()
+          .length;
+      }
+
+      function escapeHtml(input) {
+        return (input || '')
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      function buildShortContentNote(article) {
+        const excerpt = (article && article.excerpt) || '';
+        const markdownFile = (article && article.markdownFile) || 'inline content';
+        const excerptHtml = excerpt ? `<p>${escapeHtml(excerpt)}</p>` : '';
+        return `
+          <div class="archive-short-content-note">
+            ${excerptHtml}
+            <p><em>Archive note: this local file currently contains only a short preview. Source file: ${escapeHtml(markdownFile)}.</em></p>
+          </div>
+        `;
+      }
+
+      function renderArticleBody(containerId, bodyText, article) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        const trimmed = (bodyText || '').trim();
+        if (!trimmed) {
+          container.innerHTML = buildShortContentNote(article);
+          return;
+        }
+
+        const plainLen = plainTextLength(trimmed);
+
+        // Imported posts sometimes already contain HTML.
+        const looksLikeHtml = /<\s*[a-z!][^>]*>/i.test(trimmed);
+        const shortNote = plainLen < 120 ? buildShortContentNote(article) : '';
+        let renderedHtml = '';
+
+        if (looksLikeHtml) {
+          renderedHtml = trimmed;
+        } else if (window.marked && typeof window.marked.parse === 'function') {
+          renderedHtml = window.marked.parse(trimmed);
+        } else {
+          renderedHtml = trimmed
+            .split(/\n{2,}/)
+            .map(block => `<p>${block.replace(/\n/g, '<br>')}</p>`)
+            .join('');
+        }
+
+        const sanitizer = window.sanitizeImportedArticleHtml;
+        const sanitizedHtml = typeof sanitizer === 'function'
+          ? sanitizer(renderedHtml)
+          : renderedHtml;
+
+        if (!plainTextLength(sanitizedHtml)) {
+          container.innerHTML = buildShortContentNote(article);
+          return;
+        }
+
+        container.innerHTML = sanitizedHtml + shortNote;
+      }
+
+      document.addEventListener('DOMContentLoaded', async () => {
+        const bodyContainerId = 'blog-article-body';
+        try {
+          const params = new URLSearchParams(window.location.search);
+          const id = params.get('id') || '1';
+          const articles = window.BLOG_ARTICLES || {};
+          const fallbackId = Object.keys(articles)[0];
+          const article = articles[id] || articles[fallbackId];
+
+          if (!article) {
+            showArticleError(bodyContainerId, 'No post metadata found.');
+            return;
+          }
+
+          const titleEl = document.getElementById('blog-article-title');
+          const dateEl = document.getElementById('blog-article-date');
+          if (titleEl) titleEl.textContent = article.title || '';
+          if (dateEl) dateEl.textContent = article.date || '';
+
+          if (article.markdownFile) {
+            try {
+              const mdText = await getArticleBody(article.markdownFile);
+              renderArticleBody(bodyContainerId, mdText, article);
+            } catch (error) {
+              showArticleError(bodyContainerId, `File: ${article.markdownFile}.`);
+            }
+          } else {
+            renderArticleBody(bodyContainerId, article.content || '', article);
+          }
+
+        // Populate Suggestions with three random posts (excluding current)
+          const suggestionsUl = document.getElementById('suggestions-list');
+          if (suggestionsUl) {
+            const allIds = Object.keys(articles).filter(k => k !== id);
+            for (let i = allIds.length - 1; i > 0; i--) {
+              const j = Math.floor(Math.random() * (i + 1));
+              [allIds[i], allIds[j]] = [allIds[j], allIds[i]];
+            }
+            allIds.slice(0, 3).forEach(randId => {
+              const li = document.createElement('li');
+              const a = document.createElement('a');
+              a.href = `blog_article.html?id=${randId}`;
+              a.textContent = articles[randId].title;
+              li.appendChild(a);
+              suggestionsUl.appendChild(li);
+            });
+          }
+        } catch (error) {
+          showArticleError(bodyContainerId, `Runtime error: ${error.message}`);
+        }
+      });
+    </script>
+</head>
+<body onload="includeHTML();">
+    <div include-html="header.html"></div>
+    <main id="blog-article">
+        <div id="blog-layout">
+            <article class="blog-article-container">
+                <h1 id="blog-article-title"></h1>
+                <p class="blog-article-meta">Published <time id="blog-article-date"></time></p>
+                <section id="blog-article-body" class="blog-article-content"></section>
+            </article>
+            <aside id="blog-sidebar">
+            </aside>
+        </div>
+    </main>
+    <div include-html="footer.html"></div>
+</body>
+</html>

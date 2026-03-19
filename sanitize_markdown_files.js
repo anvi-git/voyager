@@ -37,8 +37,7 @@ function sanitizeHtml(html) {
   // Remove Substack iframes
   cleaned = cleaned.replace(/<iframe[^>]*src="[^"]*substack[^"]*"[^>]*>[\s\S]*?<\/iframe>/gi, '');
   
-  // Remove img tags with substack src
-  cleaned = cleaned.replace(/<img[^>]*src="[^"]*substack[^"]*"[^>]*\/?>/gi, '');
+  // Keep image tags so imported posts preserve their original media.
   
   // Remove instagram embeds
   cleaned = cleaned.replace(/<div[^>]*class="[^"]*instagram[^"]*"[^>]*>[\s\S]*?<\/div>/gi, '');

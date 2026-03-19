@@ -12,21 +12,14 @@
 
     <script>
       async function getArticleBody(markdownFile) {
-        const isHtmlSource = /\.html?(\?|#|$)/i.test(markdownFile || '');
-
         if (
-          !isHtmlSource &&
           window.POST_CONTENTS &&
           Object.prototype.hasOwnProperty.call(window.POST_CONTENTS, markdownFile)
         ) {
           return window.POST_CONTENTS[markdownFile];
         }
 
-        const cacheBustedFile = isHtmlSource
-          ? `${markdownFile}${markdownFile.includes('?') ? '&' : '?'}v=${Date.now()}`
-          : markdownFile;
-
-        const response = await fetch(cacheBustedFile, { cache: 'no-store' });
+        const response = await fetch(markdownFile);
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}`);
         }
@@ -82,7 +75,6 @@
 
         // Imported posts sometimes already contain HTML.
         const looksLikeHtml = /<\s*[a-z!][^>]*>/i.test(trimmed);
-        const sourceIsHtml = /\.html?(\?|#|$)/i.test((article && article.markdownFile) || '');
         const shortNote = plainLen < 120 ? buildShortContentNote(article) : '';
         let renderedHtml = '';
 
@@ -93,12 +85,19 @@
         } else {
           renderedHtml = trimmed
             .split(/\n{2,}/)
-            .map(block => `<p>${block.replace(/\n/g, '<br>')}</p>`)
+            .map(block => {
+              const escaped = escapeHtml(block);
+              const withImages = escaped.replace(
+                /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)/g,
+                (_m, alt, src, title) => `<img src="${src}" alt="${alt}"${title ? ` title="${title}"` : ''} loading="lazy">`
+              );
+              return `<p>${withImages.replace(/\n/g, '<br>')}</p>`;
+            })
             .join('');
         }
 
         const sanitizer = window.sanitizeImportedArticleHtml;
-        const sanitizedHtml = (typeof sanitizer === 'function' && !sourceIsHtml)
+        const sanitizedHtml = typeof sanitizer === 'function'
           ? sanitizer(renderedHtml)
           : renderedHtml;
 

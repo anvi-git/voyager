@@ -46,6 +46,41 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
+      const dedupeArticles = sourceArticles => {
+        const scoreArticle = article => {
+          const file = ((article && article.markdownFile) || '').toLowerCase();
+          if (file.endsWith('.html')) return 2;
+          if (file.endsWith('.md')) return 1;
+          return 0;
+        };
+
+        const normalize = value => (value || '').toString().trim().toLowerCase();
+        const makeKey = article => [
+          normalize(article && article.title),
+          normalize(article && article.date),
+          normalize(article && article.excerpt)
+        ].join('||');
+
+        const bestByKey = new Map();
+
+        Object.entries(sourceArticles || {}).forEach(([id, article]) => {
+          const candidate = { id, article, score: scoreArticle(article) };
+          const key = makeKey(article);
+          const existing = bestByKey.get(key);
+
+          if (!existing || candidate.score > existing.score) {
+            bestByKey.set(key, candidate);
+          }
+        });
+
+        const articles = {};
+        bestByKey.forEach(entry => {
+          articles[entry.id] = entry.article;
+        });
+
+        return articles;
+      };
+
       const detectLanguage = article => {
         const text = `${article.title || ''} ${article.excerpt || ''}`.toLowerCase();
         const italianHints = [' sul ', ' della ', ' degli ', ' gli ', ' una ', ' questo ', ' capitolo ', ' il ', ' la ', ' di ', ' e '];
@@ -128,9 +163,10 @@
 
       const sectionsContainer = document.getElementById('lss-sections');
       const featured = document.getElementById('lss-featured');
-      const ids = Object.keys(window.LSS_ARTICLES || {}).sort((a, b) => {
-        const da = new Date(window.LSS_ARTICLES[a].date || 0);
-        const db = new Date(window.LSS_ARTICLES[b].date || 0);
+      const articles = dedupeArticles(window.LSS_ARTICLES || {});
+      const ids = Object.keys(articles).sort((a, b) => {
+        const da = new Date(articles[a].date || 0);
+        const db = new Date(articles[b].date || 0);
         return db - da;
       });
 
@@ -140,7 +176,7 @@
       }
 
       const [latestId, ...restIds] = ids;
-      const latest = window.LSS_ARTICLES[latestId];
+      const latest = articles[latestId];
 
       featured.innerHTML = `
         <a class="publication-featured-card" href="lss_article.html?id=${latestId}">
@@ -185,7 +221,7 @@
       sections.forEach(section => sectionBuckets.set(section.key, []));
 
       restIds.forEach(id => {
-        const article = window.LSS_ARTICLES[id];
+        const article = articles[id];
         const matched = sections.find(section => section.match(article));
         if (matched) sectionBuckets.get(matched.key).push({ id, article });
       });

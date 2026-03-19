@@ -47,6 +47,51 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
+      const dedupeArticles = sourceArticles => {
+        const scoreArticle = article => {
+          const file = ((article && article.markdownFile) || '').toLowerCase();
+          if (file.endsWith('.html')) return 2;
+          if (file.endsWith('.md')) return 1;
+          return 0;
+        };
+
+        const normalize = value => (value || '').toString().trim().toLowerCase();
+        const makeKey = article => [
+          normalize(article && article.title),
+          normalize(article && article.date),
+          normalize(article && article.excerpt)
+        ].join('||');
+
+        const bestByKey = new Map();
+        const idAlias = {};
+
+        Object.entries(sourceArticles || {}).forEach(([id, article]) => {
+          const candidate = { id, article, score: scoreArticle(article) };
+          const key = makeKey(article);
+          const existing = bestByKey.get(key);
+
+          if (!existing) {
+            bestByKey.set(key, candidate);
+            return;
+          }
+
+          const keepCandidate = candidate.score > existing.score;
+          if (keepCandidate) {
+            idAlias[existing.id] = candidate.id;
+            bestByKey.set(key, candidate);
+          } else {
+            idAlias[candidate.id] = existing.id;
+          }
+        });
+
+        const articles = {};
+        bestByKey.forEach(entry => {
+          articles[entry.id] = entry.article;
+        });
+
+        return { articles, idAlias };
+      };
+
       const detectLanguage = article => {
         const text = `${article.title || ''} ${article.excerpt || ''}`.toLowerCase();
         const italianHints = [' sul ', ' della ', ' degli ', ' gli ', ' una ', ' questo ', ' capitolo ', ' il ', ' la ', ' di ', ' e '];
@@ -130,9 +175,11 @@
       const sectionsContainer = document.getElementById('ht-sections');
       const featured = document.getElementById('ht-featured');
       const footerArchive = document.getElementById('ht-footer-archive');
-      const ids = Object.keys(window.HT_ARTICLES || {}).sort((a, b) => {
-        const da = new Date(window.HT_ARTICLES[a].date || 0);
-        const db = new Date(window.HT_ARTICLES[b].date || 0);
+      const deduped = dedupeArticles(window.HT_ARTICLES || {});
+      const articles = deduped.articles;
+      const ids = Object.keys(articles).sort((a, b) => {
+        const da = new Date(articles[a].date || 0);
+        const db = new Date(articles[b].date || 0);
         return db - da;
       });
 
@@ -142,9 +189,9 @@
       }
 
       const [latestId] = ids;
-      const latest = window.HT_ARTICLES[latestId];
-      const welcomeId = ids.find(id => ((window.HT_ARTICLES[id].title || '').toLowerCase() === 'welcome to heralding time'));
-      const welcomeArticle = welcomeId ? window.HT_ARTICLES[welcomeId] : null;
+      const latest = articles[latestId];
+      const welcomeId = ids.find(id => ((articles[id].title || '').toLowerCase() === 'welcome to heralding time'));
+      const welcomeArticle = welcomeId ? articles[welcomeId] : null;
 
       featured.innerHTML = `
         <a class="publication-featured-card" href="ht_article.html?id=${latestId}">
@@ -197,7 +244,7 @@
 
       ids.forEach(id => {
         if (id === welcomeId) return;
-        const article = window.HT_ARTICLES[id];
+        const article = articles[id];
         const matched = sections.find(section => section.match(article));
         if (matched) sectionBuckets.get(matched.key).push({ id, article });
       });

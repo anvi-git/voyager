@@ -124,9 +124,55 @@
       document.addEventListener('DOMContentLoaded', async () => {
         const bodyContainerId = 'ht-article-body';
         try {
+        const dedupeArticles = sourceArticles => {
+          const scoreArticle = article => {
+            const file = ((article && article.markdownFile) || '').toLowerCase();
+            if (file.endsWith('.html')) return 2;
+            if (file.endsWith('.md')) return 1;
+            return 0;
+          };
+
+          const normalize = value => (value || '').toString().trim().toLowerCase();
+          const makeKey = article => [
+            normalize(article && article.title),
+            normalize(article && article.date),
+            normalize(article && article.excerpt)
+          ].join('||');
+
+          const bestByKey = new Map();
+          const idAlias = {};
+
+          Object.entries(sourceArticles || {}).forEach(([articleId, article]) => {
+            const candidate = { id: articleId, article, score: scoreArticle(article) };
+            const key = makeKey(article);
+            const existing = bestByKey.get(key);
+
+            if (!existing) {
+              bestByKey.set(key, candidate);
+              return;
+            }
+
+            if (candidate.score > existing.score) {
+              idAlias[existing.id] = candidate.id;
+              bestByKey.set(key, candidate);
+            } else {
+              idAlias[candidate.id] = existing.id;
+            }
+          });
+
+          const articles = {};
+          bestByKey.forEach(entry => {
+            articles[entry.id] = entry.article;
+          });
+
+          return { articles, idAlias };
+        };
+
         const params = new URLSearchParams(window.location.search);
-        const id = params.get('id') || '1';
-        const articles = window.HT_ARTICLES || {};
+        const requestedId = params.get('id') || '1';
+        const deduped = dedupeArticles(window.HT_ARTICLES || {});
+        const articles = deduped.articles;
+        const id = deduped.idAlias[requestedId] || requestedId;
         const fallbackId = Object.keys(articles)[0];
         const article = articles[id] || articles[fallbackId];
 

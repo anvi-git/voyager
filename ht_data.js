@@ -95,7 +95,7 @@ window.HT_ARTICLES = {
     "date": "2025-12-21",
     "excerpt": "questa è la storia completa della \"cometa di Natale\". dalle idee iniziali di Origene, alle comete di Kepler, ci chiederemo se i magi sono davvero esistiti, cosa hanno in visto i...",
     "markdownFile": "posts/heralding_time/ht_post_storia-astronomica-del-natale.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/cf769d0a-0b2a-40f2-9d12-17fd28a80ab3_1572x1048.png"
+    "image": "/images/cover/ht_ahoc.png"
   },
   "15": {
     "title": "astronomical history of Christmas",

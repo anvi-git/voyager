@@ -1,1 +1,157 @@
-<p>of the mathematical curve that changed navigation</p>
+![](https://substackcdn.com/image/fetch/$s_!nOhi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https://substack-post-media.s3.amazonaws.com/public/images/248c7282-e634-4f06-8586-7ababd96471b_1572x1048.png)
+
+On 29 September 1707 Admiral Sir Clowdisley Shovel with twenty-one ships of the Royal Navy sailed from Gibraltar for England.
+
+Britain was at war with France and, though Gibraltar had fallen into British hands in 1702, it was considered unwise for the larger ships of the fleet to remain in the Mediterranean during the winter.
+
+Weather on passage was not good. There were westerly gales from the 5th t o the first of October.
+
+The 12nd and 13rd were squally, followed by two days of light winds.
+
+On the 16th and 17th there were easterly gales and on the 19th north-westerly gales. On the 21st the sky cleared and several ships got observations for latitude, while sounding gave a depth of between 90 and 140 fathoms, showing that the fleet was on the edge of the Continental Shelf.
+
+Three ships having been detached to Falmouth for convoy duty on the 22nd, and no sun being visible all day, the remaining 18 ships hove to in the afternoon to obtain soundings.
+
+Then, satisfied that they were in the mouth of the English Channel and clear of all danger, the ships ran to the eastward before a favourable gale.
+
+About 7.30 p.m. the same day the Association, Eagle, and Romney struck the Gilstone Ledges in the Scilly Isles.
+
+Of the 1,200 men in the three ships, only one man was saved - the quartermaster of the Romney.
+
+Sir Clowdisley’s body was found floating the following day and now lies in one of the largest and ugliest tombs in Westminster Abbey.
+
+The St. George and Firebrand also struck the rocks but got off.
+
+The latter, however, was badly holed and sank later, leaving only twenty-three survivors.
+
+This is the beginning of chapter three of Derek Howse’s book, titled Greenwich Time and the Discovery of the Longitude , published in 19801. It is an account of the history of inventions and reasoning around the determination of longitude , mainly useful during navigation.
+
+The disaster reported by the book’s author had been only the latest in a series for the English fleet, due not only to unfavourable weather conditions - fog, sudden ocean currents - but also to incorrect measurements of the position of landmasses.
+
+Problems of this type had been known for some time, and not only by the English navy: France, Spain, Holland, all nations that sailed the oceans. In any case, this particular disaster caused great concern among the English public, and its government decided to do something.
+
+## The Longitude Act
+
+The story we will tell starts from the Longitude Act of 1714, one of the least controversial legislative acts proposed by the English Parliament, which took only 70 days to be transformed into law from the moment it was presented2, on June 17, 1714; Royal Assent was given on July 9 of the same year. The prize, for anyone who had “discovered longitude at sea,” was decided by the commission of experts called to decide on the responses to the petition: the commission included Isaac Newton , Samuel Clarke, Edmond Halley , and Roger Cotes.
+
+On June 11 of that year Newton had presented to the House of Lords Committee the “state of the art” of methods - evidently insufficient, and some even impossible to implement - for measuring longitude at sea: he speaks first of a clock that measures time accurately, difficult to build so that it is precise despite the motion of the ship, temperature and humidity variations, and small variations in gravity at different latitudes.
+
+He then moves on to a method already presented by Galileo that involved observing Jupiter’s satellites: the Italian scientist had proposed observing the planet’s moons during navigation, and recording their position comparing it with that recorded in “standard” situations - on land, that is.
+
+From the difference of the two measurements one would obtain the measurement of longitude.
+
+Galileo himself had realised that the proposal was unfeasible with the technology of the time due to the low precision of telescopes, and because of the ship’s motion.
+
+A third method uses the Moon, and the different moments when the Earth’s shadow covers the satellite during eclipses.
+
+This method is also explained by Galileo, who however presents two contraindications: the first concerns the frequency with which eclipses occur, too few to allow precise navigation; while the second concerns errors in measurements that can reach even 8° of uncertainty3, too large to ensure correct navigation.
+
+![](https://substackcdn.com/image/fetch/$s_!T2Gf!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https://substack-post-media.s3.amazonaws.com/public/images/f9d116b2-b2a6-420d-893c-10424bb81d0f_1024x1212.jpeg)
+
+Portrait of Galileo Galilei, work by Justus Sustermans (1635).
+
+After enumerating them all, the Committee proposes the prize for the solution, based on its accuracy: a sum of £10,000 for a solution within 1°, £15,000 for a solution within two-thirds of a degree, and £20,000 for a solution within half a degree. Today, £20,000 is equivalent to approximately 3 million euros, and just over 3.5 million US dollars.
+
+Immediately many possible solutions arrive at the Committee, which implement even more precise clocks, or measurements related to lunar distances. Many of these solutions arrive, as is customary at that time, in the form of a cryptogram , in order to preserve the priority of an invention or discovery without publishing it “in clear,” thus avoiding undue appropriations.
+
+In any case, these solutions do not solve the problem, and one will have to wait about twenty years for an invention to at least partially arrive at a solution.
+
+The clockmaker
+
+The character we will now talk about is John Harrison, son of a Yorkshire carpenter, born in 1693. After working with his father, together with his brother he begins from 1727 to build precision clocks: for example a pendulum called “gridiron,” whose apparatus is less affected by temperature variations4.
+
+![](https://substackcdn.com/image/fetch/$s_!I5Ep!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https://substack-post-media.s3.amazonaws.com/public/images/0600f801-c8bf-4242-81d6-c42215ba5731_1280x1564.jpeg)
+
+Portrait of John Harrison, work by Thomas King.
+
+After learning the details of the competition presented by the Longitude Act, starting from 1730, and with the financial help of George Graham, one of the most famous clockmakers of his time, he begins the construction of the machines.
+
+Today they are identified with the abbreviations H1, H2, and so on, and are the various prototypes presented by Harrison to the Committee, and tested both on land and at sea. H1 was completed in 1735, H2 in 1739, H3 only in 1759, and tested during the Seven Years’ War, in 1761, together with the H4 machine, the most recent.
+
+Despite H4 fully satisfying the requirements to secure the largest prize proposed by the Committee, Harrison had to wait until 1773 to receive the entirety of the prize.
+
+Moreover, another method we have already discussed also proved to work: the method of lunar distances, which requires measuring the position of fixed stars relative to the Moon, and from the different values obtained in different parts of the globe calculate longitude.
+
+Both these methods were initially impractical, the first because of the high cost of building such precise clocks, and the second because of the time needed to perform the necessary calculations.
+
+Over time, both methods became more widespread, because large-scale construction of clocks reduced their cost, and because of simplifications in calculations.
+
+In all this, how does the cycloid intervene?
+
+The Helen of geometry
+
+Let’s start with the pendulum, extensively studied by Galileo. The equation linking the period of the pendulum for small oscillations was obtained by Christiaan Huygens, a Dutch scientist of the XVII century CE, and is the following:
+
+where T is the period of the pendulum, that is the time that passes for the pendulum to pass through a point and then return to it, g is the acceleration of gravity, and L the length of the pendulum. As can be seen, the period of the pendulum depends on the length of the pendulum itself. This is one of the problems to solve if one wants to make the pendulum capable of measuring time precisely, independently of the length of the pendulum, which can vary, for example, due to temperature or humidity.
+
+Huygens is considered the inventor of the pendulum clock, having created the first example in 1656. Huygens himself however realizes, as Marin Mersenne had already done - a French scholar active a few decades before Huygens - that the pendulum does not have isochronous oscillations, that is, that the period of oscillations is not independent of the amplitude of oscillations, which Galileo instead thought.
+
+![](https://substackcdn.com/image/fetch/$s_!qm83!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https://substack-post-media.s3.amazonaws.com/public/images/1de2082d-6764-497b-9d55-9b331919b854_1280x1677.jpeg)
+
+Christiaan Huygens, work by Caspar Netscher (1671).
+
+For this reason, Huygens studies a way to allow the isochronism of the pendulum, and finds it in a figure called the cycloid .
+
+The cycloid is the curve that is formed when a point on a circumference rolls along a straight line (as in the figure below).
+
+![](https://substackcdn.com/image/fetch/$s_!xNMR!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https://substack-post-media.s3.amazonaws.com/public/images/0e67fe32-ef5f-461c-ac30-3d4f54db8963_400x200.gif)
+
+Cycloid. Credits here.
+
+Huygens showed that when a pendulum is made to oscillate between two cycloidal curves, the pendulum obtained has the same period independent of the speed of oscillations.
+
+![](https://substackcdn.com/image/fetch/$s_!YRK2!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https://substack-post-media.s3.amazonaws.com/public/images/37017733-9040-4d50-bf98-bb5b861aab75_360x232.gif)
+
+“Cycloidal” oscillations of the pendulum. Credits here here.
+
+The equation of the cycloid, which allows it to be drawn on a Cartesian plane, is the following:
+
+where r is the radius of the circle we make “roll” on the x-axis.
+
+![](https://substackcdn.com/image/fetch/$s_!Dp-k!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https://substack-post-media.s3.amazonaws.com/public/images/7d83722a-0133-4c4f-8a5a-399fc6aad634_735x398.gif)
+
+Credits here.
+
+The title of this paragraph is “the Helen of geometry,” and the reason is linked both to disputes over its discovery, which some date to the ancient Greeks, others to Galileo, still others to Mersenne, and to its marvelous properties.
+
+Let’s return to the clock built by Harrison. The English inventor uses the cycloid to make the mechanism isochronous, and improve performance from the H3 model to the H4 model. Below is the diagram published in “ The Principles of Mr. Harrison’s Timekeeper ”, published in 1767.
+
+![](https://substackcdn.com/image/fetch/$s_!mEsk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https://substack-post-media.s3.amazonaws.com/public/images/ac6e370d-0065-4aa0-8aa0-90dcd9ab0133_595x881.jpeg)
+
+Drawings of the H4 clock. Credits here.
+
+In Harrison’s design, the cycloid appears in the curves circled at the top left. Below is a detail of the image above.
+
+![](https://substackcdn.com/image/fetch/$s_!816s!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https://substack-post-media.s3.amazonaws.com/public/images/952f1692-7f23-4fa2-8641-0d0cd15c6e56_468x548.png)
+
+Inside the ellipse do you see those curves that start from the top and descend to form those kinds of triangles at whose center there is the letter b ? Those are branches of cycloids.
+
+It is with this new mechanism, more stable and accurate, that Harrison manages to exceed the requirements requested by the Longitude Act of 1714 and to equip English ships with the necessary instruments to carry out research activities in the oceans. After a few decades, mass production of clocks of this type will allow their diffusion on all ships of the English fleet, and other countries will also use this invention.
+
+As for Harrison, he dies on March 24, 1776, eight months after Captain Cook’s return from a voyage that had unequivocally demonstrated that that type of clock was effective during navigation5.
+
+Today the most advanced systems allow obtaining an accuracy that is on the order of centimeters, enough to avoid islets and rocks, enough to avoid the disaster of the Scilly Isles.
+
+![](https://substackcdn.com/image/fetch/$s_!fQwg!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https://substack-post-media.s3.amazonaws.com/public/images/81674adf-2e63-4b29-82be-77d0e4fc88e2_2524x2500.jpeg)
+
+The Scilly Isles off Great Britain. Credits here.
+
+Read the series “on the motion of the Earth”:
+
+Bibliography:
+
+Greenwich time and the discovery of the longitude, by Howse, Derek (Oxford University Press 1980)
+
+The quest for longitude : the proceedings of the Longitude Symposium (Harvard University Press 1996)
+
+Notes
+
+1 the text comes from “The Last Voyage of Sir Clowdisley Shovell,” by May W.E. (1960)
+
+2 as A.J. Turner writes in “In the Wake of the Act, but Mainly Before,” part of the book “The quest for longitude : the proceedings of the Longitude Symposium.”
+
+3 D. Howse, Greenwich time and the discovery of the longitude, p. 90.
+
+4 the precision of a pendulum when used as a time measuring apparatus depends on the uniformity of the pendulum’s movements, which has a certain length and in case of thermal variations tends to shorten and lengthen: since the length of the pendulum is the quantity linked to the precision of measurement, a good pendulum must undergo very small variations in length as temperature varies.
+
+5 D. Howse, Greenwich time and the discovery of the longitude, p. 72.

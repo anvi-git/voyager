@@ -12,14 +12,21 @@
 
     <script>
       async function getArticleBody(markdownFile) {
+        const isHtmlSource = /\.html?(\?|#|$)/i.test(markdownFile || '');
+
         if (
+          !isHtmlSource &&
           window.POST_CONTENTS &&
           Object.prototype.hasOwnProperty.call(window.POST_CONTENTS, markdownFile)
         ) {
           return window.POST_CONTENTS[markdownFile];
         }
 
-        const response = await fetch(markdownFile);
+        const cacheBustedFile = isHtmlSource
+          ? `${markdownFile}${markdownFile.includes('?') ? '&' : '?'}v=${Date.now()}`
+          : markdownFile;
+
+        const response = await fetch(cacheBustedFile, { cache: 'no-store' });
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}`);
         }
@@ -75,6 +82,7 @@
 
         // Imported posts sometimes already contain HTML.
         const looksLikeHtml = /<\s*[a-z!][^>]*>/i.test(trimmed);
+        const sourceIsHtml = /\.html?(\?|#|$)/i.test((article && article.markdownFile) || '');
         const shortNote = plainLen < 120 ? buildShortContentNote(article) : '';
         let renderedHtml = '';
 
@@ -90,7 +98,7 @@
         }
 
         const sanitizer = window.sanitizeImportedArticleHtml;
-        const sanitizedHtml = typeof sanitizer === 'function'
+        const sanitizedHtml = (typeof sanitizer === 'function' && !sourceIsHtml)
           ? sanitizer(renderedHtml)
           : renderedHtml;
 

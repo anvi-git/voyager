@@ -16,6 +16,7 @@
     --color-black: #000000;
     --color-white: #ffffff00;
     --header-bg: #e6e4cb;
+    --body-bg: #f5f2e3;
     --header-height: 208px;
     --site-font: "Cormorant Garamond", "Times New Roman", serif;
 }
@@ -56,8 +57,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: var(--header-bg);
-    background-color: var(--header-bg);
+    background: var(--body-bg);
+    background-color: var(--body-bg);
 }
 
 button,
@@ -361,6 +362,19 @@ main {
 .publication-sections {
     display: grid;
     gap: 34px;
+}
+
+.publication-footer-section {
+    margin: 34px 0 26px;
+}
+
+.publication-footer-section .publication-section-title {
+    margin-bottom: 12px;
+}
+
+.publication-footer-section .publication-section-rail {
+    grid-template-columns: minmax(0, 360px);
+    justify-content: center;
 }
 
 .publication-section-block {

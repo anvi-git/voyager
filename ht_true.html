@@ -41,6 +41,7 @@
     <h1>Heralding Time</h1>
     <section id="ht-featured" class="publication-featured"></section>
     <section id="ht-sections" class="publication-sections"></section>
+    <section id="ht-footer-archive" class="publication-footer-section"></section>
   </main>
   <div include-html="footer.html"></div>
 
@@ -128,6 +129,7 @@
 
       const sectionsContainer = document.getElementById('ht-sections');
       const featured = document.getElementById('ht-featured');
+      const footerArchive = document.getElementById('ht-footer-archive');
       const ids = Object.keys(window.HT_ARTICLES || {}).sort((a, b) => {
         const da = new Date(window.HT_ARTICLES[a].date || 0);
         const db = new Date(window.HT_ARTICLES[b].date || 0);
@@ -139,8 +141,10 @@
         return;
       }
 
-      const [latestId, ...restIds] = ids;
+      const [latestId] = ids;
       const latest = window.HT_ARTICLES[latestId];
+      const welcomeId = ids.find(id => ((window.HT_ARTICLES[id].title || '').toLowerCase() === 'welcome to heralding time'));
+      const welcomeArticle = welcomeId ? window.HT_ARTICLES[welcomeId] : null;
 
       featured.innerHTML = `
         <a class="publication-featured-card" href="ht_article.html?id=${latestId}">
@@ -191,7 +195,8 @@
       const sectionBuckets = new Map();
       sections.forEach(section => sectionBuckets.set(section.key, []));
 
-      restIds.forEach(id => {
+      ids.forEach(id => {
+        if (id === welcomeId) return;
         const article = window.HT_ARTICLES[id];
         const matched = sections.find(section => section.match(article));
         if (matched) sectionBuckets.get(matched.key).push({ id, article });
@@ -225,6 +230,23 @@
 
         sectionsContainer.appendChild(createSectionBlock(section.title, items, id => `ht_article.html?id=${id}`));
       });
+
+      if (welcomeArticle && footerArchive) {
+        footerArchive.innerHTML = `
+          <h2 class="publication-section-title">from the archive</h2>
+          <div class="publication-section-rail">
+            <a class="publication-small-card" href="ht_article.html?id=${welcomeId}">
+              ${welcomeArticle.image
+                ? `<img src="${welcomeArticle.image}" alt="${welcomeArticle.title}" class="publication-small-image">`
+                : '<div class="publication-small-image publication-small-image-empty" aria-hidden="true"></div>'}
+              <div class="publication-small-content">
+                <h3 class="publication-small-title">${welcomeArticle.title}</h3>
+                <p class="publication-small-excerpt">${welcomeArticle.excerpt || ''}</p>
+              </div>
+            </a>
+          </div>
+        `;
+      }
     });
   </script>
 </body>

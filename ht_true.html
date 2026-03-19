@@ -46,8 +46,12 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      console.log('Heralding Time page loaded');
-    });
+      const detectLanguage = article => {
+        const text = `${article.title || ''} ${article.excerpt || ''}`.toLowerCase();
+        const italianHints = [' sul ', ' della ', ' degli ', ' gli ', ' una ', ' questo ', ' capitolo ', ' il ', ' la ', ' di ', ' e '];
+        const score = italianHints.reduce((acc, hint) => acc + (text.includes(hint) ? 1 : 0), 0);
+        return score >= 2 ? 'it' : 'en';
+      };
 
       const createSectionBlock = (title, items, buildHref) => {
         const pageSize = 4;

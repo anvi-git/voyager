@@ -1294,3 +1294,12 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
+
+.bibliography-list {
+  margin: 0.75rem 0 1rem 1.25rem; /* inset from the left */
+  padding-left: 1rem;              /* bullet + text indentation */
+}
+
+.bibliography-list li {
+  margin: 0.25rem 0;
+}

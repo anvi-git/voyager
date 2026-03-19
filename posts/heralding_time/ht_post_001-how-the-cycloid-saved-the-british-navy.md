@@ -1,5 +1,3 @@
-# how the cycloid saved the British navy
-
 ![](https://substackcdn.com/image/fetch/$s_!nOhi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https://substack-post-media.s3.amazonaws.com/public/images/248c7282-e634-4f06-8586-7ababd96471b_1572x1048.png)
 
 On 29 September 1707 Admiral Sir Clowdisley Shovel with twenty-one ships of the Royal Navy sailed from Gibraltar for England.

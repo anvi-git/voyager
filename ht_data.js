@@ -88,14 +88,14 @@ window.HT_ARTICLES = {
     "date": "2025-12-21",
     "excerpt": "this is a thorough depiction of the object \"seen\" by the magi, as narrated in the Gospel of Matthew, seen by an astronomical point of view. From Origen to Kepler, from the magi...",
     "markdownFile": "posts/heralding_time/ht_post_astronomical-history-of-christmas.md",
-    "image": "/images/cover/ht_ahoc.png"
+    "image": "images/cover/ht_ahoc.png"
   },
   "14": {
     "title": "storia astronomica del Natale",
     "date": "2025-12-21",
     "excerpt": "questa è la storia completa della \"cometa di Natale\". dalle idee iniziali di Origene, alle comete di Kepler, ci chiederemo se i magi sono davvero esistiti, cosa hanno in visto i...",
     "markdownFile": "posts/heralding_time/ht_post_storia-astronomica-del-natale.md",
-    "image": "/images/cover/ht_ahoc.png"
+    "image": "images/cover/ht_ahoc.png"
   },
   "15": {
     "title": "astronomical history of Christmas",

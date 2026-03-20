@@ -103,7 +103,7 @@
       };
 
       const createSectionBlock = (title, items, buildHref) => {
-        const pageSize = 4;
+        const pageSize = 8;
         let page = 0;
         const totalPages = Math.max(1, Math.ceil(items.length / pageSize));
 
@@ -210,17 +210,6 @@
 
       const sections = [
         {
-          key: 'motion',
-          match: article => {
-            const excerpt = (article.excerpt || '').toLowerCase();
-            return excerpt.includes('on the motion of the earth') || excerpt.includes('sul moto della terra');
-          },
-          splitLabels: {
-            en: 'on the motion of the earth',
-            it: 'sul moto della terra'
-          }
-        },
-        {
           key: 'atomos',
           title: 'atomos',
           match: article => (article.title || '').toLowerCase().includes('atomos'),
@@ -231,13 +220,30 @@
           }
         },
         {
+          key: 'motion_en',
+          title: 'on the motion of the earth',
+          match: article => {
+            const excerpt = (article.excerpt || '').toLowerCase();
+            return excerpt.includes('on the motion of the earth');
+          }
+        },
+        {
           key: 'essays',
-          title: 'essays',
-          match: () => true,
-          splitByLanguage: true,
-          splitLabels: {
-            en: 'essays',
-            it: 'saggi'
+          title: 'essay',
+          match: article => {
+            const excerpt = (article.excerpt || '').toLowerCase();
+            const title = (article.title || '').toLowerCase();
+            return !title.includes('atomos')
+              && !excerpt.includes('on the motion of the earth')
+              && !excerpt.includes('sul moto della terra');
+          }
+        },
+        {
+          key: 'motion_it',
+          title: 'sul moto della terra',
+          match: article => {
+            const excerpt = (article.excerpt || '').toLowerCase();
+            return excerpt.includes('sul moto della terra');
           }
         }
       ];

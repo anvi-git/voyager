@@ -13,26 +13,12 @@ window.HT_ARTICLES = {
     "markdownFile": "posts/heralding_time/ht_post_how-the-cycloid-saved-the-british.html",
     "image": "images/cover/ht_cycloid.png"
   },
-  "3": {
-    "title": "ATOMOS #3",
-    "date": "2026-01-15",
-    "excerpt": "a time behind us, a time before us",
-    "markdownFile": "posts/heralding_time/ht_post_atomos-3.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/1dba95e2-7189-4eea-a969-9ccba0458adb_1572x1048.png"
-  },
   "4": {
     "title": "ATOMOS #3",
     "date": "2026-01-15",
     "excerpt": "a time behind us, a time before us",
     "markdownFile": "posts/heralding_time/ht_post_002-atomos-3.html",
     "image": "images/cover/atomos3.png"
-  },
-  "5": {
-    "title": "ATOMOS #2",
-    "date": "2026-01-12",
-    "excerpt": "a statement by Max Frisch",
-    "markdownFile": "posts/heralding_time/ht_post_atomos-2.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/e34aeb9f-4fb5-4a67-b60a-f49d6ad78255_1572x1048.png"
   },
   "6": {
     "title": "ATOMOS #2",
@@ -55,26 +41,12 @@ window.HT_ARTICLES = {
     "markdownFile": "posts/heralding_time/ht_post_come-la-cicloide-salvo-la-marina.html",
     "image": "images/cover/ht_cycloid.png"
   },
-  "9": {
-    "title": "ATOMOS #1",
-    "date": "2026-01-08",
-    "excerpt": "an excerpt from Popper's Three views concerning human knowledge",
-    "markdownFile": "posts/heralding_time/ht_post_atomos-1.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/169ad324-64bd-4069-b134-ac1dd6100db3_1572x1048.png"
-  },
   "10": {
     "title": "ATOMOS #1",
     "date": "2026-01-08",
     "excerpt": "an excerpt from Popper's Three views concerning human knowledge",
     "markdownFile": "posts/heralding_time/ht_post_005-atomos-1.html",
     "image": "images/cover/atomos1.png"
-  },
-  "11": {
-    "title": "ATOMOS #0",
-    "date": "2026-01-05",
-    "excerpt": "a thought by Mark Leidner",
-    "markdownFile": "posts/heralding_time/ht_post_atomos-0.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/8ba38168-0a90-4f61-91e8-0bb19c19536d_1572x1048.png"
   },
   "12": {
     "title": "ATOMOS #0",

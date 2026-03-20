@@ -11,6 +11,19 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap');
 
+/*
+==================== STYLESHEET MAP ====================
+1) Imports + fonts
+2) Tokens + global document defaults
+3) Header + nav banner
+4) Main layout + publication pages
+5) Article/content typography + media
+6) Generic elements (section/footer/links/buttons/aside/iframe)
+7) Legacy post/card utilities
+8) Responsive overrides
+========================================================
+*/
+
 
 :root {
     --color-black: #000000;
@@ -52,13 +65,22 @@ body {
     font-size: 18px;
     font-style: normal;
     text-align: left;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     background: var(--body-bg);
     background-color: var(--body-bg);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
@@ -292,11 +314,6 @@ body.header-scrolled #menu-trigger span {
 
 body.header-scrolled .banner h2 {
     font-size: clamp(0.9rem, 1.2vw, 1.35rem);
-}
-
-.banner h2 a {
-    color: var(--color-black);
-    text-decoration: none;
 }
 
 .banner a {
@@ -802,8 +819,6 @@ main {
     text-decoration: underline;
 }
 
-.blog-article-content p { color: var(--color-black); }
-
 .blog-article-content figure {
     width: min(72%, 640px);
     max-width: 640px;
@@ -895,9 +910,6 @@ main {
     #blog-layout {
         grid-template-columns: 1fr;
     }
-    .publication-layout > #blog-sidebar {
-        order: 2;
-    }
     #blog-sidebar { position: static; }
 
     .blog-article-content figure {
@@ -950,6 +962,8 @@ main {
     }
 }
 
+/* ==================== GENERIC CONTENT PRIMITIVES ==================== */
+
 /* Justify text to the left */
 main p {
     text-align: left; /* Align text to the left */
@@ -965,8 +979,7 @@ main img {
 section {
     background: linear-gradient(135deg, var(--color-white), var(--color-white));
     padding: 20px;
-    margin: 0px 0;
-    margin-bottom: 0px;
+    margin: 0;
 }
 
 h2 {
@@ -978,6 +991,8 @@ p {
     color: var(--color-black);
     font-weight: 4;
 }
+
+/* ==================== GLOBAL STRUCTURAL ELEMENTS ==================== */
 
 /* FOOTER */
 footer {
@@ -1046,6 +1061,8 @@ aside ul li a {
 aside ul li a:hover {
     text-decoration: underline;
 }
+/* ==================== LEGACY POSTS GRID ==================== */
+
 /* POST */
 .post-date {
     display: block;
@@ -1086,12 +1103,10 @@ iframe {
     text-align: left; /* Center-align text inside posts */
     color: rgb(255, 255, 255); /* Ensure text color is white */
     border: none; /* Remove borders */
-    margin: 0; /* Remove margin between posts */
-    padding: 0; /* Remove padding inside posts */
+    margin: 0 0 20px; /* Keep spacing between posts */
+    padding: 0 0 20px; /* Keep bottom spacing for border */
     box-sizing: border-box; /* Include padding and borders in width/height */
-    margin-bottom: 20px;
     border-bottom: 1px solid #ddd;
-    padding-bottom: 20px;
 }
 
 /* Optional: Make specific posts larger */
@@ -1099,6 +1114,8 @@ iframe {
     grid-column: span 2; /* Span 2 columns */
     grid-row: span 2; /* Span 2 rows */
 }
+
+/* ==================== RESPONSIVE OVERRIDES (GLOBAL) ==================== */
 
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
@@ -1269,11 +1286,6 @@ iframe {
         font-size: 1.15rem;
     }
 
-    .publication-section-rail {
-        grid-template-columns: 1fr;
-        gap: 12px;
-    }
-
     .publication-featured-image {
         height: 250px;
         max-height: 250px;
@@ -1287,10 +1299,12 @@ iframe {
 
 
 
+/* ==================== LEGACY NAV + LINK CARDS ==================== */
+
 /* Navigation styles */
 nav ul {
     list-style-type: none;
-    padding: 10;
+    padding: 10px;
 }
 
 nav ul li {
@@ -1335,9 +1349,8 @@ nav ul li {
 
 /* Ensure images remain centered */
 .image-container {
-    position: center;
     display: inline-block;
-    text-align: wrap;
+    text-align: left;
     margin: 0 auto; /* Center the image horizontally */
   }
   
@@ -1351,19 +1364,7 @@ nav ul li {
     display: inline-block; 
   }
 
-/* Smooth scrolling */
-html {
-    scroll-behavior: smooth;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-}
+/* ==================== FULLPAGE EMBED LAYOUT ==================== */
 
 .fullpage-main {
     height: 100vh;
@@ -1380,6 +1381,8 @@ html, body {
     border: none;
 }
 
+
+/* ==================== SUBSTACK CARDS ==================== */
 
 #substack-posts-list {
   list-style: none;
@@ -1430,6 +1433,8 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
+
+/* ==================== BIBLIOGRAPHY HELPERS ==================== */
 
 .bibliography-list {
   margin: 0.75rem 0 1rem 1.25rem; /* inset from the left */

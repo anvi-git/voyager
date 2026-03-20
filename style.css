@@ -526,7 +526,6 @@ main {
 }
 
 .publication-section-nav {
-    border: 1px solid rgba(0, 0, 0, 0.3);
     background: #ffffff;
     color: var(--color-black);
     min-width: 88px;
@@ -675,7 +674,6 @@ main {
 
 .collection-page > section {
     background: var(--color-white);
-    border: 1px solid #ddd;
     border-radius: 10px;
     padding: 16px;
 }

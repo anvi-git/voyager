@@ -18,7 +18,7 @@ window.HT_ARTICLES = {
     "date": "2026-01-12",
     "excerpt": "a statement by Max Frisch",
     "markdownFile": "posts/heralding_time/ht_post_003-atomos-2.html",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/e34aeb9f-4fb5-4a67-b60a-f49d6ad78255_1572x1048.png"
+    "image": "images/cover/atomos2.png"
   },
   "8": {
     "title": "come la cicloide salvò la marina inglese",

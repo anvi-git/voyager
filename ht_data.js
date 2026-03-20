@@ -1,24 +1,10 @@
 window.HT_ARTICLES = {
-  "1": {
-    "title": "how the cycloid saved the British navy",
-    "date": "2026-01-17",
-    "excerpt": "of the mathematical curve that changed navigation",
-    "markdownFile": "posts/heralding_time/ht_post_how-the-cycloid-saved-the-british.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/fbe44cb8-5156-434c-82d5-3ddafcdf8469_1572x1048.png"
-  },
   "2": {
     "title": "how the cycloid saved the British navy",
     "date": "2026-01-17",
     "excerpt": "of the mathematical curve that changed navigation",
     "markdownFile": "posts/heralding_time/ht_post_how-the-cycloid-saved-the-british.html",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/fbe44cb8-5156-434c-82d5-3ddafcdf8469_1572x1048.png"
-  },
-  "3": {
-    "title": "ATOMOS #3",
-    "date": "2026-01-15",
-    "excerpt": "a time behind us, a time before us",
-    "markdownFile": "posts/heralding_time/ht_post_atomos-3.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/1dba95e2-7189-4eea-a969-9ccba0458adb_1572x1048.png"
   },
   "4": {
     "title": "ATOMOS #3",
@@ -27,13 +13,6 @@ window.HT_ARTICLES = {
     "markdownFile": "posts/heralding_time/ht_post_002-atomos-3.html",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/1dba95e2-7189-4eea-a969-9ccba0458adb_1572x1048.png"
   },
-  "5": {
-    "title": "ATOMOS #2",
-    "date": "2026-01-12",
-    "excerpt": "a statement by Max Frisch",
-    "markdownFile": "posts/heralding_time/ht_post_atomos-2.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/e34aeb9f-4fb5-4a67-b60a-f49d6ad78255_1572x1048.png"
-  },
   "6": {
     "title": "ATOMOS #2",
     "date": "2026-01-12",
@@ -41,26 +20,12 @@ window.HT_ARTICLES = {
     "markdownFile": "posts/heralding_time/ht_post_003-atomos-2.html",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/e34aeb9f-4fb5-4a67-b60a-f49d6ad78255_1572x1048.png"
   },
-  "7": {
-    "title": "come la cicloide salvò la marina inglese",
-    "date": "2026-01-10",
-    "excerpt": "o, della curva matematica che ha cambiato la navigazione",
-    "markdownFile": "posts/heralding_time/ht_post_come-la-cicloide-salvo-la-marina.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/dc0540e2-73cc-4eb2-b35d-a50dff362eb1_1572x1048.png"
-  },
   "8": {
     "title": "come la cicloide salvò la marina inglese",
     "date": "2026-01-10",
     "excerpt": "o, della curva matematica che ha cambiato la navigazione",
     "markdownFile": "posts/heralding_time/ht_post_come-la-cicloide-salvo-la-marina.html",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/dc0540e2-73cc-4eb2-b35d-a50dff362eb1_1572x1048.png"
-  },
-  "9": {
-    "title": "ATOMOS #1",
-    "date": "2026-01-08",
-    "excerpt": "an excerpt from Popper's Three views concerning human knowledge",
-    "markdownFile": "posts/heralding_time/ht_post_atomos-1.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/169ad324-64bd-4069-b134-ac1dd6100db3_1572x1048.png"
   },
   "10": {
     "title": "ATOMOS #1",
@@ -75,20 +40,6 @@ window.HT_ARTICLES = {
     "excerpt": "a thought by Mark Leidner",
     "markdownFile": "posts/heralding_time/ht_post_006-atomos-0.html",
     "image": "images/cover/atomos0.png"
-  },
-  "13": {
-    "title": "astronomical history of Christmas",
-    "date": "2025-12-21",
-    "excerpt": "this is a thorough depiction of the object \"seen\" by the magi, as narrated in the Gospel of Matthew, seen by an astronomical point of view. From Origen to Kepler, from the magi...",
-    "markdownFile": "posts/heralding_time/ht_post_astronomical-history-of-christmas.md",
-    "image": "images/cover/ht_ahoc.png"
-  },
-  "14": {
-    "title": "storia astronomica del Natale",
-    "date": "2025-12-21",
-    "excerpt": "questa è la storia completa della \"cometa di Natale\". dalle idee iniziali di Origene, alle comete di Kepler, ci chiederemo se i magi sono davvero esistiti, cosa hanno in visto i...",
-    "markdownFile": "posts/heralding_time/ht_post_storia-astronomica-del-natale.md",
-    "image": "images/cover/ht_ahoc.png"
   },
   "15": {
     "title": "astronomical history of Christmas",

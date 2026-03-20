@@ -766,6 +766,16 @@ main {
     max-width: min(100%, 520px);
 }
 
+#ht-article-body figure.full-width-cover {
+    width: 100%;
+    max-width: none;
+}
+
+#ht-article-body figure.full-width-cover img {
+    width: 100%;
+    max-width: 100%;
+}
+
 #ht-article-body > p:first-of-type::first-letter {
     float: left;
     font-size: 3.2em;

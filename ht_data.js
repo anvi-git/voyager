@@ -88,28 +88,28 @@ window.HT_ARTICLES = {
     "date": "2025-12-21",
     "excerpt": "this is a thorough depiction of the object \"seen\" by the magi, as narrated in the Gospel of Matthew, seen by an astronomical point of view. From Origen to Kepler, from the magi...",
     "markdownFile": "posts/heralding_time/ht_post_astronomical-history-of-christmas.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/b58bef7b-997b-4264-a423-59fe66887471_1572x1048.png"
+    "image": "/images/cover/ht_ahoc.png"
   },
   "14": {
     "title": "storia astronomica del Natale",
     "date": "2025-12-21",
     "excerpt": "questa è la storia completa della \"cometa di Natale\". dalle idee iniziali di Origene, alle comete di Kepler, ci chiederemo se i magi sono davvero esistiti, cosa hanno in visto i...",
     "markdownFile": "posts/heralding_time/ht_post_storia-astronomica-del-natale.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/cf769d0a-0b2a-40f2-9d12-17fd28a80ab3_1572x1048.png"
+    "image": "/images/cover/ht_ahoc.png"
   },
   "15": {
     "title": "astronomical history of Christmas",
     "date": "2025-12-21",
     "excerpt": "this is a thorough depiction of the object \"seen\" by the magi, as narrated in the Gospel of Matthew, seen by an astronomical point of view. From Origen to Kepler, from the magi...",
     "markdownFile": "posts/heralding_time/ht_post_007-astronomical-history-of-christmas.html",
-    "image": "/images/cover/ht_ahoc.png"
+    "image": "images/cover/ht_ahoc.png"
   },
   "16": {
     "title": "storia astronomica del Natale",
     "date": "2025-12-21",
     "excerpt": "questa è la storia completa della \"cometa di Natale\". dalle idee iniziali di Origene, alle comete di Kepler, ci chiederemo se i magi sono davvero esistiti, cosa hanno in visto i...",
     "markdownFile": "posts/heralding_time/ht_post_008-storia-astronomica-del-natale.html",
-    "image": "/images/cover/ht_ahoc.png"
+    "image": "images/cover/ht_ahoc.png"
   },
   "17": {
     "title": "the responses to Parmenides",

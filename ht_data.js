@@ -11,7 +11,7 @@ window.HT_ARTICLES = {
     "date": "2026-01-15",
     "excerpt": "a time behind us, a time before us",
     "markdownFile": "posts/heralding_time/ht_post_002-atomos-3.html",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/1dba95e2-7189-4eea-a969-9ccba0458adb_1572x1048.png"
+    "image": "images/cover/atomos3.png"
   },
   "6": {
     "title": "ATOMOS #2",

@@ -1,7 +1,0 @@
-Heralding Time parlerà di storia, filosofia, scienza. 
-Esiste per collegare tutte le cose che sappiamo come umanità. 
-Ci prova, almeno.
-
-Heralding Time publishes on history, philosophy, science. 
-It lives to connect all the things mankind knows. 
-At least, it tries to do so.

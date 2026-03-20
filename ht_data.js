@@ -69,19 +69,12 @@ window.HT_ARTICLES = {
     "markdownFile": "posts/heralding_time/ht_post_005-atomos-1.html",
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/169ad324-64bd-4069-b134-ac1dd6100db3_1572x1048.png"
   },
-  "11": {
-    "title": "ATOMOS #0",
-    "date": "2026-01-05",
-    "excerpt": "a thought by Mark Leidner",
-    "markdownFile": "posts/heralding_time/ht_post_atomos-0.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/8ba38168-0a90-4f61-91e8-0bb19c19536d_1572x1048.png"
-  },
   "12": {
     "title": "ATOMOS #0",
     "date": "2026-01-05",
     "excerpt": "a thought by Mark Leidner",
     "markdownFile": "posts/heralding_time/ht_post_006-atomos-0.html",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/8ba38168-0a90-4f61-91e8-0bb19c19536d_1572x1048.png"
+    "image": "images/cover/atomos0.png"
   },
   "13": {
     "title": "astronomical history of Christmas",

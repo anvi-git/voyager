@@ -16,15 +16,9 @@
     --color-black: #000000;
     --color-white: #ffffff00;
     --header-bg: #e6e4cb;
-    --body-bg: #f5f2e3;
+    --body-bg: rgb(246, 243, 229);
     --header-height: 208px;
     --site-font: "Cormorant Garamond", "Times New Roman", serif;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
 }
 
 @font-face {
@@ -318,7 +312,6 @@ body.header-scrolled .banner h2 {
 /* MAIN */
 main {
     margin: 0;
-    padding: 10px;
     background-color: transparent;
     text-align: left;
     margin-top: 16px;
@@ -395,6 +388,9 @@ main {
 
 .publication-featured {
     margin-bottom: 34px;
+    border: none;
+    padding: 0;
+    background: transparent;
 }
 
 .publication-featured-card {
@@ -456,8 +452,26 @@ main {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 28px;
     align-items: start;
-    border-top: 1px solid rgba(0, 0, 0, 0.15);
     padding-top: 30px;
+}
+
+.publication-animation {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0;
+}
+
+.publication-animation video {
+    display: block;
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .publication-sections {

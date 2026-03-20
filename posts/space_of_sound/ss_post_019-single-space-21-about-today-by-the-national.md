@@ -1,23 +1,12 @@
 # single space #21: About Today, by The National
-
 I said I would be back in September: a promise is a promise. But I didn’t sit idly by.
-
 ![](https://substackcdn.com/image/fetch/$s_!GJXU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https://substack-post-media.s3.amazonaws.com/public/images/d07706c9-ebf4-4dfb-bb41-8b7c0b3a0b26_1080x1350.png)
-
 About Today is the distance, the distances we don’t travel and those that unfold between us, the walls we erect, the bridges that collapse after our words transform into boulders.
-
 It is an avalanche, a landslide, a slow inexorable rapid invincible defeat, without truce without hostages, it is a massacre of souls united dissolved singular diluted, in complete indifference.
-
 It is remorse, the impossibility of communicating, the tremendous sense of despair, the dawning awareness, the irreversible actions that drive us apart, the splendid irreverent sublime terrifying laughter that accompanies a long goodbye, the hysteria of letting go, the tears that feed the end.
-
 It is the long wait for the nothing that does not change, for everything still and immovable and imposing and asking for nothing, it is the repetition of our mistakes, the representation of our hopes, our dreams in the mirror destroyed and cracked and then reunited and this film will be projected once again, what can we ever do about it, you are far away .
-
 It is a heartbreaking beautiful powerful vulnerable poem.
-
 It is a question never asked, a place and time unspecified, the future, the past, they blend together. It is the realisation of fears, visualising the affront, abandonment and recovery, the individual and the couple, the community of two, the isolated abandoned independent autarchic state of singularity.
-
 It is a river, a torrent, a flow that rests on a cold glacial lake of sadness. It is the inversion of change, the calm and the storm, the calm within the storm not before not after.
-
 It is a thread that one tries to retie, work that’s never finished, a project that’s never completed, it’s a will that dies, that’s reborn, killed torn apart mocked humiliated.
-
 It’s the most beautiful song by The National.

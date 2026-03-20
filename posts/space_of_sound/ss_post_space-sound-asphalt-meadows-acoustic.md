@@ -1,57 +1,29 @@
 At the gate, you handed me
-
 Pieces of the plan
-
 Bellingham, Washington. 1997. Ben Gibbard has so many things to say, and he starts a solo project. The name Death Cab For Cutie comes from the title of a song performed in 1967 by Bonzo Dog Doo-Dah Band.
-
 In 2002, Chris Walla joined on guitar, Nathan Good on drums, and Nick Harmer on bass guitar. Jayson Tolzdorf-Larson and Michael Schorr appeared and left around 2000, mostly on tour. Jason McGerr joined the band in 2003, and Zac Rae in 2015 on keyboards and guitar, along with Dave Depper.
-
 Asphalt Meadows is the band’s tenth album, and I’m writing about the acoustic version, released in 2023, a year after the original version.
-
 ![](https://substack-post-media.s3.amazonaws.com/public/images/40d367a6-3bf8-4ea9-a322-6be67c5fbf17_1400x1400.jpeg)
-
 Asphalt Meadows (acoustic) - Death Cab For Cutie (2023, Atlantic)
-
 You should “listen to the ringing in your ears / the scrambled voices of your fears / whispering, whispering” , Gibbard sings in the song that opens the record, I Don’t Know How I Survive . He doesn’t know how to survive, and the song is a gentle introduction to that refrain. The song is “ gaining speed ”, and while it does, you start listening “ to the sound of your heartbeat” .
-
 Gibbard knows you’ve been struggling, and Roman Candles is a follow-up to the night before, to the song before.
-
 It’s one of those mornings where it’s “ a battle just to wake and greet the day” , but you have to “learn to let go” , not to let all the things you “ tried to hold” “ explode like roman candles ”. And maybe he should use some “ flames” , because now he can’t “ feel anything” , he’s like a rock in a river, “ standing still” while everyone else is moving.
-
 ![](https://substack-post-media.s3.amazonaws.com/public/images/d9f4ce96-f247-4165-a504-15ddc46abb68_1581x1054.webp)
-
 He may need someone else, someone from whom to get a “ kiss” as “ a lonely prayer” . He would cherish that kiss and hold it in his eyes and his mind, although you can “ only know half of” that person. Asphalt Meadows does exactly that, and it’s a beautifully written song; it should be written on bathroom walls to let someone make good decisions. The chorus is worth the entire record, and you should do yourself a favor and listen to it.
-
 And people are like planes, always “ drifting off into the sky” : and what if you have a “ ticket” to board, but you lack the name of the plane you should take?
-
 You should ride a wave of “ white noise” when the city is sleeping, and find light through the concrete of those buildings, or board a train instead, before the doors close. Beware not to get “trampled under your own feet” .
-
 Rand McNally is an American technology company, and the name of the next song. An atlas of such a company is something Gibbard does not “ know how to use”; but he made a sweet song about it, so I have to correct him. In a sense, he carves meaning out of such an ordinary book like it were the “ Old Testament” . And this song has verses, too.
-
 “Here to Forever” is not only a beautiful promise, it’s also what Gibbard sings to want to “ know the measure” of: it’s a daring desire, something that would put a lot of pressure on you, be it “ God or whatever” .
-
 Foxglove Through The Clearcut is a declaration about the settlers, the frontier man who explores until the edge of America, only to realize there is “ nowhere left to go” , and that everything has been “ broken” and that this “ great land” “ slowly slip[ s ] away”.
-
 Is it a funeral without the flowers? Are clear-cut trees in a forest like “ tombstones” ? At least, they are “ reaching for the sky” .
-
 Pepper is a song with a faster pace and has a great rhythm. You should end a relationship on this song, while you decide on one another
-
 Kiss me just this one last time
-
 Tell me that you oncе were mine
-
 and one kiss after another, you may end up being together until forever.
-
 I Miss Strangers is a song about the punk war (“ you were by my side on the frontlines / do you remember?” ), and on the realization that sometimes you can “ miss strangers” more than you “ miss [your] friends” .
-
 Wheat Like Waves is a song that “I could not pretend to comprehend […] as a childless man”, but the violin and a gentle drum follow Gibbard’s voice into a lulling song you could play on a road trip where you want to stop being alone.
-
 Fragments From the Decade is for those who “ in photos […] are were always staring through the lens / To some distant place […] would rather have been”. And beware: “ if you stare too long they almost seem alive ”.
-
 I’ll Never Give Up On You is an ode to leaving out of your life all the fake aspirations you can have, to remain with one another. The Plan is a gift someone gives to Ben Gibbard before he boards a plane, and he gives it back to us, in a beautiful little song that closes the record.
-
 Can I hold it
-
 For a week?
-
 See you next time!

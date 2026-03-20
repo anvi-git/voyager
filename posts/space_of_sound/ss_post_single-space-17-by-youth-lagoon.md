@@ -1,21 +1,11 @@
 it is a space I no longer inhabit, nor want to inhabit. Youth Lagoon is complete. I’ve reached the top of a mountain, only to then be able to see a much larger one I want to ascend
-
 17 came from a complete project: it’s the fourth track on the first album produced by Trevor Powers under the moniker Youth Lagoon , The Year of Hibernation (2011). The LP was followed by Wondrous Bughouse (2013) and Savage Hills Ballroom (2015) .
-
 Powers sings that the day you stop imagining is the day you die (or at least this is what his mother told him): should this be connected to the publication of two new LPs since 2023, eight years after the statement that ended Youth Lagoon?
-
 It’s not why we’re here though - let’s not speak of the future.
-
 But where’s here, and when is it? The year is 2013 and the place is Boise, Idaho (coming - running away? - from San Diego, California).
-
 Power finds himself with a brain that can think faster than [he] can but not fast enough , and with thoughts that he’s sure would lock [him] up if spoken out loud.
-
 He flees to his younger memories, where life was as fun as can be, going out hunting for snakes (too dangerous? - maybe that’s part of the fun), going out camping and swimming in lakes.
-
 Produced alongside Jeremy Park , the song is delicate yet cadences the dreamy beat it also conveys in the lyrics: you can instantly imagine Powers reminiscing his younger years, and when the drum beat comes in you get his thoughts piling up and exploding, not too loud to make a scene, though.
-
 Maybe we’ll come back to talk about one of Youth Lagoon’s last LPs, but for now, let’s hope he’s still having fun, like when he was 17 .
-
 ![](https://substack-post-media.s3.amazonaws.com/public/images/85932fb5-1070-4ba3-919b-9e0d6cff4764_1200x1200.jpeg)
-
 See you next time!

@@ -73,7 +73,7 @@ header {
     font-family: var(--site-font);
     background-color: var(--header-bg);
     color: var(--color-black);
-    padding: 28px 0 18px;
+    padding: 18px 0 12px;
     text-align: center;
     position: sticky;
     top: 0;
@@ -85,8 +85,9 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 22px;
+    gap: 14px;
     box-sizing: border-box;
+    transition: padding 220ms ease, gap 220ms ease;
 }
 
 header h1 {
@@ -108,19 +109,21 @@ header p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: min(92%, 1500px);
+    width: min(94%, 1500px);
     margin: 0 auto;
-    gap: 20px;
+    gap: 16px;
+    transition: gap 220ms ease, width 220ms ease;
 }
 
 #site-initials {
     font-family: var(--site-font);
     color: var(--color-black);
     text-decoration: none;
-    font-size: clamp(2.2rem, 2.6vw, 3.7rem);
+    font-size: clamp(1.6rem, 2.1vw, 2.5rem);
     letter-spacing: 1px;
     line-height: 1;
     flex: 0 0 auto;
+    transition: opacity 180ms ease, transform 220ms ease, width 220ms ease, margin 220ms ease;
 }
 
 #site-title {
@@ -131,13 +134,25 @@ header p {
 }
 
 #site-title-link {
-    display: inline-block;
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
     color: var(--color-black);
     text-decoration: none;
-    font-size: clamp(2.5rem, 5.2vw, 5.1rem);
+    font-size: clamp(1.8rem, 3.5vw, 3.2rem);
     letter-spacing: 1px;
     line-height: 1;
     font-weight: 300;
+    transition: font-size 220ms ease;
+}
+
+.site-title-full {
+    display: inline;
+}
+
+.site-title-short {
+    display: none;
+    letter-spacing: 0.05em;
 }
 
 #site-title a {
@@ -161,14 +176,16 @@ header p {
     text-decoration: none;
     border-radius: 10px;
     flex: 0 0 auto;
+    transition: width 220ms ease, height 220ms ease, gap 220ms ease;
 }
 
 #menu-trigger span {
-    width: 46px;
-    height: 10px;
+    width: 38px;
+    height: 7px;
     border-radius: 999px;
     background-color: var(--color-black);
     display: block;
+    transition: width 220ms ease, height 220ms ease;
 }
 
 #menu-trigger:hover {
@@ -207,6 +224,66 @@ header p {
     font-size: clamp(1.15rem, 1.5vw, 2rem);
     line-height: 1.2;
     white-space: nowrap;
+    transition: font-size 220ms ease;
+}
+
+body.header-scrolled header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 6px 0;
+    gap: 0;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    column-gap: 10px;
+}
+
+body.header-scrolled #title-container {
+    display: contents;
+}
+
+body.header-scrolled #site-initials {
+    grid-column: 1;
+    justify-self: start;
+    align-self: center;
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+    width: auto;
+    margin-right: 0;
+    overflow: visible;
+    font-size: clamp(1.6rem, 2.1vw, 2.5rem);
+}
+
+body.header-scrolled #site-title {
+    display: none;
+}
+
+body.header-scrolled .banner {
+    grid-column: 2;
+    align-self: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+    gap: clamp(8px, 1vw, 16px);
+}
+
+body.header-scrolled #menu-trigger {
+    grid-column: 3;
+    width: 44px;
+    height: 44px;
+    gap: 5px;
+}
+
+body.header-scrolled #menu-trigger span {
+    width: 30px;
+    height: 5px;
+}
+
+body.header-scrolled .banner h2 {
+    font-size: clamp(0.9rem, 1.2vw, 1.35rem);
 }
 
 .banner h2 a {

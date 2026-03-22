@@ -1,9 +1,0 @@
-Beginnings are hard. Especially for the Universe.
-![](https://substack-post-media.s3.amazonaws.com/public/images/9a7995d0-9558-4a23-87de-4c22b76ae990_1572x1048.png)
-Welcome to the new, first, only place where you can look up to the immensity of the cosmic structures.
-1. Why Last, why Scattering
-The idea behind the name “Last Scattering Surface” came to me while I was studying for my Cosmology exam during my ongoing Master’s Studies in Astrophysics.
-The idea behind the project is to talk about whatever fascinates me about the Universe. It’s going to be a long journey.
-2. Do you feel like you should join this project?
-Do you feel anything at all when you gaze upon the stars (abused expression, pardon me)?
-If this is the case for you, here you can find something to enjoy yourself while gazing. Whenever you decide to stop staring at the sky and decide to use the Internet, he said.

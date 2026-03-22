@@ -10,6 +10,8 @@ permissions:
 
 jobs:
   sync:
+    # Substack integration disabled: keep workflow file for future reuse.
+    if: false
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

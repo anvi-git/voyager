@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Space of Sound</title>
+  <title>Last Scattering Surface</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="favicon_io/bt_logo.png" type="image/x-icon">
   <script src="includeHTML.js"></script>
-  <script src="spacesound_data.js"></script>
+  <script src="lss_data.js"></script>
 </head>
 <body>
   <header>
@@ -24,13 +24,13 @@
     </div>
     <div class="banner">
       <section id="ht">
-        <h2><a href="ht_true.html">heralding time</a></h2>
+        <h2><a href="ht.html">heralding time</a></h2>
       </section>
       <section id="lss">
-        <h2><a href="lss_true.html">last scattering surface</a></h2>
+        <h2><a href="lss.html">last scattering surface</a></h2>
       </section>
       <section id="spso">
-        <h2><a href="spacesound_true.html">space of sound</a></h2>
+        <h2><a href="sp.html">space of sound</a></h2>
       </section>
       <section id="blog">
         <h2><a href="blog.html">the blog</a></h2>
@@ -41,9 +41,9 @@
     </div>
   </header>
   <main id="blog-page" class="collection-page publication-home">
-    <h1>Space of Sound</h1>
-    <section id="spacesound-featured" class="publication-featured"></section>
-    <section id="spacesound-sections" class="publication-sections"></section>
+    <h1>Last Scattering Surface</h1>
+    <section id="lss-featured" class="publication-featured"></section>
+    <section id="lss-sections" class="publication-sections"></section>
   </main>
   <div include-html="footer.html"></div>
 
@@ -86,7 +86,7 @@
 
       const detectLanguage = article => {
         const text = `${article.title || ''} ${article.excerpt || ''}`.toLowerCase();
-        const italianHints = [' di ', ' una ', ' il ', ' la ', ' gli ', ' e ', ' nel ', ' della ', ' questo '];
+        const italianHints = [' sul ', ' della ', ' degli ', ' gli ', ' una ', ' questo ', ' capitolo ', ' il ', ' la ', ' di ', ' e '];
         const score = italianHints.reduce((acc, hint) => acc + (text.includes(hint) ? 1 : 0), 0);
         return score >= 2 ? 'it' : 'en';
       };
@@ -164,9 +164,9 @@
         return block;
       };
 
-      const sectionsContainer = document.getElementById('spacesound-sections');
-      const featured = document.getElementById('spacesound-featured');
-      const articles = dedupeArticles(window.SPACESOUND_ARTICLES || {});
+      const sectionsContainer = document.getElementById('lss-sections');
+      const featured = document.getElementById('lss-featured');
+      const articles = dedupeArticles(window.LSS_ARTICLES || {});
       const ids = Object.keys(articles).sort((a, b) => {
         const da = new Date(articles[a].date || 0);
         const db = new Date(articles[b].date || 0);
@@ -182,7 +182,7 @@
       const latest = articles[latestId];
 
       featured.innerHTML = `
-        <a class="publication-featured-card" href="spacesound_article.html?id=${latestId}">
+        <a class="publication-featured-card" href="lss_article.html?id=${latestId}">
           ${latest.image ? `<img src="${latest.image}" alt="${latest.title}" class="publication-featured-image">` : '<div class="publication-featured-image publication-featured-image-empty"></div>'}
           <div class="publication-featured-content">
             <p class="publication-featured-meta">Latest</p>
@@ -195,38 +195,26 @@
 
       const sections = [
         {
-          key: 'single-sound',
-          title: 'single sound',
-          match: article => (article.title || '').toLowerCase().includes('single'),
+          key: 'star-story',
+          title: 'story of a star',
+          match: article => (article.title || '').toLowerCase().includes('story of a star'),
           splitByLanguage: true
         },
         {
-          key: 'space-sound',
-          title: 'space sound',
-          match: article => (article.title || '').toLowerCase().includes('space sound'),
+          key: 'annals',
+          title: 'annals of lss',
+          match: article => (article.title || '').toLowerCase().includes('annals of lss'),
           splitByLanguage: true
         },
         {
-          key: 'live-sound',
-          title: 'live sound',
-          match: article => (article.title || '').toLowerCase().includes('live sound'),
+          key: 'proceedings',
+          title: 'proceedings of lss',
+          match: article => (article.title || '').toLowerCase().includes('proceedings of lss'),
           splitByLanguage: true
         },
         {
-          key: 'sound-orbits',
-          title: 'sound orbits',
-          match: article => (article.title || '').toLowerCase().includes('sound orbits'),
-          splitByLanguage: true
-        },
-        {
-          key: 'rising-sound',
-          title: 'rising sound',
-          match: article => (article.title || '').toLowerCase().includes('rising sound'),
-          splitByLanguage: true
-        },
-        {
-          key: 'other',
-          title: 'other notes',
+          key: 'essays',
+          title: 'last scattering surface essays',
           match: () => true,
           splitByLanguage: true
         }
@@ -252,15 +240,15 @@
           });
 
           if (byLanguage.en.length) {
-            sectionsContainer.appendChild(createSectionBlock(section.title, byLanguage.en, id => `spacesound_article.html?id=${id}`));
+            sectionsContainer.appendChild(createSectionBlock(section.title, byLanguage.en, id => `lss_article.html?id=${id}`));
           }
           if (byLanguage.it.length) {
-            sectionsContainer.appendChild(createSectionBlock(`${section.title} (italiano)`, byLanguage.it, id => `spacesound_article.html?id=${id}`));
+            sectionsContainer.appendChild(createSectionBlock(`${section.title} (italiano)`, byLanguage.it, id => `lss_article.html?id=${id}`));
           }
           return;
         }
 
-        sectionsContainer.appendChild(createSectionBlock(section.title, items, id => `spacesound_article.html?id=${id}`));
+        sectionsContainer.appendChild(createSectionBlock(section.title, items, id => `lss_article.html?id=${id}`));
       });
     });
   </script>

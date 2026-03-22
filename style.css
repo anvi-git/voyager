@@ -890,15 +890,39 @@ main {
     max-width: 100%;
 }
 
-#ht-article-body > p:first-of-type::first-letter {
+/*#ht-article-body > p:first-of-type::first-letter {
     float: left;
-    font-size: 3.2em;
-    line-height: 0.9;
-    margin-right: 0.08em;
+    font-size: 5.8em;        /* increased from 3.2em */
+/*    line-height: 1;          /* keep tight */
+/*    margin-right: 0.1em;
+    margin-top: 0.06em;
+    font-weight: 600;
+}*/ /* this below instead of ht-article-body */
+.drop-cap {
+    float: left;
+    font-size: 5.8em;
+    line-height: 1;
+    margin-right: 0.1em;
     margin-top: 0.06em;
     font-weight: 600;
 }
 
+.chapter-title {
+    font-family: "Cormorant Garamond", fallback-font, serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.subchapter-title {
+    font-family: "Cormorant Garamond", fallback-font, serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 2rem 0 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
 /* Hide imported Substack image-control widgets that render as black square link/buttons. */
 .blog-article-content .image-link-expand,
 .blog-article-content .icon-container.restack-image,

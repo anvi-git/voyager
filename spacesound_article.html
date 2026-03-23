@@ -121,6 +121,242 @@
         }
       }
 
+      function isSoundOrbitsArticle(article) {
+        const title = ((article && article.title) || '').toLowerCase();
+        return title.includes('sound orbits');
+      }
+
+      function textOfNode(node) {
+        return ((node && node.textContent) || '').replace(/\s+/g, ' ').trim();
+      }
+
+      function isParagraphNode(node) {
+        return node && node.tagName === 'P';
+      }
+
+      function isSongTitleParagraph(node) {
+        if (!isParagraphNode(node)) return false;
+        const text = textOfNode(node);
+        if (!text || !text.includes(':')) return false;
+
+        const lower = text.toLowerCase();
+        if (lower.startsWith('this week')) return false;
+        if (lower.startsWith('delayed orbit')) return false;
+        if (lower.startsWith('produced by:')) return false;
+        if (lower.startsWith('published by:')) return false;
+        if (lower.startsWith('published:')) return false;
+        if (lower.startsWith('label -')) return false;
+        if (lower.startsWith('label:')) return false;
+        if (lower.startsWith('here the piece')) return false;
+
+        return true;
+      }
+
+      function isDividerParagraph(node) {
+        if (!isParagraphNode(node)) return false;
+        const text = textOfNode(node).toLowerCase();
+        return text.startsWith('this week') || text.startsWith('delayed orbit') || text === ':';
+      }
+
+      function isOutroParagraph(node) {
+        if (!isParagraphNode(node)) return false;
+        return textOfNode(node).toLowerCase() === 'see you next time.';
+      }
+
+      function isLinksParagraph(node) {
+        if (!isParagraphNode(node)) return false;
+        const text = textOfNode(node).toLowerCase();
+        if (!text) return false;
+
+        const looksLikePlatformList =
+          text.includes('youtube') ||
+          text.includes('spotify') ||
+          text.includes('apple music') ||
+          text.includes('bandcamp') ||
+          text.includes('on the web') ||
+          text.includes('website');
+
+        return looksLikePlatformList;
+      }
+
+      function extractUrls(text) {
+        return (text.match(/https?:\/\/[^\s<)]+/gi) || []).map(url => url.replace(/[.,;:!?]+$/, ''));
+      }
+
+      function createLinksContent(linkNodes) {
+        const linksWrap = document.createElement('div');
+        linksWrap.className = 'sound-orbit-links';
+        if (!linkNodes.length) return linksWrap;
+
+        const urls = [];
+        linkNodes.forEach(node => {
+          extractUrls(textOfNode(node)).forEach(url => urls.push(url));
+        });
+
+        if (urls.length) {
+          const linksList = document.createElement('div');
+          linksList.className = 'sound-orbit-links-list';
+          urls.forEach(url => {
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = '_blank';
+            a.rel = 'noopener noreferrer';
+            a.textContent = url;
+            linksList.appendChild(a);
+          });
+          linksWrap.appendChild(linksList);
+        } else {
+          linkNodes.forEach(node => {
+            const p = document.createElement('p');
+            p.textContent = textOfNode(node);
+            linksWrap.appendChild(p);
+          });
+        }
+
+        return linksWrap;
+      }
+
+      function createEmbedsContent(linkNodes) {
+        const embedsWrap = document.createElement('div');
+        embedsWrap.className = 'sound-orbit-embeds';
+
+        const youtubeUrls = [];
+        linkNodes.forEach(node => {
+          extractUrls(textOfNode(node)).forEach(url => {
+            if (url.includes('youtube.com/watch?v=')) {
+              youtubeUrls.push(url);
+            } else if (url.includes('youtu.be/')) {
+              youtubeUrls.push(url);
+            }
+          });
+        });
+
+        youtubeUrls.forEach(url => {
+          let videoId = '';
+          const longMatch = url.match(/[?&]v=([^&]+)/);
+          const shortMatch = url.match(/youtu\.be\/([^?&]+)/);
+
+          if (longMatch && longMatch[1]) videoId = longMatch[1];
+          if (!videoId && shortMatch && shortMatch[1]) videoId = shortMatch[1];
+          if (!videoId) return;
+
+          const iframe = document.createElement('iframe');
+          iframe.src = `https://www.youtube.com/embed/${encodeURIComponent(videoId)}`;
+          iframe.title = 'YouTube video player';
+          iframe.loading = 'lazy';
+          iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+          iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+          iframe.allowFullscreen = true;
+          embedsWrap.appendChild(iframe);
+        });
+
+        return embedsWrap;
+      }
+
+      function buildSongCard(songTitleNode, songNodes) {
+        const card = document.createElement('article');
+        card.className = 'sound-orbit-song';
+
+        const top = document.createElement('div');
+        top.className = 'sound-orbit-song-top';
+
+        const description = document.createElement('div');
+        description.className = 'sound-orbit-description';
+
+        const title = document.createElement('h3');
+        title.className = 'sound-orbit-song-title';
+        title.textContent = textOfNode(songTitleNode);
+        description.appendChild(title);
+
+        let coverNode = null;
+        const linkNodes = [];
+
+        songNodes.forEach(node => {
+          if (!coverNode && node.tagName === 'FIGURE') {
+            coverNode = node.cloneNode(true);
+            coverNode.classList.add('sound-orbit-cover');
+            return;
+          }
+
+          if (isLinksParagraph(node)) {
+            linkNodes.push(node);
+            return;
+          }
+
+          if (node.tagName === 'P') {
+            const p = document.createElement('p');
+            p.textContent = textOfNode(node);
+            description.appendChild(p);
+          }
+        });
+
+        if (coverNode) {
+          top.appendChild(coverNode);
+        }
+        top.appendChild(description);
+        card.appendChild(top);
+
+        const links = createLinksContent(linkNodes);
+        if (links.childNodes.length) card.appendChild(links);
+
+        const embeds = createEmbedsContent(linkNodes);
+        if (embeds.childNodes.length) card.appendChild(embeds);
+
+        return card;
+      }
+
+      function formatSoundOrbitsBody(containerId, article) {
+        if (!isSoundOrbitsArticle(article)) return;
+
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        const nodes = Array.from(container.children);
+        if (!nodes.length) return;
+
+        const firstSongIndex = nodes.findIndex(isSongTitleParagraph);
+        if (firstSongIndex === -1) return;
+
+        const fragment = document.createDocumentFragment();
+
+        nodes.slice(0, firstSongIndex).forEach(node => {
+          fragment.appendChild(node.cloneNode(true));
+        });
+
+        for (let i = firstSongIndex; i < nodes.length; i++) {
+          const node = nodes[i];
+
+          if (isSongTitleParagraph(node)) {
+            const songNodes = [];
+            let cursor = i + 1;
+            while (cursor < nodes.length) {
+              const nextNode = nodes[cursor];
+              if (isSongTitleParagraph(nextNode) || isDividerParagraph(nextNode) || isOutroParagraph(nextNode)) break;
+              songNodes.push(nextNode);
+              cursor += 1;
+            }
+
+            fragment.appendChild(buildSongCard(node, songNodes));
+            i = cursor - 1;
+            continue;
+          }
+
+          if (isDividerParagraph(node) || isOutroParagraph(node)) {
+            const divider = document.createElement('p');
+            divider.className = 'sound-orbit-divider';
+            divider.textContent = textOfNode(node);
+            fragment.appendChild(divider);
+            continue;
+          }
+
+          fragment.appendChild(node.cloneNode(true));
+        }
+
+        container.innerHTML = '';
+        container.classList.add('sound-orbits-layout');
+        container.appendChild(fragment);
+      }
+
       document.addEventListener('DOMContentLoaded', async () => {
         const bodyContainerId = 'spacesound-article-body';
         try {
@@ -207,6 +443,7 @@
           const mdText = await getArticleBody(article.markdownFile);
           renderArticleBody(bodyContainerId, mdText, article);
           removeDuplicateTitle(bodyContainerId, article.title);
+          formatSoundOrbitsBody(bodyContainerId, article);
         } catch (error) {
           showArticleError(bodyContainerId, `File: ${article.markdownFile}.`);
         }

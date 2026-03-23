@@ -1,0 +1,654 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Backyard Thoughts Theme Editor</title>
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; }
+body {
+  font-family: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  background: linear-gradient(135deg, #f3efe1 0%, #e4ebdf 100%);
+  color: #181716;
+}
+#app {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  height: 100vh;
+}
+#sidebar {
+  border-right: 1px solid #c8c2b5;
+  background: rgba(255, 252, 246, 0.92);
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+#sidebar-header {
+  padding: 14px;
+  border-bottom: 1px solid #d8d2c6;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#sidebar-header h1 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.tabs { display: flex; gap: 6px; }
+.tab {
+  padding: 6px 10px;
+  border: 1px solid #c8c2b5;
+  background: transparent;
+  border-radius: 7px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.tab.active { background: #191714; color: #fffaf1; border-color: #191714; }
+#controls, #css-panel {
+  flex: 1;
+  overflow: auto;
+  padding: 12px;
+}
+#css-panel { display: none; }
+#css-output {
+  width: 100%;
+  min-height: 100%;
+  border: 1px solid #bfb8ab;
+  border-radius: 10px;
+  padding: 12px;
+  resize: none;
+  background: #fffdf7;
+  color: #181716;
+  font-size: 12px;
+  line-height: 1.45;
+}
+.control-toolbar {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.input,
+select,
+.btn {
+  border: 1px solid #bfb8ab;
+  border-radius: 8px;
+  background: #fffdf7;
+  color: #181716;
+  font-size: 12px;
+  padding: 7px 8px;
+}
+.btn { cursor: pointer; }
+.btn:hover { background: #f4efe2; }
+.btn.primary {
+  background: #181716;
+  color: #fffaf1;
+  border-color: #181716;
+}
+.btn.primary:hover { opacity: 0.88; }
+#var-list {
+  display: grid;
+  gap: 8px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 46px;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid #ddd5c8;
+  border-radius: 10px;
+  padding: 8px;
+  background: #fffcf4;
+}
+.meta {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+}
+.var-name {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #44403a;
+}
+.value-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+}
+.value-row.with-color {
+  grid-template-columns: 34px 1fr;
+}
+input[type="color"] {
+  width: 34px;
+  height: 34px;
+  padding: 2px;
+  border: 1px solid #bfb8ab;
+  border-radius: 8px;
+  background: #fff;
+}
+.reset-one {
+  width: 46px;
+  padding: 7px 0;
+  text-align: center;
+}
+#sidebar-footer {
+  border-top: 1px solid #d8d2c6;
+  padding: 10px;
+  display: grid;
+  gap: 8px;
+}
+.export-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+#preview-area {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+#preview-bar {
+  border-bottom: 1px solid #c8c2b5;
+  background: rgba(255, 250, 241, 0.85);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 8px;
+  align-items: center;
+}
+#preview-label {
+  font-size: 12px;
+  color: #4c463f;
+}
+#preview-frame {
+  width: 100%;
+  height: calc(100vh - 56px);
+  border: 0;
+  background: #fff;
+}
+#toast {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  background: #181716;
+  color: #fffaf1;
+  border-radius: 8px;
+  padding: 9px 12px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+.tiny {
+  font-size: 11px;
+  color: #5c554d;
+}
+
+@media (max-width: 980px) {
+  #app {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(380px, 52vh) 1fr;
+  }
+  #sidebar {
+    border-right: 0;
+    border-bottom: 1px solid #c8c2b5;
+  }
+  #preview-frame {
+    height: 48vh;
+  }
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <div id="sidebar-header">
+      <h1>Theme Editor (Whole Folder)</h1>
+      <div class="tabs">
+        <button class="tab active" data-tab="controls" type="button">Variables</button>
+        <button class="tab" data-tab="css" type="button">Full CSS</button>
+      </div>
+      <div class="tiny">Edit variables or any CSS rule/object from style.css and preview on site pages.</div>
+    </div>
+
+    <section id="controls">
+      <div class="control-toolbar">
+        <input id="filter" class="input" type="search" placeholder="Filter vars (e.g. header, font)">
+        <button id="reset-all" class="btn" type="button">Reset All</button>
+        <button id="reload-style" class="btn" type="button">Reload</button>
+      </div>
+      <div id="var-list"></div>
+    </section>
+
+    <section id="css-panel">
+      <div class="control-toolbar" style="grid-template-columns:repeat(3,1fr)">
+        <button id="sync-vars-from-css" class="btn" type="button">Sync Vars</button>
+        <button id="reset-css-tab" class="btn" type="button">Reset CSS</button>
+        <button id="apply-css-tab" class="btn" type="button">Apply CSS</button>
+      </div>
+      <textarea id="css-output" spellcheck="false"></textarea>
+    </section>
+
+    <div id="sidebar-footer">
+      <div class="export-row">
+        <button id="copy-vars" class="btn" type="button">Copy :root</button>
+        <button id="copy-patched" class="btn" type="button">Copy style.css</button>
+        <button id="download-patched" class="btn" type="button">Download</button>
+      </div>
+      <button id="apply-preview" class="btn primary" type="button">Apply To Preview Page</button>
+    </div>
+  </aside>
+
+  <main id="preview-area">
+    <div id="preview-bar">
+      <span id="preview-label">Preview page</span>
+      <select id="page-picker"></select>
+      <button id="open-page" class="btn" type="button">Open page</button>
+    </div>
+    <iframe id="preview-frame" src="index.html"></iframe>
+  </main>
+</div>
+<div id="toast"></div>
+
+<script>
+const STYLE_PATH = 'style.css';
+const PREVIEW_PAGES = [
+  'index.html',
+  'landing_page.html',
+  'about.html',
+  'blog.html',
+  'blog_article.html',
+  'ht.html',
+  'ht_article.html',
+  'lss.html',
+  'lss_article.html',
+  'sp.html',
+  'spacesound_article.html'
+];
+
+let originalCss = '';
+let currentCss = '';
+let originalVars = {};
+let vars = {};
+let orderedKeys = [];
+
+const refs = {
+  varList: document.getElementById('var-list'),
+  filter: document.getElementById('filter'),
+  cssOutput: document.getElementById('css-output'),
+  pagePicker: document.getElementById('page-picker'),
+  previewFrame: document.getElementById('preview-frame')
+};
+
+function escapeHtml(value) {
+  return value
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
+
+function parseRootVars(cssText) {
+  const rootMatch = cssText.match(/:root\s*\{([\s\S]*?)\}/m);
+  if (!rootMatch) {
+    return { vars: {}, keys: [], rootContent: '' };
+  }
+  const rootContent = rootMatch[1];
+  const foundVars = {};
+  const keys = [];
+  const varRegex = /(--[\w-]+)\s*:\s*([^;]+);/g;
+  let match;
+  while ((match = varRegex.exec(rootContent)) !== null) {
+    const name = match[1].trim();
+    const value = match[2].trim();
+    if (!(name in foundVars)) {
+      keys.push(name);
+    }
+    foundVars[name] = value;
+  }
+  return { vars: foundVars, keys, rootContent };
+}
+
+function normalizeToHex(colorValue) {
+  const probe = document.createElement('span');
+  probe.style.color = colorValue;
+  document.body.appendChild(probe);
+  const computed = getComputedStyle(probe).color;
+  probe.remove();
+  const rgba = computed.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+  if (!rgba) {
+    return null;
+  }
+  const r = Number(rgba[1]).toString(16).padStart(2, '0');
+  const g = Number(rgba[2]).toString(16).padStart(2, '0');
+  const b = Number(rgba[3]).toString(16).padStart(2, '0');
+  return `#${r}${g}${b}`;
+}
+
+function looksLikeColor(value) {
+  return Boolean(value) && CSS.supports('color', value.trim());
+}
+
+function varLabel(name) {
+  return name
+    .replace(/^--/, '')
+    .replaceAll('-', ' ')
+    .replace(/\b\w/g, (m) => m.toUpperCase());
+}
+
+function buildRootBlock() {
+  const body = orderedKeys.map((key) => `    ${key}: ${vars[key]};`).join('\n');
+  return `:root {\n${body}\n}`;
+}
+
+function replaceRootBlock(cssText, rootBlock) {
+  const rootMatch = cssText.match(/:root\s*\{[\s\S]*?\}/m);
+  if (!rootMatch) {
+    return `${rootBlock}\n\n${cssText}`;
+  }
+  return cssText.replace(rootMatch[0], rootBlock);
+}
+
+function buildPatchedStyleCss() {
+  return currentCss;
+}
+
+function buildDiffText() {
+  const lines = ['--- a/style.css', '+++ b/style.css', '@@ :root @@'];
+  let changed = 0;
+  for (const key of orderedKeys) {
+    const oldVal = originalVars[key];
+    const newVal = vars[key];
+    if (oldVal !== newVal) {
+      lines.push(`-    ${key}: ${oldVal};`);
+      lines.push(`+    ${key}: ${newVal};`);
+      changed += 1;
+    }
+  }
+  if (!changed) {
+    lines.push('  (no variable changes)');
+  }
+  return lines.join('\n');
+}
+
+function updateCssPanel() {
+  refs.cssOutput.value = currentCss;
+}
+
+function updateCssFromVars() {
+  currentCss = replaceRootBlock(currentCss || originalCss, buildRootBlock());
+  updateCssPanel();
+}
+
+function renderVarControls() {
+  const filterText = refs.filter.value.trim().toLowerCase();
+  const html = [];
+
+  for (const name of orderedKeys) {
+    const value = vars[name];
+    const label = varLabel(name);
+    const hay = `${name} ${label} ${value}`.toLowerCase();
+    if (filterText && !hay.includes(filterText)) {
+      continue;
+    }
+
+    const isColor = looksLikeColor(value);
+    const colorHex = isColor ? normalizeToHex(value) : null;
+    const valueInputClass = isColor ? 'value-row with-color' : 'value-row';
+
+    html.push(`
+      <div class="row" data-key="${escapeHtml(name)}">
+        <div class="meta">
+          <div class="var-name">${escapeHtml(name)} · ${escapeHtml(label)}</div>
+          <div class="${valueInputClass}">
+            ${isColor && colorHex ? `<input data-color="${escapeHtml(name)}" type="color" value="${escapeHtml(colorHex)}">` : ''}
+            <input data-value="${escapeHtml(name)}" class="input" type="text" value="${escapeHtml(value)}">
+          </div>
+        </div>
+        <button data-reset="${escapeHtml(name)}" class="btn reset-one" type="button">Reset</button>
+      </div>
+    `);
+  }
+
+  refs.varList.innerHTML = html.join('');
+
+  refs.varList.querySelectorAll('[data-value]').forEach((input) => {
+    input.addEventListener('input', (event) => {
+      const key = event.target.dataset.value;
+      vars[key] = event.target.value;
+      syncColorControl(key);
+      updateCssFromVars();
+      applyCssToPreview();
+    });
+  });
+
+  refs.varList.querySelectorAll('[data-color]').forEach((input) => {
+    input.addEventListener('input', (event) => {
+      const key = event.target.dataset.color;
+      vars[key] = event.target.value;
+      const valueInput = refs.varList.querySelector(`[data-value="${CSS.escape(key)}"]`);
+      if (valueInput) {
+        valueInput.value = event.target.value;
+      }
+      updateCssFromVars();
+      applyCssToPreview();
+    });
+  });
+
+  refs.varList.querySelectorAll('[data-reset]').forEach((button) => {
+    button.addEventListener('click', (event) => {
+      const key = event.target.dataset.reset;
+      vars[key] = originalVars[key];
+      renderVarControls();
+      updateCssFromVars();
+      applyCssToPreview();
+      toast(`Reset ${key}`);
+    });
+  });
+}
+
+function syncColorControl(key) {
+  const value = vars[key];
+  const colorInput = refs.varList.querySelector(`[data-color="${CSS.escape(key)}"]`);
+  if (!colorInput || !looksLikeColor(value)) {
+    return;
+  }
+  const hex = normalizeToHex(value);
+  if (hex) {
+    colorInput.value = hex;
+  }
+}
+
+function applyCssToPreview() {
+  const iframe = refs.previewFrame;
+  const doc = iframe.contentDocument;
+  if (!doc) {
+    return;
+  }
+  const styleId = 'theme-editor-override';
+  let styleTag = doc.getElementById(styleId);
+  if (!styleTag) {
+    styleTag = doc.createElement('style');
+    styleTag.id = styleId;
+    doc.head.appendChild(styleTag);
+  }
+  styleTag.textContent = currentCss;
+}
+
+function syncVarsFromCss() {
+  const parsed = parseRootVars(currentCss);
+  if (!parsed.keys.length) {
+    toast('No :root variables found in CSS');
+    return;
+  }
+  vars = { ...parsed.vars };
+  orderedKeys = parsed.keys;
+  renderVarControls();
+  toast('Variable controls synced from CSS');
+}
+
+function setupPreviewPages() {
+  refs.pagePicker.innerHTML = PREVIEW_PAGES
+    .map((page) => `<option value="${page}">${page}</option>`)
+    .join('');
+
+  refs.pagePicker.addEventListener('change', () => {
+    refs.previewFrame.src = refs.pagePicker.value;
+  });
+
+  refs.previewFrame.addEventListener('load', () => {
+    applyCssToPreview();
+  });
+
+  document.getElementById('open-page').addEventListener('click', () => {
+    const target = refs.pagePicker.value;
+    window.open(target, '_blank', 'noopener');
+  });
+}
+
+function toast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.style.opacity = '1';
+  window.setTimeout(() => {
+    el.style.opacity = '0';
+  }, 1800);
+}
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab').forEach((button) => {
+    button.classList.toggle('active', button.dataset.tab === tab);
+  });
+  const cssTab = tab === 'css';
+  document.getElementById('controls').style.display = cssTab ? 'none' : 'block';
+  document.getElementById('css-panel').style.display = cssTab ? 'block' : 'none';
+}
+
+async function copyText(text, successMessage) {
+  try {
+    await navigator.clipboard.writeText(text);
+    toast(successMessage);
+  } catch (error) {
+    toast('Clipboard write failed');
+  }
+}
+
+function downloadPatchedStyle() {
+  const blob = new Blob([buildPatchedStyleCss()], { type: 'text/css' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = 'style.css';
+  link.click();
+  URL.revokeObjectURL(link.href);
+  toast('Downloaded patched style.css');
+}
+
+async function loadStyleFile() {
+  const response = await fetch(STYLE_PATH, { cache: 'no-store' });
+  if (!response.ok) {
+    throw new Error(`Cannot read ${STYLE_PATH}`);
+  }
+
+  originalCss = await response.text();
+  currentCss = originalCss;
+  const parsed = parseRootVars(originalCss);
+  originalVars = parsed.vars;
+  vars = { ...parsed.vars };
+  orderedKeys = parsed.keys;
+
+  if (!orderedKeys.length) {
+    throw new Error('No :root CSS variables found in style.css');
+  }
+
+  renderVarControls();
+  updateCssPanel();
+  applyCssToPreview();
+}
+
+function bindEvents() {
+  document.querySelectorAll('.tab').forEach((button) => {
+    button.addEventListener('click', () => switchTab(button.dataset.tab));
+  });
+
+  refs.filter.addEventListener('input', renderVarControls);
+
+  document.getElementById('reset-all').addEventListener('click', () => {
+    vars = { ...originalVars };
+    renderVarControls();
+    updateCssFromVars();
+    applyCssToPreview();
+    toast('All variables reset');
+  });
+
+  document.getElementById('reload-style').addEventListener('click', async () => {
+    try {
+      await loadStyleFile();
+      toast('Reloaded style.css');
+    } catch (error) {
+      toast(error.message);
+    }
+  });
+
+  document.getElementById('copy-vars').addEventListener('click', () => {
+    copyText(buildRootBlock(), 'Copied :root block');
+  });
+
+  document.getElementById('copy-patched').addEventListener('click', () => {
+    copyText(buildPatchedStyleCss(), 'Copied patched style.css');
+  });
+
+  document.getElementById('download-patched').addEventListener('click', downloadPatchedStyle);
+
+  document.getElementById('apply-preview').addEventListener('click', () => {
+    applyCssToPreview();
+    toast('Applied to preview page');
+  });
+
+  refs.cssOutput.addEventListener('input', () => {
+    currentCss = refs.cssOutput.value;
+    applyCssToPreview();
+  });
+
+  document.getElementById('sync-vars-from-css').addEventListener('click', () => {
+    currentCss = refs.cssOutput.value;
+    syncVarsFromCss();
+  });
+
+  document.getElementById('reset-css-tab').addEventListener('click', () => {
+    currentCss = originalCss;
+    updateCssPanel();
+    applyCssToPreview();
+    syncVarsFromCss();
+    toast('CSS reset to loaded style.css');
+  });
+
+  document.getElementById('apply-css-tab').addEventListener('click', () => {
+    currentCss = refs.cssOutput.value;
+    applyCssToPreview();
+    toast('Full CSS applied to preview');
+  });
+}
+
+async function boot() {
+  setupPreviewPages();
+  bindEvents();
+  try {
+    await loadStyleFile();
+    toast('Loaded style.css variables');
+  } catch (error) {
+    toast(error.message);
+    refs.varList.innerHTML = `<div class="tiny">${escapeHtml(error.message)}</div>`;
+  }
+}
+
+boot();
+</script>
+</body>
+</html>

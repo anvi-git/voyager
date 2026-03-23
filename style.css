@@ -818,6 +818,7 @@ main {
     padding: 16px;
     margin: 0;
 }
+
 #blog-article h1 {
     margin-top: 0;
     font-size: clamp(2rem, 3.4vw, 2.8rem);
@@ -946,6 +947,10 @@ main {
 .blog-article-content.sound-orbits-layout {
     display: grid;
     gap: 1.5rem;
+    --sound-orbit-font-family: inherit;
+    --sound-orbit-font-size: 19px;
+    --sound-orbit-line-height: 1.66;
+    --sound-orbit-letter-spacing: 0px;
 }
 
 .blog-article-content .sound-orbit-song {
@@ -981,10 +986,16 @@ main {
     margin: 0 0 0.6rem;
     font-size: clamp(1.2rem, 2vw, 1.5rem);
     line-height: 1.2;
+    font-family: var(--sound-orbit-font-family);
+    letter-spacing: var(--sound-orbit-letter-spacing);
 }
 
 .blog-article-content .sound-orbit-description p {
     margin: 0 0 0.55rem;
+    font-family: var(--sound-orbit-font-family);
+    font-size: var(--sound-orbit-font-size);
+    line-height: var(--sound-orbit-line-height);
+    letter-spacing: var(--sound-orbit-letter-spacing);
 }
 
 .blog-article-content .sound-orbit-links {
@@ -993,6 +1004,10 @@ main {
 
 .blog-article-content .sound-orbit-links p {
     margin: 0;
+    font-family: var(--sound-orbit-font-family);
+    font-size: var(--sound-orbit-font-size);
+    line-height: var(--sound-orbit-line-height);
+    letter-spacing: var(--sound-orbit-letter-spacing);
 }
 
 .blog-article-content .sound-orbit-links-list {
@@ -1010,6 +1025,8 @@ main {
     font-size: 0.84rem;
     line-height: 1.2;
     text-decoration: none;
+    font-family: var(--sound-orbit-font-family);
+    letter-spacing: var(--sound-orbit-letter-spacing);
 }
 
 .blog-article-content .sound-orbit-links-list a:hover {
@@ -1032,6 +1049,10 @@ main {
 .blog-article-content .sound-orbit-divider {
     margin: 0.35rem 0;
     font-style: italic;
+    font-family: var(--sound-orbit-font-family);
+    font-size: var(--sound-orbit-font-size);
+    line-height: var(--sound-orbit-line-height);
+    letter-spacing: var(--sound-orbit-letter-spacing);
 }
 
 /* Heralding Time images use a narrower measure than other publications. */

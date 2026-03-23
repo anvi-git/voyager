@@ -24,12 +24,12 @@
 ========================================================
 */
 
-
 :root {
-    --color-black: #000000;
+    --color-black: #2B2D42;
     --color-white: #ffffff00;
-    --header-bg: #e6e4cb;
-    --body-bg: rgb(246, 243, 229);
+    --link-hover: #41E2BA;
+    --header-bg: #F3F3F6;
+    --body-bg: rgb(255, 255, 255);
     --header-height: 208px;
     --site-font: "Cormorant Garamond", "Times New Roman", serif;
 }
@@ -148,7 +148,7 @@ header p {
     letter-spacing: 0.5px;
     line-height: 1;
     flex: 0 0 auto;
-    transition: opacity 180ms ease, transform 220ms ease, width 220ms ease, margin 220ms ease;
+    transition: color 220ms ease, opacity 180ms ease, transform 220ms ease, width 220ms ease, margin 220ms ease;
 }
 
 #site-title {
@@ -167,7 +167,7 @@ header p {
     font-size: clamp(1.rem, 3.5vw, 3.2rem);
     letter-spacing: 6px;
     line-height: 1;
-    transition: font-size 220ms ease;
+    transition: color 220ms ease, font-size 220ms ease;
 }
 
 .site-title-full {
@@ -186,6 +186,7 @@ header p {
 #site-title-link:hover,
 #site-initials:hover {
     text-decoration: none;
+    color: var(--link-hover);
     opacity: 0.72;
 }
 
@@ -213,7 +214,7 @@ header p {
 }
 
 #menu-trigger:hover {
-    background: rgba(0, 0, 0, 0.06);
+    background: rgba(61, 45, 45, 0.06);
 }
 
 /* Banner */
@@ -318,6 +319,7 @@ body.header-scrolled .banner h2 {
 .banner a {
     color: var(--color-black);
     text-decoration: none;
+    transition: color 220ms ease, opacity 220ms ease;
 }
 
 .banner a:hover {
@@ -416,6 +418,22 @@ main {
     gap: 34px;
     text-decoration: none;
     color: var(--color-black);
+}
+
+#ht-featured .publication-featured-card {
+    color: var(--color-black);
+}
+
+#ht-featured .publication-featured-card:hover {
+    color: var(--color-black);
+}
+
+#ht-featured .publication-featured-title {
+    transition: color 220ms ease;
+}
+
+#ht-featured .publication-featured-card:hover .publication-featured-title {
+    color: var(--link-hover);
 }
 
 .publication-featured-image {
@@ -1074,8 +1092,10 @@ footer {
 a {
     color: var(--color-black);
     text-decoration: none;
+    transition: color 220ms ease;
 }
 a:hover {
+    color: var(--link-hover);
     text-decoration: none;
     font-weight: inherit;
 }

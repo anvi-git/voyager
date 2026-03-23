@@ -168,11 +168,30 @@
           return { articles, idAlias };
         };
 
+        const getArticleSlug = article => {
+          const markdownFile = ((article && article.markdownFile) || '').toString();
+          const filename = markdownFile.split('/').pop() || '';
+          return filename.replace(/\.(md|html)$/i, '');
+        };
+
+        const buildArticleHref = article => {
+          const slug = getArticleSlug(article);
+          return slug ? `ht_article.html?article=${encodeURIComponent(slug)}` : 'ht_article.html';
+        };
+
         const params = new URLSearchParams(window.location.search);
+        const requestedArticleSlug = params.get('article');
         const requestedId = params.get('id') || '1';
         const deduped = dedupeArticles(window.HT_ARTICLES || {});
         const articles = deduped.articles;
-        const id = deduped.idAlias[requestedId] || requestedId;
+        const idBySlug = {};
+        Object.keys(articles).forEach(articleId => {
+          const slug = getArticleSlug(articles[articleId]);
+          if (slug) idBySlug[slug] = articleId;
+        });
+
+        const idFromSlug = requestedArticleSlug ? idBySlug[requestedArticleSlug] : null;
+        const id = idFromSlug || deduped.idAlias[requestedId] || requestedId;
         const fallbackId = Object.keys(articles)[0];
         const article = articles[id] || articles[fallbackId];
 
@@ -215,7 +234,7 @@
             seriesIds.forEach(seriesId => {
               const li = document.createElement('li');
               const a = document.createElement('a');
-              a.href = `ht_article.html?id=${seriesId}`;
+              a.href = buildArticleHref(articles[seriesId]);
               a.textContent = articles[seriesId].title;
               li.appendChild(a);
               suggestionsUl.appendChild(li);

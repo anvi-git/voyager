@@ -168,11 +168,30 @@
           return { articles, idAlias };
         };
 
+        const getArticleSlug = article => {
+          const markdownFile = ((article && article.markdownFile) || '').toString();
+          const filename = markdownFile.split('/').pop() || '';
+          return filename.replace(/\.(md|html)$/i, '');
+        };
+
+        const buildArticleHref = article => {
+          const slug = getArticleSlug(article);
+          return slug ? `spacesound_article.html?article=${encodeURIComponent(slug)}` : 'spacesound_article.html';
+        };
+
         const params = new URLSearchParams(window.location.search);
+        const requestedArticleSlug = params.get('article');
         const requestedId = params.get('id') || '1';
         const deduped = dedupeArticles(window.SPACESOUND_ARTICLES || {});
         const articles = deduped.articles;
-        const id = deduped.idAlias[requestedId] || requestedId;
+        const idBySlug = {};
+        Object.keys(articles).forEach(articleId => {
+          const slug = getArticleSlug(articles[articleId]);
+          if (slug) idBySlug[slug] = articleId;
+        });
+
+        const idFromSlug = requestedArticleSlug ? idBySlug[requestedArticleSlug] : null;
+        const id = idFromSlug || deduped.idAlias[requestedId] || requestedId;
         const fallbackId = Object.keys(articles)[0];
         const article = articles[id] || articles[fallbackId];
 
@@ -203,7 +222,7 @@
           allIds.slice(0, 12).forEach(randId => {
             const li = document.createElement('li');
             const a = document.createElement('a');
-            a.href = `spacesound_article.html?id=${randId}`;
+            a.href = buildArticleHref(articles[randId]);
             a.textContent = articles[randId].title;
             li.appendChild(a);
             suggestionsUl.appendChild(li);

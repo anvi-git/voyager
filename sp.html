@@ -91,6 +91,17 @@
         return score >= 2 ? 'it' : 'en';
       };
 
+      const getArticleSlug = article => {
+        const markdownFile = ((article && article.markdownFile) || '').toString();
+        const filename = markdownFile.split('/').pop() || '';
+        return filename.replace(/\.(md|html)$/i, '');
+      };
+
+      const buildArticleHref = article => {
+        const slug = getArticleSlug(article);
+        return slug ? `spacesound_article.html?article=${encodeURIComponent(slug)}` : 'spacesound_article.html';
+      };
+
       const createSectionBlock = (title, items, buildHref) => {
         const pageSize = 4;
         let page = 0;
@@ -121,7 +132,7 @@
           pageItems.forEach(({ id, article }) => {
             const card = document.createElement('a');
             card.className = 'publication-small-card';
-            card.href = buildHref(id);
+            card.href = buildHref(id, article);
 
             const imageMarkup = article.image
               ? `<img src="${article.image}" alt="${article.title}" class="publication-small-image">`
@@ -182,7 +193,7 @@
       const latest = articles[latestId];
 
       featured.innerHTML = `
-        <a class="publication-featured-card" href="spacesound_article.html?id=${latestId}">
+        <a class="publication-featured-card" href="${buildArticleHref(latest)}">
           ${latest.image ? `<img src="${latest.image}" alt="${latest.title}" class="publication-featured-image">` : '<div class="publication-featured-image publication-featured-image-empty"></div>'}
           <div class="publication-featured-content">
             <p class="publication-featured-meta">Latest</p>
@@ -252,15 +263,15 @@
           });
 
           if (byLanguage.en.length) {
-            sectionsContainer.appendChild(createSectionBlock(section.title, byLanguage.en, id => `spacesound_article.html?id=${id}`));
+            sectionsContainer.appendChild(createSectionBlock(section.title, byLanguage.en, (_id, article) => buildArticleHref(article)));
           }
           if (byLanguage.it.length) {
-            sectionsContainer.appendChild(createSectionBlock(`${section.title} (italiano)`, byLanguage.it, id => `spacesound_article.html?id=${id}`));
+            sectionsContainer.appendChild(createSectionBlock(`${section.title} (italiano)`, byLanguage.it, (_id, article) => buildArticleHref(article)));
           }
           return;
         }
 
-        sectionsContainer.appendChild(createSectionBlock(section.title, items, id => `spacesound_article.html?id=${id}`));
+        sectionsContainer.appendChild(createSectionBlock(section.title, items, (_id, article) => buildArticleHref(article)));
       });
     });
   </script>

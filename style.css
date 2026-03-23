@@ -27,8 +27,10 @@
 :root {
     --color-black: #2B2D42;
     --color-white: #ffffff00;
-    --link-hover: #41E2BA;
-    --header-bg: #F3F3F6;
+    --link-hover: #011936;
+    --card-radius: 16px;
+    --post-block-bg: #F4FFFD;
+    --header-bg: #F4FFFD;
     --body-bg: rgb(255, 255, 255);
     --header-height: 208px;
     --site-font: "Cormorant Garamond", "Times New Roman", serif;
@@ -418,6 +420,13 @@ main {
     gap: 34px;
     text-decoration: none;
     color: var(--color-black);
+    border-radius: var(--card-radius);
+    background: transparent;
+    transition: background-color 220ms ease;
+}
+
+.publication-featured-card:hover {
+    background: var(--post-block-bg);
 }
 
 #ht-featured .publication-featured-card {
@@ -443,7 +452,7 @@ main {
     max-height: 420px;
     object-fit: cover;
     display: block;
-    border-radius: 2px;
+    border-radius: var(--card-radius);
 }
 
 .publication-featured-image-empty {
@@ -614,6 +623,14 @@ main {
     text-decoration: none;
     color: var(--color-black);
     height: 100%;
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    background: transparent;
+    transition: background-color 220ms ease;
+}
+
+.publication-small-card:hover {
+    background: var(--post-block-bg);
 }
 
 .publication-small-image {
@@ -623,6 +640,7 @@ main {
     object-fit: cover;
     display: block;
     margin-bottom: 12px;
+    border-radius: var(--card-radius);
 }
 
 .publication-small-image-empty {
@@ -713,12 +731,17 @@ main {
 
 .collection-card {
     display: block;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.22);
+    border-radius: var(--card-radius);
+    background: transparent;
     text-decoration: none;
     color: #000;
     overflow: hidden;
     text-align: left;
+    transition: background-color 220ms ease;
+}
+
+.collection-card:hover {
+    background: var(--post-block-bg);
 }
 
 .collection-card-image {
@@ -747,10 +770,16 @@ main {
 }
 .blog-card {
     display: block;
-    border-radius: 10px;
-    background: var(--color-white);
+    border-radius: var(--card-radius);
+    background: transparent;
     text-decoration: none;
     color: #000;
+    overflow: hidden;
+    transition: background-color 220ms ease;
+}
+
+.blog-card:hover {
+    background: var(--post-block-bg);
 }
 .blog-card-content {
     padding: 14px 16px;
@@ -1187,10 +1216,18 @@ iframe {
     text-align: left; /* Center-align text inside posts */
     color: rgb(255, 255, 255); /* Ensure text color is white */
     border: none; /* Remove borders */
+    background-color: transparent;
     margin: 0 0 20px; /* Keep spacing between posts */
     padding: 0 0 20px; /* Keep bottom spacing for border */
     box-sizing: border-box; /* Include padding and borders in width/height */
     border-bottom: 1px solid #ddd;
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    transition: background-color 220ms ease;
+}
+
+.post:hover {
+    background-color: var(--post-block-bg);
 }
 
 /* Optional: Make specific posts larger */

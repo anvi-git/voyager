@@ -119,12 +119,12 @@ header h1 {
     font-family: var(--site-font);
     margin: 0;
     font-size: 4.6rem;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 1;
 }
 header p {
     margin: 10px 0 0;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: 4;
     border-radius: 10px;
 }
@@ -144,8 +144,8 @@ header p {
     font-family: var(--site-font);
     color: var(--color-black);
     text-decoration: none;
-    font-size: clamp(1.6rem, 2.1vw, 2.5rem);
-    letter-spacing: 1px;
+    font-size: clamp(1.8rem, 2.9vw, 2.9rem);
+    letter-spacing: 0.5px;
     line-height: 1;
     flex: 0 0 auto;
     transition: opacity 180ms ease, transform 220ms ease, width 220ms ease, margin 220ms ease;
@@ -164,10 +164,9 @@ header p {
     justify-content: center;
     color: var(--color-black);
     text-decoration: none;
-    font-size: clamp(1.8rem, 3.5vw, 3.2rem);
-    letter-spacing: 1px;
+    font-size: clamp(1.rem, 3.5vw, 3.2rem);
+    letter-spacing: 6px;
     line-height: 1;
-    font-weight: 300;
     transition: font-size 220ms ease;
 }
 

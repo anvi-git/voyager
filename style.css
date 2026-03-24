@@ -24,7 +24,7 @@
 8) Responsive overrides
 ========================================================
 */
-
+/* Cormorant Garamond */
 :root {
     --color-black: #2B2D42;
     --color-white: #ffffff00;
@@ -34,7 +34,10 @@
     --header-bg: #F4FFFD;
     --body-bg: rgb(255, 255, 255);
     --header-height: 208px;
-    --site-font: "Cormorant Garamond", "Times New Roman", serif;
+    --site-font: "Playfair Display", "Times New Roman", serif;
+    --ht-font: "Playfair Display", "Times New Roman", serif;
+    --lss-font: "Podkova", "Times New Roman", serif;
+    --spacesound-font: "Souvenir", "Times New Roman", serif;
 }
 
 @font-face {
@@ -146,7 +149,7 @@ header h1 {
     font-family: var(--site-font);
     margin: 0;
     font-size: 4.6rem;
-    font-weight: 600;
+    font-weight: 300;
     line-height: 1;
 }
 header p {
@@ -282,22 +285,37 @@ header p {
 #ht h2,
 #ht h2 a,
 .heralding-page > h1 {
-    font-family: "Podkova", "Times New Roman", serif;
+    font-family: var(--ht-font);
     font-weight: 400;
 }
 
 #lss h2,
 #lss h2 a,
 .lss-page > h1 {
-    font-family: "Playfair Display", "Times New Roman", serif;
+    font-family: var(--lss-font);
     font-weight: 400;
 }
 
 #spso h2,
 #spso h2 a,
 .spacesound-page > h1 {
-    font-family: "Souvenir", "Times New Roman", serif;
+    font-family: var(--spacesound-font);
     font-weight: 400;
+}
+
+.heralding-page {
+    --site-font: var(--ht-font);
+    font-family: var(--site-font);
+}
+
+.lss-page {
+    --site-font: var(--lss-font);
+    font-family: var(--site-font);
+}
+
+.spacesound-page {
+    --site-font: var(--spacesound-font);
+    font-family: var(--site-font);
 }
 
 body.header-scrolled header {

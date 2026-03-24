@@ -320,6 +320,21 @@ header p {
     font-family: var(--site-font);
 }
 
+body:has(main.heralding-page) {
+    --header-bg: #F4FFFD;
+    --post-block-bg: #F4FFFD;
+}
+
+body:has(main.spacesound-page) {
+    --header-bg: #f7b087;
+    --post-block-bg: #f7b087;
+}
+
+body:has(main.lss-page) {
+    --header-bg: #86a8ff;
+    --post-block-bg: #86a8ff;
+}
+
 body.header-scrolled header {
     position: -webkit-sticky;
     position: sticky;
@@ -498,7 +513,7 @@ main {
     text-decoration: none;
     color: var(--color-black);
     border-radius: var(--card-radius);
-    background: transparent;
+    background: var(--post-block-bg);
     transition: background-color 220ms ease;
 }
 

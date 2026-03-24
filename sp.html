@@ -208,6 +208,12 @@
 
       const sections = [
         {
+          key: 'sound-orbits',
+          title: 'sound orbits',
+          match: article => (article.title || '').toLowerCase().includes('sound orbits'),
+          splitByLanguage: true
+        },
+        {
           key: 'single-sound',
           title: 'single sound',
           match: article => (article.title || '').toLowerCase().includes('single'),
@@ -223,12 +229,6 @@
           key: 'live-sound',
           title: 'live sound',
           match: article => (article.title || '').toLowerCase().includes('live sound'),
-          splitByLanguage: true
-        },
-        {
-          key: 'sound-orbits',
-          title: 'sound orbits',
-          match: article => (article.title || '').toLowerCase().includes('sound orbits'),
           splitByLanguage: true
         },
         {

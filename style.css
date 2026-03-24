@@ -872,7 +872,10 @@ main {
 }
 .blog-sidebar-list li { margin: 6px 0; }
 .blog-sidebar-list a { color: var(--color-black); }
-.blog-sidebar-list .header-button { padding: 6px; }
+.blog-sidebar-list .header-button {
+    padding: 6px;
+    background-color: #ffffff;
+}
 .blog-sidebar-list .png-icon { width: 20px; height: 20px; }
 .blog-sidebar-list.icon-row { display: flex; gap: 8px; flex-wrap: wrap; }
 .blog-sidebar-list.icon-row li { margin: 0; }

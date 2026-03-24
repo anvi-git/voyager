@@ -251,7 +251,7 @@ header p {
 .banner {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     width: min(96%, 1500px);
     margin: 0 auto;
     padding: 3px 0 6px;
@@ -270,6 +270,8 @@ header p {
     margin: 0;
     padding: 1px 0;
     flex: 0 0 auto;
+    display: flex;
+    align-items: baseline;
 }
 
 .banner h2 {
@@ -277,7 +279,7 @@ header p {
     font-weight: 4;
     margin: 0;
     font-size: clamp(1.15rem, 1.5vw, 2rem);
-    line-height: 1.2;
+    line-height: 1;
     white-space: nowrap;
     transition: font-size 220ms ease;
 }

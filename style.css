@@ -421,6 +421,17 @@ main {
     font-weight: 300;
 }
 
+.publication-title-image-wrap {
+    margin: 1.3rem auto 2rem;
+}
+
+.publication-title-image {
+    display: block;
+    width: min(88vw, 760px);
+    height: auto;
+    margin: 0 auto;
+}
+
 .publication-home.collection-page {
     max-width: 1440px;
 }

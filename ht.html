@@ -289,12 +289,26 @@
           const hasEn = byLanguage.en.length > 0;
           const hasIt = byLanguage.it.length > 0;
 
-          if (hasEn) {
+          // Get current language from URL or localStorage (if headerScrollState is loaded)
+          const currentLang = (() => {
+            try {
+              const params = new URLSearchParams(window.location.search);
+              const queryLang = params.get('lang');
+              if (queryLang && ['en', 'it'].includes(queryLang)) return queryLang;
+              const stored = window.localStorage && window.localStorage.getItem('backyard-thoughts-language');
+              if (stored && ['en', 'it'].includes(stored)) return stored;
+              return document.documentElement.getAttribute('lang') || 'en';
+            } catch (e) {
+              return 'en';
+            }
+          })();
+
+          if (hasEn && currentLang === 'en') {
             const title = (section.splitLabels && section.splitLabels.en) || `${section.title} (english)`;
             sectionsContainer.appendChild(createSectionBlock(title, byLanguage.en, (_id, article) => buildArticleHref(article)));
           }
 
-          if (hasIt) {
+          if (hasIt && currentLang === 'it') {
             const title = (section.splitLabels && section.splitLabels.it) || `${section.title} (italiano)`;
             sectionsContainer.appendChild(createSectionBlock(title, byLanguage.it, (_id, article) => buildArticleHref(article)));
           }

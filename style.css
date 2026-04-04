@@ -40,6 +40,14 @@
     --spacesound-font: "Souvenir", "Times New Roman", serif;
 }
 
+html[data-theme="dark"] {
+    --color-black: #e0e0e0;
+    --link-hover: #b8d4ff;
+    --post-block-bg: #2a2a2a;
+    --header-bg: #1f1f1f;
+    --body-bg: #121212;
+}
+
 @font-face {
     font-family: "Canicule Display v0.1 Trial Light";
     src: url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.eot");
@@ -247,6 +255,68 @@ header p {
     background: rgba(61, 45, 45, 0.06);
 }
 
+#language-toggle {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 72px;
+    height: 44px;
+    padding: 0 16px;
+    border: 1px solid rgba(43, 45, 66, 0.18);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.8);
+    color: var(--color-black);
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 220ms ease, border-color 220ms ease, color 220ms ease, opacity 180ms ease, transform 220ms ease;
+}
+
+#language-toggle:hover {
+    background: rgba(255, 255, 255, 0.96);
+    border-color: rgba(43, 45, 66, 0.28);
+    color: var(--link-hover);
+    opacity: 0.8;
+}
+
+#theme-toggle {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    height: 44px;
+    padding: 0 8px;
+    border: 1px solid rgba(43, 45, 66, 0.18);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.8);
+    color: var(--color-black);
+    font-size: 1.2rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: background-color 220ms ease, border-color 220ms ease, color 220ms ease, opacity 180ms ease, transform 220ms ease;
+}
+
+#theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.96);
+    border-color: rgba(43, 45, 66, 0.28);
+    opacity: 0.8;
+}
+
+html[data-theme="dark"] #theme-toggle {
+    background: rgba(42, 42, 42, 0.8);
+    border-color: rgba(224, 224, 224, 0.18);
+}
+
+html[data-theme="dark"] #theme-toggle:hover {
+    background: rgba(42, 42, 42, 0.96);
+    border-color: rgba(224, 224, 224, 0.28);
+}
+
 /* Banner */
 .banner {
     display: flex;
@@ -388,6 +458,20 @@ body.header-scrolled #menu-trigger {
     width: 44px;
     height: 44px;
     gap: 5px;
+}
+
+body.header-scrolled #language-toggle {
+    min-width: 64px;
+    height: 38px;
+    padding: 0 12px;
+    font-size: 0.72rem;
+}
+
+body.header-scrolled #theme-toggle {
+    min-width: 38px;
+    height: 38px;
+    padding: 0 6px;
+    font-size: 1rem;
 }
 
 body.header-scrolled #menu-trigger span {
@@ -1577,6 +1661,20 @@ iframe {
         gap: 6px;
     }
 
+    #language-toggle {
+        min-width: 66px;
+        height: 40px;
+        padding: 0 12px;
+        font-size: 0.76rem;
+    }
+
+    #theme-toggle {
+        min-width: 40px;
+        height: 40px;
+        padding: 0 6px;
+        font-size: 1rem;
+    }
+
     #menu-trigger span {
         width: 34px;
         height: 7px;
@@ -1652,6 +1750,21 @@ iframe {
         width: 36px;
         height: 36px;
         gap: 4px;
+    }
+
+    #language-toggle {
+        min-width: 58px;
+        height: 34px;
+        padding: 0 10px;
+        font-size: 0.68rem;
+        letter-spacing: 0.08em;
+    }
+
+    #theme-toggle {
+        min-width: 34px;
+        height: 34px;
+        padding: 0 4px;
+        font-size: 0.9rem;
     }
 
     #menu-trigger span {

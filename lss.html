@@ -252,10 +252,24 @@
             byLanguage[detectLanguage(item.article)].push(item);
           });
 
-          if (byLanguage.en.length) {
+          // Get current language from URL or localStorage
+          const currentLang = (() => {
+            try {
+              const params = new URLSearchParams(window.location.search);
+              const queryLang = params.get('lang');
+              if (queryLang && ['en', 'it'].includes(queryLang)) return queryLang;
+              const stored = window.localStorage && window.localStorage.getItem('backyard-thoughts-language');
+              if (stored && ['en', 'it'].includes(stored)) return stored;
+              return document.documentElement.getAttribute('lang') || 'en';
+            } catch (e) {
+              return 'en';
+            }
+          })();
+
+          if (byLanguage.en.length && currentLang === 'en') {
             sectionsContainer.appendChild(createSectionBlock(section.title, byLanguage.en, (_id, article) => buildArticleHref(article)));
           }
-          if (byLanguage.it.length) {
+          if (byLanguage.it.length && currentLang === 'it') {
             sectionsContainer.appendChild(createSectionBlock(`${section.title} (italiano)`, byLanguage.it, (_id, article) => buildArticleHref(article)));
           }
           return;

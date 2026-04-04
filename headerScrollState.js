@@ -62,15 +62,16 @@
         html: `
           <section class="about-copy">
             <h1>Hello there!</h1>
-            <p>My name is Antonio and I have a background in Physics and Astrophysics.<br>
-            I'm currently enrolled in a Master course in Space Science.<br>
-            I'm also writing on Substack three publications:<br>
-            - <a href="https://heraldingtime.substack.com/" target="_blank" rel="noopener noreferrer">Heralding Time</a>, a blog on the history and philosophy of science;<br>
-            - <a href="https://lastscatteringsurface.substack.com/" target="_blank" rel="noopener noreferrer">LAST SCATTERING SURFACE</a>, a blog on astrophysics and cosmology;<br>
-            - <a href="https://spaceofsound.substack.com/" target="_blank" rel="noopener noreferrer">SPACE of SOUND</a>, a blog on music.</p>
+            I'm also on Substack, con: <br>
+            - <a href="https://heraldingtime.substack.com/" target="_blank">Heralding Time</a>, a blog on the history and philosophy of science; <br>
+            - <a href="https://lastscatteringsurface.substack.com/" target="_blank">LAST SCATTERING SURFACE</a>, a blog on astrophysics and cosmology; <br>
+            - <a href="https://spaceofsound.substack.com/" target="_blank">SPACE of SOUND</a>, a blog on music. <br>
+        </p>
+        <p id="contact">
             <h2>Contact</h2>
-            <p>If you'd like to get in touch with me, feel free to send me an <a href="mailto:aviscusi11@gmail.com">email</a>.</p>
-          </section>
+            <p>If you'd like to get in touch with me, feel free to send me an <a href="mailto:aviscusi11@gmail.com"> email</a>. <br>
+            </p>
+            </section>
         `
       },
       landing: {
@@ -139,9 +140,7 @@
         html: `
           <section class="about-copy">
             <h1>Ciao!</h1>
-            <p>Mi chiamo Antonio e ho una formazione in Fisica e Astrofisica.<br>
-            Attualmente frequento un Master in Space Science.<br>
-            Scrivo anche su Substack tre pubblicazioni:<br>
+            Sono anche su Substack, con:<br>
             - <a href="https://heraldingtime.substack.com/" target="_blank" rel="noopener noreferrer">Heralding Time</a>, un blog sulla storia e la filosofia della scienza;<br>
             - <a href="https://lastscatteringsurface.substack.com/" target="_blank" rel="noopener noreferrer">LAST SCATTERING SURFACE</a>, un blog su astrofisica e cosmologia;<br>
             - <a href="https://spaceofsound.substack.com/" target="_blank" rel="noopener noreferrer">SPACE of SOUND</a>, un blog sulla musica.</p>

@@ -14,9 +14,7 @@
         menu: 'Open menu',
         home: 'Backyard Thoughts home',
         brand: 'Backyard Thoughts',
-        toggle: 'ITA',
-        darkMode: 'Dark mode',
-        lightMode: 'Light mode',
+        toggle: 'Switch to Italian',
         website: 'Website',
         newsletters: 'Newsletters',
         playlists: 'Playlists',
@@ -90,9 +88,7 @@
         menu: 'Apri menu',
         home: 'Home di Backyard Thoughts',
         brand: 'Backyard Thoughts',
-        toggle: 'ENG',
-        darkMode: 'Modalità scura',
-        lightMode: 'Modalità chiara',
+        toggle: 'Switch to English',
         website: 'Sito web',
         newsletters: 'Newsletter',
         playlists: 'Playlist',
@@ -175,7 +171,7 @@
     }
 
     try {
-      const storedLanguage = (window.localStorage && window.localStorage.getItem(LANG_STORAGE_KEY)) || '';
+      const storedLanguage = (window.localStorage && window.localStorage.getItem(STORAGE_KEY)) || '';
       if (SUPPORTED_LANGS.has(storedLanguage)) {
         return storedLanguage;
       }
@@ -194,49 +190,10 @@
   function persistLanguage(language) {
     try {
       if (window.localStorage) {
-        window.localStorage.setItem(LANG_STORAGE_KEY, language);
+        window.localStorage.setItem(STORAGE_KEY, language);
       }
     } catch (error) {
       // Ignore storage access issues.
-    }
-  }
-
-  function getTheme() {
-    const searchParams = new URLSearchParams(window.location.search);
-    const queryTheme = (searchParams.get(THEME_PARAM) || '').toLowerCase();
-    if (SUPPORTED_THEMES.has(queryTheme)) {
-      return queryTheme;
-    }
-
-    try {
-      const storedTheme = (window.localStorage && window.localStorage.getItem(THEME_STORAGE_KEY)) || '';
-      if (SUPPORTED_THEMES.has(storedTheme)) {
-        return storedTheme;
-      }
-    } catch (error) {
-      // Ignore storage access issues.
-    }
-
-    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    return prefersDark ? 'dark' : 'light';
-  }
-
-  function persistTheme(theme) {
-    try {
-      if (window.localStorage) {
-        window.localStorage.setItem(THEME_STORAGE_KEY, theme);
-      }
-    } catch (error) {
-      // Ignore storage access issues.
-    }
-  }
-
-  function applyTheme(theme) {
-    const root = document.documentElement;
-    if (theme === 'dark') {
-      root.setAttribute('data-theme', 'dark');
-    } else {
-      root.removeAttribute('data-theme');
     }
   }
 
@@ -343,33 +300,6 @@
       toggle.href = localizedUrl(window.location.href, targetLanguage);
       toggle.setAttribute('aria-label', text.toggle);
       toggle.setAttribute('title', text.toggle);
-
-      let themeToggle = document.getElementById('theme-toggle');
-      if (!themeToggle) {
-        themeToggle = document.createElement('button');
-        themeToggle.id = 'theme-toggle';
-        themeToggle.className = 'theme-toggle';
-        themeToggle.setAttribute('type', 'button');
-        themeToggle.setAttribute('data-no-lang', 'true');
-        if (menuTrigger && menuTrigger.parentNode === titleContainer) {
-          titleContainer.insertBefore(themeToggle, menuTrigger);
-        } else {
-          titleContainer.appendChild(themeToggle);
-        }
-
-        themeToggle.addEventListener('click', (e) => {
-          e.preventDefault();
-          const currentTheme = getTheme();
-          const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-          persistTheme(newTheme);
-          applyTheme(newTheme);
-        });
-      }
-
-      const currentTheme = getTheme();
-      themeToggle.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
-      themeToggle.setAttribute('aria-label', currentTheme === 'dark' ? text.lightMode : text.darkMode);
-      themeToggle.setAttribute('title', currentTheme === 'dark' ? text.lightMode : text.darkMode);
     }
   }
 
@@ -552,10 +482,6 @@
     if (document.body) {
       document.body.setAttribute('data-language', language);
     }
-
-    const theme = getTheme();
-    applyTheme(theme);
-    persistTheme(theme);
 
     persistLanguage(language);
     updateTitle(language);

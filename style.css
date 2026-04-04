@@ -40,6 +40,14 @@
     --spacesound-font: "Souvenir", "Times New Roman", serif;
 }
 
+body[data-theme='dark'] {
+    --color-black: #ffffff;
+    --link-hover: #d1d5db;
+    --post-block-bg: #000000;
+    --header-bg: #000000;
+    --body-bg: #000000;
+}
+
 @font-face {
     font-family: "Canicule Display v0.1 Trial Light";
     src: url("https://db.onlinewebfonts.com/t/a54fb237308f85b17c2c37e881940bef.eot");
@@ -275,6 +283,47 @@ header p {
     opacity: 0.8;
 }
 
+#theme-toggle {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 76px;
+    height: 44px;
+    padding: 0 16px;
+    border: 1px solid rgba(43, 45, 66, 0.18);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.8);
+    color: var(--color-black);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 220ms ease, border-color 220ms ease, color 220ms ease, opacity 180ms ease, transform 220ms ease;
+}
+
+#theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.96);
+    border-color: rgba(43, 45, 66, 0.28);
+    color: var(--link-hover);
+    opacity: 0.8;
+}
+
+body[data-theme='dark'] #theme-toggle,
+body[data-theme='dark'] #language-toggle {
+    border-color: rgba(237, 242, 255, 0.3);
+    background: rgba(18, 21, 35, 0.9);
+    color: var(--color-black);
+}
+
+body[data-theme='dark'] #theme-toggle:hover,
+body[data-theme='dark'] #language-toggle:hover {
+    border-color: rgba(255, 209, 102, 0.65);
+    color: var(--link-hover);
+}
+
 /* Banner */
 .banner {
     display: flex;
@@ -353,14 +402,29 @@ body:has(main.heralding-page) {
     --post-block-bg: #F4FFFD;
 }
 
+body[data-theme='dark']:has(main.heralding-page) {
+    --header-bg: #000000;
+    --post-block-bg: #000000;
+}
+
 body:has(main.spacesound-page) {
     --header-bg: #f7b087;
     --post-block-bg: #f7b087;
 }
 
+body[data-theme='dark']:has(main.spacesound-page) {
+    --header-bg: #000000;
+    --post-block-bg: #000000;
+}
+
 body:has(main.lss-page) {
     --header-bg: #86a8ff;
     --post-block-bg: #86a8ff;
+}
+
+body[data-theme='dark']:has(main.lss-page) {
+    --header-bg: #000000;
+    --post-block-bg: #000000;
 }
 
 body.header-scrolled header {
@@ -423,6 +487,13 @@ body.header-scrolled #language-toggle {
     height: 38px;
     padding: 0 12px;
     font-size: 0.72rem;
+}
+
+body.header-scrolled #theme-toggle {
+    min-width: 68px;
+    height: 38px;
+    padding: 0 12px;
+    font-size: 0.7rem;
 }
 
 body.header-scrolled #menu-trigger span {
@@ -989,6 +1060,25 @@ main {
 .blog-article-content figcaption {
     font-size: 1em;
     line-height: 1.66;
+}
+
+.blog-article-content blockquote {
+    margin: 1.3rem 0;
+    padding: 0.9rem 1rem;
+    border-left: 4px solid rgba(43, 45, 66, 0.35);
+    background: #f3f4f6;
+    color: #1f2937;
+    border-radius: 8px;
+}
+
+body[data-theme='dark'] .blog-article-content blockquote {
+    background: #2f2f2f !important;
+    color: #ffffff !important;
+    border-left-color: rgba(255, 255, 255, 0.45) !important;
+}
+
+body[data-theme='dark'] .blog-article-content blockquote * {
+    color: #ffffff !important;
 }
 
 .blog-article-content p,

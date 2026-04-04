@@ -1,7 +1,9 @@
 (function() {
   const STORAGE_KEY = 'backyard-thoughts-language';
+  const THEME_STORAGE_KEY = 'backyard-thoughts-theme';
   const LANG_PARAM = 'lang';
   const SUPPORTED_LANGS = new Set(['en', 'it']);
+  const SUPPORTED_THEMES = new Set(['light', 'dark']);
   const SCROLLED_THRESHOLD = 18;
 
   const copy = {
@@ -12,6 +14,9 @@
       },
       labels: {
         menu: 'Open menu',
+        themeToggle: 'Switch theme',
+        themeLight: 'Switch to light theme',
+        themeDark: 'Switch to dark theme',
         home: 'Backyard Thoughts home',
         brand: 'Backyard Thoughts',
         toggle: 'Switch to Italian',
@@ -86,6 +91,9 @@
       },
       labels: {
         menu: 'Apri menu',
+        themeToggle: 'Cambia tema',
+        themeLight: 'Passa al tema chiaro',
+        themeDark: 'Passa al tema scuro',
         home: 'Home di Backyard Thoughts',
         brand: 'Backyard Thoughts',
         toggle: 'Switch to English',
@@ -197,6 +205,41 @@
     }
   }
 
+  function getTheme() {
+    try {
+      const storedTheme = (window.localStorage && window.localStorage.getItem(THEME_STORAGE_KEY)) || '';
+      if (SUPPORTED_THEMES.has(storedTheme)) {
+        return storedTheme;
+      }
+    } catch (error) {
+      // Ignore storage access issues.
+    }
+
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      return 'dark';
+    }
+
+    return 'light';
+  }
+
+  function persistTheme(theme) {
+    try {
+      if (window.localStorage) {
+        window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+      }
+    } catch (error) {
+      // Ignore storage access issues.
+    }
+  }
+
+  function applyTheme(theme) {
+    if (!document.body) return;
+
+    document.body.setAttribute('data-theme', theme);
+    document.documentElement.setAttribute('data-theme', theme);
+    persistTheme(theme);
+  }
+
   function localizedUrl(target, language) {
     try {
       const url = new URL(target, window.location.href);
@@ -254,6 +297,7 @@
 
   function updateHeader(language) {
     const text = copy[language].labels;
+    const theme = getTheme();
 
     const siteInitials = document.getElementById('site-initials');
     if (siteInitials) {
@@ -282,6 +326,33 @@
 
     const titleContainer = document.getElementById('title-container');
     if (titleContainer) {
+      let themeToggle = document.getElementById('theme-toggle');
+      if (!themeToggle) {
+        themeToggle = document.createElement('a');
+        themeToggle.id = 'theme-toggle';
+        themeToggle.className = 'theme-toggle';
+        themeToggle.setAttribute('data-no-lang', 'true');
+        themeToggle.href = '#';
+        themeToggle.addEventListener('click', event => {
+          event.preventDefault();
+          const nextTheme = getTheme() === 'dark' ? 'light' : 'dark';
+          applyTheme(nextTheme);
+          scheduleLocalization();
+        });
+
+        if (menuTrigger && menuTrigger.parentNode === titleContainer) {
+          titleContainer.insertBefore(themeToggle, menuTrigger);
+        } else {
+          titleContainer.appendChild(themeToggle);
+        }
+      }
+
+      const targetTheme = theme === 'dark' ? 'light' : 'dark';
+      const themeLabel = targetTheme === 'dark' ? text.themeDark : text.themeLight;
+      themeToggle.textContent = targetTheme === 'dark' ? 'DARK' : 'LIGHT';
+      themeToggle.setAttribute('aria-label', themeLabel);
+      themeToggle.setAttribute('title', themeLabel);
+
       let toggle = document.getElementById('language-toggle');
       if (!toggle) {
         toggle = document.createElement('a');
@@ -478,6 +549,9 @@
 
   function localizeDocument() {
     const language = getLanguage();
+    const theme = getTheme();
+
+    applyTheme(theme);
     document.documentElement.setAttribute('lang', language);
     if (document.body) {
       document.body.setAttribute('data-language', language);

@@ -102,11 +102,15 @@
         return { articles, idAlias };
       };
 
-      const detectLanguage = article => {
-        const text = `${article.title || ''} ${article.excerpt || ''}`.toLowerCase();
-        const italianHints = [' sul ', ' della ', ' degli ', ' gli ', ' una ', ' questo ', ' capitolo ', ' il ', ' la ', ' di ', ' e '];
-        const score = italianHints.reduce((acc, hint) => acc + (text.includes(hint) ? 1 : 0), 0);
-        return score >= 2 ? 'it' : 'en';
+      const getCurrentLanguage = () => {
+        const queryLanguage = (new URLSearchParams(window.location.search).get('lang') || '').toLowerCase();
+        return queryLanguage === 'it' ? 'ita' : 'eng';
+      };
+
+      const normalizeArticleLanguage = article => {
+        const value = (article && article.language ? article.language : '').toString().trim().toLowerCase();
+        if (value === 'it' || value === 'ita' || value === 'italian') return 'ita';
+        return 'eng';
       };
 
       const getArticleSlug = article => {
@@ -196,6 +200,7 @@
       const sectionsContainer = document.getElementById('ht-sections');
       const featured = document.getElementById('ht-featured');
       const footerArchive = document.getElementById('ht-footer-archive');
+      const currentLanguage = getCurrentLanguage();
       const deduped = dedupeArticles(window.HT_ARTICLES || {});
       const articles = deduped.articles;
       const ids = Object.keys(articles).sort((a, b) => {
@@ -204,14 +209,16 @@
         return db - da;
       });
 
-      if (!ids.length) {
+      const languageIds = ids.filter(id => normalizeArticleLanguage(articles[id]) === currentLanguage);
+
+      if (!languageIds.length) {
         featured.innerHTML = '<p>No posts yet.</p>';
         return;
       }
 
-      const [latestId] = ids;
+      const [latestId] = languageIds;
       const latest = articles[latestId];
-      const welcomeId = ids.find(id => ((articles[id].title || '').toLowerCase() === 'welcome to heralding time'));
+      const welcomeId = languageIds.find(id => ((articles[id].title || '').toLowerCase() === 'welcome to heralding time'));
       const welcomeArticle = welcomeId ? articles[welcomeId] : null;
 
       featured.innerHTML = `
@@ -269,7 +276,7 @@
       const sectionBuckets = new Map();
       sections.forEach(section => sectionBuckets.set(section.key, []));
 
-      ids.forEach(id => {
+      languageIds.forEach(id => {
         if (id === welcomeId) return;
         const article = articles[id];
         const matched = sections.find(section => section.match(article));
@@ -280,24 +287,20 @@
         const items = sectionBuckets.get(section.key) || [];
         if (!items.length) return;
 
-        const byLanguage = { en: [], it: [] };
+        const byLanguage = { eng: [], ita: [] };
         items.forEach(item => {
-          byLanguage[detectLanguage(item.article)].push(item);
+          byLanguage[normalizeArticleLanguage(item.article)].push(item);
         });
 
         if (section.splitByLanguage || section.splitLabels) {
-          const hasEn = byLanguage.en.length > 0;
-          const hasIt = byLanguage.it.length > 0;
+          const languageItems = byLanguage[currentLanguage] || [];
+          if (!languageItems.length) return;
 
-          if (hasEn) {
-            const title = (section.splitLabels && section.splitLabels.en) || `${section.title} (english)`;
-            sectionsContainer.appendChild(createSectionBlock(title, byLanguage.en, (_id, article) => buildArticleHref(article)));
-          }
+          const title = section.splitLabels
+            ? (currentLanguage === 'ita' ? section.splitLabels.it : section.splitLabels.en)
+            : section.title;
 
-          if (hasIt) {
-            const title = (section.splitLabels && section.splitLabels.it) || `${section.title} (italiano)`;
-            sectionsContainer.appendChild(createSectionBlock(title, byLanguage.it, (_id, article) => buildArticleHref(article)));
-          }
+          sectionsContainer.appendChild(createSectionBlock(title, languageItems, (_id, article) => buildArticleHref(article)));
 
           return;
         }

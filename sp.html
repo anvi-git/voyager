@@ -86,11 +86,15 @@
         return articles;
       };
 
-      const detectLanguage = article => {
-        const text = `${article.title || ''} ${article.excerpt || ''}`.toLowerCase();
-        const italianHints = [' di ', ' una ', ' il ', ' la ', ' gli ', ' e ', ' nel ', ' della ', ' questo '];
-        const score = italianHints.reduce((acc, hint) => acc + (text.includes(hint) ? 1 : 0), 0);
-        return score >= 2 ? 'it' : 'en';
+      const getCurrentLanguage = () => {
+        const queryLanguage = (new URLSearchParams(window.location.search).get('lang') || '').toLowerCase();
+        return queryLanguage === 'it' ? 'ita' : 'eng';
+      };
+
+      const normalizeArticleLanguage = article => {
+        const value = (article && article.language ? article.language : '').toString().trim().toLowerCase();
+        if (value === 'it' || value === 'ita' || value === 'italian') return 'ita';
+        return 'eng';
       };
 
       const getArticleSlug = article => {
@@ -179,6 +183,7 @@
 
       const sectionsContainer = document.getElementById('spacesound-sections');
       const featured = document.getElementById('spacesound-featured');
+      const currentLanguage = getCurrentLanguage();
       const articles = dedupeArticles(window.SPACESOUND_ARTICLES || {});
       const ids = Object.keys(articles).sort((a, b) => {
         const da = new Date(articles[a].date || 0);
@@ -186,12 +191,14 @@
         return db - da;
       });
 
-      if (!ids.length) {
+      const languageIds = ids.filter(id => normalizeArticleLanguage(articles[id]) === currentLanguage);
+
+      if (!languageIds.length) {
         featured.innerHTML = '<p>No posts yet.</p>';
         return;
       }
 
-      const [latestId, ...restIds] = ids;
+      const [latestId, ...restIds] = languageIds;
       const latest = articles[latestId];
 
       featured.innerHTML = `
@@ -259,17 +266,15 @@
         if (!items.length) return;
 
         if (section.splitByLanguage) {
-          const byLanguage = { en: [], it: [] };
+          const byLanguage = { eng: [], ita: [] };
           items.forEach(item => {
-            byLanguage[detectLanguage(item.article)].push(item);
+            byLanguage[normalizeArticleLanguage(item.article)].push(item);
           });
 
-          if (byLanguage.en.length) {
-            sectionsContainer.appendChild(createSectionBlock(section.title, byLanguage.en, (_id, article) => buildArticleHref(article)));
-          }
-          if (byLanguage.it.length) {
-            sectionsContainer.appendChild(createSectionBlock(`${section.title} (italiano)`, byLanguage.it, (_id, article) => buildArticleHref(article)));
-          }
+          const languageItems = byLanguage[currentLanguage] || [];
+          if (!languageItems.length) return;
+
+          sectionsContainer.appendChild(createSectionBlock(section.title, languageItems, (_id, article) => buildArticleHref(article)));
           return;
         }
 

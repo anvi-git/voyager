@@ -326,6 +326,23 @@
 
     const titleContainer = document.getElementById('title-container');
     if (titleContainer) {
+      let headerActions = document.getElementById('header-actions');
+      if (!headerActions) {
+        headerActions = document.createElement('div');
+        headerActions.id = 'header-actions';
+        titleContainer.appendChild(headerActions);
+      } else if (headerActions.parentNode !== titleContainer) {
+        titleContainer.appendChild(headerActions);
+      }
+
+      let languageToggle = document.getElementById('language-toggle');
+      if (!languageToggle) {
+        languageToggle = document.createElement('a');
+        languageToggle.id = 'language-toggle';
+        languageToggle.className = 'language-toggle';
+        languageToggle.setAttribute('data-no-lang', 'true');
+      }
+
       let themeToggle = document.getElementById('theme-toggle');
       if (!themeToggle) {
         themeToggle = document.createElement('a');
@@ -339,38 +356,35 @@
           applyTheme(nextTheme);
           scheduleLocalization();
         });
-
-        if (menuTrigger && menuTrigger.parentNode === titleContainer) {
-          titleContainer.insertBefore(themeToggle, menuTrigger);
-        } else {
-          titleContainer.appendChild(themeToggle);
-        }
       }
 
-      const targetTheme = theme === 'dark' ? 'light' : 'dark';
-      const themeLabel = targetTheme === 'dark' ? text.themeDark : text.themeLight;
-      themeToggle.textContent = targetTheme === 'dark' ? 'DARK' : 'LIGHT';
-      themeToggle.setAttribute('aria-label', themeLabel);
-      themeToggle.setAttribute('title', themeLabel);
-
-      let toggle = document.getElementById('language-toggle');
-      if (!toggle) {
-        toggle = document.createElement('a');
-        toggle.id = 'language-toggle';
-        toggle.className = 'language-toggle';
-        toggle.setAttribute('data-no-lang', 'true');
-        if (menuTrigger && menuTrigger.parentNode === titleContainer) {
-          titleContainer.insertBefore(toggle, menuTrigger);
-        } else {
-          titleContainer.appendChild(toggle);
-        }
+      if (languageToggle.parentNode !== headerActions) {
+        headerActions.appendChild(languageToggle);
+      }
+      if (themeToggle.parentNode !== headerActions) {
+        headerActions.appendChild(themeToggle);
+      }
+      if (menuTrigger) {
+        headerActions.appendChild(menuTrigger);
       }
 
       const targetLanguage = language === 'it' ? 'en' : 'it';
-      toggle.textContent = targetLanguage.toUpperCase();
-      toggle.href = localizedUrl(window.location.href, targetLanguage);
-      toggle.setAttribute('aria-label', text.toggle);
-      toggle.setAttribute('title', text.toggle);
+      languageToggle.textContent = targetLanguage === 'it' ? 'ITA' : 'ENG';
+      languageToggle.href = localizedUrl(window.location.href, targetLanguage);
+      languageToggle.setAttribute('aria-label', text.toggle);
+      languageToggle.setAttribute('title', text.toggle);
+
+      const targetTheme = theme === 'dark' ? 'light' : 'dark';
+      const themeLabel = targetTheme === 'dark' ? text.themeDark : text.themeLight;
+      const iconPath = targetTheme === 'dark' ? 'svg_images/moon.svg' : 'svg_images/sun.svg';
+      const iconImage = document.createElement('img');
+      iconImage.className = 'theme-toggle-icon';
+      iconImage.src = iconPath;
+      iconImage.alt = '';
+      iconImage.setAttribute('aria-hidden', 'true');
+      themeToggle.replaceChildren(iconImage);
+      themeToggle.setAttribute('aria-label', themeLabel);
+      themeToggle.setAttribute('title', themeLabel);
     }
   }
 

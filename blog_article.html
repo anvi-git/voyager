@@ -109,6 +109,23 @@
         container.innerHTML = sanitizedHtml + shortNote;
       }
 
+      function applyCoverImageLayout(containerId) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        const firstMediaBlock = container.querySelector('figure, .captioned-image-container');
+        const firstImage = container.querySelector('img');
+        const coverNode = firstMediaBlock || firstImage;
+        if (!coverNode) return;
+
+        coverNode.classList.add('article-cover-media');
+
+        const imageNode = coverNode.tagName === 'IMG'
+          ? coverNode
+          : coverNode.querySelector('img');
+        if (imageNode) imageNode.classList.add('article-cover-media-image');
+      }
+
       document.addEventListener('DOMContentLoaded', async () => {
         const bodyContainerId = 'blog-article-body';
         try {
@@ -124,19 +141,19 @@
           }
 
           const titleEl = document.getElementById('blog-article-title');
-          const dateEl = document.getElementById('blog-article-date');
           if (titleEl) titleEl.textContent = article.title || '';
-          if (dateEl) dateEl.textContent = article.date || '';
 
           if (article.markdownFile) {
             try {
               const mdText = await getArticleBody(article.markdownFile);
               renderArticleBody(bodyContainerId, mdText, article);
+              applyCoverImageLayout(bodyContainerId);
             } catch (error) {
               showArticleError(bodyContainerId, `File: ${article.markdownFile}.`);
             }
           } else {
             renderArticleBody(bodyContainerId, article.content || '', article);
+            applyCoverImageLayout(bodyContainerId);
           }
 
         // Populate Suggestions with three random posts (excluding current)
@@ -197,7 +214,6 @@
         <div id="blog-layout">
             <article class="blog-article-container">
                 <h1 id="blog-article-title"></h1>
-                <p class="blog-article-meta">Published <time id="blog-article-date"></time></p>
                 <section id="blog-article-body" class="blog-article-content"></section>
             </article>
             <aside id="blog-sidebar">

@@ -21,12 +21,10 @@ async function loadPosts(postsFile, key, todayContainerId, previousContainerId, 
     if (postDate === today && todayContainer) {
       todayContainer.appendChild(postElement);
     } else if (postDate !== today && previousContainer) {
-      postElement.innerHTML += `<span class="post-date">${postDate}</span>`;
       previousContainer.appendChild(postElement);
     }
 
     if (allPostsContainer) {
-      postElement.innerHTML += `<span class="post-date">${postDate}</span>`;
       allPostsContainer.appendChild(postElement);
     }
   });

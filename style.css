@@ -716,12 +716,6 @@ main {
     line-height: 1.45;
 }
 
-.publication-featured-date {
-    margin: 0;
-    font-size: 0.95rem;
-    font-weight: 600;
-}
-
 .publication-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1155,6 +1149,23 @@ body[data-theme='dark'] .blog-article-content blockquote * {
 .blog-article-content img {
     max-width: min(100%, 640px);
     height: auto;
+}
+
+.blog-article-content .article-cover-media {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 1.1rem 0 !important;
+    float: none !important;
+    clear: both;
+    transform: none !important;
+}
+
+.blog-article-content .article-cover-media img,
+.blog-article-content img.article-cover-media-image {
+    width: 100% !important;
+    max-width: none !important;
+    height: auto;
+    display: block;
 }
 
 .blog-article-content figcaption {
@@ -1630,14 +1641,6 @@ aside ul li a:hover {
     text-decoration: underline;
 }
 /* ==================== LEGACY POSTS GRID ==================== */
-
-/* POST */
-.post-date {
-    display: block;
-    font-size: 0.8em;
-    color: #fffffff2;
-    margin-top: 10px;
-}
 /* General styles for iframes */
 iframe {
     border-radius: 10px;

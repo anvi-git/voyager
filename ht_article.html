@@ -108,6 +108,23 @@
         container.innerHTML = sanitizedHtml + shortNote;
       }
 
+      function applyCoverImageLayout(containerId) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        const firstMediaBlock = container.querySelector('figure, .captioned-image-container');
+        const firstImage = container.querySelector('img');
+        const coverNode = firstMediaBlock || firstImage;
+        if (!coverNode) return;
+
+        coverNode.classList.add('article-cover-media');
+
+        const imageNode = coverNode.tagName === 'IMG'
+          ? coverNode
+          : coverNode.querySelector('img');
+        if (imageNode) imageNode.classList.add('article-cover-media-image');
+      }
+
       function removeDuplicateTitle(containerId, pageTitle) {
         const container = document.getElementById(containerId);
         if (!container) return;
@@ -201,12 +218,12 @@
         }
 
         document.getElementById('ht-article-title').textContent = article.title;
-        document.getElementById('ht-article-date').textContent = article.date || '';
 
         try {
           const mdText = await getArticleBody(article.markdownFile);
           renderArticleBody(bodyContainerId, mdText, article);
           removeDuplicateTitle(bodyContainerId, article.title);
+          applyCoverImageLayout(bodyContainerId);
         } catch (error) {
           showArticleError(bodyContainerId, `File: ${article.markdownFile}.`);
         }
@@ -331,7 +348,6 @@
             </aside>
       <article class="blog-article-container">
         <h1 id="ht-article-title"></h1>
-        <p class="blog-article-meta">Published <time id="ht-article-date"></time></p>
         <section id="ht-article-body" class="blog-article-content"></section>
         <section class="article-read-also" aria-labelledby="ht-read-also-title">
           <h2 id="ht-read-also-title">read also...</h2>

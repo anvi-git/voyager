@@ -121,6 +121,23 @@
         }
       }
 
+      function applyCoverImageLayout(containerId) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        const firstMediaBlock = container.querySelector('figure, .captioned-image-container');
+        const firstImage = container.querySelector('img');
+        const coverNode = firstMediaBlock || firstImage;
+        if (!coverNode) return;
+
+        coverNode.classList.add('article-cover-media');
+
+        const imageNode = coverNode.tagName === 'IMG'
+          ? coverNode
+          : coverNode.querySelector('img');
+        if (imageNode) imageNode.classList.add('article-cover-media-image');
+      }
+
       function isSoundOrbitsArticle(article) {
         const title = ((article && article.title) || '').toLowerCase();
         return title.includes('sound orbits');
@@ -437,13 +454,13 @@
         }
 
         document.getElementById('spacesound-article-title').textContent = article.title;
-        document.getElementById('spacesound-article-date').textContent = article.date || '';
 
         try {
           const mdText = await getArticleBody(article.markdownFile);
           renderArticleBody(bodyContainerId, mdText, article);
           removeDuplicateTitle(bodyContainerId, article.title);
           formatSoundOrbitsBody(bodyContainerId, article);
+          applyCoverImageLayout(bodyContainerId);
         } catch (error) {
           showArticleError(bodyContainerId, `File: ${article.markdownFile}.`);
         }
@@ -557,7 +574,6 @@
             </aside>
         <article class="blog-article-container">
           <h1 id="spacesound-article-title"></h1>
-          <p class="blog-article-meta">Published <time id="spacesound-article-date"></time></p>
           <section id="spacesound-article-body" class="blog-article-content"></section>
           <section class="article-read-also" aria-labelledby="spacesound-read-also-title">
             <h2 id="spacesound-read-also-title">read also...</h2>

@@ -343,15 +343,19 @@
       }
 
       let themeToggle = document.getElementById('theme-toggle');
+      if (themeToggle && themeToggle.tagName !== 'INPUT') {
+        themeToggle.remove();
+        themeToggle = null;
+      }
+
       if (!themeToggle) {
-        themeToggle = document.createElement('a');
+        themeToggle = document.createElement('input');
         themeToggle.id = 'theme-toggle';
-        themeToggle.className = 'theme-toggle';
+        themeToggle.className = 'theme-checkbox';
+        themeToggle.type = 'checkbox';
         themeToggle.setAttribute('data-no-lang', 'true');
-        themeToggle.href = '#';
-        themeToggle.addEventListener('click', event => {
-          event.preventDefault();
-          const nextTheme = getTheme() === 'dark' ? 'light' : 'dark';
+        themeToggle.addEventListener('change', () => {
+          const nextTheme = themeToggle.checked ? 'dark' : 'light';
           applyTheme(nextTheme);
           scheduleLocalization();
         });
@@ -373,15 +377,10 @@
       languageToggle.setAttribute('aria-label', text.toggle);
       languageToggle.setAttribute('title', text.toggle);
 
+      themeToggle.checked = theme === 'dark';
+
       const targetTheme = theme === 'dark' ? 'light' : 'dark';
       const themeLabel = targetTheme === 'dark' ? text.themeDark : text.themeLight;
-      const iconPath = targetTheme === 'dark' ? 'svg_images/moon.svg' : 'svg_images/sun.svg';
-      const iconImage = document.createElement('img');
-      iconImage.className = 'theme-toggle-icon';
-      iconImage.src = iconPath;
-      iconImage.alt = '';
-      iconImage.setAttribute('aria-hidden', 'true');
-      themeToggle.replaceChildren(iconImage);
       themeToggle.setAttribute('aria-label', themeLabel);
       themeToggle.setAttribute('title', themeLabel);
     }
@@ -560,6 +559,22 @@
     document.body.classList.toggle('header-scrolled', window.scrollY > SCROLLED_THRESHOLD);
   }
 
+  function ensureAddonsStylesheet() {
+    if (!document.head) return;
+
+    const hasAddons = Array.from(document.querySelectorAll('link[rel="stylesheet"]')).some(link => {
+      const href = link.getAttribute('href') || '';
+      return href.includes('addons.css');
+    });
+
+    if (hasAddons) return;
+
+    const addonsLink = document.createElement('link');
+    addonsLink.rel = 'stylesheet';
+    addonsLink.href = 'addons.css';
+    document.head.appendChild(addonsLink);
+  }
+
   function localizeDocument() {
     const language = getLanguage();
     const theme = getTheme();
@@ -606,6 +621,8 @@
   function initialize() {
     if (initialized) return;
     initialized = true;
+
+    ensureAddonsStylesheet();
 
     localizeDocument();
     window.requestAnimationFrame(localizeDocument);

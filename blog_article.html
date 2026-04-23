@@ -8,7 +8,6 @@
   <link rel="icon" href="favicon_io/bt_logo.png" type="image/x-icon">
   <script src="blog_data.js"></script>
   <script src="post_content_data.js"></script>
-  <script src="article_content_sanitizer.js"></script>
 
     <script>
       async function getArticleBody(markdownFile) {
@@ -96,17 +95,12 @@
             .join('');
         }
 
-        const sanitizer = window.sanitizeImportedArticleHtml;
-        const sanitizedHtml = typeof sanitizer === 'function'
-          ? sanitizer(renderedHtml)
-          : renderedHtml;
-
-        if (!plainTextLength(sanitizedHtml)) {
+        if (!plainTextLength(renderedHtml)) {
           container.innerHTML = buildShortContentNote(article);
           return;
         }
 
-        container.innerHTML = sanitizedHtml + shortNote;
+        container.innerHTML = renderedHtml + shortNote;
       }
 
       function applyCoverImageLayout(containerId) {

@@ -9,6 +9,7 @@
   <script src="ht_data.js"></script>
   <script src="post_content_data.js"></script>
   <script src="article_content_sanitizer.js"></script>
+  <script src="posts/article_interruption.js"></script>
     <script>
       async function getArticleBody(markdownFile) {
         if (
@@ -125,6 +126,43 @@
         if (imageNode) imageNode.classList.add('article-cover-media-image');
       }
 
+      function renderInterruptionsFromArticle(containerId, article) {
+        const container = document.getElementById(containerId);
+        if (!container || !article || !article.interruptions) return;
+
+        article.interruptions.forEach(interruption => {
+          const div = container.querySelector(`#${interruption.id}`);
+          if (div && window.renderInterruption) {
+            window.renderInterruption(interruption.id, interruption.caption);
+          }
+        });
+      }
+      function processInterruptions(containerId) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        
+        // Find all interruption divs and their scripts
+        const interruptionDivs = container.querySelectorAll('[id^="interruption-"]');
+        interruptionDivs.forEach(div => {
+          const id = div.id;
+          // Look for the script that follows this div
+          let sibling = div.nextElementSibling;
+          while (sibling) {
+            if (sibling.tagName === 'SCRIPT') {
+              // Extract caption from renderInterruption call
+              const match = sibling.textContent.match(/renderInterruption\(['"](\w+)['"]\s*,\s*['"]([^'"]*)['"]\)/);
+              if (match && match[1] === id) {
+                const caption = match[2];
+                renderInterruption(id, caption);
+                sibling.remove();
+                break;
+              }
+            }
+            sibling = sibling.nextElementSibling;
+          }
+        });
+      }
+
       function removeDuplicateTitle(containerId, pageTitle) {
         const container = document.getElementById(containerId);
         if (!container) return;
@@ -223,6 +261,7 @@
           const mdText = await getArticleBody(article.markdownFile);
           renderArticleBody(bodyContainerId, mdText, article);
           removeDuplicateTitle(bodyContainerId, article.title);
+          renderInterruptionsFromArticle(bodyContainerId, article);
           applyCoverImageLayout(bodyContainerId);
         } catch (error) {
           showArticleError(bodyContainerId, `File: ${article.markdownFile}.`);

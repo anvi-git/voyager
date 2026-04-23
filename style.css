@@ -274,14 +274,14 @@ header p {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 84px;
-    height: 44px;
-    padding: 0 14px;
+    min-width: 38px;
+    height: 38px;
+    padding: 0 10px;
     border: 1px solid #d0d7de;
-    border-radius: 8px;
+    border-radius: 6px;
     background: #f6f8fa;
     color: #24292f;
-    font-size: 0.76rem;
+    font-size: 0.65rem;
     font-weight: 600;
     letter-spacing: 0.06em;
     line-height: 1;
@@ -295,23 +295,23 @@ header p {
     min-width: 0;
     width: auto;
     padding: 0 8px;
-    font-size: 0.72rem;
+    font-size: 0.62rem;
     letter-spacing: 0.04em;
 }
 
 #theme-toggle {
-    min-width: 44px;
-    width: 44px;
-    height: 44px;
+    min-width: 38px;
+    width: 38px;
+    height: 38px;
     padding: 0;
 }
 
 .theme-toggle-icon {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     display: block;
     object-fit: contain;
-    flex: 0 0 18px;
+    flex: 0 0 16px;
 }
 
 #language-toggle:hover,
@@ -599,7 +599,7 @@ main {
 
 #blog-article #blog-layout {
     grid-template-columns: minmax(0, 1fr);
-    max-width: 980px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -1046,7 +1046,7 @@ main {
     border-radius: 10px;
     padding: 16px;
     margin: 0 auto;
-    max-width: 760px;
+    max-width: 1100px;
 }
 
 #blog-article h1 {
@@ -2087,4 +2087,33 @@ nav ul li {
 
 .bibliography-list li {
   margin: 0.25rem 0;
+}
+
+/* ==================== ARTICLE INTERRUPTION BLOCKS ==================== */
+
+.article-interruption {
+    margin: 2.2rem calc(-50vw + 50%);
+    padding: 3.2rem 1.8rem;
+    width: 100vw;
+    background: linear-gradient(135deg, #F4FFFD 0%, #F4FFFD 100%);
+    border-radius: 0;
+    color: #000000;
+    text-align: center;
+    font-size: 2.8rem;
+    line-height: 1.8;
+    letter-spacing: 0.01em;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.article-interruption p {
+    margin: 0;
+    color: #020202;
+    font-size: inherit;
+    line-height: inherit;
+    text-align: center;
+}
+
+body[data-theme='dark'] .article-interruption {
+    background: linear-gradient(135deg, #F4FFFD 0%, #F4FFFD 100%);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 }

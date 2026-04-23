@@ -61,7 +61,13 @@ window.HT_ARTICLES = {
     "excerpt": "o, della curva matematica che ha cambiato la navigazione",
     "markdownFile": "posts/heralding_time/ht_post_come-la-cicloide-salvo-la-marina.html",
     "image": "images/ht/cover/ht_cycloid.png",
-    "language": "ita"
+    "language": "ita",
+    "interruptions": [
+      {
+        "id": "interruption-1",
+        "caption": "L’11 giugno di quell’anno Newton aveva esposto alla Commissione della Camera dei Lord lo “stato dell’arte” dei metodi - evidentemente insufficienti, e alcuni persino impossibili da implementare - di misurare la longitudine in mare."
+      }
+    ]
   },
   "9": {
     "title": "ATOMOS #1",

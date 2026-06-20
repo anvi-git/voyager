@@ -1,56 +1,811 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about us</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon_io/bt_logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backyard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon_io/bt_logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,500&family=UnifrakturMaguntia&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* ─── Reset & Base ─────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; scroll-behavior: smooth; }
+    body {
+      font-family: 'EB Garamond', Georgia, serif;
+      background: #faf8f4;
+      color: #1a1a1a;
+      min-height: 100vh;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; height: auto; }
+
+    /* ─── Design Tokens ─────────────────────────────────────────────── */
+    :root {
+      --ink:          #1a1a1a;
+      --ink-muted:    #555550;
+      --ink-faint:    #999990;
+      --paper:        #faf8f4;
+      --paper-off:    #f3f0ea;
+      --rule:         #c8c4bc;
+      --rule-heavy:   #1a1a1a;
+      --accent:       #c0392b;
+      --col-gap:      clamp(1rem, 2.5vw, 2rem);
+      --page-pad:     clamp(1rem, 4vw, 3rem);
+    }
+
+    /* ─── Masthead ──────────────────────────────────────────────────── */
+    .masthead-bar {
+      background: var(--paper);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.45rem var(--page-pad);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      gap: 1rem;
+    }
+    .masthead-bar a:hover { color: var(--ink); }
+    .masthead-bar-center {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+    }
+    .masthead-bar-center a {
+      transition: color 0.15s;
+    }
+    .masthead-divider {
+      color: var(--rule);
+      user-select: none;
+    }
+
+    /* ─── Nameplate ─────────────────────────────────────────────────── */
+    .nameplate {
+      background: var(--paper);
+      padding: clamp(1.5rem, 4vw, 2.8rem) var(--page-pad) 0;
+      text-align: center;
+      border-bottom: 3px double var(--rule-heavy);
+    }
+    .nameplate-eyebrow {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      margin-bottom: 0.6rem;
+    }
+    .nameplate-wordmark {
+      font-family: 'UnifrakturMaguntia', cursive;
+      font-size: clamp(3.5rem, 10vw, 7.5rem);
+      line-height: 1;
+      color: var(--ink);
+      letter-spacing: 0.01em;
+      margin-bottom: 0.25rem;
+    }
+    .nameplate-tagline {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+      color: var(--ink-muted);
+      letter-spacing: 0.02em;
+      margin-bottom: 1.2rem;
+    }
+    .nameplate-rule-ornament {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.8rem;
+      padding-bottom: 0.75rem;
+      font-family: 'EB Garamond', serif;
+      color: var(--ink-faint);
+      font-size: 1.1rem;
+    }
+    .nameplate-rule-ornament::before,
+    .nameplate-rule-ornament::after {
+      content: '';
+      flex: 1;
+      max-width: 180px;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    /* ─── Nav Banner ────────────────────────────────────────────────── */
+    .nav-banner {
+      background: var(--paper);
+      border-bottom: 1px solid var(--rule);
+      padding: 0 var(--page-pad);
+    }
+    .nav-banner-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0;
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+    .nav-banner-item {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink);
+      padding: 0.7rem 1.4rem;
+      border-right: 1px solid var(--rule);
+      transition: background 0.15s, color 0.15s;
+    }
+    .nav-banner-item:first-child { border-left: 1px solid var(--rule); }
+    .nav-banner-item:hover {
+      background: var(--paper-off);
+      color: var(--accent);
+    }
+    .nav-banner-item.active {
+      border-bottom: 2px solid var(--ink);
+    }
+
+    /* ─── Edition Date Bar ──────────────────────────────────────────── */
+    .edition-bar {
+      background: var(--paper-off);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.4rem var(--page-pad);
+      text-align: center;
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+    }
+
+    /* ─── Page Layout ───────────────────────────────────────────────── */
+    .page-wrapper {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 var(--page-pad);
+    }
+
+    /* ─── Lead Section ──────────────────────────────────────────────── */
+    .lead-section {
+      padding: 2.5rem 0 0;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 0;
+    }
+    .lead-grid {
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 0;
+      align-items: start;
+    }
+    @media (max-width: 760px) {
+      .lead-grid { grid-template-columns: 1fr; }
+      .lead-sidebar { border-left: none !important; border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1.5rem; padding-left: 0 !important; }
+    }
+    .lead-main {
+      padding-right: var(--col-gap);
+      border-right: 1px solid var(--rule);
+    }
+    @media (max-width: 760px) { .lead-main { border-right: none; padding-right: 0; } }
+
+    .lead-kicker {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.6rem;
+    }
+    .lead-headline {
+      font-family: 'EB Garamond', serif;
+      font-size: clamp(2rem, 4.5vw, 3.2rem);
+      font-weight: 500;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      margin-bottom: 0.8rem;
+    }
+    .lead-deck {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: clamp(1rem, 1.8vw, 1.2rem);
+      line-height: 1.55;
+      color: var(--ink-muted);
+      margin-bottom: 1rem;
+      max-width: 62ch;
+    }
+    .lead-byline {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      color: var(--ink-muted);
+      padding-bottom: 1.5rem;
+    }
+    .lead-byline strong {
+      font-weight: 600;
+      color: var(--ink);
+    }
+    .lead-image-wrap {
+      aspect-ratio: 4/3;
+      overflow: hidden;
+      margin-bottom: 1rem;
+      background: var(--paper-off);
+    }
+    .lead-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+    .lead-main:hover .lead-image-wrap img { transform: scale(1.02); }
+
+    /* Lead sidebar */
+    .lead-sidebar {
+      padding-left: var(--col-gap);
+    }
+    .sidebar-section-label {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.8rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    .sidebar-toc-list {
+      list-style: none;
+    }
+    .sidebar-toc-item {
+      padding: 0.7rem 0;
+      border-bottom: 1px solid var(--paper-off);
+    }
+    .sidebar-toc-item:last-child { border-bottom: none; }
+    .sidebar-toc-pub {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.25rem;
+    }
+    .sidebar-toc-title {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.05rem;
+      line-height: 1.3;
+      color: var(--ink);
+      transition: color 0.15s;
+    }
+    .sidebar-toc-item a:hover .sidebar-toc-title { color: var(--accent); }
+    .sidebar-toc-excerpt {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.72rem;
+      color: var(--ink-muted);
+      margin-top: 0.2rem;
+      line-height: 1.4;
+    }
+
+    /* ─── Three-Column Section ──────────────────────────────────────── */
+    .three-col-section {
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--rule);
+    }
+    .three-col-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .three-col-header-rule {
+      flex: 1;
+      height: 1px;
+      background: var(--rule-heavy);
+    }
+    .three-col-header-title {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink);
+      white-space: nowrap;
+    }
+    .three-col-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+    }
+    @media (max-width: 700px) {
+      .three-col-grid { grid-template-columns: 1fr; }
+      .col-card { border-right: none !important; border-bottom: 1px solid var(--rule); padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
+    }
+    .col-card {
+      padding-right: var(--col-gap);
+      border-right: 1px solid var(--rule);
+    }
+    .col-card:last-child { border-right: none; padding-right: 0; }
+    .col-card:not(:first-child) { padding-left: var(--col-gap); }
+    .col-card-pub {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.6rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+    .col-card-image {
+      aspect-ratio: 3/2;
+      overflow: hidden;
+      background: var(--paper-off);
+      margin-bottom: 0.75rem;
+    }
+    .col-card-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .col-card:hover .col-card-image img { transform: scale(1.03); }
+    .col-card-headline {
+      font-family: 'EB Garamond', serif;
+      font-size: clamp(1.1rem, 2vw, 1.45rem);
+      font-weight: 500;
+      line-height: 1.25;
+      color: var(--ink);
+      margin-bottom: 0.4rem;
+      transition: color 0.15s;
+    }
+    .col-card a:hover .col-card-headline { color: var(--accent); }
+    .col-card-deck {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: var(--ink-muted);
+      margin-bottom: 0.4rem;
+    }
+    .col-card-byline {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.65rem;
+      color: var(--ink-muted);
+      letter-spacing: 0.04em;
+    }
+
+    /* ─── Mid-Page Horizontal Rule ──────────────────────────────────── */
+    .ornamental-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.8rem;
+      padding: 1.2rem 0;
+      border-bottom: 1px solid var(--rule);
+      color: var(--ink-faint);
+      font-family: 'EB Garamond', serif;
+      font-size: 1rem;
+      letter-spacing: 0.2em;
+    }
+    .ornamental-divider::before,
+    .ornamental-divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    /* ─── Publications Row ──────────────────────────────────────────── */
+    .pub-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--rule);
+    }
+    @media (max-width: 640px) {
+      .pub-row { grid-template-columns: 1fr; }
+      .pub-card { border-right: none !important; border-bottom: 1px solid var(--rule); padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
+    }
+    .pub-card {
+      padding-right: var(--col-gap);
+      border-right: 1px solid var(--rule);
+      display: flex;
+      flex-direction: column;
+    }
+    .pub-card:last-child { border-right: none; padding-right: 0; }
+    .pub-card:not(:first-child) { padding-left: var(--col-gap); }
+    .pub-card-wordmark {
+      font-family: 'EB Garamond', serif;
+      font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+      font-weight: 500;
+      font-style: italic;
+      color: var(--ink);
+      margin-bottom: 0.3rem;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 0.5rem;
+    }
+    .pub-card-desc {
+      font-family: 'EB Garamond', serif;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: var(--ink-muted);
+      margin-top: 0.5rem;
+      flex: 1;
+    }
+    .pub-card-link {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink);
+      margin-top: 0.8rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      transition: color 0.15s;
+    }
+    .pub-card-link:hover { color: var(--accent); }
+    .pub-card-link::after { content: '→'; }
+
+    /* ─── About Strip ───────────────────────────────────────────────── */
+    .about-strip {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 1.5rem;
+      align-items: center;
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--rule);
+    }
+    @media (max-width: 540px) {
+      .about-strip { grid-template-columns: 1fr; text-align: center; }
+      .about-avatar { margin: 0 auto; }
+    }
+    .about-avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: var(--paper-off);
+      flex-shrink: 0;
+    }
+    .about-avatar img { width: 100%; height: 100%; object-fit: cover; }
+    .about-name {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: var(--ink);
+      margin-bottom: 0.2rem;
+    }
+    .about-bio {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: var(--ink-muted);
+      max-width: 65ch;
+    }
+
+    /* ─── Footer ────────────────────────────────────────────────────── */
+    .site-footer {
+      background: var(--paper);
+      border-top: 3px double var(--rule-heavy);
+      padding: 1.5rem var(--page-pad) 2rem;
+      margin-top: 0;
+    }
+    .footer-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .footer-wordmark {
+      font-family: 'UnifrakturMaguntia', cursive;
+      font-size: 1.6rem;
+      color: var(--ink);
+    }
+    .footer-copy {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      color: var(--ink-muted);
+    }
+    .footer-links {
+      display: flex;
+      gap: 1.2rem;
+      font-family: 'Work Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+    }
+    .footer-links a:hover { color: var(--ink); }
+
+    /* ─── Hover / Link styles ───────────────────────────────────────── */
+    a { transition: color 0.15s; }
+
+    /* ─── Utility ───────────────────────────────────────────────────── */
+    .visually-hidden {
+      position: absolute; width: 1px; height: 1px;
+      clip: rect(0,0,0,0); overflow: hidden; white-space: nowrap;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <div id="title-container">
-      <a href="ht.html" id="site-initials" aria-label="Backyard">BY</a>
-      <h1 id="site-title">
-        <a href="ht.html" id="site-title-link" aria-label="Backyard"><span class="site-title-full">BACKYARD</span><span class="site-title-short" aria-hidden="true">BY</span></a>
-      </h1>
-      <a href="landing_page.html" id="menu-trigger" aria-label="Open menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
+
+  <!-- Top utility bar -->
+  <div class="masthead-bar">
+    <span>anvi · Antonio Viscusi</span>
+    <div class="masthead-bar-center">
+      <a href="https://substack.com/@anvianvi" target="_blank" rel="noopener">Substack</a>
+      <span class="masthead-divider">·</span>
+      <a href="https://bsky.app/profile/anvi.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+      <span class="masthead-divider">·</span>
+      <a href="https://github.com/anvi-git" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <div class="banner">
-      <section id="ht">
-        <h2><a href="ht.html">HERALDING TIME</a></h2>
-      </section>
-      <section id="lss">
-        <h2><a href="lss.html">LAST SCATTERING SURFACE</a></h2>
-      </section>
-      <section id="spso">
-        <h2><a href="sp.html">SPACE of SOUND</a></h2>
-      </section>
-      <section id="blog">
-        <h2><a href="blog.html">the blog</a></h2>
-      </section>
-      <section id="about">
-        <h2><a href="about.html">about</a></h2>
-      </section>
+    <span>Turin, Italy</span>
+  </div>
+
+  <!-- Nameplate -->
+  <div class="nameplate">
+    <p class="nameplate-eyebrow">Est. 2023</p>
+    <div class="nameplate-wordmark">Backyard</div>
+    <p class="nameplate-tagline">science · music · writing · from sprouts, a tree</p>
+    <div class="nameplate-rule-ornament">✦</div>
+  </div>
+
+  <!-- Nav banner -->
+  <nav class="nav-banner" aria-label="Main navigation">
+    <div class="nav-banner-inner">
+      <a href="index.html" class="nav-banner-item active">Home</a>
+      <a href="ht.html" class="nav-banner-item">Heralding Time</a>
+      <a href="lss.html" class="nav-banner-item">Last Scattering Surface</a>
+      <a href="sp.html" class="nav-banner-item">Space of Sound</a>
+      <a href="blog.html" class="nav-banner-item">The Blog</a>
+      <a href="about.html" class="nav-banner-item">About</a>
     </div>
-  </header>
-    <main>
-      <section>
-        <h1>Backyard Thoughts</h1>
-        <p>
-          Welcome. Use the <a href="about.html">about</a> section to read the bio and contact details,
-          or jump straight to the publications from the banner above.
+  </nav>
+
+  <!-- Edition bar -->
+  <div class="edition-bar" id="edition-date"></div>
+
+  <!-- Main content -->
+  <main class="page-wrapper">
+
+    <!-- Lead / Hero section -->
+    <section class="lead-section" aria-label="Featured article">
+      <div class="lead-grid">
+
+        <!-- Featured story -->
+        <a href="lss.html" class="lead-main" aria-label="Go to Last Scattering Surface">
+          <p class="lead-kicker">Latest · Last Scattering Surface</p>
+          <div class="lead-image-wrap">
+            <img
+              src="images/titles/lss.png"
+              alt="Last Scattering Surface"
+              width="800" height="600"
+              loading="eager"
+              onerror="this.style.display='none'"
+            >
+          </div>
+          <h2 class="lead-headline">Last Scattering Surface</h2>
+          <p class="lead-deck">
+            A newsletter on cosmology, astrophysics, and the deep architecture of the universe —
+            from power spectra to the cosmic microwave background.
+          </p>
+          <p class="lead-byline">By <strong>Antonio Viscusi</strong> &nbsp;·&nbsp; Ongoing series</p>
+        </a>
+
+        <!-- Sidebar table of contents -->
+        <aside class="lead-sidebar" aria-label="In this issue">
+          <p class="sidebar-section-label">In Backyard</p>
+          <ul class="sidebar-toc-list">
+            <li class="sidebar-toc-item">
+              <a href="ht.html">
+                <p class="sidebar-toc-pub">Heralding Time</p>
+                <p class="sidebar-toc-title">On the Motion of the Earth</p>
+                <p class="sidebar-toc-excerpt">History, physics, and the slow revolution of our cosmological understanding.</p>
+              </a>
+            </li>
+            <li class="sidebar-toc-item">
+              <a href="lss.html">
+                <p class="sidebar-toc-pub">Last Scattering Surface</p>
+                <p class="sidebar-toc-title">Power Spectrum Analysis &amp; 3×2pt Statistics</p>
+                <p class="sidebar-toc-excerpt">Deep dives into numerical cosmology, Chebyshev methods, and galaxy surveys.</p>
+              </a>
+            </li>
+            <li class="sidebar-toc-item">
+              <a href="sp.html">
+                <p class="sidebar-toc-pub">Space of Sound</p>
+                <p class="sidebar-toc-title">Music as a Map of the Cosmos</p>
+                <p class="sidebar-toc-excerpt">Playlists, liner notes, and the sonic atlas of deep space.</p>
+              </a>
+            </li>
+            <li class="sidebar-toc-item">
+              <a href="blog.html">
+                <p class="sidebar-toc-pub">The Blog</p>
+                <p class="sidebar-toc-title">Notes, Sketches &amp; Short Takes</p>
+                <p class="sidebar-toc-excerpt">Dispatches from research, reading, and daily thinking.</p>
+              </a>
+            </li>
+          </ul>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- Ornamental rule -->
+    <div class="ornamental-divider" aria-hidden="true">✦ &nbsp; ✦ &nbsp; ✦</div>
+
+    <!-- Three-column section -->
+    <section class="three-col-section" aria-label="Publications">
+      <div class="three-col-header">
+        <span class="three-col-header-rule"></span>
+        <span class="three-col-header-title">The Newsletters</span>
+        <span class="three-col-header-rule"></span>
+      </div>
+      <div class="three-col-grid">
+
+        <div class="col-card">
+          <p class="col-card-pub">Heralding Time</p>
+          <div class="col-card-image">
+            <a href="ht.html">
+              <img
+                src="images/titles/ht.png"
+                alt="Heralding Time"
+                width="600" height="400"
+                loading="lazy"
+                onerror="this.style.display='none'"
+              >
+            </a>
+          </div>
+          <a href="ht.html">
+            <h3 class="col-card-headline">History &amp; Philosophy of Science</h3>
+          </a>
+          <p class="col-card-deck">
+            From Atomos to the heliocentric revolution — essays on how humanity learned to read the skies.
+          </p>
+          <p class="col-card-byline">Antonio Viscusi &nbsp;·&nbsp; Science History</p>
+        </div>
+
+        <div class="col-card">
+          <p class="col-card-pub">Last Scattering Surface</p>
+          <div class="col-card-image">
+            <a href="lss.html">
+              <img
+                src="images/titles/lss.png"
+                alt="Last Scattering Surface"
+                width="600" height="400"
+                loading="lazy"
+                onerror="this.style.display='none'"
+              >
+            </a>
+          </div>
+          <a href="lss.html">
+            <h3 class="col-card-headline">Cosmology &amp; Astrophysics</h3>
+          </a>
+          <p class="col-card-deck">
+            Technical and accessible writing on the large-scale structure of the universe, the CMB, and computational cosmology.
+          </p>
+          <p class="col-card-byline">Antonio Viscusi &nbsp;·&nbsp; Cosmology</p>
+        </div>
+
+        <div class="col-card">
+          <p class="col-card-pub">Space of Sound</p>
+          <div class="col-card-image">
+            <a href="sp.html">
+              <img
+                src="images/landing_page/spaceofsound.png"
+                alt="Space of Sound"
+                width="600" height="400"
+                loading="lazy"
+                onerror="this.style.display='none'"
+              >
+            </a>
+          </div>
+          <a href="sp.html">
+            <h3 class="col-card-headline">Music &amp; the Cosmos</h3>
+          </a>
+          <p class="col-card-deck">
+            Curated playlists and liner notes that map the sonic imagination of outer space, from ambient to classical.
+          </p>
+          <p class="col-card-byline">Antonio Viscusi &nbsp;·&nbsp; Music</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Ornamental rule -->
+    <div class="ornamental-divider" aria-hidden="true">· · ·</div>
+
+    <!-- Publications overview row -->
+    <section class="pub-row" aria-label="Where to follow">
+      <div class="pub-card">
+        <p class="pub-card-wordmark">Heralding Time</p>
+        <p class="pub-card-desc">
+          Essays on the history and philosophy of science — how we came to understand time, motion, and the cosmos.
         </p>
-      </section>
-    </main>
-    <footer>
-      &copy; 2025 anvi. All rights reserved.
-    </footer>
-  <script src="headerScrollState.js"></script>
+        <a href="https://heraldingtime.substack.com" class="pub-card-link" target="_blank" rel="noopener">Read on Substack</a>
+      </div>
+      <div class="pub-card">
+        <p class="pub-card-wordmark">Last Scattering Surface</p>
+        <p class="pub-card-desc">
+          In-depth articles on cosmological observations, data analysis, and the physics of the early universe.
+        </p>
+        <a href="https://lastscatteringsurface.substack.com" class="pub-card-link" target="_blank" rel="noopener">Read on Substack</a>
+      </div>
+      <div class="pub-card">
+        <p class="pub-card-wordmark">Space of Sound</p>
+        <p class="pub-card-desc">
+          A sonic journey through the universe — playlists, commentary, and the music that sounds like space.
+        </p>
+        <a href="https://spaceofsound.substack.com" class="pub-card-link" target="_blank" rel="noopener">Read on Substack</a>
+      </div>
+    </section>
+
+    <!-- About strip -->
+    <section class="about-strip" aria-label="About the author">
+      <div class="about-avatar">
+        <img
+          src="images/landing_page/pic.jpg"
+          alt="Antonio Viscusi"
+          width="80" height="80"
+          loading="lazy"
+        >
+      </div>
+      <div>
+        <p class="about-name">Antonio Viscusi</p>
+        <p class="about-bio">
+          Astrophysicist, cosmologist, and writer based in Turin. Intern at INFN. Post-graduate Master's in Space Science.
+          Blogger on Substack and Patreon. From sprouts, a tree.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-wordmark">Backyard</span>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="landing_page.html">Links</a>
+        <a href="mailto:aviscusi11@gmail.com">Contact</a>
+      </div>
+      <p class="footer-copy">© 2025 anvi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Edition date bar
+    (function() {
+      const months = ['January','February','March','April','May','June',
+                      'July','August','September','October','November','December'];
+      const now = new Date();
+      const bar = document.getElementById('edition-date');
+      if (bar) {
+        bar.textContent = months[now.getMonth()] + ' ' + now.getFullYear()
+          + '  ·  Vol. ' + (now.getFullYear() - 2022)
+          + ', No. ' + (now.getMonth() + 1);
+      }
+    })();
+  </script>
+  <script src="headerScrollState.js" defer></script>
 </body>
 </html>

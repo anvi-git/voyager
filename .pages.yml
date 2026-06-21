@@ -1,11 +1,366 @@
-media: media
-content:
-  - name: pages
-    label: Pages
-    type: collection
-    path: docs
-    fields:
-      - name: title
-        type: string
-      - name: body
-        type: rich-text
+# =============================================================
+# project.yml — Backyard Thoughts / Voyager
+# Manifest completo del progetto: struttura, asset, pagine,
+# sezioni, configurazione deploy e note di sviluppo.
+# Aggiornato: 2026-06-21
+# =============================================================
+
+project:
+  name: Backyard Thoughts
+  slug: voyager
+  owner: Antonio Viscusi
+  github: https://github.com/anvi-git/voyager
+  live_url: https://anvi-git.github.io/voyager/landing_page.html
+  type: static-site
+  stack:
+    frontend:
+      - HTML5
+      - CSS3
+      - Vanilla JavaScript
+    backend:
+      - Python
+      - SQLite3
+    tooling:
+      - GitHub Actions
+      - GitHub Pages
+      - Pages CMS (.pages.yml)
+  description: >
+    Sito personale/editoriale di Antonio Viscusi.
+    Include sezioni su cosmologia, large-scale structure,
+    high-energy astrophysics, spazio-suono, blog e portfolio.
+
+# -------------------------------------------------------------
+# STRUTTURA FILE
+# -------------------------------------------------------------
+
+structure:
+
+  root:
+    # Pagine HTML principali
+    pages:
+      - file: index.html
+        size_kb: 34
+        description: Homepage principale del sito
+        last_modified: "2026-06-20"
+
+      - file: landing_page.html
+        size_kb: 14
+        description: Landing page pubblica (URL condiviso)
+        last_modified: "2026-04-22"
+
+      - file: about.html
+        size_kb: 2
+        description: Pagina "About" — biografia e contatti
+        last_modified: "2026-06-20"
+
+      - file: blog.html
+        size_kb: 5
+        description: Lista articoli del blog generico
+        last_modified: "2026-06-20"
+
+      - file: blog_article.html
+        size_kb: 8
+        description: Template di rendering articolo blog
+        last_modified: "2026-06-20"
+
+      - file: lss.html
+        size_kb: 10
+        description: Sezione Large-Scale Structure (cosmologia)
+        last_modified: "2026-06-20"
+
+      - file: lss_article.html
+        size_kb: 13
+        description: Template articolo LSS
+        last_modified: "2026-06-20"
+
+      - file: ht.html
+        size_kb: 12
+        description: Sezione High-Energy Astrophysics
+        last_modified: "2026-06-20"
+
+      - file: ht_article.html
+        size_kb: 15
+        description: Template articolo High-Energy
+        last_modified: "2026-06-20"
+
+      - file: sp.html
+        size_kb: 10
+        description: Sezione Space & Planets
+        last_modified: "2026-06-20"
+
+      - file: spacesound_article.html
+        size_kb: 21
+        description: Articolo Space Sound — sonificazione dati cosmologici
+        last_modified: "2026-06-20"
+
+      - file: post_template.html
+        size_kb: 2
+        description: Template generico per post dinamici
+        last_modified: "2026-06-20"
+
+      - file: footer.html
+        size_kb: 1
+        description: Footer condiviso (incluso via includeHTML.js)
+        last_modified: "2026-03-20"
+
+      - file: header.html
+        size_kb: 1
+        description: Header/navbar condivisa (incluso via includeHTML.js)
+        last_modified: "2026-06-20"
+
+    # Stylesheet
+    stylesheets:
+      - file: style.css
+        size_kb: 43
+        description: Stylesheet principale del sito
+        last_modified: "2026-06-20"
+
+      - file: addons.css
+        size_kb: 2
+        description: Stili aggiuntivi / overrides
+        last_modified: "2026-04-05"
+
+      - file: old_style.css
+        size_kb: 47
+        description: Vecchio stylesheet — mantenuto come riferimento, non attivo
+        last_modified: "2026-04-23"
+        status: deprecated
+
+    # JavaScript
+    scripts:
+      - file: includeHTML.js
+        size_kb: 2
+        description: Utility per includere frammenti HTML condivisi (header, footer)
+        last_modified: "2026-03-18"
+
+      - file: headerScrollState.js
+        size_kb: 20
+        description: Gestione stato scroll dell'header (sticky, hide-on-scroll, ecc.)
+        last_modified: "2026-04-05"
+
+      - file: loadPosts.js
+        size_kb: 3
+        description: Caricamento dinamico dei post da data file
+        last_modified: "2026-04-05"
+
+      - file: musicLinks.js
+        size_kb: 1
+        description: Link e gestione riproduzione musica/sonificazione
+        last_modified: "2026-04-23"
+
+    # Data files (JavaScript content stores)
+    data_files:
+      - file: post_content_data.js
+        size_kb: 719
+        description: >-
+          Archivio principale di tutti i contenuti dei post.
+          File più grande del progetto — dati inline come oggetti JS.
+        last_modified: "2026-03-19"
+        note: Considerare migrazione a JSON o API esterna
+
+      - file: blog_data.js
+        size_kb: 1
+        description: Metadati/lista articoli blog
+        last_modified: "2026-04-04"
+
+      - file: lss_data.js
+        size_kb: 9
+        description: Dati/contenuti sezione Large-Scale Structure
+        last_modified: "2026-04-04"
+
+      - file: ht_data.js
+        size_kb: 16
+        description: Dati/contenuti sezione High-Energy Astrophysics
+        last_modified: "2026-04-23"
+
+      - file: spacesound_data.js
+        size_kb: 29
+        description: Dati/contenuti sezione Space Sound
+        last_modified: "2026-06-20"
+
+    # File di testo / utility
+    misc:
+      - file: tm.txt
+        size_kb: 0
+        description: File di testo minore (note o credenziali temporanee)
+        last_modified: "2026-03-20"
+
+      - file: FIGMA_REBUILD_PLAYBOOK.md
+        size_kb: 7
+        description: Playbook per ricostruzione UI in Figma
+        last_modified: "2026-04-05"
+
+      - file: css_theme_editor.html
+        size_kb: 16
+        description: Editor interattivo del tema CSS (tool di sviluppo interno)
+        last_modified: "2026-03-24"
+        status: dev-tool
+
+  # Cartelle
+  directories:
+
+    - path: animations/
+      description: File di animazioni CSS/JS
+      file_count: ~4
+
+    - path: backend/
+      description: >-
+        Backend Python. Contiene script server-side,
+        eventualmente Flask/FastAPI o script di processing.
+      file_count: ~5
+      stack: Python
+      notes: .sqlite3 escluso da git
+
+    - path: fonts/
+      description: Font locali (web fonts self-hosted)
+      file_count: ~7
+
+    - path: images/
+      description: Immagini statiche del sito (jpg, png, webp)
+      file_count: ~9
+
+    - path: svg_images/
+      description: Illustrazioni e icone SVG
+      file_count: ~12
+
+    - path: favicon_io/
+      description: Favicon e icone app (generati da favicon.io)
+      file_count: ~6
+
+    - path: posts/
+      description: Post in formato file (HTML o Markdown)
+      file_count: ~8
+
+    - path: .venv/
+      description: Ambiente virtuale Python (escluso da git)
+      status: excluded
+
+# -------------------------------------------------------------
+# CONFIGURAZIONE GIT
+# -------------------------------------------------------------
+
+git:
+  repository: https://github.com/anvi-git/voyager
+  default_branch: main
+  gitignore:
+    - .DS_Store
+    - "*.sqlite3"
+    - "*.ipynb_checkpoints/"
+    - __pycache__/
+    - .vscode/
+    - .venv/
+  gitattributes:
+    - path: "*"
+      setting: text=auto
+
+# -------------------------------------------------------------
+# DEPLOY & CI/CD
+# -------------------------------------------------------------
+
+deploy:
+  provider: GitHub Pages
+  method: GitHub Actions
+  workflow: .github/workflows/deploy.yml
+  trigger:
+    - push to main
+    - workflow_dispatch
+  entry_point: landing_page.html
+  production_url: https://anvi-git.github.io/voyager/landing_page.html
+
+cms:
+  provider: Pages CMS
+  config: .pages.yml
+  media_folder: media
+  collections:
+    - name: pages
+      label: Pages
+      type: collection
+      path: docs
+      fields:
+        - name: title
+          type: string
+        - name: body
+          type: rich-text
+
+# -------------------------------------------------------------
+# SEZIONI EDITORIALI DEL SITO
+# -------------------------------------------------------------
+
+sections:
+  - id: lss
+    name: Large-Scale Structure
+    abbreviation: LSS
+    files:
+      list: lss.html
+      article: lss_article.html
+      data: lss_data.js
+    topics:
+      - Power spectrum
+      - Galaxy clustering
+      - Baryon acoustic oscillations
+      - Redshift space distortions
+
+  - id: ht
+    name: High-Energy Astrophysics
+    abbreviation: HT
+    files:
+      list: ht.html
+      article: ht_article.html
+      data: ht_data.js
+    topics:
+      - X-ray astronomy
+      - Gamma-ray bursts
+      - Neutron stars
+      - Active galactic nuclei
+
+  - id: sp
+    name: Space & Planets
+    abbreviation: SP
+    files:
+      list: sp.html
+      article: spacesound_article.html
+      data: spacesound_data.js
+    topics:
+      - Planetary science
+      - Space sonification
+      - Exoplanets
+
+  - id: blog
+    name: Blog
+    files:
+      list: blog.html
+      article: blog_article.html
+      data: blog_data.js
+    topics:
+      - Cosmology outreach
+      - Research notes
+      - Personal essays
+
+# -------------------------------------------------------------
+# NOTE DI SVILUPPO
+# -------------------------------------------------------------
+
+notes:
+  tech_debt:
+    - item: >-
+        post_content_data.js è 719KB — considerare migrazione
+        a JSON separati per sezione o a un backend API.
+      priority: medium
+
+    - item: >-
+        old_style.css (47KB) è deprecato ma ancora presente.
+        Può essere rimosso in sicurezza dopo verifica.
+      priority: low
+
+    - item: >-
+        I dati dei contenuti sono inline come oggetti JS.
+        Una migrazione a Markdown + front matter migliorerebbe
+        la manutenibilità e l'integrazione con Pages CMS.
+      priority: medium
+
+  ideas:
+    - Aggiungere search full-text lato client (Fuse.js o FlexSearch)
+    - Integrare MathJax/KaTeX per rendering LaTeX negli articoli
+    - RSS feed generato staticamente
+    - Dark mode toggle nel header
+    - Pagina dedicata al progetto 3x2pt / cosmological pipeline

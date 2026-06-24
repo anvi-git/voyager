@@ -213,14 +213,6 @@ window.HT_ARTICLES = {
     "image": "https://substackcdn.com/image/fetch/$s_!26Te!,w_520,h_272,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29a55e86-1af6-4a09-a1c0-6927277789a3_1572x1048.png",
     "language": "ita"
   },
-  "45": {
-    "title": "Welcome to Heralding Time",
-    "date": "2025-09-21",
-    "excerpt": "[ITA here, ENG down below]",
-    "markdownFile": "posts/heralding_time/ht_post_welcome-to-heralding-time.html",
-    "image": "https://substackcdn.com/image/fetch/$s_!RaxJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F77ed661d-2a4d-446b-bea4-bb795bc59c6b_1280x1280.png",
-    "language": "eng"
-  },
   "46": {
     "title": "tune the orchestra",
     "date": "2026-06-24",

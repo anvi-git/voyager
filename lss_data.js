@@ -12,7 +12,7 @@ window.LSS_ARTICLES = {
     "date": "2024-07-12",
     "excerpt": "Where we talk of burning, aging, and hint at the inevitable consequence of the star's journey",
     "markdownFile": "posts/lss/lss_post_story-of-a-star-part-v.html",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/e9525b3b-4a63-4860-a6d2-3f38dfbff671_1572x1048.png",
+    "image": "https://substackcdn.com/image/fetch/$s_!vcTI!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9add7a6-7ae1-4dc5-8aec-a42c8ac0821d_2039x2039.jpeg",
     "language": "eng"
   },
   "3": {

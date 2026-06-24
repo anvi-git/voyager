@@ -638,41 +638,15 @@
   </style>
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to content</a>
+  <div id="site-header"></div>
 
-  <!-- Top utility bar -->
-  <div class="util-bar" role="banner">
-    <span>Backyard Magazine</span>
-    <div class="util-bar-links">
-      <a href="https://substack.com/@anvianvi" target="_blank" rel="noopener noreferrer">Substack</a>
-      <span class="util-sep">·</span>
-      <a href="https://github.com/anvi-git" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <span>Turin, Italy</span>
-  </div>
+  <main id="main-content" class="page-wrapper">
+    <!-- qui lasci tutto il contenuto centrale che hai già -->
+  </main>
 
-  <!-- Nameplate -->
-  <header class="nameplate">
-    <p class="nameplate-eyebrow">Est. 2026</p>
-    <div class="nameplate-title"><img src="images/titles/backyard.png" alt="Backyard"></div>
-    <p class="nameplate-tagline">from sprouts, a tree</p>
-    <div class="nameplate-ornament" aria-hidden="true">✦</div>
-  </header>
-
-  <!-- Section navigation -->
-  <nav class="section-nav" aria-label="Main navigation">
-    <div class="section-nav-inner">
-      <a href="index.html" class="section-nav-item active" aria-current="page">Home</a>
-      <a href="ht.html" class="section-nav-item">Heralding Time</a>
-      <a href="lss.html" class="section-nav-item">Last Scattering Surface</a>
-      <a href="sp.html" class="section-nav-item">Space of Sound</a>
-      <a href="blog.html" class="section-nav-item">The Blog</a>
-      <a href="about.html" class="section-nav-item">About</a>
-    </div>
-  </nav>
-
-  <!-- Edition bar -->
-  <div class="edition-bar" id="edition-date" aria-live="polite"></div>
+  <script src="layout.js"></script>
+  <script src="headerScrollState.js" defer></script>
+</body>
 
   <!-- Main content -->
   <main id="main-content" class="page-wrapper">
@@ -933,33 +907,8 @@
 
   </main>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <span class="footer-wordmark" aria-label="Backyard">Backyard</span>
-      <nav class="footer-links" aria-label="Footer navigation">
-        <a href="about.html">About</a>
-        <a href="landing_page.html">Links</a>
-        <a href="mailto:aviscusi11@gmail.com">Contact</a>
-      </nav>
-      <p class="footer-copy">© 2025 anvi. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script>
-    // Edition date bar
-    (function() {
-      const months = ['January','February','March','April','May','June',
-                      'July','August','September','October','November','December'];
-      const now = new Date();
-      const bar = document.getElementById('edition-date');
-      if (bar) {
-        bar.textContent =
-          months[now.getMonth()] + ' ' + now.getFullYear() +
-          '  ·  Vol. ' + (now.getFullYear() - 2022) +
-          ', No. ' + (now.getMonth() + 1);
-      }
-    })();
+  <div id="site-footer"></div>
+  
   </script>
   <script src="headerScrollState.js" defer></script>
 </body>

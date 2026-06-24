@@ -1,117 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
   <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="icon" href="favicon_io/bt_logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=UnifrakturMaguntia&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="blog_data.js"></script>
-
 </head>
 <body>
-    <header>
-      <div id="title-container">
-        <a href="ht.html" id="site-initials" aria-label="Backyard">BY</a>
-        <h1 id="site-title">
-          <a href="ht.html" id="site-title-link" aria-label="Backyard"><span class="site-title-full">BACKYARD</span><span class="site-title-short" aria-hidden="true">BY</span></a>
-        </h1>
-        <a href="landing_page.html" id="menu-trigger" aria-label="Open menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-      </div>
-      <div class="banner">
-        <section id="ht">
-          <h2><a href="ht.html">HERALDING TIME</a></h2>
-        </section>
-        <section id="lss">
-          <h2><a href="lss.html">LAST SCATTERING SURFACE</a></h2>
-        </section>
-        <section id="spso">
-          <h2><a href="sp.html">SPACE of SOUND</a></h2>
-        </section>
-        <section id="blog">
-          <h2><a href="blog.html">the blog</a></h2>
-        </section>
-        <section id="about">
-          <h2><a href="about.html">about</a></h2>
-        </section>
-      </div>
-    </header>
-    <main id="blog-page">
-        <h2></h2>
-        <div id="blog-layout">
-            <section id="blog-articles"></section>
-            <aside id="blog-sidebar">
-                <section>
-                    <h2>read also...</h2>
-                    <ul class="blog-sidebar-list" id="suggestions-list"></ul>
-                </section>
-                <section>
-                    <h2>links</h2>
-                    <ul class="blog-sidebar-list icon-row">
-                        <li><button class="header-button" onclick="window.open('https://github.com/anvi-git', '_blank')"><img src="svg_images/github-icon.png" alt="GitHub" class="png-icon"></button></li>
-                        <li><button class="header-button" onclick="window.open('https://substack.com/@anvianvi', '_blank')"><img src="svg_images/substack-icon.png" alt="Substack" class="png-icon"></button></li>
-                        <li><button class="header-button" onclick="window.open('https://bsky.app/profile/anvi.bsky.social', '_blank')"><img src="svg_images/Bluesky_Logo.svg" alt="Bluesky" class="png-icon"></button></li>
-                      </ul>
-                </section>
-            </aside>
-        </div>
-        <script>
-          document.addEventListener('DOMContentLoaded', () => {
-            const articlesContainer = document.getElementById('blog-articles');
-            const suggestions = document.getElementById('suggestions-list');
-            const articles = window.BLOG_ARTICLES || {};
+  <div id="site-header"></div>
 
-            const ids = Object.keys(articles).sort((a, b) => {
-              const da = new Date(articles[a].date || 0);
-              const db = new Date(articles[b].date || 0);
-              return db - da;
-            });
+  <main id="main-content" class="page-wrapper">
+    <div id="blog-layout">
+      <section id="blog-articles"></section>
+    </div>
+  </main>
 
-            if (!ids.length) {
-              if (articlesContainer) {
-                articlesContainer.innerHTML = '<p>No posts yet.</p>';
-              }
-              return;
-            }
+  <div id="site-footer"></div>
 
-            if (articlesContainer) {
-              ids.forEach(id => {
-                const article = articles[id] || {};
-                const card = document.createElement('article');
-                card.className = 'publication-small-card';
-                card.innerHTML = `
-                  <div class="publication-small-content">
-                    <h3 class="publication-small-title"><a href="blog_article.html?id=${id}">${article.title || ''}</a></h3>
-                    <p class="publication-small-excerpt">${article.excerpt || ''}</p>
-                  </div>
-                `;
-                articlesContainer.appendChild(card);
-              });
-            }
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const articlesContainer = document.getElementById('blog-articles');
+      const suggestions = document.getElementById('suggestions-list');
+      const articles = window.BLOG_ARTICLES || {};
 
-            if (suggestions) {
-              ids.slice(1, 4).forEach(id => {
-                const li = document.createElement('li');
-                const a = document.createElement('a');
-                a.href = `blog_article.html?id=${id}`;
-                a.textContent = articles[id].title || 'Untitled';
-                li.appendChild(a);
-                suggestions.appendChild(li);
-              });
-            }
-          });
-        </script>
-    </main>
-    <footer>
-      &copy; 2025 anvi. All rights reserved.
-    </footer>
-  <script src="headerScrollState.js"></script>
+      const ids = Object.keys(articles).sort((a, b) => {
+        const da = new Date(articles[a].date || 0);
+        const db = new Date(articles[b].date || 0);
+        return db - da;
+      });
+
+      if (!ids.length) {
+        if (articlesContainer) {
+          articlesContainer.innerHTML = '<p>No posts yet.</p>';
+        }
+        return;
+      }
+
+      if (articlesContainer) {
+        ids.forEach(id => {
+          const article = articles[id] || {};
+          const card = document.createElement('article');
+          card.className = 'publication-small-card';
+          card.innerHTML = `
+            <div class="publication-small-content">
+              <h3 class="publication-small-title">
+                <a href="blog_article.html?id=${id}">${article.title || ''}</a>
+              </h3>
+              <p class="publication-small-excerpt">${article.excerpt || ''}</p>
+            </div>
+          `;
+          articlesContainer.appendChild(card);
+        });
+      }
+
+      if (suggestions) {
+        ids.slice(1, 4).forEach(id => {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = `blog_article.html?id=${id}`;
+          a.textContent = articles[id].title || 'Untitled';
+          li.appendChild(a);
+          suggestions.appendChild(li);
+        });
+      }
+    });
+  </script>
+
+  <script src="layout.js"></script>
+  <script src="headerScrollState.js" defer></script>
 </body>
 </html>
-
-

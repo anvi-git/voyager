@@ -891,3 +891,10 @@ iframe {
     font-size: 1.4rem;
   }
 }
+
+
+.footer-wordmark-image {
+  display: block;
+  height: 2.2rem;   /* cambia a gusto */
+  width: auto;
+}

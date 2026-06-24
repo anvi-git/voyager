@@ -6,54 +6,35 @@
   <title>HERALDING TIME</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="favicon_io/bt_logo.png" type="image/x-icon">
-  <script src="includeHTML.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=UnifrakturMaguntia&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="ht_data.js"></script>
 </head>
 <body>
-  <header>
-    <div id="title-container">
-      <a href="ht.html" id="site-initials" aria-label="Backyard">BY</a>
-      <h1 id="site-title">
-        <a href="ht.html" id="site-title-link" aria-label="Backyard"><span class="site-title-full">BACKYARD</span><span class="site-title-short" aria-hidden="true">BY</span></a>
-      </h1>
-      <a href="landing_page.html" id="menu-trigger" aria-label="Open menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
-    </div>
-    <div class="banner">
-      <section id="ht">
-        <h2><a href="ht.html">HERALDING TIME</a></h2>
-      </section>
-      <section id="lss">
-        <h2><a href="lss.html">LAST SCATTERING SURFACE</a></h2>
-      </section>
-      <section id="spso">
-        <h2><a href="sp.html">SPACE of SOUND</a></h2>
-      </section>
-      <section id="blog">
-        <h2><a href="blog.html">the blog</a></h2>
-      </section>
-      <section id="about">
-        <h2><a href="about.html">about</a></h2>
-      </section>
-    </div>
-  </header>
-  <main id="blog-page" class="collection-page publication-home heralding-page">
+  <div id="site-header"></div>
+
+  <main id="main-content" class="page-wrapper collection-page publication-home heralding-page">
     <h1 class="publication-title-image-wrap">
       <img src="images/titles/ht.png" alt="HERALDING TIME" class="publication-title-image">
     </h1>
+
     <section id="ht-featured" class="publication-featured"></section>
+
     <hr>
+
     <section class="publication-animation" aria-label="Circle animation">
       <img src="animations/Circle.gif" alt="Circle animation">
     </section>
+
     <section id="ht-sections" class="publication-sections"></section>
+
     <hr>
+
     <section id="ht-footer-archive" class="publication-footer-section"></section>
   </main>
-  <div include-html="footer.html"></div>
+
+  <div id="site-footer"></div>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -193,7 +174,6 @@
         }
 
         renderPage();
-
         return block;
       };
 
@@ -239,8 +219,8 @@
           match: article => (article.title || '').toLowerCase().includes('atomos'),
           splitByLanguage: true,
           splitLabels: {
-            en: 'atomos ',
-            it: 'atomos '
+            en: 'atomos',
+            it: 'atomos'
           }
         },
         {
@@ -299,12 +279,16 @@
             ? (currentLanguage === 'ita' ? section.splitLabels.it : section.splitLabels.en)
             : section.title;
 
-          sectionsContainer.appendChild(createSectionBlock(title, languageItems, (_id, article) => buildArticleHref(article)));
+          sectionsContainer.appendChild(
+            createSectionBlock(title, languageItems, (_id, article) => buildArticleHref(article))
+          );
 
           return;
         }
 
-        sectionsContainer.appendChild(createSectionBlock(section.title, items, (_id, article) => buildArticleHref(article)));
+        sectionsContainer.appendChild(
+          createSectionBlock(section.title, items, (_id, article) => buildArticleHref(article))
+        );
       });
 
       if (welcomeArticle && footerArchive) {
@@ -325,6 +309,8 @@
       }
     });
   </script>
-  <script src="headerScrollState.js"></script>
+
+  <script src="layout.js"></script>
+  <script src="headerScrollState.js" defer></script>
 </body>
 </html>

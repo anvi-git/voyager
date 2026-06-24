@@ -202,7 +202,7 @@ window.HT_ARTICLES = {
     "date": "2026-06-24",
     "excerpt": "on the motion of the Earth - chapter IX",
     "markdownFile": "posts/heralding_time/ht_post_046-omoe9.html",
-    "image": "https://substackcdn.com/image/fetch/$s_!g2uP!,w_520,h_272,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9b546bc-a636-47fd-b8cf-1dde5908d878_1572x1048.png",
+    "image": "https://substackcdn.com/image/fetch/$s_!g2uP!,w_848,h_443,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9b546bc-a636-47fd-b8cf-1dde5908d878_1572x1048.png",
     "language": "eng"
   }
 };

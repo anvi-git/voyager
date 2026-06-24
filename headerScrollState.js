@@ -59,20 +59,7 @@
       // },
       about: {
         title: 'about',
-        html: `
-          <section class="about-copy">
-            <h1>Hello there!</h1>
-            I'm also on Substack, con: <br>
-            - <a href="https://heraldingtime.substack.com/" target="_blank">Heralding Time</a>, a blog on the history and philosophy of science; <br>
-            - <a href="https://lastscatteringsurface.substack.com/" target="_blank">LAST SCATTERING SURFACE</a>, a blog on astrophysics and cosmology; <br>
-            - <a href="https://spaceofsound.substack.com/" target="_blank">SPACE of SOUND</a>, a blog on music. <br>
-        </p>
-        <p id="contact">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch with me, feel free to send me an <a href="mailto:aviscusi11@gmail.com"> email</a>. <br>
-            </p>
-            </section>
-        `
+        html: ''
       },
       landing: {
         website: 'Website',

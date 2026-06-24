@@ -149,14 +149,6 @@ window.HT_ARTICLES = {
     "image": "https://substackcdn.com/image/fetch/$s_!Fkkn!,w_520,h_272,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdfc523aa-6909-465c-9f21-e0ea8e41dd69_1572x1048.png",
     "language": "ita"
   },
-  "37": {
-    "title": "constants, collections, synthesis",
-    "date": "2025-10-08",
-    "excerpt": "on the motion of the Earth - chapter III",
-    "markdownFile": "posts/heralding_time/ht_post_on-the-motion-of-the-earth-constants.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/ec5d904c-ad14-4f47-97b3-fc87e20d57a3_1572x1048.png",
-    "language": "eng"
-  },
   "38": {
     "title": "constants, collections, synthesis",
     "date": "2025-10-08",
@@ -164,14 +156,6 @@ window.HT_ARTICLES = {
     "markdownFile": "posts/heralding_time/ht_post_on-the-motion-of-the-earth-constants.html",
     "image": "https://substackcdn.com/image/fetch/$s_!WJPW!,w_520,h_272,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec5d904c-ad14-4f47-97b3-fc87e20d57a3_1572x1048.png",
     "language": "eng"
-  },
-  "39": {
-    "title": "costanti, raccolte, sintesi",
-    "date": "2025-10-05",
-    "excerpt": "sul moto della Terra - capitolo III",
-    "markdownFile": "posts/heralding_time/ht_post_sul-moto-della-terra-costanti-raccolte.md",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/875f63f9-34c7-407a-9740-ded697982eb3_1572x1048.png",
-    "language": "ita"
   },
   "40": {
     "title": "costanti, raccolte, sintesi",

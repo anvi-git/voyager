@@ -12,7 +12,7 @@ window.HT_ARTICLES = {
     "date": "2026-01-15",
     "excerpt": "a time behind us, a time before us",
     "markdownFile": "posts/heralding_time/ht_post_002-atomos-3.html",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/1dba95e2-7189-4eea-a969-9ccba0458adb_1572x1048.png",
+    "image": "https://substackcdn.com/image/fetch/$s_!wz56!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6dafcf2d-1eaa-456b-a97f-c649a723274b_1572x1048.png",
     "language": "eng"
   },
   "6": {
@@ -20,7 +20,7 @@ window.HT_ARTICLES = {
     "date": "2026-01-12",
     "excerpt": "a statement by Max Frisch",
     "markdownFile": "posts/heralding_time/ht_post_003-atomos-2.html",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/e34aeb9f-4fb5-4a67-b60a-f49d6ad78255_1572x1048.png",
+    "image": "https://substackcdn.com/image/fetch/$s_!fUpn!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F919cffdc-1256-46fe-864b-a7904ac7e667_1572x1048.png",
     "language": "eng"
   },
   "8": {
@@ -42,7 +42,7 @@ window.HT_ARTICLES = {
     "date": "2026-01-08",
     "excerpt": "an excerpt from Popper's Three views concerning human knowledge",
     "markdownFile": "posts/heralding_time/ht_post_005-atomos-1.html",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/169ad324-64bd-4069-b134-ac1dd6100db3_1572x1048.png",
+    "image": "https://substackcdn.com/image/fetch/$s_!ZV4Y!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4e439f7-c4d5-4dd3-997d-9de551b2837e_1572x1048.png",
     "language": "eng"
   },
   "12": {
@@ -50,7 +50,7 @@ window.HT_ARTICLES = {
     "date": "2026-01-05",
     "excerpt": "a thought by Mark Leidner",
     "markdownFile": "posts/heralding_time/ht_post_006-atomos-0.html",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/8ba38168-0a90-4f61-91e8-0bb19c19536d_1572x1048.png",
+    "image": "https://substackcdn.com/image/fetch/$s_!CmO3!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F570ce1f0-61be-4da1-aaa2-ad2af2a6e8ac_1572x1048.png",
     "language": "eng"
   },
   "15": {

@@ -38,7 +38,7 @@
     if (!bar) return;
 
     const now = new Date();
-    bar.textContent = `${months[now.getMonth()]} ${now.getFullYear()} · Vol. ${now.getFullYear() - 2022}, No. ${now.getMonth() + 1}${activeLabel ? ' · ' + activeLabel : ''}`;
+    bar.textContent = `${months[now.getMonth()]} ${now.getFullYear()} · Vol. ${now.getFullYear() - 2025}, No. ${now.getMonth() + 1}${activeLabel ? ' · ' + activeLabel : ''}`;
   }
 
   document.addEventListener('DOMContentLoaded', async () => {

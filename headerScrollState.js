@@ -53,10 +53,10 @@
         spArticle: 'SPACE of SOUND Article',
         post: 'Post'
       },
-      index: {
-        title: 'Backyard Thoughts',
-        body: 'Welcome. Use the <a href="about.html">about</a> section to read the bio and contact details, or jump straight to the publications from the banner above.'
-      },
+      // index: {
+      //   title: 'Backyard Thoughts',
+      //   body: 'Welcome. Use the <a href="about.html">about</a> section to read the bio and contact details, or jump straight to the publications from the banner above.'
+      // },
       about: {
         title: 'about',
         html: `

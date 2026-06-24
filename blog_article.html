@@ -6,6 +6,9 @@
     <title>Blog Article</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="favicon_io/bt_logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=UnifrakturMaguntia&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="blog_data.js"></script>
   <script src="post_content_data.js"></script>
 
@@ -174,49 +177,22 @@
     </script>
 </head>
 <body>
-    <header>
-      <div id="title-container">
-        <a href="ht.html" id="site-initials" aria-label="Backyard">BY</a>
-        <h1 id="site-title">
-          <a href="ht.html" id="site-title-link" aria-label="Backyard"><span class="site-title-full">BACKYARD</span><span class="site-title-short" aria-hidden="true">BY</span></a>
-        </h1>
-        <a href="landing_page.html" id="menu-trigger" aria-label="Open menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-      </div>
-      <div class="banner">
-        <section id="ht">
-          <h2><a href="ht.html">HERALDING TIME</a></h2>
-        </section>
-        <section id="lss">
-          <h2><a href="lss.html">LAST SCATTERING SURFACE</a></h2>
-        </section>
-        <section id="spso">
-          <h2><a href="sp.html">SPACE of SOUND</a></h2>
-        </section>
-        <section id="blog">
-          <h2><a href="blog.html">the blog</a></h2>
-        </section>
-        <section id="about">
-          <h2><a href="about.html">about</a></h2>
-        </section>
-      </div>
-    </header>
-    <main id="blog-article">
-        <div id="blog-layout">
-            <article class="blog-article-container">
-                <h1 id="blog-article-title"></h1>
-                <section id="blog-article-body" class="blog-article-content"></section>
-            </article>
-            <aside id="blog-sidebar">
-            </aside>
-        </div>
-    </main>
-    <footer>
-      &copy; 2025 anvi. All rights reserved.
-    </footer>
+  <div id="site-header"></div>
+
+  <main id="blog-article" class="page-wrapper">
+    <div id="blog-layout" class="publication-layout">
+      <aside id="blog-sidebar" class="blog-sidebar"></aside>
+
+      <article class="blog-article-container">
+        <h1 id="blog-article-title"></h1>
+        <section id="blog-article-body" class="blog-article-content"></section>
+      </article>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="layout.js"></script>
   <script src="headerScrollState.js"></script>
 </body>
 </html>

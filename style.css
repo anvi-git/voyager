@@ -26,7 +26,10 @@
 .publication-featured-title,
 .publication-home > h1,
 #blog-page h1,
-#blog-article h1 {
+#blog-article h1,
+#ht-article-title,
+#lss-article-title,
+#spacesound-article-title {
   font-family: 'Work Sans', Georgia, serif;
   font-weight: 500;
   line-height: 1.08;
@@ -37,6 +40,15 @@
 .publication-featured-title {
   font-size: clamp(2rem, 4.5vw, 3.2rem);
   margin-bottom: 0.75rem;
+}
+
+#blog-article h1,
+#ht-article-title,
+#lss-article-title,
+#spacesound-article-title {
+  font-size: clamp(2rem, 3.4vw, 2.8rem);
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .feature-deck,
@@ -195,11 +207,31 @@
 }
 
 .latest-grid,
-#blog-layout,
+#blog-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
 .publication-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
+  gap: var(--col-gap);
+  align-items: start;
+}
+
+.publication-layout > article {
+  order: 1;
+}
+
+.publication-layout > #blog-sidebar,
+.publication-layout > .blog-sidebar {
+  order: 2;
+}
+
+#blog-article,
+main.blog-article {
+  padding: 2rem 0 3rem;
 }
 
 .latest-col:first-child {
@@ -360,6 +392,7 @@ footer {
 }
 
 .blog-article-content,
+#blog-article-body,
 #ht-article-body,
 #lss-article-body,
 #spacesound-article-body {
@@ -367,6 +400,19 @@ footer {
   font-size: 1.08rem;
   line-height: 1.72;
   color: var(--ink);
+}
+
+.blog-article-content * {
+  font-family: inherit !important;
+  color: inherit;
+}
+
+.blog-article-content p,
+.blog-article-content li,
+.blog-article-content blockquote,
+.blog-article-content figcaption {
+  font-size: 1em;
+  line-height: inherit;
 }
 
 .blog-article-content p,
@@ -414,6 +460,22 @@ footer {
   height: auto;
 }
 
+.blog-article-content .article-cover-media {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 1.1rem 0 !important;
+  float: none !important;
+  clear: both;
+}
+
+.blog-article-content .article-cover-media img,
+.blog-article-content img.article-cover-media-image {
+  width: 100% !important;
+  max-width: none !important;
+  height: auto;
+  display: block;
+}
+
 .blog-article-content figcaption,
 .blog-article-content .caption {
   margin-top: 0.45rem;
@@ -426,11 +488,79 @@ footer {
 .article-read-also {
   margin-top: 2.4rem;
   padding-top: 1.2rem;
+  border-top: 1px solid var(--rule);
 }
 
 .article-read-also > h2 {
   margin-bottom: 1rem;
   font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-family: 'Work Sans', Georgia, serif;
+  color: var(--ink);
+}
+
+#blog-sidebar h2,
+.blog-sidebar h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 0.75rem;
+}
+
+.article-read-also-empty {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ink-muted);
+}
+
+.blog-article-content.sound-orbits-layout {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.blog-article-content .sound-orbit-song-title {
+  margin: 0 0 0.6rem;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  line-height: 1.2;
+  font-family: 'Work Sans', Georgia, serif;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.blog-article-content figure.sound-orbit-cover {
+  width: 100%;
+  max-width: 250px;
+  margin: 0;
+}
+
+.blog-article-content figure.sound-orbit-cover img {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.blog-article-content .sound-orbit-description p,
+.blog-article-content .sound-orbit-links p,
+.blog-article-content .sound-orbit-divider {
+  margin: 0 0 0.55rem;
+}
+
+.blog-article-content .sound-orbit-divider {
+  font-style: italic;
+}
+
+.blog-article-content .sound-orbit-embeds {
+  margin-top: 0.85rem;
+}
+
+.blog-article-content .sound-orbit-embeds iframe {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
 }
 
 .sound-orbit-song {
@@ -580,7 +710,10 @@ button {
   .publication-featured-title,
   .publication-home > h1,
   #blog-page h1,
-  #blog-article h1 {
+  #blog-article h1,
+  #ht-article-title,
+  #lss-article-title,
+  #spacesound-article-title {
     font-size: clamp(1.7rem, 8vw, 2.4rem);
   }
 

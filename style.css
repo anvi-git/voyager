@@ -898,3 +898,10 @@ iframe {
   height: 2.2rem;   /* cambia a gusto */
   width: auto;
 }
+
+.page-wrapper {
+  max-width: var(--content-max, 1160px);
+  margin: 0 auto;
+  padding: 0 var(--page-pad, 1rem);
+  width: 100%;
+}

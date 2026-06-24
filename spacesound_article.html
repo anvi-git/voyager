@@ -529,57 +529,32 @@
     </script>
 </head>
 <body>
-    <header>
-      <div id="title-container">
-        <a href="ht.html" id="site-initials" aria-label="Backyard">BY</a>
-        <h1 id="site-title">
-          <a href="ht.html" id="site-title-link" aria-label="Backyard"><span class="site-title-full">BACKYARD</span><span class="site-title-short" aria-hidden="true">BY</span></a>
-        </h1>
-        <a href="landing_page.html" id="menu-trigger" aria-label="Open menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-      </div>
-      <div class="banner">
-        <section id="ht">
-          <h2><a href="ht.html">HERALDING TIME</a></h2>
+  <div id="site-header"></div>
+
+  <main id="blog-article" class="spacesound-page blog-article">
+    <div id="blog-layout" class="publication-layout">
+      <aside id="blog-sidebar">
+        <section>
+          <h2>read also...</h2>
+          <ul class="blog-sidebar-list" id="spacesound-suggestions-list"></ul>
         </section>
-        <section id="lss">
-          <h2><a href="lss.html">LAST SCATTERING SURFACE</a></h2>
+      </aside>
+
+      <article class="blog-article-container">
+        <h1 id="spacesound-article-title"></h1>
+        <section id="spacesound-article-body" class="blog-article-content"></section>
+
+        <section class="article-read-also" aria-labelledby="spacesound-read-also-title">
+          <h2 id="spacesound-read-also-title">read also...</h2>
+          <div id="spacesound-read-also-grid" class="article-mini-grid"></div>
         </section>
-        <section id="spso">
-          <h2><a href="sp.html">SPACE of SOUND</a></h2>
-        </section>
-        <section id="blog">
-          <h2><a href="blog.html">the blog</a></h2>
-        </section>
-        <section id="about">
-          <h2><a href="about.html">about</a></h2>
-        </section>
-      </div>
-    </header>
-    <main id="blog-article" class="spacesound-page">
-      <div id="blog-layout" class="publication-layout">
-            <aside id="blog-sidebar">
-                <section>
-                    <h2>read also...</h2>
-                    <ul class="blog-sidebar-list" id="spacesound-suggestions-list"></ul>
-                </section>
-            </aside>
-        <article class="blog-article-container">
-          <h1 id="spacesound-article-title"></h1>
-          <section id="spacesound-article-body" class="blog-article-content"></section>
-          <section class="article-read-also" aria-labelledby="spacesound-read-also-title">
-            <h2 id="spacesound-read-also-title">read also...</h2>
-            <div id="spacesound-read-also-grid" class="article-mini-grid"></div>
-          </section>
-        </article>
-        </div>
-    </main>
-    <footer>
-      &copy; 2025 anvi. All rights reserved.
-    </footer>
-  <script src="headerScrollState.js"></script>
+      </article>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="layout.js" defer></script>
+  <script src="headerScrollState.js" defer></script>
 </body>
 </html>

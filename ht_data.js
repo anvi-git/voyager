@@ -1,4 +1,12 @@
 window.HT_ARTICLES = {
+  "46": {
+    "title": "tune the orchestra",
+    "date": "2026-06-24",
+    "excerpt": "on the motion of the Earth - chapter IX",
+    "markdownFile": "posts/heralding_time/ht_post_046-omoe9.html",
+    "image": "https://substackcdn.com/image/fetch/$s_!g2uP!,w_848,h_443,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9b546bc-a636-47fd-b8cf-1dde5908d878_1572x1048.png",
+    "language": "eng"
+  },
   "2": {
     "title": "how the cycloid saved the British navy",
     "date": "2026-01-17",
@@ -196,13 +204,5 @@ window.HT_ARTICLES = {
     "markdownFile": "posts/heralding_time/ht_post_ita-sul-moto-della-terra-il-sole.html",
     "image": "https://substackcdn.com/image/fetch/$s_!26Te!,w_520,h_272,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29a55e86-1af6-4a09-a1c0-6927277789a3_1572x1048.png",
     "language": "ita"
-  },
-  "46": {
-    "title": "tune the orchestra",
-    "date": "2026-06-24",
-    "excerpt": "on the motion of the Earth - chapter IX",
-    "markdownFile": "posts/heralding_time/ht_post_046-omoe9.html",
-    "image": "https://substackcdn.com/image/fetch/$s_!g2uP!,w_848,h_443,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9b546bc-a636-47fd-b8cf-1dde5908d878_1572x1048.png",
-    "language": "eng"
   }
 };

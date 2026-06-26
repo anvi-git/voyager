@@ -1,5 +1,4 @@
 <p> 
-    Today I'm sharing a poem by Matsuo Basho. <br>
     It's a haiku. <br>
     </p>
     いざ行かむ <br>

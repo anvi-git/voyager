@@ -1,1 +1,1 @@
-[![The website](images/titles/backyard.png)]([https://tuosito.com](https://anvi-git.github.io/backyard/about.html?lang=en))
+[![The website](images/titles/backyard.png)]([https://anvi-git.github.io/backyard/about.html?lang=en])
